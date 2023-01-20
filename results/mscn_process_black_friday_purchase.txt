@@ -1,0 +1,45 @@
+min log(label): 0.0
+max log(label): 12.022215910953586
+Number of training samples: 35100
+Number of validation samples: 3900
+Created TensorDataset for training data
+Created TensorDataset for validation data
+Epoch 0, loss: 152.33550197056363
+Epoch 1, loss: 120.84881003243582
+Epoch 2, loss: 79.2142945425851
+Epoch 3, loss: 56.86847163609096
+Epoch 4, loss: 38.117765699114116
+Epoch 5, loss: 27.31349127633231
+Epoch 6, loss: 22.98363037109375
+Epoch 7, loss: 21.00801146371024
+Epoch 8, loss: 19.751123591831753
+Epoch 9, loss: 18.661879893711635
+Prediction time per training sample: 0.0016314012032968026
+Prediction time per validation sample: 0.0012824474236904047
+
+Q-Error training set:
+Median: 3.0
+90th percentile: 42.524942872111566
+95th percentile: 76.0
+99th percentile: 226.0
+Max: 3820.0
+Mean: 18.785743234957962
+
+Q-Error validation set:
+Median: 3.0
+90th percentile: 43.77999999999997
+95th percentile: 77.09999999999945
+99th percentile: 226.11999999999716
+Max: 2109.0
+Mean: 19.097622605759565
+Loaded queries
+Number of test samples: 1000
+Prediction time per test sample: 0.0010039806365966797
+
+Q-Error data/Black_Friday/black_friday_purchase_sql_test:
+Median: 3.0
+90th percentile: 44.64540540540541
+95th percentile: 79.58280041797276
+99th percentile: 245.15999999999985
+Max: 975.0
+Mean: 18.523902609161553

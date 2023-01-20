@@ -1,0 +1,35 @@
+2023-01-15 00:42:22,745 [INFO ]  Generating HDF files for tables in data/Black_Friday and store to path data/Black_Friday/hdf_files
+2023-01-15 00:42:22,746 [INFO ]  Making target path data/Black_Friday/hdf_files
+2023-01-15 00:42:22,746 [INFO ]  Preparing hdf file for table black_friday_purchase
+2023-01-15 00:42:22,887 [INFO ]  Managing functional dependencies for table black_friday_purchase
+2023-01-15 00:42:22,892 [INFO ]  Preparing multipliers for table black_friday_purchase
+2023-01-15 00:42:22,892 [INFO ]  Preparing categorical values and null values for table black_friday_purchase
+2023-01-15 00:42:22,892 [DEBUG]  		Preparing numerical values for column id
+2023-01-15 00:42:22,902 [INFO ]  Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2023-01-15 00:42:22,902 [INFO ]  NumExpr defaulting to 8 threads.
+2023-01-15 00:42:22,906 [DEBUG]  		Preparing numerical values for column Gender
+2023-01-15 00:42:22,909 [DEBUG]  		Preparing numerical values for column Age
+2023-01-15 00:42:22,912 [DEBUG]  		Preparing numerical values for column Occupation
+2023-01-15 00:42:22,914 [DEBUG]  		Preparing numerical values for column City_Category
+2023-01-15 00:42:22,917 [DEBUG]  		Preparing numerical values for column Stay_In_Current_City_Years
+2023-01-15 00:42:22,920 [DEBUG]  		Preparing numerical values for column Marital_Status
+2023-01-15 00:42:22,922 [DEBUG]  		Preparing numerical values for column Product_Category_1
+2023-01-15 00:42:22,925 [DEBUG]  		Preparing numerical values for column Product_Category_2
+2023-01-15 00:42:22,928 [DEBUG]  		Preparing numerical values for column Product_Category_3
+2023-01-15 00:42:22,931 [DEBUG]  		Preparing numerical values for column Purchase
+2023-01-15 00:42:22,933 [INFO ]  Relevant attributes for table black_friday_purchase are ['id', 'Gender', 'Age', 'Occupation', 'City_Category', 'Stay_In_Current_City_Years', 'Marital_Status', 'Product_Category_1', 'Product_Category_2', 'Product_Category_3', 'Purchase']
+2023-01-15 00:42:22,934 [INFO ]  NULL values for table black_friday_purchase are [83410.0001, 1.7747446790272208, 3.4552525287583697, 8.178986351238752, 2.087259290497, 2.861790074990559, 0.40293897111274957, 2.742866198500189, 6.896971496993784, 12.668343206790512, 11658.115079528956]
+2023-01-15 00:42:23,205 [INFO ]  Adding table parts without join partners for table black_friday_purchase
+2023-01-15 00:42:23,207 [INFO ]  Files successfully created
+2023-01-15 01:11:35,793 [INFO ]  Creating naive ensemble.
+2023-01-15 01:11:35,793 [INFO ]  Learning SPN for black_friday_purchase.
+2023-01-15 01:11:35,793 [DEBUG]  generate_join_sample(single_table=black_friday_purchase, relationship_list=None, split_condition=None)
+2023-01-15 01:11:35,844 [DEBUG]  Using min_instance_slice parameter 1668.21.
+2023-01-15 01:11:35,844 [INFO ]  SPN training phase with 166821 samples
+2023-01-15 01:11:35,886 [DEBUG]  Built domains in 0.04195499999968888 sec
+2023-01-15 01:12:10,220 [INFO ]  Creating naive ensemble.
+2023-01-15 01:12:10,220 [INFO ]  Learning SPN for black_friday_purchase.
+2023-01-15 01:12:10,220 [DEBUG]  generate_join_sample(single_table=black_friday_purchase, relationship_list=None, split_condition=None)
+2023-01-15 01:12:10,274 [DEBUG]  Using min_instance_slice parameter 1668.21.
+2023-01-15 01:12:10,275 [INFO ]  SPN training phase with 166821 samples
+2023-01-15 01:12:10,318 [DEBUG]  Built domains in 0.043049599999903876 sec
