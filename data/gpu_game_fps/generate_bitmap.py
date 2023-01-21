@@ -1,14 +1,14 @@
 import os
 import pickle
 import re
-from tqdm import tqdm
+
 import pandas as pd
 
 def prepare_samples(sql_path, samples):
     sample_bitmaps = []
     with open(sql_path + '.csv', 'r') as f:
         lines = f.readlines()
-        for line in tqdm(lines):
+        for line in lines:
             tables = [x.split(' ')[1] for x in line.split('#')[0].split(',')]
             conds = [x for x in line.split('#')[2].split(',')]
             table2conditions = {}
@@ -69,12 +69,12 @@ def select_samples(data_dir, table, alias):
     return samples
 
 
-min_max_file = 'data/Black_Friday/column_min_max_vals.csv'
-data_dir = 'data/Black_Friday/Black_Friday_Purchase_num.csv'
-table = 'black_friday_purchase'
-alias = 'bfp'
-sql_path_train = 'data/Black_Friday/black_friday_purchase_sql_train'
-sql_path_test = 'data/Black_Friday/black_friday_purchase_sql_test'
+min_max_file = 'data/gpu_game_fps/column_min_max_vals.csv'
+data_dir = 'data/gpu_game_fps/fps_num_lower.csv'
+table = 'fps'
+alias = 'f'
+sql_path_train = 'data/gpu_game_fps/fps_sql_train'
+sql_path_test = 'data/gpu_game_fps/fps_sql_test'
 samples = select_samples(data_dir, table, alias)
 sample_bitmaps = prepare_samples(sql_path_train, samples)
 with open(sql_path_train + '.samplebitmap', 'wb') as f:
