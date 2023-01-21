@@ -1,5 +1,6 @@
 import csv
 import torch
+import pickle
 from torch.utils.data import dataset
 from MSCN.mscn.util import *
 
@@ -26,27 +27,14 @@ def load_data(file_name, num_materialized_samples):
                 label.append(row[3])
     print("Loaded queries")
 
-    # Load bitmaps
-    if num_materialized_samples != 0:
-        num_bytes_per_bitmap = int((num_materialized_samples + 7) >> 3)
-        with open(file_name + ".bitmaps", 'rb') as f:
-            for i in range(len(tables)):
-                four_bytes = f.read(4)
-                if not four_bytes:
-                    print("Error while reading 'four_bytes'")
-                    exit(1)
-                num_bitmaps_curr_query = int.from_bytes(four_bytes, byteorder='little')
-                bitmaps = np.empty((num_bitmaps_curr_query, num_bytes_per_bitmap * 8), dtype=np.uint8)
-                for j in range(num_bitmaps_curr_query):
-                    # Read bitmap
-                    bitmap_bytes = f.read(num_bytes_per_bitmap)
-                    if not bitmap_bytes:
-                        print("Error while reading 'bitmap_bytes'")
-                        exit(1)
-                    bitmaps[j] = np.unpackbits(np.frombuffer(bitmap_bytes, dtype=np.uint8))
-                samples.append(bitmaps)
+    if num_materialized_samples > 0:
+        # load bitmap
+        with open(file_name + '.samplebitmap', 'rb') as f:
+            samples = pickle.load(f)
+        print(f'number of samples: {len(samples)}')
         print("Loaded bitmaps")
-
+    else:
+        print('no samples')
 
     # Split predicates
     predicates = [list(chunks(d, 3)) for d in predicates]

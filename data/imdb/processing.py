@@ -85,13 +85,75 @@ df_cleaned = clean(df, usecols)
 df.cleaned.to_csv('data/imdb/title_cleaned.csv', index=False, encoding='utf-8')
 '''
 
-
-
 # import table to database
+df_title = pd.read_csv('data/imdb/title_cleaned.csv', sep=',', escapechar='\\', encoding='utf-8',
+                       low_memory=False, quotechar='"')  # 用 MSCN
+df_movie_info_idx = pd.read_csv('data/imdb/movie_info_idx.csv', sep=',', escapechar='\\', encoding='utf-8',
+                       low_memory=False, quotechar='"')  # 用
+df_movie_info = pd.read_csv('data/imdb/movie_info.csv', sep=',', escapechar='\\', encoding='utf-8',
+                       low_memory=False, quotechar='"')  # 用
+df_info_type = pd.read_csv('data/imdb/info_type.csv', sep=',', escapechar='\\', encoding='utf-8',
+                       low_memory=False, quotechar='"')
+df_cast_info = pd.read_csv('data/imdb/cast_info.csv', sep=',', escapechar='\\', encoding='utf-8',
+                       low_memory=False, quotechar='"')   # 用
+df_char_name = pd.read_csv('data/imdb/char_name.csv', sep=',', escapechar='\\', encoding='utf-8',
+                       low_memory=False, quotechar='"')
+df_role_type = pd.read_csv('data/imdb/role_type.csv', sep=',', escapechar='\\', encoding='utf-8',
+                       low_memory=False, quotechar='"')
+df_complete_cast = pd.read_csv('data/imdb/complete_cast.csv', sep=',', escapechar='\\', encoding='utf-8',
+                       low_memory=False, quotechar='"')
+df_comp_cast_type = pd.read_csv('data/imdb/comp_cast_type.csv', sep=',', escapechar='\\', encoding='utf-8',
+                       low_memory=False, quotechar='"')
+df_name = pd.read_csv('data/imdb/name.csv', sep=',', escapechar='\\', encoding='utf-8',
+                       low_memory=False, quotechar='"')        # 人名，有na，更多信息关于人（比如性别）
+df_aka_name = pd.read_csv('data/imdb/aka_name.csv', sep=',', escapechar='\\', encoding='u1tf-8',
+                       low_memory=False, quotechar='"')        # 人名，有na，行少很多
+df_movie_keyword = pd.read_csv('data/imdb/movie_keyword.csv', sep=',', escapechar='\\', encoding='u1tf-8',
+                       low_memory=False, quotechar='"')        # MSCN 用了
+df_keyword = pd.read_csv('data/imdb/keyword.csv', sep=',', escapechar='\\', encoding='u1tf-8',
+                       low_memory=False, quotechar='"')        # 不用
+df_person_info = pd.read_csv('data/imdb/person_info.csv', sep=',', escapechar='\\', encoding='u1tf-8',
+                       low_memory=False, quotechar='"')        # 想用
+df_movie_companies = pd.read_csv('data/imdb/movie_companies.csv', sep=',', escapechar='\\', encoding='u1tf-8',
+                       low_memory=False, quotechar='"')        # 用
+df_company_name = pd.read_csv('data/imdb/company_name.csv', sep=',', escapechar='\\', encoding='u1tf-8',
+                       low_memory=False, quotechar='"')        # 想用
+df_company_type = pd.read_csv('data/imdb/company_type.csv', sep=',', escapechar='\\', encoding='u1tf-8',
+                       low_memory=False, quotechar='"')
+df_aka_title = pd.read_csv('data/imdb/aka_title.csv', sep=',', escapechar='\\', encoding='u1tf-8',
+                       low_memory=False, quotechar='"')
+df_kind_type = pd.read_csv('data/imdb/kind_type.csv', sep=',', escapechar='\\', encoding='u1tf-8',
+                       low_memory=False, quotechar='"')
+
+
+def import_postgre(table_name, db_name, df):
+    engine = create_engine(f'postgres://postgres:wzy07wx25@localhost:5432/{db_name}')
+    pd_engine = pd.io.sql.pandasSQL_builder(engine)
+    table = pd.io.sql.SQLTable(table_name, pd_engine, frame=df, index=False, if_exists='fail')
+    table.create()
+    io_buff = StringIO()
+    df_title.to_csv(io_buff, sep='\t', index=False, header=False)
+    io_buff_value = io_buff.getvalue()
+    conn = psycopg2.connect(database=db_name,
+                            user='postgres', password='wzy07wx25',
+                            host='localhost', port='5432'
+                            )
+    cur = conn.cursor()
+    cur.copy_from(StringIO(io_buff_value), table_name, null='')
+    conn.commit()
+    cur.close()
+    conn.close()
+
+import_postgre('movie_info_idx', 'imdb', df_movie_info_idx)
+
+
+
+
+
+
+
 engine = create_engine('postgres://postgres:wzy07wx25@localhost:5432/imdb')
 pd_engine = pd.io.sql.pandasSQL_builder(engine)
-df_title = pd.read_csv('data/imdb/title_cleaned.csv', sep=',', escapechar='\\', encoding='utf-8',
-                       low_memory=False, quotechar='"')
 table = pd.io.sql.SQLTable('title', pd_engine, frame=df_title, index=False, if_exists='fail')
 table.create()
 io_buff = StringIO()
@@ -106,3 +168,4 @@ cur.copy_from(StringIO(io_buff_value), 'title', null='')
 conn.commit()
 cur.close()
 conn.close()
+
