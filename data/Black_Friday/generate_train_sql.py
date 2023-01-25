@@ -25,7 +25,7 @@ tables = ['black_friday_purchase bfp']
 joins = []
 f = open("data/Black_Friday/black_friday_purchase_sql.csv", 'w')
 f_sql = open("data/Black_Friday/black_friday_purchase.sql", 'w')
-for i in tqdm(range(100)):
+for i in tqdm(range(40000)):
     questr = 'SELECT COUNT(*) FROM '
     questr = questr + ",".join(tables) + " WHERE "
     num_col = random.randint(1, len(t_col))  # number of columns
@@ -62,8 +62,8 @@ for i in tqdm(range(100)):
             component.append(dictalias['black_friday_purchase'][0] + '.' + str(col[k]))
             component.append(op)
             component.append(val)
+            questr_0 = questr + dictalias['black_friday_purchase'][0] + '.' + str(col[k]) + op + str(val)
             card = 0
-            questr_0 = questr[:len(questr) - 5]
             questr_0 += ';'
             questr_0 += f',{card}\n'
             f.write(
@@ -80,13 +80,40 @@ for i in tqdm(range(100)):
     questr += ';'
     # df = pd.read_sql(questr, conn)
     # card = df['count'].values[0]
-    cursor.execute(questr)
+    try:
+        cursor.execute(questr)
+    except Exception:
+        continue
     card = cursor.fetchall()[0][0]
     questr += f',{card}\n'
     f.write(",".join(tables) + '#' + ','.join(joins) + '#' + ",".join(map(str, component)) + '#' + str(card) + '\n')
     f_sql.write(questr)
 f.close()
 f_sql.close()
+
+
+# generate train and testset
+def gen_train_test(path_sql_csv, path_train_sql_csv, path_test_sql_csv, num_test):
+    with open(path_sql_csv, "r") as input:
+        lines = input.readlines()
+        with open(path_train_sql_csv, "w") as output_train:
+            with open(path_test_sql_csv, "w") as output_test:
+                i = 0
+                testlines = random.sample(range(len(lines)), num_test)
+                for line in lines:
+                    if i in testlines:
+                        output_test.write(line)
+                    else:
+                        output_train.write(line)
+                    i = i + 1
+            output_test.close()
+        output_train.close()
+    input.close()
+
+path_sql_csv = "data/Black_Friday/black_friday_purchase_sql.csv"
+path_train_sql_csv = "data/Black_Friday/black_friday_purchase_sql_train.csv"
+path_test_sql_csv = "data/Black_Friday/black_friday_purchase_sql_test.csv"
+gen_train_test(path_sql_csv, path_train_sql_csv, path_test_sql_csv, 1000)
 
 
 # evaluate correlations between attributes to final purchase
