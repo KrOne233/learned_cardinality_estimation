@@ -5,6 +5,7 @@ from tqdm import tqdm
 import csv
 from io import StringIO
 
+
 table = pd.read_csv('data/Black_Friday/Black_Friday_Purchase.csv')
 table.dropna(inplace=True)
 for col in table.columns:
@@ -129,7 +130,6 @@ def gen_deepdb_true_card(sql_file_csv, deepdb_file_dir, deepdb_sql_dir):
     f.close()
 
 gen_deepdb_true_card('data/Black_Friday/black_friday_purchase_sql_test.csv', 'data/Black_Friday', 'data/Black_Friday')
-
 
 
 
