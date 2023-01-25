@@ -9,8 +9,9 @@ from statsmodels.formula.api import ols
 
 df_purchase = pd.read_csv('data/Black_Friday/Black_Friday_Purchase_num.csv', sep=',', escapechar='\\', encoding='utf-8',
                           low_memory=False, quotechar='"')
+df_purchase.columns = [c.lower() for c in df_purchase.columns]
 
-conn = psycopg2.connect(database="Master_thesis",
+conn = psycopg2.connect(database="black_friday_purchase",
                         user='postgres', password='wzy07wx25',
                         host='localhost', port='5432'
                         )
@@ -20,26 +21,61 @@ cursor = conn.cursor()
 dictalias = {'black_friday_purchase': ['bfp']}
 t_col = list(df_purchase.columns)[1:]  # id is not used for filtering
 ops = ['=', '<', '>']  # operations
-predicates = []
 tables = ['black_friday_purchase bfp']
 joins = []
 f = open("data/Black_Friday/black_friday_purchase_sql.csv", 'w')
 f_sql = open("data/Black_Friday/black_friday_purchase.sql", 'w')
-for i in tqdm(range(40000)):
+for i in tqdm(range(100)):
     questr = 'SELECT COUNT(*) FROM '
     questr = questr + ",".join(tables) + " WHERE "
     num_col = random.randint(1, len(t_col))  # number of columns
     col = list(choice(t_col, num_col, replace=False))
     component = []
-    result = []
-    for k in range(num_col):
-        component.append(dictalias['black_friday_purchase'][0] + '.' + str(col[k]))
+    df_temp = df_purchase
+    for k in range(len(col)):
         op = choice(ops)
+        dist_val_list = list(set(df_temp[col[k]]))
+        val = choice(dist_val_list)
+        questr_temp = questr + dictalias['black_friday_purchase'][0] + '.' + str(col[k]) + op + str(val)
+        if k < len(col) - 1:
+            questr_temp = questr_temp.replace('COUNT(*)', col[k + 1])  # only select required columns, reduce I/O
+        else:
+            questr_temp = questr_temp.replace('COUNT(*)', col[k])
+        df_temp = pd.read_sql(questr_temp, conn)
+        # if len(df_temp) == 0:
+        #    df_temp = df
+        count = 0
+        while (len(df_temp) == 0):
+            # df_temp = df
+            op = choice(ops)
+            val = choice(dist_val_list)
+            questr_temp = questr + dictalias['black_friday_purchase'][0] + '.' + str(col[k]) + op + str(val)
+            if k < len(col) - 1:
+                questr_temp = questr_temp.replace('COUNT(*)', col[k + 1])  # only select required columns, reduce I/O
+            else:
+                questr_temp = questr_temp.replace('COUNT(*)', col[k])
+            df_temp = pd.read_sql(questr_temp, conn)
+            count = count + 1
+            if count > 2:
+                break
+        if len(df_temp) == 0:
+            component.append(dictalias['black_friday_purchase'][0] + '.' + str(col[k]))
+            component.append(op)
+            component.append(val)
+            card = 0
+            questr_0 = questr[:len(questr) - 5]
+            questr_0 += ';'
+            questr_0 += f',{card}\n'
+            f.write(
+                ",".join(tables) + '#' + ','.join(joins) + '#' + ",".join(map(str, component)) + '#' + str(card) + '\n')
+            f_sql.write(questr_0)
+            component = component[:len(component) - 3]
+            break
+        questr = questr + dictalias['black_friday_purchase'][0] + '.' + str(col[k]) + op + str(
+            val) + ' AND '
+        component.append(dictalias['black_friday_purchase'][0] + '.' + str(col[k]))
         component.append(op)
-        val = int(df_purchase[col[k]][random.randint(0, len(df_purchase[col[k]]) - 1)])
         component.append(val)
-        questr += dictalias['black_friday_purchase'][0] + '.' + str(col[k]) + op + str(
-            val) + ' AND '  # need to change if join exist
     questr = questr[:len(questr) - 5]
     questr += ';'
     # df = pd.read_sql(questr, conn)
@@ -47,7 +83,6 @@ for i in tqdm(range(40000)):
     cursor.execute(questr)
     card = cursor.fetchall()[0][0]
     questr += f',{card}\n'
-    predicates.append(component)
     f.write(",".join(tables) + '#' + ','.join(joins) + '#' + ",".join(map(str, component)) + '#' + str(card) + '\n')
     f_sql.write(questr)
 f.close()
@@ -63,49 +98,12 @@ anova = sm.stats.anova_lm(model, typ=2)
 
 
 # generate N-columns correlation query set
-''' fast but lot of 0
-def N_col_sql(num_col, sorted_colset, order, f, f_sql, df, tables, dictalias, conn):
-    conn.autocommit = True
-    cursor = conn.cursor()
-    ops = ['=', '<', '>']
-    predicates = []
-    joins = []
-    for i in tqdm(range(40000)):
-        questr = 'SELECT COUNT(*) FROM '
-        questr = questr + ",".join(tables) + " WHERE "
-        col = sorted_colset[order - 1:order + num_col - 2]
-        col.append('Purchase')
-        component = []
-        result = []
-        count = 0
-        for k in range(len(col)):
-            component.append(dictalias['black_friday_purchase'][0] + '.' + str(col[k]))
-            op = choice(ops)
-            component.append(op)
-            val = int(df[col[k]][random.randint(0, len(df[col[k]]) - 1)])
-            component.append(val)
-            questr += dictalias['black_friday_purchase'][0] + '.' + str(col[k]) + op + str(
-                val) + ' AND '  # need to change if join exist
-        questr = questr[:len(questr) - 5]
-        questr += ';'
-        # df_temp = pd.read_sql(questr, conn)
-        # card = df['count'].values[0]
-        cursor.execute(questr)
-        card = cursor.fetchall()[0][0]
-        questr += f',{card}\n'
-        predicates.append(component)
-        f.write(",".join(tables) + '#' + ','.join(joins) + '#' + ",".join(map(str, component)) + '#' + str(card) + '\n')
-        f_sql.write(questr)
-    f.close()
-    f_sql.close()
-'''
 # 每次选好一列的filter条件，就进行查询，返回结果，下一列的值在这个结果中选，同时如果出现查询结果为空，尝试10次别的值. slow but few 0
 def N_col_sql(num_col, sorted_colset, order, f, f_sql, df, tables, dictalias, conn):
     df.columns = [c.lower() for c in df.columns]
     conn.autocommit = True
     cursor = conn.cursor()
     ops = ['=', '<', '>']
-    predicates = []
     joins = []
     col = sorted_colset[order - 1:num_col + order - 2]
     col.append('purchase')
@@ -117,37 +115,38 @@ def N_col_sql(num_col, sorted_colset, order, f, f_sql, df, tables, dictalias, co
         result = []
         df_temp = df
         for k in range(len(col)):
-            component.append(dictalias['black_friday_purchase'][0] + '.' + str(col[k]))
             op = choice(ops)
-            component.append(op)
-            val = choice(list(set(df_temp[col[k]])))
-            component.append(val)
-            questr_temp = questr + dictalias['black_friday_purchase'][0] + '.' + str(col[k]) + op + str(
-                val) + ' AND '
-            questr_temp = questr_temp[:len(questr_temp) - 5].replace('COUNT(*)', ','.join(col)) # only select required columns, reduce I/O
-            df_temp_pre = df_temp  # 保存上次循环的df_temp, 给后面10次重新选择用，否则在df_temp为空的情况下只能df_temp = df
+            dist_val_list = list(set(df_temp[col[k]]))
+            val = choice(dist_val_list)
+            questr_temp = questr + dictalias['black_friday_purchase'][0] + '.' + str(col[k]) + op + str(val)
+            if k < len(col)-1:
+                questr_temp = questr_temp.replace('COUNT(*)', col[k + 1])  # only select required columns, reduce I/O
+            else:
+                questr_temp = questr_temp.replace('COUNT(*)', col[k])
             df_temp = pd.read_sql(questr_temp, conn)
             #if len(df_temp) == 0:
             #    df_temp = df
             count = 0
             while (len(df_temp) == 0):
                 # df_temp = df
-                component = component[:len(component) - 2]
                 op = choice(ops)
-                component.append(op)
-                val = choice(list(set(df_temp_pre[col[k]])))
-                component.append(val)
-                questr_temp = questr + dictalias['black_friday_purchase'][0] + '.' + str(col[k]) + op + str(
-                    val) + ' AND '
-                questr_temp = questr_temp[:len(questr_temp) - 5].replace('COUNT(*)', ','.join(col))
+                val = choice(dist_val_list)
+                questr_temp = questr + dictalias['black_friday_purchase'][0] + '.' + str(col[k]) + op + str(val)
+                if k < len(col) - 1:
+                    questr_temp = questr_temp.replace('COUNT(*)', col[k + 1]) # only select required columns, reduce I/O
+                else:
+                    questr_temp = questr_temp.replace('COUNT(*)', col[k])
                 df_temp = pd.read_sql(questr_temp, conn)
                 count = count + 1
-                if count > 5:
+                if count > 2:
                     if len(df_temp) == 0:
                         df_temp = df
                     break
             questr = questr + dictalias['black_friday_purchase'][0] + '.' + str(col[k]) + op + str(
                 val) + ' AND '
+            component.append(dictalias['black_friday_purchase'][0] + '.' + str(col[k]))
+            component.append(op)
+            component.append(val)
         questr = questr[:len(questr) - 5]
         questr += ';'
         # df_temp = pd.read_sql(questr, conn)
@@ -155,7 +154,6 @@ def N_col_sql(num_col, sorted_colset, order, f, f_sql, df, tables, dictalias, co
         cursor.execute(questr)
         card = cursor.fetchall()[0][0]
         questr += f',{card}\n'
-        predicates.append(component)
         f.write(",".join(tables) + '#' + ','.join(joins) + '#' + ",".join(map(str, component)) + '#' + str(card) + '\n')
         f_sql.write(questr)
     f.close()

@@ -207,11 +207,11 @@ if __name__ == "__main__":
     main()
 '''
 
-workload_name = 'fps'
-filename_queries_train = 'data/gpu_game_fps/fps_sql_train'
-filename_queries_test = 'data/gpu_game_fps/fps_sql_test'
-min_max_file = 'data/gpu_game_fps/column_min_max_vals.csv'
-num_queries = 39000
+workload_name = 'bfp'
+filename_queries_train = 'data/Black_Friday/2_col_sql/bfp_2col_sql_2'
+filename_queries_test = 'data/Black_Friday/2_col_sql/bfp_2col_sql_2'
+min_max_file = 'data/Black_Friday/column_min_max_vals.csv'
+num_queries = 10000
 num_epochs, batch_size, hid_units = 10, 1024, 256
 cuda = True
 num_materialized_samples = 0
