@@ -80,7 +80,7 @@ conn = psycopg2.connect(database="fps",
                         )
 conn.autocommit = True
 cursor = conn.cursor()
-
+'''
 t_col = list(df_fps.columns)[1:]  # id is not used for filtering
 ops = ['=', '<', '>']  # operations
 predicates = []
@@ -115,6 +115,82 @@ for i in tqdm(range(40000)):
     f_sql.write(questr)
 f.close()
 f_sql.close()
+'''
+
+dictalias = {'fps': ['f']}
+t_col = list(df_fps.columns)[1:]  # id is not used for filtering
+ops = ['=', '<', '>']  # operations
+tables = ['fps f']
+joins = []
+f = open("data/gpu_game_fps/fps_sql.csv", 'w')
+f_sql = open("data/gpu_game_fps/fps.sql", 'w')
+for i in tqdm(range(40000)):
+    questr = 'SELECT COUNT(*) FROM '
+    questr = questr + ",".join(tables) + " WHERE "
+    num_col = random.randint(1, 10)  # number of columns
+    col = list(choice(t_col, num_col, replace=False))
+    component = []
+    df_temp = df_fps
+    for k in range(len(col)):
+        op = choice(ops)
+        dist_val_list = list(set(df_temp[col[k]]))
+        val = choice(dist_val_list)
+        questr_temp = questr + dictalias['fps'][0] + '.' + str(col[k]) + op + str(val)
+        if k < len(col) - 1:
+            questr_temp = questr_temp.replace('COUNT(*)', col[k + 1])  # only select required columns, reduce I/O
+        else:
+            questr_temp = questr_temp.replace('COUNT(*)', col[k])
+        df_temp = pd.read_sql(questr_temp, conn)
+        # if len(df_temp) == 0:
+        #    df_temp = df
+        count = 0
+        while (len(df_temp) == 0):
+            # df_temp = df
+            op = choice(ops)
+            val = choice(dist_val_list)
+            questr_temp = questr + dictalias['fps'][0] + '.' + str(col[k]) + op + str(val)
+            if k < len(col) - 1:
+                questr_temp = questr_temp.replace('COUNT(*)', col[k + 1])  # only select required columns, reduce I/O
+            else:
+                questr_temp = questr_temp.replace('COUNT(*)', col[k])
+            df_temp = pd.read_sql(questr_temp, conn)
+            count = count + 1
+            if count > 2:
+                break
+        if len(df_temp) == 0:
+            component.append(dictalias['fps'][0] + '.' + str(col[k]))
+            component.append(op)
+            component.append(val)
+            questr_0 = questr + dictalias['fps'][0] + '.' + str(col[k]) + op + str(val)
+            card = 0
+            questr_0 += ';'
+            questr_0 += f',{card}\n'
+            f.write(
+                ",".join(tables) + '#' + ','.join(joins) + '#' + ",".join(map(str, component)) + '#' + str(card) + '\n')
+            f_sql.write(questr_0)
+            component = component[:len(component) - 3]
+            break
+        questr = questr + dictalias['fps'][0] + '.' + str(col[k]) + op + str(
+            val) + ' AND '
+        component.append(dictalias['fps'][0] + '.' + str(col[k]))
+        component.append(op)
+        component.append(val)
+    questr = questr[:len(questr) - 5]
+    questr += ';'
+    # df = pd.read_sql(questr, conn)
+    # card = df['count'].values[0]
+    try:
+        cursor.execute(questr)
+    except Exception:
+        continue
+    card = cursor.fetchall()[0][0]
+    questr += f',{card}\n'
+    f.write(",".join(tables) + '#' + ','.join(joins) + '#' + ",".join(map(str, component)) + '#' + str(card) + '\n')
+    f_sql.write(questr)
+f.close()
+f_sql.close()
+
+
 
 # generate train and testset
 with open("data/gpu_game_fps/fps_sql.csv", "r") as input:

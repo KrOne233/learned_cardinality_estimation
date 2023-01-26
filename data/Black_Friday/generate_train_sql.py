@@ -92,7 +92,7 @@ f.close()
 f_sql.close()
 
 
-# generate train and testset
+# generate train and test set
 def gen_train_test(path_sql_csv, path_train_sql_csv, path_test_sql_csv, num_test):
     with open(path_sql_csv, "r") as input:
         lines = input.readlines()
@@ -110,11 +110,11 @@ def gen_train_test(path_sql_csv, path_train_sql_csv, path_test_sql_csv, num_test
         output_train.close()
     input.close()
 
+
 path_sql_csv = "data/Black_Friday/black_friday_purchase_sql.csv"
 path_train_sql_csv = "data/Black_Friday/black_friday_purchase_sql_train.csv"
 path_test_sql_csv = "data/Black_Friday/black_friday_purchase_sql_test.csv"
 gen_train_test(path_sql_csv, path_train_sql_csv, path_test_sql_csv, 1000)
-
 
 # evaluate correlations between attributes to final purchase
 df_purchase = pd.read_csv('data/Black_Friday/Black_Friday_Purchase_num.csv')
@@ -146,12 +146,12 @@ def N_col_sql(num_col, sorted_colset, order, f, f_sql, df, tables, dictalias, co
             dist_val_list = list(set(df_temp[col[k]]))
             val = choice(dist_val_list)
             questr_temp = questr + dictalias['black_friday_purchase'][0] + '.' + str(col[k]) + op + str(val)
-            if k < len(col)-1:
+            if k < len(col) - 1:
                 questr_temp = questr_temp.replace('COUNT(*)', col[k + 1])  # only select required columns, reduce I/O
             else:
                 questr_temp = questr_temp.replace('COUNT(*)', col[k])
             df_temp = pd.read_sql(questr_temp, conn)
-            #if len(df_temp) == 0:
+            # if len(df_temp) == 0:
             #    df_temp = df
             count = 0
             while (len(df_temp) == 0):
@@ -160,7 +160,8 @@ def N_col_sql(num_col, sorted_colset, order, f, f_sql, df, tables, dictalias, co
                 val = choice(dist_val_list)
                 questr_temp = questr + dictalias['black_friday_purchase'][0] + '.' + str(col[k]) + op + str(val)
                 if k < len(col) - 1:
-                    questr_temp = questr_temp.replace('COUNT(*)', col[k + 1]) # only select required columns, reduce I/O
+                    questr_temp = questr_temp.replace('COUNT(*)',
+                                                      col[k + 1])  # only select required columns, reduce I/O
                 else:
                     questr_temp = questr_temp.replace('COUNT(*)', col[k])
                 df_temp = pd.read_sql(questr_temp, conn)
@@ -186,6 +187,7 @@ def N_col_sql(num_col, sorted_colset, order, f, f_sql, df, tables, dictalias, co
     f.close()
     f_sql.close()
 
+
 sorted_colset = list(anova.iloc[:, -1].sort_values().index)
 conn = psycopg2.connect(database="black_friday_purchase",
                         user='postgres', password='wzy07wx25',
@@ -206,5 +208,3 @@ os.makedirs('data/Black_Friday/3_col_sql', exist_ok=True)
 f = open("data/Black_Friday/3_col_sql/bfp_3col_sql_1.csv", 'w')
 f_sql = open("data/Black_Friday/3_col_sql/bfp_3col_sql_1.sql", 'w')
 N_col_sql(3, sorted_colset, 1, f, f_sql, df_purchase, tables, dictalias, conn)
-
-

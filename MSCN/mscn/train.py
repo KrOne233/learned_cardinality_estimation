@@ -208,10 +208,10 @@ if __name__ == "__main__":
 '''
 
 workload_name = 'bfp'
-filename_queries_train = 'data/Black_Friday/2_col_sql/bfp_2col_sql_2'
-filename_queries_test = 'data/Black_Friday/2_col_sql/bfp_2col_sql_2'
+filename_queries_train = 'data/Black_Friday/black_friday_purchase_sql_train'
+filename_queries_test = 'data/Black_Friday/black_friday_purchase_sql_test'
 min_max_file = 'data/Black_Friday/column_min_max_vals.csv'
-num_queries = 10000
+num_queries = 40000
 num_epochs, batch_size, hid_units = 10, 1024, 256
 cuda = True
 num_materialized_samples = 0

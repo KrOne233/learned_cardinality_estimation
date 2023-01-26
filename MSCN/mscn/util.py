@@ -120,8 +120,9 @@ def encode_samples(tables, samples, table2vec):
             # Append table one-hot vector
             sample_vec.append(table2vec[table])
             # Append bit vector
-            # sample_vec.append(samples[i][j])
-            # sample_vec = np.hstack(sample_vec)
+            if len(samples) > 0:
+                sample_vec.append(samples[i][j])
+                sample_vec = np.hstack(sample_vec)
             samples_enc[i].append(sample_vec)
     return samples_enc
 
