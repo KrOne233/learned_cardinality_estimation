@@ -8,10 +8,10 @@ def gen_black_friday_purchase_schema(csv_path):
 
     schema = SchemaGraph()
     schema.add_table(Table('black_friday_purchase',
-                           attributes=['id', 'Gender', 'Age', 'Occupation',
-                                       'City_Category', 'Stay_In_Current_City_Years', 'Marital_Status',
-                                       'Product_Category_1',
-                                       'Product_Category_2', 'Product_Category_3', 'Purchase'],
+                           attributes=['id', 'gender', 'age', 'occupation',
+                                       'city_category', 'stay_in_current_city_years', 'marital_status',
+                                       'product_category_1',
+                                       'product_category_2', 'product_category_3', 'purchase'],
                            irrelevant_attributes=[],
                            csv_file_location=csv_path.format('Black_Friday_Purchase_num'),
                            table_size=163321, primary_key=['id'],

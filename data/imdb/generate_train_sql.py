@@ -86,45 +86,12 @@ dictjk = {'title': ['id'],
           'movie_keyword': ['movie_id'],
           'movie_companies': ['movie_id']}
 
-# query single table
-#def sql_one_table(df)
-df_title = pd.read_csv('data/imdb/title_reduced_num.csv',sep=',', escapechar='\\', encoding='utf-8',
-                       low_memory=False, quotechar='"')
-conn = psycopg2.connect(database="Master_thesis",
-                        user='postgres', password='wzy07wx25',
-                        host='localhost', port='5432'
-)
-t_col = list(df_title.columns)[1:] # id is not used for filtering
-ops = ['=', '<', '>'] # operations
-predicates = []
-tables = ['title t']
-joins = []
-f = open("data/imdb/title_sql.csv", 'w')
-f_sql = open("data/imdb/title_sql.sql", 'w')
-for i in tqdm(range(40000)):
-    questr = 'SELECT COUNT(*) FROM '
-    questr = questr + ",".join(tables) + " WHERE "
-    num_col = random.randint(1, len(t_col)) # number of columns
-    col = list(choice(t_col, num_col, replace=False))
-    component = []
-    result = []
-    for k in range(num_col):
-        component.append(dictalias['title'][0] + '.' + str(col[k]))
-        op = choice(ops)
-        component.append(op)
-        val = int(df_title[col[k]][random.randint(0, len(df_title[col[k]]))])
-        component.append(val)
-        questr += dictalias['title'][0] + '.' + str(col[k]) + op + str(val) + ' AND ' # need to change if join exist
-    questr = questr[:len(questr) - 5]
-    questr += ';'
-    df = pd.read_sql(questr, conn)
-    card = df['count'].values[0]
-    questr += f',{card}\n'
-    predicates.append(component)
-    f.write(",".join(tables) + '#' + ','.join(joins) + '#' + ",".join(map(str, component)) + '#' + str(card) + '\n')
-    f_sql.write(questr)
-f.close()
-f_sql.close()
+# query on a given join
+def gen_query_on_join():
+
+
+
+
 
 
 

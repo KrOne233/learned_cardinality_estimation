@@ -10,6 +10,7 @@ import pandas as pd
 def LoadMyDataset(filepath, name_table, usecols):
     # Make sure that this loads data correctly.
     df = pd.read_csv(filepath, usecols=usecols)
+    df.columns = [c.lower() for c in df.columns]
     return common.CsvTable(name_table, df, cols=df.columns)
 
 
@@ -142,7 +143,9 @@ class MaxDiffHistogram(CardEst):
                 spread = counter.index[1:] - counter.index[:-1]
                 spread_m_counts = spread * counter.iloc[:-1]
                 # my modification
-                spread_m_counts = spread_m_counts.append(pd.Series({counter.index[-1]: counter.iloc[-1] * spread[-1]}))
+                # spread_m_counts = spread_m_counts.append(pd.Series({counter.index[-1]: counter.iloc[-1] * spread[-1]}))
+                pd.concat([spread_m_counts.to_frame(),
+                           pd.DataFrame({counter.iloc[-1] * spread[-1]}, index=[counter.index[-1]])])
                 spread_m_counts = abs(spread_m_counts.values[1:] - spread_m_counts.values[:-1])
                 maxdiff = 0
                 if len(spread_m_counts) > 0:

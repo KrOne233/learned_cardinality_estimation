@@ -93,11 +93,11 @@ f_sql.close()
 
 
 # generate train and test set
-def gen_train_test(path_sql_csv, path_train_sql_csv, path_test_sql_csv, num_test):
-    with open(path_sql_csv, "r") as input:
+def gen_train_test(path_sql_file, path_train_file, path_test_file, num_test):
+    with open(path_sql_file, "r") as input:
         lines = input.readlines()
-        with open(path_train_sql_csv, "w") as output_train:
-            with open(path_test_sql_csv, "w") as output_test:
+        with open(path_train_file, "w") as output_train:
+            with open(path_test_file, "w") as output_test:
                 i = 0
                 testlines = random.sample(range(len(lines)), num_test)
                 for line in lines:
@@ -198,7 +198,7 @@ tables = ['black_friday_purchase bfp']
 
 # 2 cols
 os.makedirs('data/Black_Friday/2_col_sql', exist_ok=True)
-for i in range(1, 8):
+for i in range(8, 9):
     f = open(f"data/Black_Friday/2_col_sql/bfp_2col_sql_{i}.csv", 'w')
     f_sql = open(f"data/Black_Friday/2_col_sql/bfp_2col_sql_{i}.sql", 'w')
     N_col_sql(2, sorted_colset, i, f, f_sql, df_purchase, tables, dictalias, conn)
@@ -208,3 +208,48 @@ os.makedirs('data/Black_Friday/3_col_sql', exist_ok=True)
 f = open("data/Black_Friday/3_col_sql/bfp_3col_sql_1.csv", 'w')
 f_sql = open("data/Black_Friday/3_col_sql/bfp_3col_sql_1.sql", 'w')
 N_col_sql(3, sorted_colset, 1, f, f_sql, df_purchase, tables, dictalias, conn)
+
+# 4 cols
+os.makedirs('data/Black_Friday/4_col_sql', exist_ok=True)
+f = open("data/Black_Friday/3_col_sql/bfp_4col_sql_1.csv", 'w')
+f_sql = open("data/Black_Friday/3_col_sql/bfp_4col_sql_1.sql", 'w')
+N_col_sql(4, sorted_colset, 1, f, f_sql, df_purchase, tables, dictalias, conn)
+
+# 6 cols
+os.makedirs('data/Black_Friday/6_col_sql', exist_ok=True)
+f = open("data/Black_Friday/3_col_sql/bfp_6col_sql_1.csv", 'w')
+f_sql = open("data/Black_Friday/3_col_sql/bfp_6col_sql_1.sql", 'w')
+N_col_sql(6, sorted_colset, 1, f, f_sql, df_purchase, tables, dictalias, conn)
+
+# 8 cols
+os.makedirs('data/Black_Friday/8_col_sql', exist_ok=True)
+f = open("data/Black_Friday/3_col_sql/bfp_8col_sql_1.csv", 'w')
+f_sql = open("data/Black_Friday/3_col_sql/bfp_8col_sql_1.sql", 'w')
+N_col_sql(8, sorted_colset, 1, f, f_sql, df_purchase, tables, dictalias, conn)
+
+# generate train and test set
+def gen_train_test(path_sql_file, path_train_file, path_test_file, num_test):
+    with open(path_sql_file, "r") as input:
+        lines = input.readlines()
+        with open(path_train_file, "w") as output_train:
+            with open(path_test_file, "w") as output_test:
+                i = 0
+                testlines = random.sample(range(len(lines)), num_test)
+                for line in lines:
+                    if i in testlines:
+                        output_test.write(line)
+                    else:
+                        output_train.write(line)
+                    i = i + 1
+            output_test.close()
+        output_train.close()
+    input.close()
+
+i = 1
+while i<8:
+    path_sql_file = f"data/Black_Friday/2_col_sql/bfp_2col_sql_{i}.csv"
+    path_train_file = f'data/Black_Friday/2_col_sql/bfp_2col_{i}_train.csv'
+    path_test_file = f'data/Black_Friday/2_col_sql/bfp_2col_{i}_test.csv'
+    num_test = 500
+    gen_train_test(path_sql_file, path_train_file, path_test_file, num_test)
+    i = i+2

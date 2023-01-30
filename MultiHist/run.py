@@ -92,6 +92,16 @@ def predict(data_file, table_name, usecols, sql_csv_name, max_partition):
     results.to_csv(f'results/predictions_MutiHist_{table_name}.csv', index=False)
 
 
+# test
+test = pd.read_csv('MultiHist/test.csv')
+table = multi_hist.LoadMyDataset('MultiHist/test.csv',
+                                 'test', usecols=['A', 'B'])
+estimator = multi_hist.MaxDiffHistogram(table, 1000)
+estimator.Query(table.columns, ['<','>'], [2, 1])
+
+
+
+
 data_file = 'data/gpu_game_fps/fps_num_lower.csv'
 table_name = 'fps'
 sql_csv_name = 'data/gpu_game_fps/fps_sql_test'
@@ -105,21 +115,8 @@ usecols = ['cpunumberofcores', 'cpunumberofthreads',
            'gpuprocesssize', 'gpunumberofrops', 'gpushadermodel', 'gpunumberofshadingunits',
            'gpunumberoftmus', 'gputexturerate', 'gpunumberoftransistors',
            'gpuvulkan', 'gamename', 'gameresolution', 'gamesetting', 'fps']
-predict(data_file, table_name, usecols, sql_csv_name, 1000)
+predict(data_file, table_name, usecols, sql_csv_name, 5000)
 
-# test
-import MultiHist.multihist_vf as multi_hist_vf
-test = pd.read_csv('MultiHist/test.csv')
-test = test.astype('float64')
-test.to_csv('MultiHist/test_float.csv',index=False)
-
-table = multi_hist.LoadMyDataset('MultiHist/test_float.csv',
-                                 'test', usecols=['A', 'B'])
-table = multi_hist.LoadMyDataset('MultiHist/test.csv',
-                                 'test', usecols=['A', 'B'])
-estimator = multi_hist.MaxDiffHistogram(table, 4)
-estimator = multi_hist_vf.MaxDiffHistogram(table,4)
-estimator.Query(table.columns, ['<','>'], [2.1, 1.1])
 
 # black_friday_purchase
 data_file = 'data/Black_Friday/Black_Friday_Purchase_num.csv'
@@ -127,4 +124,11 @@ table_name = 'black_friday_purchase'
 sql_csv_name = 'data/Black_Friday/black_friday_purchase_sql_test'
 usecols = ['Gender', 'Age', 'Occupation', 'City_Category','Stay_In_Current_City_Years', 'Marital_Status',
            'Product_Category_1','Product_Category_2','Product_Category_3', 'Purchase']
-predict(data_file, table_name, usecols, sql_csv_name, 30000)
+predict(data_file, table_name, usecols, sql_csv_name, 5000)
+
+# black_friday_purchase 2-col-4-corr
+data_file = 'data/Black_Friday/Black_Friday_Purchase_num.csv'
+table_name = 'bfp_2col'
+sql_csv_name = 'data/Black_Friday/2_col_sql/bfp_2col_sql_4'
+usecols = ['Age', 'Purchase']
+predict(data_file, table_name, usecols, sql_csv_name, 5000)

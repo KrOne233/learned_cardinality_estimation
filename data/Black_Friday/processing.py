@@ -25,6 +25,7 @@ for col in table.columns:
     elif table[col].dtype == 'float64':
         table[col] = table[col].astype('int64')
 
+table.columns = [c.lower() for c in table.columns]
 table.to_csv('data/Black_Friday/Black_Friday_Purchase_num.csv', index=False)
 
 # import data into postgreSQL

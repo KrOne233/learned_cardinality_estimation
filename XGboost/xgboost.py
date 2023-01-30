@@ -15,7 +15,7 @@ class TreeEnsemble():
     def train(self, train_data, labels, num_round=10,
               param={'max_depth': 5, 'eta': 0.1, 'booster': 'gbtree', 'objective': 'reg:logistic'}):
         print(train_data.shape, labels.shape)
-        train_len = int(0.8 * len(train_data))
+        train_len = int(0.9 * len(train_data))
         dtrain = xgb.DMatrix(train_data[:train_len], label=labels[:train_len])
         dvalidate = xgb.DMatrix(train_data[train_len:], label=labels[train_len:])
         evallist = [(dvalidate, 'test'), (dtrain, 'train')]
@@ -40,7 +40,7 @@ def unnormalize(x, min_card_log, max_card_log):
     return np.exp(x * (max_card_log - min_card_log) + min_card_log)
 
 
-def prepare_pattern_workload(path, min_max_file):
+def prepare_pattern_workload(path, min_max_file, num_queries=None):
     pattern2training = {}
     pattern2truecard = {}
     minmax = pd.read_csv(min_max_file)
