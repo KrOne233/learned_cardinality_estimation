@@ -110,3 +110,20 @@ if dataset == 'fps':
                            schema=schema, use_generated_code=False, physical_db_name=None, rdc_spn_selection=False,
                            pairwise_rdc_path=None, true_cardinalities_path=true_cardinalities_path,
                            max_variants=1, merge_indicator_exp=False, exploit_overlapping=False, min_sample_ratio=0)
+
+
+# for 2_col
+i = 1
+ensemble_location = 'data/gpu_game_fps/ensembles/ensemble_single_fps_1000000.pkl'
+while i<38:
+    query_file = f'data/gpu_game_fps/2_col_sql/deepdb_sql_2col_{i}.sql'
+    true_cardinalities_path = f'data/gpu_game_fps/2_col_sql/deepdb_true_cardinalities_2col_{i}.csv'
+    min_max_file = 'data/gpu_game_fps/column_min_max_vals.csv'
+    target_csv_path = f'results/result_deepdb_fps_2col_{i}.csv'
+    evaluate_cardinalities(ensemble_location=ensemble_location, query_filename=query_file,
+                           target_csv_path=target_csv_path,
+                           schema=schema, use_generated_code=False, physical_db_name=None, rdc_spn_selection=False,
+                           pairwise_rdc_path=None, true_cardinalities_path=true_cardinalities_path,
+                           max_variants=1, merge_indicator_exp=False, exploit_overlapping=False, min_sample_ratio=0)
+    i = i+4
+

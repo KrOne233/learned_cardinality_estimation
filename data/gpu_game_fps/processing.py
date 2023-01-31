@@ -226,7 +226,10 @@ def gen_deepdb_true_card(sql_file_csv, deepdb_file_dir, deepdb_sql_dir):
                     if len(joins) == 0:
                         qstr = "SELECT COUNT(*) FROM " + str(tables) + " WHERE "
                     else:
-                        qstr = "SELECT COUNT(*) FROM " + str(tables) + " WHERE " + str(joins) + ' AND '
+                        qstr = "SELECT COUNT(*) FROM " + str(tables) + " WHERE "
+                        joins = joins.split(',')
+                        for j in range(len(joins)):
+                            qstr += str(joins[j]) + ' AND '
                     i = 0
                     p = ''
                     while i < len(predicates):
@@ -240,6 +243,51 @@ def gen_deepdb_true_card(sql_file_csv, deepdb_file_dir, deepdb_sql_dir):
     f.close()
 
 gen_deepdb_true_card('data/gpu_game_fps/fps_sql_test.csv', 'data/gpu_game_fps', 'data/gpu_game_fps')
+
+# prepare deepdb file for n_col
+def gen_deepdb_true_card(sql_file_csv, deepdb_file_dir, deepdb_sql_dir,i):
+    with open(sql_file_csv,'r') as f:
+        lines = f.readlines()
+        with open(deepdb_file_dir +f'/deepdb_true_cardinalities_2col_{i}.csv','w') as d:
+            d.write('query_no,query,cardinality_true\n')
+            with open(deepdb_sql_dir + f'/deepdb_sql_2col_{i}.sql','w') as s:
+                for no_query, query_str in enumerate(lines):
+                    query_str = query_str.split("#")
+                    tables = query_str[0]
+                    joins = query_str[1]
+                    predicates = query_str[2].split(',')
+                    card = query_str[3]
+                    if len(joins) == 0:
+                        qstr = "SELECT COUNT(*) FROM " + str(tables) + " WHERE "
+                    else:
+                        qstr = "SELECT COUNT(*) FROM " + str(tables) + " WHERE "
+                        joins = joins.split(',')
+                        for j in range(len(joins)):
+                            qstr += str(joins[j]) + ' AND '
+                    i = 0
+                    p = ''
+                    while i < len(predicates):
+                        p = p + str(predicates[i]) + str(predicates[i+1]) + str(predicates[i+2]) + ' AND '
+                        i = i + 3
+                    qstr = qstr + p[:len(p) - 5] + ';'
+                    d.write(f'{no_query},"{qstr}",{card}')
+                    s.write(f'{qstr}\n')
+            s.close()
+        d.close()
+    f.close()
+
+i = 1
+deepdb_file_dir = 'data/gpu_game_fps/2_col_sql'
+deepdb_sql_dir = 'data/gpu_game_fps/2_col_sql'
+while i<38:
+    sql_file_csv = f'data/gpu_game_fps/2_col_sql/fps_2col_{i}_test.csv'
+    gen_deepdb_true_card(sql_file_csv, deepdb_file_dir, deepdb_sql_dir,i)
+    i=i+4
+
+
+
+
+
 
 # get min_max_file
 table = pd.read_csv('data/gpu_game_fps/fps_num_lower.csv')

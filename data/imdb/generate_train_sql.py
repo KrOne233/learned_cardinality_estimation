@@ -103,10 +103,6 @@ def gen_query_on_join():
 
 
 
-
-
-
-
 # Cols-4 production_year & phonetic_code & series_year & role_id
 
 f2 = open("../train-test-data/imdb-cols-sql/4/4-all-str.sql", 'w')

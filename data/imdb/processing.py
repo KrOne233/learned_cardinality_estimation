@@ -132,7 +132,7 @@ def import_postgre(table_name, db_name, df):
     table = pd.io.sql.SQLTable(table_name, pd_engine, frame=df, index=False, if_exists='fail')
     table.create()
     io_buff = StringIO()
-    df_title.to_csv(io_buff, sep='\t', index=False, header=False)
+    df.to_csv(io_buff, sep='\t', index=False, header=False)
     io_buff_value = io_buff.getvalue()
     conn = psycopg2.connect(database=db_name,
                             user='postgres', password='wzy07wx25',
@@ -144,8 +144,11 @@ def import_postgre(table_name, db_name, df):
     cur.close()
     conn.close()
 
+import_postgre('title', 'imdb', df_title)
+
 import_postgre('movie_info_idx', 'imdb', df_movie_info_idx)
 
+import_postgre('movie_info','imdb', df_movie_info)
 
 
 
