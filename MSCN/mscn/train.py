@@ -207,12 +207,14 @@ if __name__ == "__main__":
     main()
 '''
 
-workload_name = 'bfp'
-filename_queries_train = 'data/Black_Friday/black_friday_purchase_sql_train'
-filename_queries_test = 'data/Black_Friday/black_friday_purchase_sql_test'
-min_max_file = 'data/Black_Friday/column_min_max_vals.csv'
-num_queries = 40000
-num_epochs, batch_size, hid_units = 10, 1024, 256
+workload_name = 'imdb_no_bitmap'
+filename_queries_train = 'data/imdb/imdb_train_sql'
+filename_queries_test = 'data/imdb/imdb_test_sql'
+min_max_file = 'data/imdb/column_min_max_vals.csv'
+num_queries = 100000
+num_epochs, batch_size, hid_units = 100, 1024, 256
 cuda = True
 num_materialized_samples = 0
 train_and_predict(workload_name, filename_queries_train, filename_queries_test, min_max_file, num_queries, num_epochs, batch_size, hid_units, cuda, num_materialized_samples)
+
+

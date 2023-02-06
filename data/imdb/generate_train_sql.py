@@ -1,298 +1,146 @@
 import random
-
 import psycopg2
 from tqdm import tqdm
 import pandas as pd
 from numpy.random import choice
 
-dict1 = {'title': ['t', 'id', 'imdb_index', 'kind_id', 'production_year', 'phonetic_code', 'season_nr', 'episode_nr',
-                   'series_years'],
-         'movie_info_idx': ['mi_idx', 'movie_id', 'info_type_id'],
-         'movie_info': ['mi', 'movie_id', 'info_type_id'],
-         'cast_info': ['ci', 'movie_id', 'nr_order', 'role_id'],
-         'movie_keyword': ['mk', 'movie_id', 'keyword_id'],
-         'movie_companies': ['mc', 'movie_id', 'company_type_id']}
+conn = psycopg2.connect(database='imdb',
+                        user='postgres', password='wzy07wx25',
+                        host='localhost', port='5432'
+                        )
+cur = conn.cursor()
+conn.autocommit = True
 
-dict2 = {'title': ['t', 'id', 'kind_id', 'production_year', 'phonetic_code', 'season_nr', 'episode_nr'],
-         'movie_info_idx': ['mi_idx', 'movie_id', 'info_type_id'],
-         'movie_info': ['mi', 'movie_id', 'info_type_id'],
-         'cast_info': ['ci', 'movie_id', 'nr_order', 'role_id'],
-         'movie_keyword': ['mk', 'movie_id', 'keyword_id'],
-         'movie_companies': ['mc', 'movie_id', 'company_type_id']}  #
+# used column in each table
+title_usecols = ['id', 'kind_id', 'production_year']  # , 'phonetic_code', 'season_nr', 'episode_nr']
 
-df_title = pd.read_csv('data/imdb/title.csv', sep=',', escapechar='\\', encoding='utf-8',
-                       low_memory=False, quotechar='"',
-                       usecols=['id', 'kind_id', 'production_year', 'phonetic_code', 'season_nr', 'episode_nr'])
-df_cast_info = pd.read_csv('.../data/imdb/cast_info.csv', sep=',', escapechar='\\', encoding='utf-8',
-                           low_memory=False, quotechar='"', error_bad_lines=False,
-                           usecols=['movie_id', 'nr_order', 'role_id'])
-df_movie_companies = pd.read_csv('.../data/imdb/movie_companies.csv', sep=',', escapechar='\\',
-                                 encoding='utf-8', low_memory=False, quotechar='"',
-                                 usecols=['movie_id', 'company_type_id'])
-df_movie_info = pd.read_csv('.../data/imdb/movie_info.csv', sep=',', escapechar='\\',
-                            encoding='utf-8', low_memory=False, quotechar='"',
-                            usecols=['movie_id', 'info_type_id'])
-df_movie_info_idx = pd.read_csv('.../data/imdb/movie_info_idx.csv', sep=',', escapechar='\\',
-                                encoding='utf-8', low_memory=False, quotechar='"',
-                                usecols=['movie_id', 'info_type_id'])
-df_movie_keyword = pd.read_csv('.../data/imdb/movie_keyword.csv', sep=',', escapechar='\\',
-                               encoding='utf-8', low_memory=False, quotechar='"',
-                               usecols=['movie_id', 'keyword_id'])
+movie_info_idx_usecols = ['id', 'movie_id', 'info_type_id']
 
-df_title = df_title.dropna(axis=0, how='any', inplace=False)
-df_cast_info = df_cast_info.dropna(axis=0, how='any', inplace=False)
-df_movie_companies = df_movie_companies.dropna(axis=0, how='any', inplace=False)
-df_movie_info = df_movie_info.dropna(axis=0, how='any', inplace=False)
-df_movie_info_idx = df_movie_info_idx.dropna(axis=0, how='any', inplace=False)
-df_movie_keyword = df_movie_keyword.dropna(axis=0, how='any', inplace=False)
+movie_info_usecols = ['id', 'movie_id', 'info_type_id']
 
-df_title_l = df_title.sample(frac=0.003, replace=False, random_state=1)
-df_cast_info_l = df_cast_info.sample(frac=0.0002, replace=False, random_state=1)
-df_movie_companies_l = df_movie_companies.sample(frac=0.0006, replace=False, random_state=1)
-df_movie_info_l = df_movie_info.sample(frac=0.0002, replace=False, random_state=1)
-df_movie_info_idx_l = df_movie_info_idx.sample(frac=0.0009, replace=False, random_state=1)
-df_movie_keyword_l = df_movie_keyword.sample(frac=0.0005, replace=False, random_state=1)
-t_imdb_index = [2, 3, 4, 5]
-t_kind_id = []
-t_production_year = []
-t_phonetic_code = []
-t_season_nr = []
-t_episode_nr = []
-t_series_years = []
-mi_idx_info_type_id = []
-mi_info_type_id = []
-ci_nr_order = []
-ci_role_id = []
-mk_keyword_id = []
-mc_company_type_id = []
+cast_info_usecols = ['id', 'movie_id', 'person_id', 'role_id']
 
-for key, value in dict2.items():
-    for i in range(2, len(value)):
-        locals()[value[0] + '_' + value[i]] = list(locals()['df_' + key + '_l'][value[i]])
+movie_keyword_usecols = ['id', 'movie_id', 'keyword_id']
 
-# my code
+movie_companies_usecols = ['id', 'movie_id', 'company_id', 'company_type_id']
 
-dictalias = {'title': ['t'],
-             'movie_info_idx': ['mi_idx'],
-             'movie_info': ['mi'],
-             'cast_info': ['ci'],
-             'movie_keyword': ['mk'],
-             'movie_companies': ['mc']}
+dictalias = {'t': 'title t',
+             'mi_idx': 'movie_info_idx mi_idx',
+             'mi': 'movie_info mi',
+             'ci': 'cast_info ci',
+             'mk': 'movie_keyword mk',
+             'mc': 'movie_companies mc'
+             }
 
-dictjk = {'title': ['id'],
-          'movie_info_idx': ['movie_id'],
-          'movie_info': ['movie_id'],
-          'cast_info': ['movie_id'],
-          'movie_keyword': ['movie_id'],
-          'movie_companies': ['movie_id']}
+ops = ['=', '<', '>']  # operations
 
-# query on a given join
-def gen_query_on_join():
+tables = ['title t', 'movie_info_idx mi_idx', 'movie_info mi', 'cast_info ci', 'movie_keyword mk', 'movie_companies mc']
 
+joins_keys = {('t', 'mi_idx'): 't.id=mi_idx.movie_id', ('t', 'mi'): 't.id=mi.movie_id',
+              ('t', 'ci'): 't.id=ci.movie_id', ('t', 'mk'): 't.id=mk.movie_id',
+              ('t', 'mc'): 't.id=mc.movie_id'}
 
+join_route = {'t': ['mi_idx', 'mi', 'ci', 'mk', 'mc'], 'mi_idx': ['t'], 'mi': ['t'], 'ci': ['t'],
+              'mk': ['t'], 'mc': ['t']}
 
+f = open("data/imdb/imdb_sql.csv", 'w')
+f_sql = open("data/imdb/imdb.sql", 'w')
+for i in tqdm(range(10)):
+    num_tables = random.randint(1, 3)  # decide tables involved
+    if num_tables > 1:
+        i = 1
+        initial = choice(tables)
+        join_order = []
+        join_order.append(initial)
+        while i < num_tables:
+            candidates = []
+            for table in join_order:
+                for t in join_route[table.split(' ')[1]]:
+                    candidates.append(t)
+            candidates = list(set(candidates))
+            choose_list = []
+            for c in candidates:
+                if dictalias[c] not in join_order:
+                    choose_list.append(dictalias[c])
+            join_order.append(choice(choose_list))
+            i = i + 1
 
+        joins = []  # decide joins
+        try:
+            join = joins_keys[join_order[0].split(' ')[1], join_order[1].split(' ')[1]]
+        except Exception:
+            join = joins_keys[join_order[1].split(' ')[1], join_order[0].split(' ')[1]]
 
+        joins.append(join)
 
+        n = 2
+        while n < len(join_order):
+            t = join_order[n].split(' ')[1]
+            for table in join_order[:n]:
+                if (table.split(' ')[1], t) in joins_keys.keys():
+                    joins.append(joins_keys[(table.split(' ')[1], t)])
+                    break
+                elif (t, table.split(' ')[1]) in joins_keys.keys():
+                    joins.append(joins_keys[t, table.split(' ')[1]])
+                    break
+                else:
+                    continue
+            n = n + 1
 
+        col_key = []  # decide columns
+        for key in joins:
+            for k in key.split('='):
+                col_key.append(k.split('.')[1])
+        cols = []
+        for table in join_order:
+            col = eval(f'{table.split(" ")[0]}_usecols')
+            for c in col:
+                if c not in col_key:
+                    cols.append(c)
 
+        if len(cols) <= 4:
+            num_col = random.randint(0, len(cols))
+        else:
+            num_col = random.randint(0, 5)  # number of columns
 
+    else:
+        join_order = [choice(tables)]
+        joins = []
+        cols = eval(f'{join_order[0].split(" ")[0]}_usecols')
+        if len(cols) <= 4:
+            num_col = random.randint(1, len(cols))
+        else:
+            num_col = random.randint(1, 5)  # number of columns
 
-
-
-
-
-
-# Cols-4 production_year & phonetic_code & series_year & role_id
-
-f2 = open("../train-test-data/imdb-cols-sql/4/4-all-str.sql", 'w')
-# tnum = [2,3]  #
-tables = ['cast_info']  #
-ops = ['=', '<', '>']  # >=, <=
-
-dictcols = {'title': ['production_year', 'phonetic_code', 'series_years'],
-            'cast_info': ['role_id']}  #
-
-dictalias = {'title': ['t'],
-             'movie_info_idx': ['mi_idx'],
-             'movie_info': ['mi'],
-             'cast_info': ['ci'],
-             'movie_keyword': ['mk'],
-             'movie_companies': ['mc']}
-
-dictjk = {'title': ['id'],
-          'movie_info_idx': ['movie_id'],
-          'movie_info': ['movie_id'],
-          'cast_info': ['movie_id'],
-          'movie_keyword': ['movie_id'],
-          'movie_companies': ['movie_id']}
-
-for i in range(40000):
     questr = 'SELECT COUNT(*) FROM '
-    joinks = []
-    tablenames = []  # title t
-    predicates = []
+    questr = questr + ",".join(join_order) + " WHERE "
 
-    num_tcol = random.randint(1, len(dictcols['title']))
-    t1 = list(choice(dictcols['title'], num_tcol, replace=False))
-    for k in range(num_tcol):
-        t2 = locals()['t_' + t1[k]]
-        predicates.append('t.' + str(t1[k]) + choice(ops) + str(int(choice(t2))))
+    if len(joins) != 0:
+        for jk in joins:
+            questr = questr + jk + ' AND '
 
-    num_t = random.randint(0, len(tables))  #
-    tables1 = list(choice(tables, num_t, replace=False))
-    for j in range(num_t):
-        table1 = tables1[j]  #
-        joinks.append('t.id=' + dictalias[table1][0] + '.movie_id')
-        tablenames.append(table1 + ' ' + dictalias[table1][0])
+    col = list(choice(cols, num_col, replace=False))
 
-        num_tcol = random.randint(1, len(dictcols[table1]))
-        t1 = list(choice(dictcols[table1], num_tcol, replace=False))
-        for k in range(num_tcol):
-            t2 = locals()[dictalias[table1][0] + '_' + t1[k]]
-            predicates.append(dictalias[table1][0] + '.' + str(t1[k]) + choice(ops) + str(int(choice(t2))))
+    component = []
 
-    for tn in tablenames:
-        questr += tn + ',' + ' '
-    questr += 'title t WHERE '
-
-    for jks in joinks:
-        questr += jks + ' AND '
-
-    for pre in predicates:
-        questr += pre + ' AND '
+    for k in range(len(col)):
+        op = choice(ops)
+        sql = f'SELECT {col[k]} FROM {dictalias[col[k].split("_")[0]]} order by random() limit 1;'
+        cur = conn.cursor()
+        conn.autocommit = True
+        cur.execute(sql)
+        val = cur.fetchall()[0][0]
+        questr = questr + col[k].split('_')[0] + '.' + str(col[k]) + op + str(
+            val) + ' AND '
+        component.append(col[k].split('_')[0] + '.' + str(col[k]))
+        component.append(op)
+        component.append(val)
     questr = questr[:len(questr) - 5]
-    questr += ';\n'
-
-    f2.write(questr)
-f2.close()
-
-# Cols-6: production_year & phonetic_code & series_years & kind_id & role_id & info_type_id
-
-f2 = open("../train-test-data/imdb-cols-sql/6/6-all-num.sql", 'w')
-
-tables = ['movie_info', 'cast_info']  #
-ops = ['=', '<', '>']  # >=, <=
-
-dictcols = {'title': ['kind_id', 'production_year', 'phonetic_code', 'series_years'],
-            'movie_info': ['info_type_id'],
-            'cast_info': ['role_id']}  #
-
-dictalias = {'title': ['t'],
-             'movie_info_idx': ['mi_idx'],
-             'movie_info': ['mi'],
-             'cast_info': ['ci'],
-             'movie_keyword': ['mk'],
-             'movie_companies': ['mc']}
-
-dictjk = {'title': ['id'],
-          'movie_info_idx': ['movie_id'],
-          'movie_info': ['movie_id'],
-          'cast_info': ['movie_id'],
-          'movie_keyword': ['movie_id'],
-          'movie_companies': ['movie_id']}
-
-for i in range(50000):
-    questr = 'SELECT COUNT(*) FROM '
-    joinks = []
-    tablenames = []  # title t
-    predicates = []
-
-    num_tcol = random.randint(1, len(dictcols['title']))
-    t1 = list(choice(dictcols['title'], num_tcol, replace=False))
-    for k in range(num_tcol):
-        t2 = locals()['t_' + t1[k]]
-        predicates.append('t.' + str(t1[k]) + choice(ops) + str(int(choice(t2))))
-
-    num_t = random.randint(0, len(tables))
-    tables1 = list(choice(tables, num_t, replace=False))
-    for j in range(num_t):
-        table1 = tables1[j]  #
-        joinks.append('t.id=' + dictalias[table1][0] + '.movie_id')
-        tablenames.append(table1 + ' ' + dictalias[table1][0])
-
-        num_tcol = random.randint(1, len(dictcols[table1]))
-        t1 = list(choice(dictcols[table1], num_tcol, replace=False))
-        for k in range(num_tcol):
-            t2 = locals()[dictalias[table1][0] + '_' + t1[k]]
-            predicates.append(dictalias[table1][0] + '.' + str(t1[k]) + choice(ops) + str(int(choice(t2))))
-
-    for tn in tablenames:
-        questr += tn + ',' + ' '
-    questr += 'title t WHERE '
-
-    for jks in joinks:
-        questr += jks + ' AND '
-
-    for pre in predicates:
-        questr += pre + ' AND '
-    questr = questr[:len(questr) - 5]
-    questr += ';\n'
-
-    f2.write(questr)
-f2.close()
-
-# Cols-8: production_year & phonetic_code & series_years & kind_id & role_id & info_type_id & nr_order & episode_nr
-
-f2 = open("../train-test-data/imdb-cols-sql/8/8-all-num.sql", 'w')
-
-tables = ['movie_info', 'cast_info']  #
-ops = ['=', '<', '>']  # >=, <=
-
-dictcols = {'title': ['kind_id', 'production_year', 'phonetic_code', 'episode_nr', 'series_years'],
-            'movie_info': ['info_type_id'],
-            'cast_info': ['nr_order', 'role_id']}  #
-
-dictalias = {'title': ['t'],
-             'movie_info_idx': ['mi_idx'],
-             'movie_info': ['mi'],
-             'cast_info': ['ci'],
-             'movie_keyword': ['mk'],
-             'movie_companies': ['mc']}
-
-dictjk = {'title': ['id'],
-          'movie_info_idx': ['movie_id'],
-          'movie_info': ['movie_id'],
-          'cast_info': ['movie_id'],
-          'movie_keyword': ['movie_id'],
-          'movie_companies': ['movie_id']}
-
-for i in range(60000):
-    questr = 'SELECT COUNT(*) FROM '
-    joinks = []
-    tablenames = []  # title t
-    predicates = []
-
-    num_tcol = random.randint(1, len(dictcols['title']))
-    t1 = list(choice(dictcols['title'], num_tcol, replace=False))
-    for k in range(num_tcol):
-        t2 = locals()['t_' + t1[k]]
-        predicates.append('t.' + str(t1[k]) + choice(ops) + str(int(choice(t2))))
-
-    num_t = random.randint(0, len(tables))  #
-    tables1 = list(choice(tables, num_t, replace=False))
-    for j in range(num_t):
-        table1 = tables1[j]  #
-        joinks.append('t.id=' + dictalias[table1][0] + '.movie_id')
-        tablenames.append(table1 + ' ' + dictalias[table1][0])
-
-        num_tcol = random.randint(1, len(dictcols[table1]))
-        t1 = list(choice(dictcols[table1], num_tcol, replace=False))
-        for k in range(num_tcol):
-            t2 = locals()[dictalias[table1][0] + '_' + t1[k]]
-            predicates.append(dictalias[table1][0] + '.' + str(t1[k]) + choice(ops) + str(int(choice(t2))))
-
-    for tn in tablenames:
-        questr += tn + ',' + ' '
-    questr += 'title t WHERE '
-
-    for jks in joinks:
-        questr += jks + ' AND '
-
-    for pre in predicates:
-        questr += pre + ' AND '
-    questr = questr[:len(questr) - 5]
-    questr += ';\n'
-
-    f2.write(questr)
-f2.close()
+    questr += ';'
+    cur.execute(questr)
+    card = cur.fetchall()[0][0]
+    questr += f',{card}\n'
+    f.write(",".join(join_order) + '#' + ','.join(joins) + '#' + ",".join(map(str, component)) + '#' + str(card) + '\n')
+    f_sql.write(questr)
+f.close()
+f_sql.close()

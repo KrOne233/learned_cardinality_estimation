@@ -82,19 +82,27 @@ df_fps = pd.read_csv('data/gpu_game_fps/fps_num_lower.csv', escapechar='\\', enc
                               'gpunumberoftmus', 'gputexturerate', 'gpunumberoftransistors',
                               'gpuvulkan', 'gamename', 'gameresolution', 'gamesetting', 'fps'])
 
-model = ols('fps ~ cpunumberofcores + cpunumberofthreads + cpubaseclock + cpucachel1 + cpucachel2 + cpucachel3\
-                    + cpudiesize+ cpufrequency + cpumultiplier + cpumultiplierunlocked + cpuprocesssize + cputdp\
-                    + cpunumberoftransistors + cputurboclock\
-                    + gpubandwidth + gpubaseclock + gpuboostclock + gpubusnterface\
-                    + gpunumberofcomputeunits + gpudiesize + gpunumberofexecutionunits\
-                    + gpufp32performance + gpumemorybus + gpumemorysize + gpumemorytype + gpupixelrate\
-                    + gpuprocesssize + gpunumberofrops + gpushadermodel + gpunumberofshadingunits\
-                    + gpunumberoftmus + gputexturerate + gpunumberoftransistors\
-                    + gpuvulkan + gamename + gameresolution + gamesetting', data=df_fps).fit()
+model = ols('fps ~ C(cpunumberofcores) + C(cpunumberofthreads) + C(cpubaseclock) + C(cpucachel1) + C(cpucachel2) + C('
+            'cpucachel3) + C(cpudiesize) + C(cpufrequency) + C(cpumultiplier) + C(cpumultiplierunlocked) + C(cpuprocesssize) + '
+            'C(cputdp) + C(cpunumberoftransistors) + C(cputurboclock) + C(gpubandwidth) + C(gpubaseclock) + C(gpuboostclock) + '
+            'C(gpubusnterface) + C(gpunumberofcomputeunits) + C(gpudiesize) + C(gpunumberofexecutionunits) + C(gpufp32performance) '
+            '+ C(gpumemorybus) + C(gpumemorysize) + C(gpumemorytype) + C(gpupixelrate) + C(gpuprocesssize) + C(gpunumberofrops) + '
+            'C(gpushadermodel) + C(gpunumberofshadingunits) + C(gpunumberoftmus) + C(gputexturerate) + C(gpunumberoftransistors) + '
+            'C(gpuvulkan) + C(gamename) + C(gameresolution) + C(gamesetting)', data=df_fps).fit()
 
 anova = sm.stats.anova_lm(model, typ=2)
 sorted_colset = list(anova.iloc[:, -1].sort_values().index)
 sorted_colset = sorted_colset[:-1]
+
+model = ols('fps ~ C(cpunumberofcores) + C(cpubaseclock) + C(cpufrequency) + C(cputdp)', data=df_fps).fit()
+anova_cpu = sm.stats.anova_lm(model, typ=2)
+model = ols(
+    'fps ~ C(gpuboostclock) + C(gpumemorybus) + C(gpumemorytype) + C(gpushadermodel) +C(gputexturerate) + C(gamesetting)',
+    data=df_fps).fit()
+anova_gpu = sm.stats.anova_lm(model, typ=2)
+
+anova = pd.concat([anova_cpu.iloc[:-1,:],anova_gpu.iloc[:-1,:]])
+anova.iloc[:,-1].sort_values()
 
 dictalias = {'fps': ['f']}
 tables = ['fps f']
@@ -112,6 +120,23 @@ while i <= len(sorted_colset):
     f_sql = open(f"data/gpu_game_fps/2_col_sql/fps_2col_sql_{i}.sql", 'w')
     N_col_sql(2, sorted_colset, i, f, f_sql, df_fps, tables, dictalias, conn)
     i = i+8
+
+# 5~37 cols
+colset = []
+i=0
+while i <= len(sorted_colset):
+    colset.append(sorted_colset[i])
+    i=i+4
+
+
+i=5
+while i <= len(sorted_colset):
+    os.makedirs(f'data/gpu_game_fps/{i}_col_sql', exist_ok=True)
+    f = open(f"data/gpu_game_fps/{i}_col_sql/fps_{i}col_sql_1.csv", 'w')
+    f_sql = open(f"data/gpu_game_fps/{i}_col_sql/fps_{i}col_sql_1.sql", 'w')
+    N_col_sql(i, sorted_colset, 1, f, f_sql, df_fps, tables, dictalias, conn)
+    i = i+4
+
 
 def gen_train_test(path_sql_file, path_train_file, path_test_file, num_test):
     with open(path_sql_file, "r") as input:
@@ -135,6 +160,17 @@ while i<38:
     path_sql_file = f"data/gpu_game_fps/2_col_sql/fps_2col_sql_{i}.csv"
     path_train_file = f'data/gpu_game_fps/2_col_sql/fps_2col_{i}_train.csv'
     path_test_file = f'data/gpu_game_fps/2_col_sql/fps_2col_{i}_test.csv'
+    num_test = 500
+    gen_train_test(path_sql_file, path_train_file, path_test_file, num_test)
+    i = i+4
+
+
+i = 5
+while i<38:
+    os.makedirs(f'data/gpu_game_fps/{i}_col_sql', exist_ok=True)
+    path_sql_file = f"data/gpu_game_fps/{i}_col_sql/fps_{i}col_sql_{i}.csv"
+    path_train_file = f'data/gpu_game_fps/{i}_col_sql/fps_{i}col_{i}_train.csv'
+    path_test_file = f'data/gpu_game_fps/{i}_col_sql/fps_{i}col_{i}_test.csv'
     num_test = 500
     gen_train_test(path_sql_file, path_train_file, path_test_file, num_test)
     i = i+4

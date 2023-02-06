@@ -3,6 +3,7 @@ import logging
 import math
 import pickle
 import random
+import sys
 
 import pandas as pd
 from spn.structure.StatisticalTypes import MetaType
@@ -673,7 +674,8 @@ def prepare_sample_hdf(schema, hdf_path, max_table_data, sample_size):
 
                     df_samples = df_sample_cache[relationship_obj.end]
                     df_samples = df_samples.set_index(left_attribute, drop=False)
-                    # df_samples.index.name = None
+                    df_samples.index.name = None
+                    # print(next_table_data.columns)
                     next_table_data = next_table_data.set_index(right_attribute, drop=False)
                     next_table_data = df_samples.merge(next_table_data, right_index=True, left_on=left_attribute)
                     # only keep rows with join partner

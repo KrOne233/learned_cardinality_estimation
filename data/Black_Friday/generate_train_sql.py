@@ -119,10 +119,10 @@ gen_train_test(path_sql_csv, path_train_sql_csv, path_test_sql_csv, 1000)
 # evaluate correlations between attributes to final purchase
 df_purchase = pd.read_csv('data/Black_Friday/Black_Friday_Purchase_num.csv')
 df_purchase.columns = [c.lower() for c in df_purchase.columns]
-model = ols('purchase ~ gender + age + occupation + city_category + stay_in_current_city_years + marital_status + '
-            'product_category_1 + product_category_2 + product_category_3', data=df_purchase).fit()
+model = ols('purchase ~ C(gender) + C(age) + C(occupation) + C(city_category) + C(stay_in_current_city_years) + C('
+            'marital_status) + C(product_category_1) + C(product_category_2) + C(product_category_3)',
+            data=df_purchase).fit()
 anova = sm.stats.anova_lm(model, typ=2)
-
 
 # generate N-columns correlation query set
 # 每次选好一列的filter条件，就进行查询，返回结果，下一列的值在这个结果中选，同时如果出现查询结果为空，尝试10次别的值. slow but few 0
@@ -250,6 +250,15 @@ while i<8:
     path_sql_file = f"data/Black_Friday/2_col_sql/bfp_2col_sql_{i}.csv"
     path_train_file = f'data/Black_Friday/2_col_sql/bfp_2col_{i}_train.csv'
     path_test_file = f'data/Black_Friday/2_col_sql/bfp_2col_{i}_test.csv'
+    num_test = 500
+    gen_train_test(path_sql_file, path_train_file, path_test_file, num_test)
+    i = i+2
+
+i = 4
+while i<=8:
+    path_sql_file = f"data/Black_Friday/{i}_col_sql/bfp_{i}col_sql_1.csv"
+    path_train_file = f'data/Black_Friday/{i}_col_sql/bfp_{i}col_1_train.csv'
+    path_test_file = f'data/Black_Friday/{i}_col_sql/bfp_{i}col_1_test.csv'
     num_test = 500
     gen_train_test(path_sql_file, path_train_file, path_test_file, num_test)
     i = i+2

@@ -72,7 +72,7 @@ min_max_file = 'data/Black_Friday/column_min_max_vals.csv'
 
 predict, true_card = sample_predict(sql_file,black_friday_purchase,min_max_file)
 print_qerror(predict,true_card)
-with open('results/predicitons_sampling_bfp','w') as f:
+with open('results/predicitons_sampling_bfp.csv','w') as f:
     f.write('prediction,true\n')
     for i in range(len(predict)):
         f.write(f'{predict[i]},{true_card[i]}\n')
@@ -87,7 +87,7 @@ sql_file = 'data/gpu_game_fps/fps_sql_test.csv'
 min_max_file = 'data/gpu_game_fps/column_min_max_vals.csv'
 predict, true_card = sample_predict(sql_file,fps,min_max_file)
 print_qerror(predict,true_card)
-with open('results/predicitons_sampling_fps','w') as f:
+with open('results/predicitons_sampling_fps.csv','w') as f:
     f.write('prediction,true\n')
     for i in range(len(predict)):
         f.write(f'{predict[i]},{true_card[i]}\n')

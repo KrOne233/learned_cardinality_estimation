@@ -108,7 +108,7 @@ with conn.cursor() as c:
     conn.commit()
 
 
-engine = create_engine('postgres://postgres:wzy07wx25@localhost:5432/imdb')
+engine = create_engine('postgres://postgres:xxx@localhost:5432/imdb')
 pd_engine = pd.io.sql.pandasSQL_builder(engine)
 df_title = pd.read_csv('data/imdb/title.csv', sep=',', escapechar='\\', encoding='utf-8',
                        low_memory=False, quotechar='"')
