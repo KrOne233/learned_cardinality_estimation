@@ -1,0 +1,30 @@
+
+Q-Error training set:
+Median: 1.0822179569204522
+90th percentile: 4.619642857142869
+95th percentile: 7.0
+99th percentile: 16.44450000000001
+Max: 77.0
+Mean: 2.2516667194852453
+
+Q-Error validation set:
+Median: 1.167413882422534
+90th percentile: 5.0
+95th percentile: 8.0
+99th percentile: 19.889999999999976
+Max: 70.5
+Mean: 2.541016488722916
+
+Loaded queries
+number of samples: 1000
+Loaded bitmaps
+Number of test samples: 1000
+Prediction time per test sample: 0.0009717941284179686
+
+Q-Error data/Black_Friday/black_friday_purchase_sql_test:
+Median: 1.3783310348306417
+90th percentile: 5.505555555555556
+95th percentile: 8.287557603686635
+99th percentile: 21.011304347826076
+Max: 91.33333333333333
+Mean: 2.7871828346861514

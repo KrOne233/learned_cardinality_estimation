@@ -1,0 +1,1001 @@
+query_no,query,cardinality_predict,cardinality_true,latency_ms,generated_spn_calls,latency_generated_code
+0,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3>12 AND f.gpunumberoftransistors<378 AND f.gpumemorysize=1024 AND f.gpubaseclock=750 AND f.cpubaseclock=100 AND f.cputdp=65 AND f.gputexturerate=6000 AND f.gpushadermodel<3;,1.0,0,19.82540000000199,0,0.0
+1,SELECT COUNT(*) FROM fps f WHERE f.cpuprocesssize>22 AND f.gamename>17 AND f.gpunumberoftransistors=5200 AND f.fps<200.0 AND f.gpunumberofcomputeunits=0 AND f.cpucachel3<12 AND f.gpuprocesssize=28 AND f.gpunumberofrops=56 AND f.gpubusnterface>6;,1.0,0,15.83549999998013,0,0.0
+2,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan=5 AND f.cpumultiplierunlocked<2;,2.499999999999999,0,7.304700000020148,0,0.0
+3,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplierunlocked=1 AND f.cpuprocesssize>14 AND f.cpumultiplier=17.0 AND f.gpupixelrate>6264 AND f.gpunumberofshadingunits>112 AND f.gpufp32performance>863200 AND f.cpunumberofthreads<4 AND f.gpubaseclock>860 AND f.gamename<26 AND f.fps=90.0;,1.0,1,22.93200000002571,0,0.0
+4,SELECT COUNT(*) FROM fps f WHERE f.fps>98.5 AND f.cpunumberofthreads=28 AND f.cpumultiplier<33.0 AND f.gpumemorysize>3000 AND f.gpunumberofrops=48 AND f.gpumemorytype<5;,1.0,0,14.278600000011465,0,0.0
+5,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores=18 AND f.gputexturerate>94720;,68.29176470588247,68,7.475499999998192,0,0.0
+6,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofshadingunits=40 AND f.cpunumberoftransistors<1200 AND f.cputdp<65 AND f.gpunumberofexecutionunits=0 AND f.gameresolution=720 AND f.gpushadermodel=6 AND f.gpudiesize=8.5e-05;,1.0,6,13.566299999979492,0,0.0
+7,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops=2;,32.00000000000003,32,2.901800000017829,0,0.0
+8,SELECT COUNT(*) FROM fps f WHERE f.cpuprocesssize=65 AND f.cpubaseclock=200 AND f.gpudiesize=0.000256;,1.0,1,10.464499999955024,0,0.0
+9,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize>0.000107 AND f.gamename=20 AND f.gpuboostclock<1668 AND f.gpunumberofshadingunits<192 AND f.gpuvulkan=6 AND f.gputexturerate=11200 AND f.gpushadermodel=4 AND f.gpunumberofexecutionunits=0 AND f.cpunumberoftransistors<1160;,1.0,2,16.864699999985078,0,0.0
+10,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock>1600 AND f.cpunumberofthreads>6 AND f.gamename=24 AND f.cpucachel1>512 AND f.gameresolution=1080 AND f.cpunumberoftransistors=4800 AND f.gputexturerate=157100;,1.0,16,16.065099999991617,0,0.0
+11,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier>18.0 AND f.gpuboostclock>608 AND f.gpuprocesssize<90 AND f.cpubaseclock>133 AND f.gpumemorysize<12000;,21939.621341317717,12795,13.049299999977393,0,0.0
+12,SELECT COUNT(*) FROM fps f WHERE f.gameresolution=1080 AND f.gpumemorybus<448 AND f.gputexturerate<35200 AND f.gpubusnterface=8 AND f.gpupixelrate>2400 AND f.gpunumberofrops=3 AND f.cpucachel2=16384 AND f.gpushadermodel=9 AND f.cpumultiplierunlocked=2 AND f.gpubaseclock<300;,1.0,0,17.981200000008357,0,0.0
+13,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3=64 AND f.gpumemorybus<384 AND f.gpunumberofshadingunits<3072 AND f.gamesetting<2 AND f.gpubandwidth<352300 AND f.gpunumberoftmus>104 AND f.cpucachel2<12288 AND f.cpumultiplierunlocked=2 AND f.cpunumberoftransistors=3800;,7.952930808069059,5,20.937300000014147,0,0.0
+14,SELECT COUNT(*) FROM fps f WHERE f.gameresolution=1440 AND f.cpubaseclock<133 AND f.gpunumberofcomputeunits=28 AND f.cpuprocesssize<22 AND f.gpuprocesssize=14 AND f.gpunumberoftmus=112 AND f.gpumemorytype=5 AND f.gpunumberofexecutionunits=0;,1.0,10,12.953200000026754,0,0.0
+15,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate<106900 AND f.gpumemorytype>4;,271698.87049005594,271689,4.192200000034063,0,0.0
+16,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits=6;,2103.0000000000005,2103,0.8835000000431137,0,0.0
+17,SELECT COUNT(*) FROM fps f WHERE f.gamesetting>2 AND f.gpufp32performance>1244000;,250921.43568464727,250927,3.9074999999684223,0,0.0
+18,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors>1860 AND f.gpumemorytype<5;,15443.301423156117,15343,6.2728999999990265,0,0.0
+19,SELECT COUNT(*) FROM fps f WHERE f.gameresolution=1440 AND f.gpumemorybus>0 AND f.gpuprocesssize>12 AND f.gpunumberofrops>16 AND f.cpunumberofthreads<4 AND f.gpufp32performance>3920000 AND f.cpuprocesssize>14;,11.11389885402164,1,14.641900000015085,0,0.0
+20,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan>1 AND f.gpunumberoftransistors<378 AND f.gpufp32performance=29440 AND f.gpudiesize=0.000169 AND f.cpucachel3=3 AND f.cpudiesize=0.000131 AND f.gpunumberoftmus=8 AND f.gpuboostclock=460;,1.0,1,17.53609999997252,0,0.0
+21,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus=60 AND f.gpunumberofcomputeunits>0;,106.11182401466549,0,5.009499999971467,0,0.0
+22,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock<494;,13489.0,13489,3.012000000012449,0,0.0
+23,SELECT COUNT(*) FROM fps f WHERE f.fps>166.6 AND f.gpudiesize>0.00052 AND f.gpufp32performance<9062000 AND f.gputexturerate>256000 AND f.gpuboostclock=1050 AND f.cpudiesize>0.0 AND f.cpucachel1>384 AND f.gpunumberofexecutionunits=0 AND f.gpunumberofrops=64;,5.250553058138391,4,16.539399999999205,0,0.0
+24,SELECT COUNT(*) FROM fps f WHERE f.fps=222.8 AND f.cpumultiplierunlocked=2 AND f.gpubandwidth<484400 AND f.gpunumberofexecutionunits=0;,1.1658598312674031,1,9.059100000001763,0,0.0
+25,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize<0.000177 AND f.gamename<5 AND f.gameresolution=1080 AND f.gputexturerate=30400 AND f.cpumultiplier=23.0 AND f.gpunumberoftransistors=1270 AND f.gpubandwidth=80000;,1.0,2,14.886999999987438,0,0.0
+26,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate=44960;,146.00000000000003,146,3.367599999990034,0,0.0
+27,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplierunlocked=1 AND f.gpushadermodel=9 AND f.cpudiesize>0.000177;,14345.1521839207,12349,10.094600000002174,0,0.0
+28,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus=48;,47852.99999999999,47853,3.8382000000183325,0,0.0
+29,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate<1800 AND f.gamesetting<3 AND f.cpudiesize>0.00021 AND f.cpumultiplier=15.5 AND f.gputexturerate>2800;,1.4198017506068656,1,13.096000000018648,0,0.0
+30,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock=600 AND f.gpubandwidth>9600 AND f.gameresolution>720 AND f.cpucachel1=256 AND f.gpuprocesssize=55;,5.394908187830001,13,11.133400000005622,0,0.0
+31,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3<16 AND f.gpuprocesssize=90 AND f.gpufp32performance=345600 AND f.fps=50.0 AND f.gpunumberoftransistors=681 AND f.cpumultiplier=27.0 AND f.cputdp=65;,1.0,1,18.473200000016732,0,0.0
+32,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors=105 AND f.gamename<6 AND f.gpumemorytype=2 AND f.gpuprocesssize=28 AND f.gpuvulkan=3 AND f.gpubusnterface=2 AND f.cpucachel2=1024 AND f.cputdp=65 AND f.gamesetting=2 AND f.cpunumberofthreads=2;,1.0,1,21.70649999999341,0,0.0
+33,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize>0.000133 AND f.gpumemorybus<4096;,194862.11470990954,194691,6.746899999996003,0,0.0
+34,SELECT COUNT(*) FROM fps f WHERE f.fps>88.8 AND f.cpucachel1=512 AND f.gpumemorytype<6 AND f.gpumemorysize>3000;,5027.477095331686,4819,9.361400000045705,0,0.0
+35,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate<1260;,20.00000000000002,20,2.8630999999563755,0,0.0
+36,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance=6480000 AND f.gpuboostclock=1582 AND f.gpubaseclock>1278;,1.0,0,6.704099999979007,0,0.0
+37,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus<320 AND f.cpucachel1=320 AND f.gamesetting=3 AND f.cpuprocesssize=14 AND f.gpumemorysize=8000 AND f.gpushadermodel>9;,1.0,0,14.463599999999133,0,0.0
+38,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores>14 AND f.gputexturerate<354400 AND f.gpubusnterface=8 AND f.cpucachel2=16384 AND f.cpucachel3=22 AND f.cputurboclock=4400 AND f.gamename=25 AND f.gpunumberofshadingunits=192 AND f.cputdp=165;,1.0,1,23.73160000001917,0,0.0
+39,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier<34.0 AND f.gpunumberofshadingunits>2880 AND f.gpunumberofrops>88 AND f.gpunumberoftransistors=21100;,1.0,1,10.191099999985909,0,0.0
+40,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier>28.0;,354184.99999999994,354185,6.167500000003656,0,0.0
+41,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock>925 AND f.gputexturerate>76000 AND f.cpumultiplierunlocked=1 AND f.cpufrequency=3900 AND f.gpunumberoftmus>152;,245.25707313056597,449,13.689199999987522,0,0.0
+42,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus=3072;,4.000000000000006,4,2.6675999999952182,0,0.0
+43,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock>719 AND f.cpunumberoftransistors<19200 AND f.gpupixelrate=7944 AND f.gpuprocesssize<28;,1.0,0,9.098800000003848,0,0.0
+44,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops>16 AND f.cpudiesize=0.000285;,3.3267073212864076,3,7.007600000008551,0,0.0
+45,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads>28 AND f.gpubusnterface=8 AND f.cpucachel3=22 AND f.gamename=12 AND f.cpucachel1=1024 AND f.cpucachel2=16384 AND f.gameresolution=1080;,1.0,1,17.479499999978998,0,0.0
+46,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors=1860 AND f.gpuboostclock<1089 AND f.gpunumberoftmus=32 AND f.gpudiesize=0.000148 AND f.gpuvulkan=3 AND f.gpunumberofrops>16;,1.0,0,12.394400000005135,0,0.0
+47,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize=0.000296 AND f.cpunumberofcores=4;,202.9345392801972,318,9.627200000011271,0,0.0
+48,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops=8 AND f.gpunumberofcomputeunits<6 AND f.cpumultiplierunlocked<2 AND f.cpuprocesssize=22 AND f.gamesetting>1 AND f.gpunumberoftransistors>915 AND f.gameresolution<1080;,328.3690453451522,12,13.339199999961693,0,0.0
+49,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize>0.000166 AND f.gpunumberofcomputeunits=22 AND f.cpunumberoftransistors>1400 AND f.gpubaseclock=800 AND f.cpucachel3<32 AND f.gpunumberofrops=32 AND f.gpuvulkan<6;,1.0,0,15.679900000009184,0,0.0
+50,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors<3100 AND f.cpudiesize=0.000183 AND f.cpucachel1=128;,1.0,2,11.25400000000809,0,0.0
+51,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel=9 AND f.cpucachel2>1024 AND f.gpunumberofrops=96 AND f.cputdp=65;,611.3010852165012,695,13.068200000020624,0,0.0
+52,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads>48 AND f.gamename>18;,1.0,1,7.39120000002913,0,0.0
+53,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan=6 AND f.cpucachel1<192 AND f.gpunumberofcomputeunits<6 AND f.cpumultiplierunlocked=1 AND f.cpunumberofthreads<2 AND f.gpubaseclock=540;,1.0,3,16.32760000001099,0,0.0
+54,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors=627 AND f.cpunumberofthreads<12;,442.92722709022945,445,8.801199999993514,0,0.0
+55,SELECT COUNT(*) FROM fps f WHERE f.gameresolution=1080 AND f.gpunumberoftmus=152 AND f.cpunumberofcores=14 AND f.gpumemorysize=8000 AND f.cpubaseclock=100;,1.0,1,11.638899999979913,0,0.0
+56,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads=20 AND f.gpuboostclock=1545 AND f.gameresolution>720 AND f.gpumemorysize=11000;,22.723941557910788,36,10.143500000026506,0,0.0
+57,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel>7 AND f.gpupixelrate>139200 AND f.gputexturerate=465600 AND f.cpucachel2>1024;,1.0,3,10.144599999989623,0,0.0
+58,SELECT COUNT(*) FROM fps f WHERE f.fps=182.8 AND f.cpufrequency<3700 AND f.cpumultiplier>29.0 AND f.gpunumberofrops=48 AND f.gamename>8;,1.5291662752050377,1,12.565699999981916,0,0.0
+59,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock<200 AND f.cpucachel2<6144 AND f.cpudiesize=8.1e-05 AND f.cpucachel3<4 AND f.cpunumberofthreads=2 AND f.cpumultiplierunlocked<1;,1.0,0,20.39559999997209,0,0.0
+60,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency=1900 AND f.gpunumberofexecutionunits=0;,3.453340265141678,4,7.048700000041208,0,0.0
+61,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops>1 AND f.gputexturerate=46080 AND f.cpucachel3=8 AND f.gpubaseclock=576;,1.0,2,11.071500000014112,0,0.0
+62,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops=64 AND f.gpunumberofexecutionunits<0;,1.0,0,3.1074999999987085,0,0.0
+63,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops<96 AND f.gpunumberofexecutionunits<48 AND f.gpupixelrate=2268 AND f.gpunumberofshadingunits=8 AND f.cpumultiplierunlocked=1 AND f.cpucachel1=128;,1.0,2,14.107000000024073,0,0.0
+64,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1<576 AND f.cpumultiplierunlocked=2 AND f.gpumemorytype>4 AND f.cpufrequency=3100;,2924.062449321696,711,14.328999999975167,0,0.0
+65,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype<7 AND f.cpunumberofthreads=2 AND f.gpudiesize<0.000137 AND f.gputexturerate<31780 AND f.cputurboclock=2900 AND f.gamesetting>2 AND f.cpubaseclock=200;,9.660594062742085,17,17.04389999997602,0,0.0
+66,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency>2400 AND f.cpucachel1<256 AND f.gpunumberoftmus>112 AND f.gamesetting<2 AND f.gpushadermodel=1;,16.705144334637318,35,13.178100000004633,0,0.0
+67,SELECT COUNT(*) FROM fps f WHERE f.cpuprocesssize=12 AND f.gpuprocesssize=40 AND f.gputexturerate=11200 AND f.gpushadermodel<4;,1.0,0,10.408799999993334,0,0.0
+68,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock=266 AND f.gpuprocesssize>80 AND f.cputdp=65 AND f.cpumultiplierunlocked=1;,1.0,1,13.54359999999133,0,0.0
+69,SELECT COUNT(*) FROM fps f WHERE f.fps=181.2 AND f.gpufp32performance>11340000 AND f.gputexturerate<420200;,1.0,0,5.298600000003262,0,0.0
+70,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops=1 AND f.cpumultiplier<28.0 AND f.cpumultiplierunlocked=1;,599.4540568246116,2,11.090299999978015,0,0.0
+71,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits<64 AND f.cputdp>180 AND f.gpunumberoftransistors=8900 AND f.gpunumberoftmus=224 AND f.cpumultiplier=22.0;,1.0,1,14.413699999977325,0,0.0
+72,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize=0.000331 AND f.cputdp=65 AND f.cpubaseclock=100 AND f.gpunumberofshadingunits=3840;,1.0,11,11.913200000037705,0,0.0
+73,SELECT COUNT(*) FROM fps f WHERE f.gamesetting>3 AND f.gpumemorysize=2000 AND f.gpufp32performance=722700 AND f.gpubusnterface>9;,5.007764771734918,0,6.071000000019922,0,0.0
+74,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency=2534 AND f.gpubandwidth<25600 AND f.gamename=23 AND f.gpuvulkan=6 AND f.cpucachel2=512 AND f.cputdp=35 AND f.cpunumberofcores=2 AND f.gpuprocesssize=40;,1.0,1,21.002800000019306,0,0.0
+75,SELECT COUNT(*) FROM fps f WHERE f.gamename<10;,31142.0,31142,1.2046000000509594,0,0.0
+76,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype<8 AND f.cputdp<60 AND f.cputurboclock=5000 AND f.gpubandwidth=128000;,2.746104604319825,5,12.725699999975859,0,0.0
+77,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors=6600 AND f.gamesetting=4 AND f.gpubandwidth<336000 AND f.gpubaseclock>1500;,221.04797159986845,519,7.250600000020313,0,0.0
+78,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1<320 AND f.cpucachel2=6144 AND f.gpumemorytype<7 AND f.cpunumberofcores=6 AND f.gpufp32performance=2867000 AND f.cpucachel3=8 AND f.gpubandwidth=240000 AND f.gpumemorybus=384;,1.0,35,19.513500000016393,0,0.0
+79,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits=24 AND f.gpunumberofshadingunits=192 AND f.cputurboclock<3000 AND f.cpucachel1<128;,1.0,0,11.091899999996713,0,0.0
+80,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock>266 AND f.gpunumberoftransistors<260 AND f.cputurboclock=2300 AND f.cpunumberofcores=2;,1.0,1,13.534999999990305,0,0.0
+81,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2>8192 AND f.cpumultiplier>30.0 AND f.gpuprocesssize=16 AND f.gpushadermodel=9 AND f.gpunumberofshadingunits=3840 AND f.gpunumberofrops=96 AND f.gpunumberofcomputeunits=0 AND f.gameresolution=1440;,1.9781593996817926,11,16.25330000001668,0,0.0
+82,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores<3 AND f.gamename=29 AND f.gputexturerate=28800 AND f.gamesetting<4 AND f.cputurboclock=3200 AND f.cpubaseclock=100;,1.0,1,15.089100000011513,0,0.0
+83,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus>192 AND f.cputdp>220 AND f.cputurboclock=4200;,1.0,2,11.043099999994865,0,0.0
+84,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance>1024000 AND f.gpunumberofcomputeunits>10 AND f.cpufrequency=2500 AND f.gpuprocesssize>28 AND f.gpuvulkan=6;,15.245217949322113,3,11.542800000029274,0,0.0
+85,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan>3;,24423.0,24423,2.5674999999978354,0,0.0
+86,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads=20 AND f.gameresolution>720 AND f.gpunumberofexecutionunits=0 AND f.gpunumberoftmus=288 AND f.gamename=16 AND f.gpubandwidth=672000 AND f.gpunumberofrops=96 AND f.gpunumberoftransistors=18600 AND f.gpushadermodel=5;,1.0,1,15.25600000002214,0,0.0
+87,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth>172800 AND f.gputexturerate>179200 AND f.cpubaseclock=266 AND f.cpunumberofthreads=2;,1.0,1,11.42859999998791,0,0.0
+88,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth<143400 AND f.gpufp32performance=208000 AND f.gputexturerate=20800;,28.252100840336144,164,5.810099999962404,0,0.0
+89,SELECT COUNT(*) FROM fps f WHERE f.gameresolution<1440 AND f.gpunumberofcomputeunits>9 AND f.gpunumberofrops>32 AND f.cputdp>77 AND f.gpupixelrate=121900 AND f.cpumultiplierunlocked<2 AND f.cpucachel2=1024 AND f.gamesetting=3 AND f.gpuvulkan<1;,1.0,0,18.35510000000795,0,0.0
+90,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus<192;,391275.0,391275,2.95040000003155,0,0.0
+91,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate=13600 AND f.cpudiesize=0.000228 AND f.cpucachel2=4096 AND f.cpumultiplier>26.0;,1.0,0,13.952899999992496,0,0.0
+92,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel=3 AND f.gpunumberoftmus>36 AND f.gpumemorytype<9 AND f.cpucachel3=2 AND f.gameresolution=720 AND f.gamename=17 AND f.cpunumberoftransistors=450 AND f.gpunumberofrops=32;,1.0,1,14.635799999950905,0,0.0
+93,SELECT COUNT(*) FROM fps f WHERE f.gamesetting<4 AND f.gpunumberofexecutionunits=40;,233.73085118313335,260,1.6629000000421001,0,0.0
+94,SELECT COUNT(*) FROM fps f WHERE f.gamename>18 AND f.cputurboclock>2700 AND f.gpufp32performance=4981000 AND f.gpumemorysize=4000 AND f.cputdp=220;,3.2677353256149346,1,14.125100000001112,0,0.0
+95,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize=7.4e-05 AND f.cpucachel3>3 AND f.cpunumberoftransistors=731;,2.5283149915913605,4,10.936200000003282,0,0.0
+96,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads=6;,34127.99999999999,34128,6.25719999999319,0,0.0
+97,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency<3000 AND f.gpubaseclock<506 AND f.gputexturerate=48000 AND f.gpumemorysize=0 AND f.gpunumberofrops=6 AND f.gpunumberoftransistors=0 AND f.gpushadermodel=4;,1.0,4,14.261000000033164,0,0.0
+98,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier=36.0 AND f.gpuprocesssize=28 AND f.cputdp<84 AND f.cpucachel2<1024 AND f.gpubaseclock>925;,279.06040939714853,531,15.673699999979362,0,0.0
+99,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth>211200 AND f.gpumemorytype>4 AND f.gpumemorysize>4000 AND f.cputurboclock<3800 AND f.cpunumberofthreads=3;,1.0,1,13.450000000034379,0,0.0
+100,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize>7.7e-05 AND f.gamesetting>2 AND f.cpucachel1<288 AND f.gpuprocesssize=55 AND f.gamename>6 AND f.cpuprocesssize<22 AND f.gputexturerate=33150;,1.0,3,15.93239999999696,0,0.0
+101,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype=9 AND f.cpumultiplier=9.5 AND f.gpuboostclock<750 AND f.cpuprocesssize=65;,1.0,1,11.609099999986938,0,0.0
+102,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1=3072 AND f.gpunumberoftransistors<12500 AND f.cpunumberofcores=32 AND f.gpunumberofrops>88;,1.0,0,11.456600000030903,0,0.0
+103,SELECT COUNT(*) FROM fps f WHERE f.cputdp>91 AND f.cpucachel3>20 AND f.gpuboostclock<1518 AND f.gpubusnterface=8 AND f.gpufp32performance<403200;,1.0,0,12.858499999993,0,0.0
+104,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock>100 AND f.gameresolution>1080 AND f.fps>130.0 AND f.cpufrequency=4700 AND f.gpunumberofcomputeunits<44 AND f.cpuprocesssize=32 AND f.gpumemorysize=8000;,12.98250724970676,4,15.264199999990069,0,0.0
+105,SELECT COUNT(*) FROM fps f WHERE f.gamesetting>1 AND f.gpupixelrate=60610 AND f.fps=170.0;,7.293534849516388,9,4.421499999978096,0,0.0
+106,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock=2133;,6.000000000000002,6,6.568700000002536,0,0.0
+107,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize=0.00021 AND f.gpumemorysize=0 AND f.gputexturerate<55000 AND f.gpubandwidth=0 AND f.cpumultiplierunlocked=1;,87.65507355703231,427,11.685499999998683,0,0.0
+108,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate=135400 AND f.gpumemorysize<2000;,1.0,0,4.384099999981572,0,0.0
+109,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock>1366 AND f.gpubusnterface<15 AND f.cpumultiplierunlocked=2 AND f.cpufrequency<4200 AND f.gpubandwidth=128000 AND f.fps=140.0;,5.360691556893266,8,14.198300000032305,0,0.0
+110,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel<2 AND f.cpuprocesssize<45 AND f.gpunumberofexecutionunits=0 AND f.cpucachel3<8 AND f.cpunumberoftransistors=504 AND f.gpuvulkan=1 AND f.gpumemorysize<2000 AND f.gpunumberoftransistors=2080;,1.0,8,17.401300000017272,0,0.0
+111,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2=3072 AND f.gpuboostclock<800 AND f.gputexturerate=33150 AND f.gpupixelrate=14500 AND f.fps=500.0 AND f.gpunumberofcomputeunits=0 AND f.cputurboclock=4250 AND f.gpubusnterface=13 AND f.gpumemorysize=1792;,1.0,1,17.97199999998611,0,0.0
+112,SELECT COUNT(*) FROM fps f WHERE f.gamename=10 AND f.cpucachel1>768 AND f.gpunumberofcomputeunits=40 AND f.gpunumberofexecutionunits>0;,1.0,0,8.84009999998625,0,0.0
+113,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock>915 AND f.gpunumberofshadingunits>256 AND f.cpunumberofthreads<8 AND f.gpuvulkan=2 AND f.gputexturerate<409600 AND f.gpunumberofcomputeunits=64 AND f.fps=141.4 AND f.cpucachel2<1024;,1.0,0,17.363299999999526,0,0.0
+114,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate=112000 AND f.cpunumberofthreads=8 AND f.cpumultiplier>40.0 AND f.gputexturerate=420000 AND f.cpucachel3=8;,1.0,4,16.069500000014614,0,0.0
+115,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance=257300;,111.0,111,3.48780000001625,0,0.0
+116,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance>92800 AND f.gpubaseclock>891 AND f.gpumemorytype=4 AND f.cputurboclock<4100;,134.63969182931078,262,10.28979999995272,0,0.0
+117,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize>0.000125 AND f.gpubaseclock<602 AND f.cpucachel1<288 AND f.gpunumberofshadingunits>256;,357.7438207301261,681,10.244100000022627,0,0.0
+118,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel<8;,108031.99999999999,108032,2.9403000000343127,0,0.0
+119,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors=486 AND f.gpunumberofexecutionunits=0 AND f.cpucachel3<3 AND f.gamesetting=2;,1.0,1,8.812700000021323,0,0.0
+120,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3<25 AND f.cputdp=45 AND f.gpunumberoftransistors>754 AND f.gpuboostclock>575;,700.3899311846792,575,12.99970000002304,0,0.0
+121,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock<840 AND f.gpupixelrate>12800 AND f.gpufp32performance=1244000 AND f.gpuvulkan>3 AND f.gpuboostclock<608;,1.0,0,8.226000000036038,0,0.0
+122,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors=950 AND f.cputdp>105;,20.2528530371739,58,8.298200000012912,0,0.0
+123,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2>12288 AND f.gpudiesize<0.000815 AND f.gpunumberofcomputeunits=0 AND f.cputdp<250 AND f.gpubaseclock<1127 AND f.gpuboostclock=1050;,1.0,3,14.867400000014186,0,0.0
+124,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors>112 AND f.gamename<2 AND f.gpubaseclock>1515 AND f.gpunumberofshadingunits=3072 AND f.gputexturerate=348500;,1.0,1,8.635000000026594,0,0.0
+125,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors>4800 AND f.cputdp=180 AND f.cpufrequency=3400;,1.0,156,12.298099999952683,0,0.0
+126,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock<3400 AND f.cpucachel1=192;,501.7856597705677,97,9.338000000013835,0,0.0
+127,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock=1188 AND f.gpunumberofexecutionunits=0 AND f.gpuprocesssize=14;,1.0000000000000278,1,5.131499999947664,0,0.0
+128,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits>0 AND f.cputurboclock>2300 AND f.gpumemorysize=0 AND f.gpubaseclock=650 AND f.gamename=17;,117.12659444774471,378,11.484499999994568,0,0.0
+129,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock>266 AND f.gpubaseclock<500 AND f.gpumemorytype=8 AND f.cpunumberofthreads=2 AND f.gpuboostclock=450 AND f.gpubandwidth=0;,1.0,2,13.931399999989935,0,0.0
+130,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency=4100 AND f.gpubusnterface<6;,1.0,0,7.717899999988731,0,0.0
+131,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize<0.000131 AND f.cputdp=59 AND f.cpucachel1=128 AND f.cpunumberofthreads=1 AND f.gpunumberofexecutionunits=0 AND f.gpumemorysize=512 AND f.cpumultiplierunlocked=1;,1.0,3,19.788000000005468,0,0.0
+132,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock>100 AND f.cpucachel1=256 AND f.cpunumberofthreads=8 AND f.gpumemorytype<3 AND f.gpubandwidth<10480 AND f.cputurboclock>3466 AND f.gpuvulkan=6 AND f.cpufrequency=2933 AND f.cpunumberoftransistors=774 AND f.cpumultiplier=22.0;,1.0,1,27.471300000001975,0,0.0
+133,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors>2080 AND f.gpubandwidth>192100 AND f.gamename>27 AND f.gameresolution<1440 AND f.cpufrequency=3400 AND f.gpubaseclock>1033 AND f.gpushadermodel>4;,430.30361239506533,470,13.377099999956954,0,0.0
+134,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock=732;,210.00000000000003,210,3.074099999992086,0,0.0
+135,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus=18 AND f.cpunumberoftransistors=0 AND f.gpumemorysize=0 AND f.gpufp32performance=230400 AND f.gpushadermodel>9;,1.0,0,10.268699999983255,0,0.0
+136,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype>1 AND f.gputexturerate>78000 AND f.gpufp32performance=12150000 AND f.gpudiesize=0.000471 AND f.cpunumberofcores<18 AND f.cpufrequency>3000 AND f.gpuprocesssize=16 AND f.gpubusnterface=6 AND f.gpubaseclock>1405;,1.0,0,17.426000000000386,0,0.0
+137,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus=32;,1296.0000000000005,1296,2.8396000000157073,0,0.0
+138,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel<2 AND f.gpuprocesssize=28 AND f.cpuprocesssize=14 AND f.cpucachel1=192 AND f.gpufp32performance>5120000 AND f.gpudiesize<0.000596 AND f.gpunumberofcomputeunits=44 AND f.gpunumberofshadingunits=2816;,1.4589796176514997,2,16.524600000025202,0,0.0
+139,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier>36.0 AND f.cpuprocesssize>12 AND f.gamesetting<3 AND f.cpumultiplierunlocked>1 AND f.cpunumberofthreads<16 AND f.gpunumberoftransistors=10300 AND f.gameresolution=1440 AND f.gpuprocesssize=7 AND f.gpudiesize<0.000251;,1.0,0,19.675699999993412,0,0.0
+140,SELECT COUNT(*) FROM fps f WHERE f.fps>29.2;,418119.0000000003,418119,0.8616000000074564,0,0.0
+141,SELECT COUNT(*) FROM fps f WHERE f.fps>237.1 AND f.cpufrequency>2933 AND f.gpunumberoftmus<24 AND f.cputdp>84 AND f.cputurboclock<3800 AND f.cpunumberofcores<4 AND f.gpubaseclock=520;,1.0,1,18.101100000023962,0,0.0
+142,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype<2 AND f.gpushadermodel=6 AND f.gpubaseclock<600 AND f.gpuprocesssize<55 AND f.gpunumberoftmus=8 AND f.cpucachel1=256 AND f.cpunumberofcores=4 AND f.cputdp=88;,1.0,1,17.99039999997376,0,0.0
+143,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits<40 AND f.gpumemorybus<512 AND f.cpunumberoftransistors=1160 AND f.cputurboclock<3300;,1147.1104800934443,478,10.358700000040244,0,0.0
+144,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads>36 AND f.cputurboclock=4200 AND f.gpunumberofcomputeunits=0 AND f.cpuprocesssize>12;,1.0,0,12.954799999988609,0,0.0
+145,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth>288400 AND f.gpufp32performance=11060000 AND f.gpuvulkan=2;,708.4701873935262,912,5.383499999993546,0,0.0
+146,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors<1200 AND f.cpufrequency>3500 AND f.cpumultiplierunlocked>1 AND f.cpumultiplier=39.0 AND f.cpucachel1=256 AND f.gpunumberofrops=64 AND f.cpucachel3=6;,5.86821343323066,1,21.570999999994456,0,0.0
+147,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits<28 AND f.cpunumberofthreads=8;,127112.47708111025,127020,7.341699999983575,0,0.0
+148,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel>3 AND f.gpumemorytype<7 AND f.cpumultiplierunlocked=1 AND f.gpuboostclock>1733 AND f.gpudiesize=0.000545 AND f.fps>129.3 AND f.gputexturerate<348500;,130.94013328882033,114,12.101200000017798,0,0.0
+149,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops>88 AND f.gpumemorytype>6 AND f.gameresolution=1080 AND f.cpumultiplierunlocked<2;,1.0,0,8.497999999974581,0,0.0
+150,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface<14 AND f.gpumemorybus<192 AND f.gpubaseclock>1266 AND f.cputdp>105 AND f.cpufrequency=4200 AND f.gpuboostclock<1518 AND f.gpumemorytype=5;,2.015808784029745,53,14.493299999969622,0,0.0
+151,SELECT COUNT(*) FROM fps f WHERE f.gameresolution>720 AND f.gpuprocesssize<28 AND f.gputexturerate>427000 AND f.cpubaseclock=100 AND f.gpubusnterface=6 AND f.gamename<16 AND f.cpudiesize<7.4e-05 AND f.gpupixelrate<169900 AND f.cpunumberofcores>4;,1.3653805780526207,1,16.6302000000087,0,0.0
+152,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock=3800 AND f.gpunumberoftmus>240;,246.68282550384504,287,8.151300000008632,0,0.0
+153,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3<64 AND f.cpunumberofcores>16 AND f.cpunumberofthreads=36 AND f.cpufrequency<3000 AND f.gamesetting=3 AND f.gamename=13;,1.0,1,16.181500000016058,0,0.0
+154,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofshadingunits>2304 AND f.gpunumberoftmus>224 AND f.gputexturerate>216500 AND f.gpumemorytype=6;,3373.19940915832,3159,6.016200000033223,0,0.0
+155,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2<1024 AND f.gpupixelrate<3504 AND f.gpumemorybus=32 AND f.cpuprocesssize>45 AND f.gpushadermodel<4;,1.0,0,12.331600000038634,0,0.0
+156,SELECT COUNT(*) FROM fps f WHERE f.cputdp>112 AND f.gpunumberofcomputeunits=6 AND f.cpunumberofcores>4;,6.908358358196396,76,10.211999999967247,0,0.0
+157,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype>6 AND f.gpuprocesssize<90;,20199.65153471614,20173,3.9000000000442014,0,0.0
+158,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops=8 AND f.gpubaseclock<965 AND f.cpudiesize=0.000285;,2.5625774737141374,5,8.176300000002357,0,0.0
+159,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofshadingunits>96 AND f.cpuprocesssize=12 AND f.cpucachel1>768 AND f.cpunumberoftransistors=19200 AND f.gpunumberofexecutionunits=0 AND f.gputexturerate=277300;,1.0,2,14.055799999994179,0,0.0
+160,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate>89600 AND f.gpuprocesssize<28 AND f.gpubaseclock>1605 AND f.fps<193.4 AND f.gamename>23;,9268.066993234259,10506,6.7683999999985645,0,0.0
+161,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize<12 AND f.cpumultiplierunlocked=1 AND f.gpumemorytype<7 AND f.gputexturerate>304800 AND f.gpunumberofexecutionunits=0 AND f.gpuboostclock=1980 AND f.gpudiesize<0.000251;,1.0,0,11.755800000003092,0,0.0
+162,SELECT COUNT(*) FROM fps f WHERE f.gameresolution<1440 AND f.cpunumberofthreads<20 AND f.cpudiesize<0.000133;,203289.72308795693,201367,8.336199999973815,0,0.0
+163,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize>320 AND f.gpuprocesssize<28 AND f.gpunumberofcomputeunits<14;,268147.5885180254,267269,5.1315000000045075,0,0.0
+164,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface<11 AND f.gpuvulkan=1 AND f.gpudiesize<5.6e-05 AND f.cpunumberoftransistors>0;,181.4035428681991,0,8.256699999947159,0,0.0
+165,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier>10.0 AND f.gpufp32performance<4489000 AND f.gpunumberoftransistors=5200 AND f.gpuprocesssize=28 AND f.gpupixelrate>49470 AND f.cpucachel1<256;,474.4392265549617,354,13.88120000001436,0,0.0
+166,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth>336600 AND f.gameresolution=720 AND f.gpunumberofcomputeunits<44 AND f.gpupixelrate<139200 AND f.gpuboostclock<1650 AND f.gpuprocesssize>12 AND f.cputdp=77 AND f.cpuprocesssize=22;,1.0,8,15.361600000005637,0,0.0
+167,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate=62400 AND f.gpunumberoftmus=64;,150.49571704890857,738,4.345299999954477,0,0.0
+168,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize>0.000228 AND f.gpushadermodel>4 AND f.cpudiesize>0.000213 AND f.cpuprocesssize=32 AND f.cpubaseclock=100;,1482.376824532172,2388,13.027000000022326,0,0.0
+169,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier>37.0 AND f.gpubusnterface<2 AND f.gpunumberofrops<16;,6.8353441964397215,0,8.233999999958996,0,0.0
+170,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan<4 AND f.cpucachel2>14336 AND f.gpunumberoftmus=320 AND f.gpunumberofcomputeunits=0 AND f.gpumemorysize<12000;,1.0,0,10.54909999999154,0,0.0
+171,SELECT COUNT(*) FROM fps f WHERE f.gameresolution=720 AND f.cpucachel1<288 AND f.cputdp>25 AND f.cpudiesize=0.000315 AND f.gpunumberofrops<96 AND f.gpubandwidth=177400 AND f.gpudiesize=0.000529;,1.0,2,15.969600000005357,0,0.0
+172,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock>1750 AND f.gpunumberoftransistors=6600 AND f.cpucachel3>16 AND f.cpumultiplier>35.0 AND f.cpufrequency=3600 AND f.gamesetting=1;,18.048521913276993,76,16.098300000010113,0,0.0
+173,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3=19 AND f.gpufp32performance<5304000 AND f.gpubaseclock=1506 AND f.gamesetting=3 AND f.cpunumberoftransistors=0 AND f.cputdp=165 AND f.gpumemorysize=6000;,1.0,1,16.806099999996604,0,0.0
+174,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize=0.000251 AND f.gamename>27 AND f.gpuboostclock<1905;,15.04850925672212,80,5.4468999999812695,0,0.0
+175,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize=40 AND f.cpubaseclock>266 AND f.cpunumberoftransistors=410 AND f.gpumemorysize=512 AND f.gpubusnterface=13 AND f.gpumemorytype=9 AND f.cpufrequency=2100;,1.0,2,15.433200000018132,0,0.0
+176,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits=0 AND f.cpufrequency>3300 AND f.gpubusnterface<15;,301167.56961513177,301589,7.419299999980922,0,0.0
+177,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads=64 AND f.gpumemorytype=3 AND f.gpufp32performance=11340000;,1.0000000000000657,1,8.304400000042733,0,0.0
+178,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors>4800;,6162.999999999998,6163,4.552899999964666,0,0.0
+179,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize<65 AND f.cpumultiplierunlocked<2 AND f.gpupixelrate<94720;,135145.561591435,135206,8.243800000002466,0,0.0
+180,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock>861 AND f.gameresolution=1440;,34767.326826280805,34680,3.187499999967258,0,0.0
+181,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize<0.000153 AND f.cpuprocesssize>22 AND f.cpunumberoftransistors<774 AND f.gpushadermodel>6;,1580.3764201268496,1564,9.742399999993268,0,0.0
+182,SELECT COUNT(*) FROM fps f WHERE f.cpuprocesssize>7;,415035.9999999999,415036,4.983399999957783,0,0.0
+183,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops>8 AND f.gpumemorytype=7 AND f.cpunumberofcores<6 AND f.gpuprocesssize<14 AND f.gpunumberofexecutionunits=0 AND f.gpumemorybus=3072;,1.0,1,10.04050000000234,0,0.0
+184,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits=0 AND f.cpuprocesssize>22 AND f.cpunumberofthreads<4 AND f.gpudiesize>0.00011 AND f.gpumemorytype>8 AND f.cpumultiplier<13.5 AND f.gpunumberoftmus<24 AND f.gpuvulkan=6 AND f.gpubaseclock>500;,3.400825074300375,139,18.439600000021983,0,0.0
+185,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock<1900 AND f.gpushadermodel=7 AND f.gamesetting=1 AND f.cpumultiplier=9.0 AND f.gpuprocesssize=80 AND f.gpuboostclock=459;,1.0,1,13.981999999998607,0,0.0
+186,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplierunlocked<2;,183696.99999999997,183697,5.67430000000968,0,0.0
+187,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock>950 AND f.cpunumberofthreads=8 AND f.cpuprocesssize=22 AND f.gpunumberoftransistors>4700 AND f.gpuboostclock>1785;,1.0,3,13.044200000024375,0,0.0
+188,SELECT COUNT(*) FROM fps f WHERE f.gamename>26 AND f.cpumultiplierunlocked=1 AND f.gpuprocesssize=7 AND f.gpufp32performance>7949000 AND f.gpumemorysize=8000 AND f.gpuvulkan=1;,34.496855926746576,28,11.785100000054172,0,0.0
+189,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock=1485 AND f.gpufp32performance=2984000 AND f.gameresolution=720 AND f.gpuboostclock=1665 AND f.gpunumberoftmus=56;,4.242374500238856,75,7.448199999998906,0,0.0
+190,SELECT COUNT(*) FROM fps f WHERE f.gamesetting>2 AND f.gpuboostclock=1244 AND f.gpumemorybus=256 AND f.gamename<14 AND f.cpucachel2>1024 AND f.gpuprocesssize=14 AND f.gpunumberoftransistors=5700 AND f.gpudiesize=0.000232 AND f.gpubandwidth=224000;,812.2533099443209,1045,15.449199999977736,0,0.0
+191,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize>0.000146;,348680.0,348680,3.2777000000123735,0,0.0
+192,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock<200 AND f.cpunumberofcores=8 AND f.gamesetting>2 AND f.gpunumberoftransistors=2640 AND f.cpufrequency>3000;,18.05974044986941,2,13.393699999994624,0,0.0
+193,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth>14370 AND f.gpumemorytype<2 AND f.gpuvulkan=6;,89.71580384265243,14,4.9001000000430395,0,0.0
+194,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock<200 AND f.gpufp32performance=549100 AND f.gpubandwidth=64000;,1.0,1,6.97819999999183,0,0.0
+195,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel=6 AND f.gpubaseclock=500 AND f.cpunumberofthreads<3 AND f.fps<10.0 AND f.cpufrequency=2800 AND f.gpunumberoftransistors=181 AND f.gpuprocesssize=55 AND f.gpumemorybus=0 AND f.cpunumberofcores=2;,1.0,2,19.01500000002443,0,0.0
+196,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2>1536 AND f.cputurboclock<4600;,121394.9652946337,119831,9.468599999991056,0,0.0
+197,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus<96 AND f.gpumemorysize=256 AND f.gpushadermodel<7;,211.05932006123814,25,4.873700000018744,0,0.0
+198,SELECT COUNT(*) FROM fps f WHERE f.gamesetting>2 AND f.gpunumberofshadingunits>960 AND f.cpuprocesssize=32 AND f.cpufrequency<3300 AND f.gameresolution>720 AND f.gpuboostclock<1275 AND f.gpunumberoftransistors>2640 AND f.gpubusnterface>6;,50.481632935688985,7,14.267000000018015,0,0.0
+199,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors>18600 AND f.cpunumberofthreads=12 AND f.cpunumberoftransistors=0 AND f.gpushadermodel=9 AND f.gpudiesize=0.000815 AND f.gpubusnterface=6 AND f.gpunumberofshadingunits=5120 AND f.gamesetting=3 AND f.gamename<27;,1.0,1,15.592599999990853,0,0.0
+200,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock>2133 AND f.gpushadermodel<9 AND f.cpufrequency=3300 AND f.gpuprocesssize=7 AND f.gpumemorytype=6 AND f.gpunumberoftransistors=10300 AND f.cpunumberofthreads=4;,1.0,3,17.752200000018092,0,0.0
+201,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize<1792 AND f.gpubandwidth=25600 AND f.cpucachel2=6144 AND f.gpunumberoftmus=20 AND f.cpumultiplierunlocked=2 AND f.cputurboclock>3900;,1.0,3,16.766999999958898,0,0.0
+202,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits>24 AND f.gpubandwidth<240000 AND f.gpumemorysize=4000;,7434.5226629357685,7336,6.03569999998399,0,0.0
+203,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface>9 AND f.gpuboostclock<602 AND f.cpumultiplierunlocked<2 AND f.gputexturerate>32200 AND f.cpubaseclock<200;,23.76889685380989,60,11.57439999997223,0,0.0
+204,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads>16 AND f.cputdp<140 AND f.gpuprocesssize<14 AND f.gpumemorysize>11000 AND f.cpumultiplier=38.0 AND f.gputexturerate=420000 AND f.gpunumberofrops=64 AND f.gpubusnterface=6 AND f.cpucachel1=1152;,1.0,9,22.203600000011647,0,0.0
+205,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan>4 AND f.gpubusnterface<11 AND f.cputdp<95 AND f.fps=30.0 AND f.gpunumberoftransistors>181 AND f.gamesetting>2 AND f.cpucachel3<6;,70.34892200070827,10,15.086599999960981,0,0.0
+206,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops>24 AND f.cpumultiplier>34.0 AND f.cputurboclock>4000 AND f.cputdp=112;,2.9424762424456374,3,14.45360000002438,0,0.0
+207,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock>4400 AND f.gpufp32performance=1386000 AND f.gpunumberoftransistors=3300 AND f.fps=30.0 AND f.gpupixelrate=21660;,1.0,1,11.307600000009188,0,0.0
+208,SELECT COUNT(*) FROM fps f WHERE f.gamesetting=2 AND f.gpumemorysize=8000 AND f.fps=200.0 AND f.gpunumberofrops>32 AND f.gpushadermodel>1 AND f.cpunumberofcores<8;,602.3040511012344,1556,10.998299999982919,0,0.0
+209,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors=390 AND f.fps=10.0 AND f.gpunumberofexecutionunits=0;,1.0,1,3.9729000000079395,0,0.0
+210,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth=52480 AND f.cpubaseclock<200;,3.3229329173167153,1,5.576499999961015,0,0.0
+211,SELECT COUNT(*) FROM fps f WHERE f.gamename=15 AND f.gputexturerate=316800 AND f.cpunumberofthreads=12 AND f.gpudiesize=0.000251;,1.0,1,9.892400000012458,0,0.0
+212,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock<800 AND f.gpunumberofexecutionunits>0 AND f.gpumemorytype=8;,11363.788751849705,12898,5.169199999954799,0,0.0
+213,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops=96 AND f.gpupixelrate>139700 AND f.gpumemorysize=24000 AND f.gpumemorybus=384;,1.0,4,6.432200000006105,0,0.0
+214,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3<19 AND f.gpunumberofrops>64 AND f.cputdp<84 AND f.gpunumberoftmus=240 AND f.gpunumberofcomputeunits=0 AND f.gameresolution=1440 AND f.cpumultiplierunlocked=1;,1.0,3,16.046799999969608,0,0.0
+215,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype<5;,130097.99999999994,130098,1.792699999953129,0,0.0
+216,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth<616000;,422596.99999999994,422597,2.846599999998034,0,0.0
+217,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops=4 AND f.gamesetting=3 AND f.cputdp<55 AND f.gpunumberofcomputeunits>1 AND f.gpunumberofexecutionunits=0 AND f.cpucachel3<3 AND f.gpuvulkan=6 AND f.gpupixelrate=2500 AND f.gpudiesize=6.7e-05;,1.0,1,16.88760000001821,0,0.0
+218,SELECT COUNT(*) FROM fps f WHERE f.gameresolution=1080 AND f.gpubandwidth<91870 AND f.cpumultiplier=36.0 AND f.gpunumberoftransistors>716 AND f.gpunumberofexecutionunits<0;,1.0,0,10.231999999973596,0,0.0
+219,SELECT COUNT(*) FROM fps f WHERE f.gameresolution=1080 AND f.gpubandwidth<91870 AND f.cpumultiplier=36.0 AND f.gpunumberoftransistors>716;,2792.945331705882,2745,10.06849999998849,0,0.0
+220,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan=2 AND f.gpunumberofshadingunits=3584 AND f.cpunumberofcores<8 AND f.gpunumberoftransistors<12500;,1.0,0,9.972199999992881,0,0.0
+221,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock>1680 AND f.cputurboclock<2600 AND f.cpucachel2<2048 AND f.gpunumberoftransistors<7200;,3.9856857967000314,0,11.871899999960078,0,0.0
+222,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth>216700 AND f.gpunumberofcomputeunits=28 AND f.gpunumberoftmus=112;,234.06813452967205,1480,5.586599999958253,0,0.0
+223,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors>2080 AND f.gpudiesize<0.000389;,290049.7593845413,289735,4.592899999977362,0,0.0
+224,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors=9600;,224.99999999999886,225,5.088499999999385,0,0.0
+225,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock=100 AND f.gpunumberoftransistors<1170 AND f.gpuprocesssize>65;,147.68855136276105,118,7.004399999971156,0,0.0
+226,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3=0 AND f.gpubaseclock=823 AND f.cpumultiplierunlocked=1 AND f.cputdp=95 AND f.gpuboostclock<888;,1.0,0,15.269100000011804,0,0.0
+227,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel=6 AND f.gpuprocesssize<65 AND f.gpubaseclock>606 AND f.gpubandwidth<51200;,437.72158325997805,204,6.693900000016129,0,0.0
+228,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors<1178 AND f.cpumultiplierunlocked<2 AND f.gpunumberofcomputeunits>14 AND f.gpuprocesssize<40 AND f.gpufp32performance=5632000;,35.82880301022942,62,11.905100000035418,0,0.0
+229,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan>4 AND f.gputexturerate>33150 AND f.cpucachel2=6144 AND f.cpufrequency=3800 AND f.gpumemorybus>128 AND f.cpudiesize=0.000315 AND f.gpumemorysize>1024 AND f.gpunumberofrops=48 AND f.gpunumberofshadingunits=512;,1.0,3,18.817699999999604,0,0.0
+230,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface=1 AND f.gpupixelrate=2688 AND f.cpumultiplier<24.0 AND f.gpunumberoftmus=16 AND f.gpufp32performance=258000 AND f.gpudiesize<0.000116;,1.0,0,12.073400000019774,0,0.0
+231,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock>100 AND f.gpumemorytype>5 AND f.cpunumberoftransistors<731 AND f.gpuprocesssize>65 AND f.gputexturerate>6720 AND f.cpucachel3<4 AND f.gameresolution=720 AND f.gpufp32performance<92800;,1.0111500751114264,18,15.324599999985367,0,0.0
+232,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock>880 AND f.gpuvulkan=1 AND f.gamesetting=3;,174391.3356278118,179498,4.8002999999994245,0,0.0
+233,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads<16 AND f.gpubusnterface=17 AND f.gpuprocesssize=40 AND f.cpucachel1=128;,13.519361108877561,29,11.120899999980338,0,0.0
+234,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus<3072 AND f.gpunumberofrops>6 AND f.gpubusnterface<6 AND f.cpucachel1=64 AND f.gpuvulkan=6;,1.0,6,10.66489999999476,0,0.0
+235,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus>8 AND f.gpumemorytype<5 AND f.gpufp32performance=588800 AND f.gamename=11 AND f.cpucachel3=3 AND f.gpubaseclock=1082;,1.0,1,12.695900000039728,0,0.0
+236,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors=774 AND f.gpumemorysize>896;,292.3353859288914,294,6.870300000002771,0,0.0
+237,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock=133 AND f.gpumemorysize=4000 AND f.gputexturerate<124200 AND f.gpunumberofshadingunits<1024 AND f.cpucachel1=256 AND f.gpunumberofexecutionunits=0 AND f.gpubaseclock=1291 AND f.cputurboclock<3600 AND f.gamesetting<2;,4.98091956798226,29,17.374299999971754,0,0.0
+238,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth<115200 AND f.gpubaseclock<1058 AND f.gpudiesize=0.000181 AND f.cpufrequency=3600 AND f.gpuvulkan=4;,1.0,3,11.700899999993908,0,0.0
+239,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock>1350 AND f.cpunumberoftransistors>382 AND f.cpumultiplierunlocked<2;,16788.647307076106,15092,9.981100000004517,0,0.0
+240,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors=154 AND f.cpufrequency>2300 AND f.gpubusnterface=13 AND f.cpunumberofthreads=2 AND f.cputdp>45;,3.0715364346587957,0,15.532399999983681,0,0.0
+241,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock=1480 AND f.gpumemorytype=5 AND f.gameresolution=1080 AND f.cpufrequency=3800 AND f.cpucachel1=192 AND f.cpuprocesssize=32;,1.0,1,15.427499999987049,0,0.0
+242,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan=1 AND f.cpunumberofcores=2 AND f.gpunumberoftmus>152 AND f.cpubaseclock=100 AND f.cpumultiplier=29.0 AND f.cpunumberofthreads=2 AND f.gpuboostclock=947 AND f.gpushadermodel=1;,1.0,1,18.54240000000118,0,0.0
+243,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate<16240 AND f.cputurboclock=3067;,79.2512297895036,81,7.555399999944257,0,0.0
+244,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth<10400 AND f.cputdp<62 AND f.gpushadermodel<8 AND f.gpudiesize=8.7e-05;,417.048535389582,334,9.702000000004318,0,0.0
+245,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate<10240 AND f.gpunumberofexecutionunits=6 AND f.cpudiesize>9.4e-05;,1011.1360633387459,800,6.887000000006083,0,0.0
+246,SELECT COUNT(*) FROM fps f WHERE f.gamesetting>3 AND f.gpubusnterface=2 AND f.gpunumberofrops<8;,179.88417859146116,0,4.033400000025722,0,0.0
+247,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock>200 AND f.fps<130.0 AND f.gpushadermodel<7 AND f.gpubandwidth=54400;,1.0,3,7.097900000019308,0,0.0
+248,SELECT COUNT(*) FROM fps f WHERE f.gameresolution>1080 AND f.cpumultiplierunlocked=1 AND f.cputurboclock<3466;,522.1420968357686,283,8.98389999997562,0,0.0
+249,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth=91870 AND f.gpushadermodel=4 AND f.gpudiesize=0.000332 AND f.gpumemorytype>5;,1.0,0,6.281099999966955,0,0.0
+250,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2<14336 AND f.cpuprocesssize<12 AND f.gameresolution=1440 AND f.gpumemorybus>2048;,10.90999969843576,11,10.050100000000839,0,0.0
+251,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock<1800 AND f.cpuprocesssize=22 AND f.gpunumberoftmus=32 AND f.gamename>2 AND f.cpucachel2=512 AND f.gpudiesize=8.7e-05 AND f.gpubaseclock=954 AND f.cpumultiplier=17.0 AND f.gpubandwidth=14400 AND f.gamesetting>2;,1.0,14,21.82500000003529,0,0.0
+252,SELECT COUNT(*) FROM fps f WHERE f.gamesetting<2 AND f.fps=120.0 AND f.gpunumberoftmus=88 AND f.gpushadermodel<5 AND f.cpucachel3=16 AND f.gpubandwidth=160000 AND f.gpuboostclock=800 AND f.gputexturerate=70400;,1.0,1,13.933899999983623,0,0.0
+253,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance>3476000;,305406.99999999994,305407,3.1193000000371285,0,0.0
+254,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance>1405000 AND f.gpunumberofcomputeunits=12 AND f.cpumultiplier=31.0 AND f.gpubusnterface=6 AND f.cputurboclock<3300 AND f.gpubandwidth=96000 AND f.cpucachel3=3 AND f.fps>40.0 AND f.cpumultiplierunlocked=1;,1.0,3,20.70800000001327,0,0.0
+255,SELECT COUNT(*) FROM fps f WHERE f.cputdp>60 AND f.gpunumberoftransistors=727 AND f.gpumemorybus=128 AND f.gpunumberofrops=8 AND f.cpucachel2>512 AND f.gpubaseclock=550 AND f.cpunumberofthreads=8 AND f.gamename<16 AND f.gamesetting=1;,1.0,2,18.703899999991336,0,0.0
+256,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2=6144;,11481.999999999996,11482,5.864599999995335,0,0.0
+257,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize>16 AND f.gpunumberofexecutionunits>0 AND f.gpubusnterface=16 AND f.gpuboostclock=1100 AND f.fps=0.0 AND f.cpudiesize=0.000118;,1.0,7,10.06110000002991,0,0.0
+258,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads>16;,2297.999999999998,2298,5.650699999989683,0,0.0
+259,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype=2;,9173.000000000002,9173,1.84370000005174,0,0.0
+260,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface>4 AND f.cpudiesize>0.000257 AND f.cpuprocesssize<45 AND f.fps<420.0 AND f.gpunumberofcomputeunits=60;,1.0,1,10.863900000003923,0,0.0
+261,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores=3 AND f.gpuprocesssize>80 AND f.cpumultiplierunlocked=1 AND f.gpushadermodel=7 AND f.cpudiesize=0.000169;,1.0,1,13.742600000000493,0,0.0
+262,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface>14 AND f.gpunumberoftmus=40 AND f.gpumemorybus=0 AND f.cpucachel2<2048 AND f.cpucachel1=128 AND f.gameresolution<1080 AND f.cputdp=35 AND f.cpumultiplier=24.0 AND f.cputurboclock=2400;,1.0,307,21.103699999969194,0,0.0
+263,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate<8800 AND f.gpunumberofrops=1 AND f.gpushadermodel=8 AND f.gpubandwidth=0;,1.0,9,6.214900000031776,0,0.0
+264,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype=6 AND f.cpunumberoftransistors=1178 AND f.cpunumberofcores=4 AND f.gameresolution=1440;,1.0,1,9.083400000008623,0,0.0
+265,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads<64 AND f.gamesetting<3 AND f.gpubaseclock<641 AND f.gpunumberofrops<40 AND f.fps>590.0 AND f.gamename<17;,4.531748060293153,0,9.834900000043945,0,0.0
+266,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1<1536 AND f.cpuprocesssize<22 AND f.gpumemorytype=1 AND f.gpunumberofshadingunits=0 AND f.gpunumberoftmus>4 AND f.fps=90.0 AND f.gpubaseclock=400;,1.0,1,14.415699999972276,0,0.0
+267,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2<3072 AND f.gpufp32performance=2108000;,5104.615425390934,5103,7.532999999966705,0,0.0
+268,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads<12 AND f.gpudiesize<0.000596 AND f.gpubusnterface>5 AND f.gpubaseclock=1366;,6.817494873451503,8,10.0744000000077,0,0.0
+269,SELECT COUNT(*) FROM fps f WHERE f.gameresolution<1080 AND f.cpucachel3<14 AND f.gpunumberoftransistors=392 AND f.gpudiesize=9.4e-05 AND f.gpunumberoftmus<6;,34.665161354303656,0,10.699399999964498,0,0.0
+270,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors>1040 AND f.fps>224.7 AND f.gpuvulkan>1;,9636.363292831682,9870,4.728600000021288,0,0.0
+271,SELECT COUNT(*) FROM fps f WHERE f.gameresolution>1080 AND f.cpucachel2<2560 AND f.cpunumberofthreads=16 AND f.gpuboostclock>1216 AND f.cpumultiplierunlocked<2 AND f.cpuprocesssize<22 AND f.gpushadermodel=9 AND f.cpumultiplier=32.0 AND f.gpunumberofrops<88 AND f.gpumemorytype=3;,1.0,13,22.91680000001861,0,0.0
+272,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores<32 AND f.gpunumberofshadingunits<336 AND f.cputdp=125 AND f.gpupixelrate<5440 AND f.gpufp32performance>134400 AND f.gameresolution>1080 AND f.fps=60.0 AND f.gpunumberoftmus<16;,1.0,0,14.979299999993145,0,0.0
+273,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize=0.000435 AND f.gpunumberoftransistors>5700;,43.96851036637278,44,7.104299999980412,0,0.0
+274,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus>512 AND f.gpunumberofshadingunits>3584 AND f.gamename<10 AND f.gpumemorytype=7 AND f.gpubandwidth<1024000 AND f.cpudiesize=0.000213;,1.0,2,10.968700000034914,0,0.0
+275,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface=4 AND f.gpumemorybus=64;,1.6427255985267053,2,3.6799999999743704,0,0.0
+276,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan>4 AND f.gpupixelrate>6000 AND f.cpunumberofcores=4 AND f.gpumemorybus=256 AND f.cpucachel3=16 AND f.gpumemorysize<2000 AND f.gpubaseclock=600 AND f.cpuprocesssize=14 AND f.gpunumberofrops<16;,1.0,0,19.024000000001706,0,0.0
+277,SELECT COUNT(*) FROM fps f WHERE f.gamename=15 AND f.cpunumberofthreads=24 AND f.gpupixelrate=77820 AND f.gputexturerate=155600;,1.1187358231231712,2,9.658199999989847,0,0.0
+278,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits=48 AND f.gameresolution=1080;,151.54565061107112,107,1.1903999999844928,0,0.0
+279,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize<0.000296 AND f.cpumultiplierunlocked<2 AND f.gpubandwidth<12800 AND f.gpubaseclock>494 AND f.gpubusnterface=14 AND f.cpucachel3=0 AND f.gpumemorytype=8 AND f.gpunumberofrops=2 AND f.gameresolution=1080 AND f.cpumultiplier<15.0;,1.0,8,19.786899999985508,0,0.0
+280,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock<650 AND f.gameresolution>1080 AND f.gamesetting=4 AND f.gpumemorysize=1280;,1.0,1,4.994400000043697,0,0.0
+281,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize>0.000213 AND f.gpubaseclock<520 AND f.cpucachel1>288 AND f.gpushadermodel<6 AND f.gamename=13 AND f.gpupixelrate=7600 AND f.gpunumberofexecutionunits=0;,1.0,1,13.25349999996206,0,0.0
+282,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate=6480 AND f.gpuprocesssize=40 AND f.cpunumberofthreads>8 AND f.cpufrequency=3600 AND f.cpubaseclock=100 AND f.gpubaseclock=810 AND f.gpunumberofrops=4 AND f.cpuprocesssize>12;,1.0,0,19.531300000039664,0,0.0
+283,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate<55230 AND f.gpunumberoftmus>60 AND f.cpucachel2<1536 AND f.cpucachel3>0 AND f.cpubaseclock>100 AND f.cpuprocesssize<45;,403.7774819383548,14,16.16949999998951,0,0.0
+284,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors=5200 AND f.gpudiesize=0.000398;,31354.01253517524,31361,4.8029000000155975,0,0.0
+285,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus<64;,16737.000000000004,16737,2.6325000000042564,0,0.0
+286,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype=7 AND f.gpudiesize=0.000495 AND f.gpumemorybus<2048;,305.10022513985416,0,5.631100000016431,0,0.0
+287,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock>1410 AND f.gpunumberoftmus=144 AND f.gpuboostclock=1545;,1009.340257546119,1970,5.639200000018718,0,0.0
+288,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel=3 AND f.gpumemorytype=5 AND f.gpubaseclock<800 AND f.gpunumberofshadingunits<400 AND f.cpudiesize=0.000117 AND f.gpufp32performance=120000 AND f.gpudiesize>5.9e-05;,1.0,0,13.147800000012921,0,0.0
+289,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1>1024 AND f.gamename<11 AND f.gamesetting>3 AND f.gpuvulkan=3 AND f.cputurboclock=4600 AND f.gpunumberoftransistors=5200 AND f.cpumultiplierunlocked=2 AND f.gpudiesize=0.000398 AND f.gpunumberofshadingunits>1664 AND f.fps=90.2;,1.0,1,19.138099999963742,0,0.0
+290,SELECT COUNT(*) FROM fps f WHERE f.cputdp<37 AND f.gpunumberofrops>4 AND f.cpumultiplier=24.0 AND f.cpumultiplierunlocked=1;,281.75873703995796,450,13.109199999973953,0,0.0
+291,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth=115200 AND f.cpunumberofcores=2 AND f.cpucachel3=4 AND f.cpunumberoftransistors=382 AND f.gameresolution>720 AND f.gpufp32performance=1200000;,1.0,5,14.995400000032078,0,0.0
+292,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock<918 AND f.cpuprocesssize<90 AND f.cpubaseclock>266 AND f.gpushadermodel=7 AND f.cpunumberofthreads=2;,1.5563521191958767,9,13.046200000019326,0,0.0
+293,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1=64 AND f.cpumultiplier>10.5 AND f.gpuprocesssize=55;,1.6745053527025677,1,10.584199999982502,0,0.0
+294,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize=5.9e-05 AND f.gpumemorytype>1 AND f.gpuboostclock=600 AND f.gpunumberoftransistors=292;,15.28998017527271,2,6.554900000026009,0,0.0
+295,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize=1792 AND f.gpumemorytype=9;,47.900156006240294,76,3.556299999956991,0,0.0
+296,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplierunlocked>1 AND f.gameresolution>720 AND f.gamesetting=2 AND f.cpunumberoftransistors=3800 AND f.fps<500.0 AND f.gpunumberofshadingunits=640 AND f.gpuprocesssize=28 AND f.cputdp=65 AND f.gpupixelrate<12800;,1.0,0,17.618900000002213,0,0.0
+297,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2=14336 AND f.cpumultiplierunlocked=2 AND f.cpucachel1=896 AND f.gpufp32performance>10070000 AND f.cpunumberoftransistors=0 AND f.gputexturerate>354400 AND f.gpubaseclock>1350;,1.0,2,17.231999999978598,0,0.0
+298,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus=1024;,2.000000000000009,2,2.6938000000313878,0,0.0
+299,SELECT COUNT(*) FROM fps f WHERE f.cputdp=59 AND f.cpumultiplierunlocked=1 AND f.gpunumberoftmus=16 AND f.cpucachel1=128 AND f.cpuprocesssize=90 AND f.gpunumberofexecutionunits=0 AND f.gpumemorytype=9 AND f.cpufrequency<2200;,1.0,0,20.29859999998962,0,0.0
+300,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors=731 AND f.gpupixelrate<82030 AND f.gpunumberofexecutionunits=0;,570.9190444064258,575,7.125499999972362,0,0.0
+301,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads<4 AND f.gameresolution>1080 AND f.gamesetting<3 AND f.cpumultiplier=29.0 AND f.cpubaseclock<100;,1.0,0,12.330200000008062,0,0.0
+302,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth=57020;,3.0000000000000004,3,3.133700000034878,0,0.0
+303,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize<0.000389 AND f.cpucachel2=10240 AND f.gpubandwidth=112100 AND f.gpufp32performance=2138000;,2.8163712463832202,3,10.26009999998223,0,0.0
+304,SELECT COUNT(*) FROM fps f WHERE f.gameresolution>720 AND f.cpumultiplierunlocked<2 AND f.gamesetting=1 AND f.cpunumberofcores<3 AND f.gpunumberofcomputeunits>0 AND f.gpufp32performance=1488000;,4.13806515123526,11,12.760299999968083,0,0.0
+305,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors=0 AND f.cputdp>62 AND f.gpunumberofshadingunits<2432;,129614.30226334905,126300,10.03400000001875,0,0.0
+306,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate<136000 AND f.cpubaseclock>133 AND f.gputexturerate>122500 AND f.gpunumberofshadingunits=1536 AND f.gpumemorybus=256;,414.9949159409707,421,9.314500000016324,0,0.0
+307,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors=8900 AND f.cpunumberofcores=6 AND f.gpunumberoftmus=224 AND f.gpubusnterface=6 AND f.fps>200.0 AND f.gamesetting=4 AND f.cputdp=95 AND f.gpushadermodel=1;,1.0,1,15.16789999999446,0,0.0
+308,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads=36 AND f.gpumemorybus=4096 AND f.cpumultiplierunlocked=2 AND f.gpubusnterface>6;,1.0,0,11.159500000019307,0,0.0
+309,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops<24;,44913.00000000001,44913,2.3160999999731757,0,0.0
+310,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize=55 AND f.gpunumberofexecutionunits=0 AND f.gpuboostclock=602 AND f.gpushadermodel=7 AND f.gpumemorytype=9 AND f.gpudiesize=0.00047;,1.0,1,7.617000000038843,0,0.0
+311,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores=2 AND f.gpufp32performance>167800 AND f.gpuprocesssize>12 AND f.gpupixelrate=9000 AND f.gpubaseclock=1100 AND f.gpunumberofexecutionunits=0 AND f.gpushadermodel=2 AND f.gpuvulkan>1;,1.0,0,13.46840000002203,0,0.0
+312,SELECT COUNT(*) FROM fps f WHERE f.gamename<2 AND f.gpuboostclock<1266 AND f.gpunumberofshadingunits<800 AND f.gpunumberofcomputeunits=5 AND f.gpuprocesssize<40 AND f.gpumemorytype=2;,3.286618254882632,6,8.13349999998536,0,0.0
+313,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate>8800 AND f.gpubusnterface=3 AND f.cputdp=65 AND f.gpuboostclock=1240 AND f.fps<140.0;,62.50402622729489,80,10.67960000000312,0,0.0
+314,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops<64 AND f.cpunumberofcores=10;,16.98173976854062,13,7.19290000000683,0,0.0
+315,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores>24;,1.9999999999997278,2,5.310899999983576,0,0.0
+316,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate>18600 AND f.gpubusnterface<16 AND f.gpudiesize=0.000754 AND f.cputdp<91 AND f.cpumultiplier=28.0;,8.329232251623017,48,13.113400000008824,0,0.0
+317,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize=0.0 AND f.fps=50.0 AND f.cpubaseclock=100 AND f.gpunumberoftransistors=0 AND f.gpumemorybus<64;,1289.5024209004775,1377,9.268599999984417,0,0.0
+318,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplierunlocked>1 AND f.gpumemorytype>7 AND f.cpunumberofcores>6 AND f.gpubaseclock=300 AND f.cpucachel2=16384 AND f.cpuprocesssize=14 AND f.gpubusnterface>8;,1.0,0,17.778899999996156,0,0.0
+319,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize=0.000132 AND f.gpupixelrate=34610 AND f.gpunumberofrops=24 AND f.cpucachel3<8 AND f.gpumemorysize=3000 AND f.cpucachel2=1024;,1.0,2,14.883699999984401,0,0.0
+320,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock=810 AND f.gameresolution>1080 AND f.gpudiesize<0.000332 AND f.gpubandwidth<134800;,2.52287929260563,0,6.651799999985997,0,0.0
+321,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance=13440000 AND f.gpunumberoftmus=240 AND f.cputdp<88 AND f.cpubaseclock=100 AND f.gpumemorysize=16000 AND f.cpucachel3=32 AND f.cpunumberofcores=6 AND f.gputexturerate=420000 AND f.gamesetting=3;,1.0,2,21.013899999957175,0,0.0
+322,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2=1024 AND f.gpumemorybus<32 AND f.cputdp<45 AND f.gpubaseclock=200;,3.283996174715573,3,11.886400000037156,0,0.0
+323,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplierunlocked>1 AND f.gpuvulkan<6 AND f.cputurboclock=4350 AND f.cputdp=105 AND f.gamesetting<3 AND f.gpunumberofexecutionunits=0 AND f.gpunumberofrops>40 AND f.gameresolution>720 AND f.cpunumberofcores=8;,252.14272554022375,1574,19.661199999973178,0,0.0
+324,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus<320 AND f.cputurboclock>4700 AND f.gpubandwidth>176000 AND f.gpunumberofcomputeunits=32 AND f.cpucachel3=12;,8.029319311294936,50,13.723900000002232,0,0.0
+325,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3>24 AND f.cpuprocesssize=14 AND f.gpudiesize<0.000132 AND f.gpunumberofrops=16;,10.583430461727342,1,11.96029999999837,0,0.0
+326,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock<947 AND f.gpushadermodel>3 AND f.gputexturerate>11200 AND f.gpunumberoftmus=60 AND f.cputdp=55;,1.8027289657253636,4,11.939700000027642,0,0.0
+327,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores>3 AND f.gpufp32performance=2016000 AND f.gamename=16 AND f.cpufrequency<3400 AND f.gpupixelrate=28800 AND f.gpunumberoftransistors=1700 AND f.gpudiesize<0.000255;,1.0,0,16.168999999990774,0,0.0
+328,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype<3 AND f.gpumemorysize>128 AND f.fps=320.0 AND f.cpunumberoftransistors=0 AND f.gpunumberofexecutionunits=0;,1.0,1,8.879100000001472,0,0.0
+329,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus=512 AND f.cpucachel2<1024 AND f.gameresolution<1440 AND f.cputurboclock=3900 AND f.cpucachel3=3 AND f.gpubusnterface=6 AND f.gpushadermodel=1;,1.0,2,17.802300000028026,0,0.0
+330,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize=0.000118 AND f.gpuprocesssize<22 AND f.gpubusnterface=12;,2.489890530437865,1,8.409999999969386,0,0.0
+331,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize>90 AND f.gamename=13 AND f.gpunumberoftransistors=75;,1.0,1,5.219000000010965,0,0.0
+332,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors=754 AND f.cpunumberofthreads=6 AND f.gpuvulkan=6 AND f.gpunumberofshadingunits=128 AND f.gpudiesize=0.000324;,1.0,4,12.257900000008704,0,0.0
+333,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops=40 AND f.gpunumberofcomputeunits=0;,1076.5633177187367,1184,4.7089999999911925,0,0.0
+334,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate>154400 AND f.gpubaseclock=1607 AND f.gpunumberoftransistors=7200 AND f.cpunumberofthreads=32 AND f.gpumemorytype=5;,5.000000000000118,5,11.69190000001663,0,0.0
+335,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores=14 AND f.gpunumberoftmus=184 AND f.cpumultiplier=31.0;,1.0,4,11.02739999998903,0,0.0
+336,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize>65 AND f.gpumemorysize=128 AND f.gpunumberofcomputeunits=0 AND f.cpudiesize<0.000216 AND f.gputexturerate=1800 AND f.gameresolution=720 AND f.gpubusnterface>16;,1.0,0,12.083700000005138,0,0.0
+337,SELECT COUNT(*) FROM fps f WHERE f.fps>184.5 AND f.gpudiesize<0.000132 AND f.cputurboclock>3700 AND f.cpudiesize>0.00016 AND f.gpupixelrate>19200 AND f.cpucachel1<384 AND f.cpumultiplier>17.5 AND f.gputexturerate=35230 AND f.gpumemorybus=64 AND f.gpubaseclock<1228;,1.0,0,22.27450000003728,0,0.0
+338,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus=60 AND f.gamename>2;,221.86769625408246,211,3.9125999999782834,0,0.0
+339,SELECT COUNT(*) FROM fps f WHERE f.cpuprocesssize<65 AND f.gpunumberofexecutionunits=0 AND f.cpunumberofcores>18 AND f.gpubusnterface=6 AND f.fps=80.0;,1.0,1,10.104699999999411,0,0.0
+340,SELECT COUNT(*) FROM fps f WHERE f.gamename<12 AND f.cpuprocesssize=90 AND f.cpucachel2<512;,1.0,0,9.21189999996841,0,0.0
+341,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1<512 AND f.gpumemorytype>3 AND f.gpunumberofshadingunits<720 AND f.cpubaseclock=800 AND f.cpunumberofcores=2;,2.310623550969319,13,13.141600000039944,0,0.0
+342,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock>594 AND f.gpunumberoftmus<96 AND f.gameresolution<1080 AND f.gpunumberoftransistors=1270 AND f.gamename=25 AND f.gpumemorysize=1024 AND f.gpudiesize<0.000118;,1.0,0,9.823399999959292,0,0.0
+343,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize<0.000257 AND f.gpunumberofcomputeunits=20 AND f.cpufrequency=4200 AND f.gameresolution<1440 AND f.gpuboostclock=1050 AND f.fps=220.0;,1.0,1,12.959600000044702,0,0.0
+344,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores=10 AND f.cpucachel1=320 AND f.gpubusnterface=6 AND f.gpumemorybus=352 AND f.gpufp32performance=11340000;,1.0,2,12.808000000006814,0,0.0
+345,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface>10 AND f.gpupixelrate>2200;,25837.02472908269,25817,3.87039999998251,0,0.0
+346,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock>783 AND f.gamename>16 AND f.cpubaseclock=200 AND f.gpumemorytype=6 AND f.cpumultiplierunlocked=2 AND f.gpufp32performance=10070000 AND f.cpucachel1=384 AND f.gpupixelrate=109400;,1.0,4,17.44080000003123,0,0.0
+347,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan=4 AND f.gpubaseclock<200;,10133.0,10133,4.1274000000157685,0,0.0
+348,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency>1800 AND f.gpuboostclock<715 AND f.gpunumberoftransistors>1170 AND f.cpumultiplier<26.0 AND f.gameresolution=720 AND f.gpumemorytype=9 AND f.cpubaseclock=200 AND f.gpuprocesssize<65 AND f.cpunumberoftransistors=300;,1.0,2,19.932099999948605,0,0.0
+349,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors>1800 AND f.cpufrequency=3600 AND f.gpumemorytype=4 AND f.cpudiesize=0.00021 AND f.gamename>27;,1.0,0,12.912000000028456,0,0.0
+350,SELECT COUNT(*) FROM fps f WHERE f.gameresolution=1440 AND f.cpuprocesssize<32;,33363.99887683111,33682,5.898899999976948,0,0.0
+351,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1=1024 AND f.cputdp<165 AND f.gpushadermodel=9;,16.640378277439464,2,10.820899999998801,0,0.0
+352,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize>0.000107 AND f.gputexturerate<314600 AND f.gpunumberoftransistors>505 AND f.cpucachel1<1152 AND f.gpuboostclock=1245 AND f.gpupixelrate=39840 AND f.gpudiesize=0.0002;,1.0,1,15.749099999993632,0,0.0
+353,SELECT COUNT(*) FROM fps f WHERE f.fps=163.9 AND f.gpunumberofcomputeunits=0 AND f.gamename<14 AND f.cpucachel1=768 AND f.gpushadermodel=9 AND f.cpucachel3=32;,1.0,1,13.252800000032039,0,0.0
+354,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock<266 AND f.gpunumberofrops<64 AND f.gpushadermodel=5 AND f.gpunumberofexecutionunits=0 AND f.cputurboclock=3300 AND f.gpunumberofcomputeunits>0;,2.6354517958536565,0,12.446399999987534,0,0.0
+355,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate>10510 AND f.gputexturerate>104500 AND f.cpubaseclock=266 AND f.gpumemorytype=3;,1.0,1,7.608600000025945,0,0.0
+356,SELECT COUNT(*) FROM fps f WHERE f.gameresolution>720 AND f.gamesetting<4 AND f.gpubaseclock>860 AND f.cpudiesize>0.00015 AND f.gpumemorysize<12000 AND f.cputurboclock>4300;,20399.49403656338,17432,12.583699999993314,0,0.0
+357,SELECT COUNT(*) FROM fps f WHERE f.cpuprocesssize=28;,135.00000000000082,135,5.18240000002379,0,0.0
+358,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores>6 AND f.cpumultiplierunlocked>1 AND f.gpubusnterface<12 AND f.gpunumberofrops>88 AND f.gpudiesize=0.000815 AND f.cpubaseclock=100;,1.0,1,14.064500000017688,0,0.0
+359,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1=384 AND f.cpunumberofcores<8 AND f.gpubusnterface>14 AND f.gpubaseclock<494 AND f.gpumemorybus=64 AND f.cpufrequency<3100 AND f.gameresolution=720 AND f.gamename=25 AND f.cpubaseclock=200;,1.0,1,19.26530000002913,0,0.0
+360,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock=633 AND f.gputexturerate>50640;,1.0,0,4.396300000053088,0,0.0
+361,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3<25 AND f.cpuprocesssize<32 AND f.cpubaseclock=100;,351463.2938078035,363152,10.999099999992268,0,0.0
+362,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock=600 AND f.gpupixelrate>1200 AND f.cpumultiplierunlocked<2 AND f.cpucachel2=1024 AND f.gpushadermodel>3 AND f.gpunumberofshadingunits>40 AND f.gpumemorysize=512 AND f.gpunumberofexecutionunits=0 AND f.gpunumberofrops>4;,8.07080088794488,3,17.252500000040527,0,0.0
+363,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype=9 AND f.cpunumberofcores>2 AND f.cputdp>65 AND f.cpuprocesssize=22 AND f.gputexturerate<9600 AND f.cpufrequency>3200;,20.15709724698412,27,17.747299999996358,0,0.0
+364,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate>16000 AND f.gamename=28 AND f.gpunumberoftmus=48 AND f.cpunumberofthreads=24 AND f.gpuprocesssize=14 AND f.cpumultiplier=38.0;,1.0,4,15.336999999988166,0,0.0
+365,SELECT COUNT(*) FROM fps f WHERE f.gameresolution=1440 AND f.cputurboclock<2800 AND f.gamename=15 AND f.gpumemorytype<8;,1.0,0,8.630100000004859,0,0.0
+366,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads=3 AND f.gpuboostclock=925 AND f.gpubandwidth=179200;,2.0017481962621946,2,9.48759999999993,0,0.0
+367,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofshadingunits<640 AND f.cpucachel2<4096 AND f.gpubandwidth=96000 AND f.cpunumberofcores=6 AND f.gpumemorybus=128 AND f.cpubaseclock=100;,2.9822013092758883,1,15.034300000024814,0,0.0
+368,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize>0.000561 AND f.gameresolution=720 AND f.fps=210.0 AND f.cpumultiplierunlocked=2 AND f.gpuvulkan=3 AND f.gamename=2 AND f.cpubaseclock=100 AND f.cpufrequency=3200;,1.0,1,15.798499999959859,0,0.0
+369,SELECT COUNT(*) FROM fps f WHERE f.gameresolution>720 AND f.gpuboostclock>706 AND f.gpumemorytype<2;,122.10519612256559,2,4.177500000025702,0,0.0
+370,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores>16 AND f.cputdp>165 AND f.gpubusnterface>6;,1.0,0,8.970700000020315,0,0.0
+371,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize<8.7e-05 AND f.gpumemorybus<1024 AND f.cpunumberofthreads<4 AND f.cpumultiplier>8.0 AND f.gpumemorysize>512;,548.8657390598682,349,13.078600000028473,0,0.0
+372,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate=4800 AND f.gpunumberofcomputeunits<1 AND f.cpumultiplierunlocked>1 AND f.cpubaseclock=100 AND f.gpumemorybus=128 AND f.gpumemorysize=256;,1.0,1,14.072899999973743,0,0.0
+373,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops<16 AND f.cpubaseclock=800 AND f.gpupixelrate=2880 AND f.gpunumberofshadingunits=80 AND f.gpuvulkan=6 AND f.gpuboostclock=720 AND f.gpumemorybus=64 AND f.cpucachel1<64;,1.0,0,14.810299999965082,0,0.0
+374,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus<144 AND f.cpumultiplier>40.0;,14165.37606022724,14192,7.315599999969891,0,0.0
+375,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier>34.0 AND f.gpuboostclock>1188 AND f.gpupixelrate>19200 AND f.gamename=24 AND f.gpumemorysize>8000 AND f.gpuvulkan>1 AND f.gpubandwidth=402400;,1.4561126666450124,28,13.84250000000975,0,0.0
+376,SELECT COUNT(*) FROM fps f WHERE f.cputdp<84;,177233.99999999997,177234,6.956899999977395,0,0.0
+377,SELECT COUNT(*) FROM fps f WHERE f.gameresolution=1440 AND f.gpunumberofcomputeunits>24 AND f.gpunumberoftmus>144 AND f.cpudiesize<0.000149 AND f.gpudiesize=0.000438;,53.33335373831456,110,10.618799999974726,0,0.0
+378,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate<19460 AND f.cpudiesize=0.00021 AND f.gpunumberoftmus>24 AND f.gpuboostclock>1085;,2136.9239752215126,2175,9.644600000001446,0,0.0
+379,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits=6 AND f.cpubaseclock=100;,1583.6732518845859,2103,4.550800000004074,0,0.0
+380,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize>40 AND f.gpunumberofcomputeunits>8 AND f.cpumultiplierunlocked=1;,30.825094452070044,103,8.711899999980233,0,0.0
+381,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus>512 AND f.gpuprocesssize>7 AND f.cpucachel1=288 AND f.gpubusnterface=6 AND f.gpunumberoftransistors>8900 AND f.gpunumberofrops=64;,2.2112006969422753,4,11.754800000005616,0,0.0
+382,SELECT COUNT(*) FROM fps f WHERE f.gameresolution>720 AND f.gpubandwidth>160000;,312603.3805973888,312630,3.2322999999792046,0,0.0
+383,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance>256000 AND f.gpuboostclock<657 AND f.fps<210.0 AND f.gpushadermodel>4 AND f.cpumultiplier>14.5;,182.90802214535836,213,11.010800000008203,0,0.0
+384,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency=2267 AND f.gpunumberoftmus>8 AND f.gpupixelrate=4600 AND f.gpushadermodel=6;,1.0,3,10.555500000009488,0,0.0
+385,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize>8.1e-05 AND f.gpumemorybus>512;,1428.2643981431554,2040,6.536299999993389,0,0.0
+386,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus>2048 AND f.gpushadermodel>1 AND f.gpunumberofexecutionunits=0;,334.0617436861133,80,4.43119999999908,0,0.0
+387,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofshadingunits=2688 AND f.cpumultiplier=42.0 AND f.cpuprocesssize=14 AND f.cpufrequency=4200 AND f.gpunumberofexecutionunits=0 AND f.gpudiesize=0.000561 AND f.gpunumberoftmus=224 AND f.cpucachel1=256 AND f.cpucachel2=1024 AND f.cpunumberofcores=4;,1.0,2,25.941199999977016,0,0.0
+388,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier>19.5 AND f.cpubaseclock=133 AND f.cpunumberoftransistors>774 AND f.gpufp32performance=4375000 AND f.cpucachel1=384;,1.0,1,15.697699999975612,0,0.0
+389,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads=28;,45.999999999999154,46,6.4049999999724605,0,0.0
+390,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize=65;,616.0000000000002,616,3.341400000010708,0,0.0
+391,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency<1800 AND f.gameresolution>720 AND f.gpumemorysize<2000 AND f.fps=30.0 AND f.cputurboclock<2400 AND f.gpubandwidth=14400 AND f.cpunumberofcores=2 AND f.cpudiesize=0.000118 AND f.cpucachel3=3;,1.0,2,21.98390000000927,0,0.0
+392,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus<192 AND f.gpunumberoftransistors>2540 AND f.gpunumberofshadingunits>384;,53159.094612025634,53040,6.241799999997966,0,0.0
+393,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier>9.0;,425826.99999999994,425827,6.081300000005285,0,0.0
+394,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan=7 AND f.cpuprocesssize=14;,1.0,3,7.442200000014054,0,0.0
+395,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus<128 AND f.gpubusnterface>12 AND f.cpuprocesssize=90 AND f.gpupixelrate=6264;,1.0,2,9.629500000016833,0,0.0
+396,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel<2 AND f.cputdp>84 AND f.gamename=23 AND f.gpudiesize>0.00016 AND f.cpudiesize<0.000216 AND f.gpunumberofexecutionunits<0;,1.0,0,13.321800000028361,0,0.0
+397,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize<1280;,32788.0,32788,2.751299999999901,0,0.0
+398,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize=12;,33208.999999999985,33209,2.7541000000042004,0,0.0
+399,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate<283200 AND f.gpunumberofrops<48 AND f.gpumemorysize>1536;,122342.41716860447,122482,5.296600000008311,0,0.0
+400,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus<96 AND f.gpunumberofexecutionunits<48 AND f.cputdp>180 AND f.gpuprocesssize>14 AND f.cpumultiplierunlocked=2 AND f.gpufp32performance=2016000;,1.0,1,13.654599999995298,0,0.0
+401,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize<0.0001 AND f.gamesetting>1 AND f.cpumultiplierunlocked>1 AND f.gpunumberofshadingunits<384 AND f.gpumemorytype<8 AND f.gameresolution<1440 AND f.gpufp32performance=280000;,1.1647505499055413,1,11.29630000002635,0,0.0
+402,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1>192;,383086.9999999999,383087,5.485300000032112,0,0.0
+403,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock=657 AND f.gpunumberofcomputeunits=0;,5.648720211827005,20,4.269199999953344,0,0.0
+404,SELECT COUNT(*) FROM fps f WHERE f.fps>230.2 AND f.cputurboclock=3067 AND f.cpubaseclock=266 AND f.gpubusnterface=13 AND f.cpuprocesssize=45 AND f.gpumemorybus<128;,1.0,0,14.379800000028808,0,0.0
+405,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1=128 AND f.gpufp32performance>9754000 AND f.gpuvulkan<2 AND f.gpuboostclock<1710 AND f.gamesetting>3 AND f.gpumemorybus=352 AND f.cpumultiplierunlocked=1 AND f.gpudiesize>0.000471 AND f.cpunumberofcores=2 AND f.gameresolution<1080;,1.0,0,19.273299999952087,0,0.0
+406,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors=10300 AND f.gpuboostclock=1905 AND f.cpunumberofcores>6 AND f.cpucachel1>512 AND f.gameresolution<1440 AND f.gpunumberoftmus=160 AND f.fps=72.5 AND f.cpucachel3=16;,1.0,1,16.257199999984095,0,0.0
+407,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock<1000 AND f.gputexturerate>48800 AND f.gpunumberofexecutionunits=0 AND f.gamename>20 AND f.gpudiesize=0.00052 AND f.gpubaseclock=772 AND f.cpunumberoftransistors<1400;,1.0,31,12.331700000004275,0,0.0
+408,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize<0.000148 AND f.gpushadermodel>9 AND f.cputurboclock<2900 AND f.gpuvulkan<6;,1.0,0,9.349200000031033,0,0.0
+409,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency<3800;,322969.0,322969,6.215999999994892,0,0.0
+410,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth=81280 AND f.gpufp32performance<2056000 AND f.cpucachel3=6 AND f.cpubaseclock=100;,1.0,1,11.541700000009314,0,0.0
+411,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1=192;,4111.0,4111,5.911399999945388,0,0.0
+412,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus>72 AND f.gameresolution>1080 AND f.gpunumberofexecutionunits=0 AND f.cpucachel3<16 AND f.gpudiesize<0.000471 AND f.cpuprocesssize<22 AND f.gpuvulkan>3 AND f.cpunumberofcores=4 AND f.gputexturerate=79680 AND f.cputdp=65;,1.0,1,21.157800000025873,0,0.0
+413,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock=2534 AND f.gpumemorybus>64 AND f.gpunumberofcomputeunits=0;,1.208532583970077,3,9.566699999993489,0,0.0
+414,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize=7 AND f.cpucachel1<1152 AND f.fps=101.5 AND f.gpubaseclock>1465;,1.0,0,9.674599999982547,0,0.0
+415,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth<256300 AND f.gpunumberofcomputeunits>6 AND f.gpumemorytype=2 AND f.gpunumberofshadingunits=640 AND f.gpunumberofrops=16;,12.94716104184476,32,7.681600000012168,0,0.0
+416,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock>1365 AND f.cpudiesize<0.000356 AND f.gpunumberofrops=96 AND f.gpuvulkan=1 AND f.gpunumberofexecutionunits=0 AND f.cpumultiplier>20.0 AND f.gpumemorybus=384 AND f.gamesetting>2;,120.48110313002023,138,15.315200000031837,0,0.0
+417,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock=756 AND f.cpumultiplier=36.0;,1.0,1,8.144800000025043,0,0.0
+418,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits=60 AND f.gpunumberofshadingunits=3840 AND f.gpudiesize=0.000331 AND f.gpubandwidth=1024000 AND f.cpunumberoftransistors>9600;,1.0,2,10.560300000008738,0,0.0
+419,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads>1 AND f.cpubaseclock>133 AND f.cpunumberoftransistors<450 AND f.gpupixelrate>1260 AND f.cputdp>35 AND f.gamesetting<4 AND f.cpudiesize<8.2e-05;,784.9414245627027,89,18.2287999999744,0,0.0
+420,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors=624 AND f.gpuprocesssize=28 AND f.gamesetting=1 AND f.cpufrequency=2400 AND f.cpunumberofcores>2;,1.0,0,14.366400000028534,0,0.0
+421,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate=108600 AND f.gpubusnterface=6 AND f.cpumultiplierunlocked>1 AND f.gpupixelrate<31040;,1.0,0,9.225799999967421,0,0.0
+422,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores=16 AND f.gpuboostclock<1266 AND f.cpuprocesssize=14 AND f.gamename<15 AND f.gpudiesize=0.000123 AND f.cpumultiplier<28.0;,1.0,0,16.325199999982942,0,0.0
+423,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize<80 AND f.cputurboclock>1600 AND f.gpunumberofrops=16 AND f.gpubaseclock>600 AND f.cpumultiplier=17.5;,1239.574930487775,1380,13.798900000040248,0,0.0
+424,SELECT COUNT(*) FROM fps f WHERE f.gameresolution<1440;,390819.0,390819,0.7921999999780382,0,0.0
+425,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier<22.0 AND f.cpucachel1<288 AND f.cpuprocesssize=22 AND f.gpunumberoftmus>112 AND f.gpubaseclock>1168 AND f.gpumemorybus<256;,3.1655244268938536,0,16.182200000002922,0,0.0
+426,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2<4096;,369923.0,369923,6.3681999999971595,0,0.0
+427,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype<7;,405620.0,405620,1.9728999999983898,0,0.0
+428,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize<11000 AND f.gpumemorybus>192;,228278.99999999994,228279,3.9329999999608845,0,0.0
+429,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits<40 AND f.gpunumberofcomputeunits=1 AND f.gpuprocesssize=40 AND f.gpubaseclock=600;,1.872485313170711,2,6.478000000015527,0,0.0
+430,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads=16 AND f.cpucachel1<512 AND f.gpunumberofrops=96 AND f.gpumemorytype=5;,206.8469422472731,2,11.741299999982857,0,0.0
+431,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize<3000 AND f.cputdp>62 AND f.cpunumberofcores>6 AND f.gpubusnterface>8 AND f.gpunumberoftransistors<370 AND f.cpucachel2=8192 AND f.cpufrequency=4000 AND f.gamename>16;,1.0,3,18.8249000000269,0,0.0
+432,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize=0.000294 AND f.gpumemorysize>2000 AND f.gpunumberofrops=24 AND f.cpufrequency<2800 AND f.cpunumberofthreads=8 AND f.cpucachel1=256 AND f.gpunumberofexecutionunits<0;,1.0,0,16.005099999972572,0,0.0
+433,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock>815 AND f.gpubusnterface>2;,395232.65188478754,395048,3.9396999999894433,0,0.0
+434,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus<512 AND f.gpubandwidth>70400 AND f.gpupixelrate<13600 AND f.cpucachel1>256 AND f.gputexturerate<25600 AND f.gameresolution>720 AND f.gpunumberoftmus>24;,113.7859952568403,18,12.969699999985096,0,0.0
+435,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads<16 AND f.gpunumberoftmus=64 AND f.gpushadermodel>5 AND f.cpucachel2=4096 AND f.cpumultiplierunlocked>1 AND f.cpucachel3=8 AND f.cpucachel1=192;,1.0,27,21.144000000049346,0,0.0
+436,SELECT COUNT(*) FROM fps f WHERE f.cpuprocesssize=28 AND f.cpumultiplier=35.0;,12.565224693471713,135,8.862500000020646,0,0.0
+437,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits<24 AND f.gpumemorybus<32 AND f.cpucachel1=512 AND f.gameresolution=1080 AND f.gamename>2 AND f.gpunumberofshadingunits=16;,1.6654276839420326,1,10.952900000006593,0,0.0
+438,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors<505 AND f.cpunumberofthreads>1 AND f.gpufp32performance=55600 AND f.gpunumberofshadingunits=40 AND f.gpuboostclock<695;,1.0,0,11.93430000000717,0,0.0
+439,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores=8 AND f.gpunumberoftmus=192 AND f.cpufrequency=4000 AND f.gpumemorysize<8000 AND f.gpudiesize=0.000561 AND f.gpuprocesssize<28;,1.0,0,15.639200000009623,0,0.0
+440,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplierunlocked<2 AND f.cputurboclock=4700 AND f.gpuboostclock<1770 AND f.gpumemorytype=6 AND f.gamesetting>1 AND f.fps=80.0 AND f.gpumemorybus=192 AND f.gpunumberofshadingunits=1920 AND f.gpunumberofexecutionunits=0 AND f.cpunumberofcores<8;,3.876458325401961,0,19.46149999997715,0,0.0
+441,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus<12 AND f.cpucachel3<6 AND f.gputexturerate>1400;,4126.576635491482,4004,8.78099999999904,0,0.0
+442,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits<56 AND f.cpucachel3<20 AND f.gpunumberofrops=32 AND f.cpucachel1<512 AND f.gameresolution>1080 AND f.fps>160.0 AND f.cputurboclock=4400;,18.159945127514714,12,16.620299999999588,0,0.0
+443,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3<6 AND f.gpuboostclock>550 AND f.gpunumberofexecutionunits=6 AND f.gamename>27 AND f.gamesetting>2 AND f.gpunumberoftmus=6 AND f.cpumultiplier=33.0 AND f.gpudiesize=9.4e-05 AND f.cpufrequency=3300;,1.0,1,19.48480000004338,0,0.0
+444,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize>0 AND f.gpunumberoftransistors=2540;,9998.999999999996,9999,4.799399999967591,0,0.0
+445,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize>384 AND f.fps<86.5 AND f.cputdp<28 AND f.cpucachel2=1024 AND f.gpumemorybus>128 AND f.gputexturerate=255800 AND f.cpucachel1=256;,1.0,1,17.40039999998544,0,0.0
+446,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize>0 AND f.gpubandwidth<88000 AND f.gpudiesize=5.7e-05 AND f.gpunumberoftransistors=260 AND f.gamesetting>2 AND f.cpumultiplierunlocked=2 AND f.cpunumberofthreads=12 AND f.gpumemorytype=2 AND f.gputexturerate=4160;,1.0,2,17.68690000000106,0,0.0
+447,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype<3 AND f.gpufp32performance<29380 AND f.cpudiesize>9.4e-05 AND f.gputexturerate=1800 AND f.gpumemorysize=128 AND f.fps>60.0;,1.0,1,10.931600000049002,0,0.0
+448,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize<0.000815 AND f.gpubaseclock>993 AND f.gpufp32performance>3031000 AND f.gpumemorytype=5 AND f.cpunumberofcores>10 AND f.cpumultiplierunlocked<2;,85.65872118260353,0,13.500899999996818,0,0.0
+449,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors=716 AND f.cpufrequency>2400 AND f.cputdp<130 AND f.gamename=26 AND f.gpushadermodel=3 AND f.gpupixelrate=6400 AND f.gpuboostclock=800;,1.0,1,15.839799999980642,0,0.0
+450,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize>0.000144 AND f.gpunumberofrops<56 AND f.cpuprocesssize<32 AND f.cputdp>69 AND f.gpunumberofexecutionunits=0 AND f.cpudiesize=0.000149 AND f.gpunumberoftransistors=4400 AND f.gpuvulkan=1;,1.0,2,17.780000000016116,0,0.0
+451,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance>13440000;,3195.9999999999977,3196,2.958999999975731,0,0.0
+452,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits=56 AND f.gpubandwidth=512000;,19.858546168958725,266,4.597900000021582,0,0.0
+453,SELECT COUNT(*) FROM fps f WHERE f.gameresolution=1440 AND f.gpubandwidth<104000 AND f.gpunumberoftransistors>2540 AND f.gpunumberoftmus<48;,29.234957851525685,12,5.774999999971442,0,0.0
+454,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2<2560 AND f.cpufrequency<4100 AND f.cpumultiplierunlocked>1 AND f.cputdp=84 AND f.cpubaseclock<100;,1.0,0,17.05149999997957,0,0.0
+455,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate<304800;,387507.0,387507,3.2132999999703316,0,0.0
+456,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores=6 AND f.gpumemorysize<2000 AND f.gamesetting>1 AND f.fps<40.0 AND f.cpumultiplierunlocked=2 AND f.gpubandwidth=52480 AND f.gameresolution=1080 AND f.cpumultiplier>16.5;,1.0,0,16.13660000003847,0,0.0
+457,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock<750;,22566.000000000004,22566,2.9260000000022046,0,0.0
+458,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores=1 AND f.gpushadermodel>4 AND f.cpucachel3=0 AND f.cputurboclock=2200 AND f.cpucachel2=512;,1.0,3,17.37759999997479,0,0.0
+459,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock>1200 AND f.cpucachel2>512 AND f.gpunumberoftmus>256 AND f.cputdp>91 AND f.gpubandwidth<672000 AND f.gpumemorysize=11000;,1806.8981159178961,2519,14.690599999994447,0,0.0
+460,SELECT COUNT(*) FROM fps f WHERE f.cputdp<140 AND f.cpumultiplier>12.0 AND f.gpuvulkan<2;,324347.7234702236,324341,10.8756999999855,0,0.0
+461,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops=28 AND f.gpubaseclock<633 AND f.gpunumberofcomputeunits=0 AND f.gpupixelrate=16130 AND f.gputexturerate=46080;,1.0,4,7.887999999979911,0,0.0
+462,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize<0.000192 AND f.gpufp32performance<806400 AND f.cpufrequency>3100;,7071.841608717707,6759,10.501299999987168,0,0.0
+463,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock<1620 AND f.gpumemorytype=4 AND f.cpuprocesssize>12;,276.46224796261316,392,7.866100000001097,0,0.0
+464,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors>2080 AND f.cpudiesize=8.2e-05 AND f.cpunumberofcores=2 AND f.gameresolution<1080 AND f.cpunumberoftransistors=228 AND f.gpubusnterface>9 AND f.gpupixelrate=23200;,1.0,2,14.326400000015838,0,0.0
+465,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate<19500 AND f.cpumultiplier=17.5 AND f.cpuprocesssize=32 AND f.gpumemorybus>256 AND f.gpuvulkan=6 AND f.cputurboclock=4000;,1.0,1,15.364900000008674,0,0.0
+466,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors<1178 AND f.cputurboclock=2700 AND f.cpucachel3>2 AND f.cpumultiplierunlocked=1 AND f.gpuprocesssize=28;,363.58501661120766,598,16.020000000025902,0,0.0
+467,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize>0.000285 AND f.gpunumberofcomputeunits>5 AND f.gpumemorybus=4096;,4.933539604045451,64,8.3007000000066,0,0.0
+468,SELECT COUNT(*) FROM fps f WHERE f.cpuprocesssize=22 AND f.gpunumberoftmus=88 AND f.gpumemorysize=2000 AND f.gpudiesize=0.000389 AND f.gpunumberoftransistors=2640 AND f.gpufp32performance=2253000 AND f.gamename>6 AND f.gpunumberofrops>32;,1.0,0,15.082199999994828,0,0.0
+469,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock<266 AND f.cpuprocesssize<14 AND f.gpuboostclock=732 AND f.cpucachel1=576 AND f.gpunumberofshadingunits=480;,1.0,1,14.277800000002117,0,0.0
+470,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth=108800 AND f.cpumultiplier<21.0 AND f.cpucachel3=8;,2.713701925784483,9,11.481199999991532,0,0.0
+471,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance=5027000;,2886.0000000000005,2886,3.127500000005057,0,0.0
+472,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3=24 AND f.gamesetting=1 AND f.gpushadermodel<9 AND f.gpubandwidth=616000;,1.75570822474943,3,9.973600000023453,0,0.0
+473,SELECT COUNT(*) FROM fps f WHERE f.cpuprocesssize>45 AND f.fps=100.0 AND f.cpudiesize<0.000285 AND f.cpumultiplierunlocked=1 AND f.cpucachel1=128 AND f.gputexturerate=12750;,1.0,1,17.23880000002964,0,0.0
+474,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize<0.000133 AND f.gpuboostclock<824 AND f.cpuprocesssize=14 AND f.cputurboclock>3000;,479.3140885884995,602,13.334000000043034,0,0.0
+475,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1<128 AND f.gpunumberoftransistors=314 AND f.cpucachel3<0;,1.0,0,10.080899999991288,0,0.0
+476,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface<16;,422876.99999999994,422877,1.9560999999725937,0,0.0
+477,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors=120 AND f.gpudiesize<7.3e-05;,3.6279926335174975,0,4.155800000035015,0,0.0
+478,SELECT COUNT(*) FROM fps f WHERE f.gamesetting>1 AND f.gpubandwidth=134400 AND f.gpumemorysize>1024;,359.50524586203437,193,4.824900000016896,0,0.0
+479,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate<3680 AND f.gpunumberofshadingunits<16 AND f.gpumemorysize>0 AND f.gpuboostclock=350 AND f.fps=40.0 AND f.cputdp<95 AND f.cputurboclock>2500;,1.0,0,14.749599999959173,0,0.0
+480,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofshadingunits=96 AND f.cputdp>125 AND f.gpunumberofexecutionunits=0 AND f.gpuboostclock<640 AND f.cpucachel3=8 AND f.gpuvulkan=6;,1.0,1,13.085999999987052,0,0.0
+481,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads>28 AND f.gpunumberofexecutionunits=24 AND f.gpupixelrate=3150;,1.0,3,7.210299999997005,0,0.0
+482,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface>7 AND f.cpunumberofthreads>6 AND f.gamename>14 AND f.cpumultiplierunlocked<2 AND f.gpushadermodel<9 AND f.gpumemorybus=64 AND f.gpupixelrate<2080 AND f.gpufp32performance>0 AND f.cputdp<84;,35.098067473626756,17,17.96799999999621,0,0.0
+483,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock=779 AND f.cpucachel3>0 AND f.cpumultiplier<32.0 AND f.gpunumberoftransistors=1950 AND f.cpumultiplierunlocked=1;,1.0,3,14.98420000001488,0,0.0
+484,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors<300 AND f.gpunumberoftmus>112 AND f.gpunumberofcomputeunits<60 AND f.gpubandwidth>264000 AND f.gpumemorysize=11000 AND f.gpunumberofshadingunits<4352 AND f.gpudiesize=0.000471 AND f.cpunumberofthreads>20 AND f.cpumultiplierunlocked=2;,34.8942891116018,104,18.573899999978494,0,0.0
+485,SELECT COUNT(*) FROM fps f WHERE f.gamename=26 AND f.cpudiesize<0.000177 AND f.gpuprocesssize=22;,12.082709174437875,11,8.160900000007132,0,0.0
+486,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3>6 AND f.gpushadermodel<9 AND f.gpuboostclock>1046 AND f.gpunumberoftmus<40 AND f.gpumemorysize>2000 AND f.cpunumberofcores<4;,43.032632123390925,0,14.341800000011062,0,0.0
+487,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance>311000 AND f.gpushadermodel=9 AND f.gpuvulkan=5 AND f.gameresolution=1080 AND f.gpunumberofcomputeunits=0;,1.0,3,7.738500000016302,0,0.0
+488,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize=5.9e-05 AND f.gameresolution=1080 AND f.cpunumberofcores=6 AND f.gpunumberofexecutionunits=0 AND f.gpunumberofcomputeunits=2 AND f.gamename>17 AND f.cpumultiplierunlocked>2;,1.0,0,13.670799999999872,0,0.0
+489,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize<7.4e-05 AND f.gputexturerate>74000 AND f.cputdp>95 AND f.gpumemorytype<5 AND f.cpunumberofthreads<16 AND f.gameresolution=1080;,706.3537598092655,293,14.910400000019308,0,0.0
+490,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface>13 AND f.cpufrequency<3000;,1087.0601917286415,1049,7.747099999960483,0,0.0
+491,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel=3 AND f.cputdp>130 AND f.cpufrequency=4400 AND f.cpucachel3<8;,1.0,0,13.896600000009585,0,0.0
+492,SELECT COUNT(*) FROM fps f WHERE f.cputdp<65 AND f.cpucachel2<1024 AND f.gpuboostclock>825 AND f.gpunumberofexecutionunits<24 AND f.cpucachel1<256 AND f.cpucachel3>3 AND f.gpuvulkan=2 AND f.gamename<23 AND f.gpushadermodel=9 AND f.gpunumberofshadingunits=4096;,1.0,1,21.153900000001613,0,0.0
+493,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2=14336 AND f.cpunumberoftransistors=0 AND f.cpuprocesssize=14 AND f.cputurboclock=4400 AND f.gpumemorybus>256 AND f.fps=180.0;,1.0,1,16.606499999966218,0,0.0
+494,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock=200 AND f.cpucachel2<2048 AND f.cpunumberofcores>1 AND f.gpuprocesssize=55 AND f.gpupixelrate<4800 AND f.gpunumberoftmus=8 AND f.gamename=13 AND f.cpunumberofthreads=2;,4.127268751663431,3,17.77449999997316,0,0.0
+495,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize<0.000213 AND f.gpumemorytype=2 AND f.cpubaseclock>200;,63.37571600405795,73,7.9622999999742206,0,0.0
+496,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan=4 AND f.cpumultiplier>27.0 AND f.gpubusnterface>11 AND f.gpudiesize>9.4e-05 AND f.gpubaseclock>200;,295.4776850833217,0,10.854099999960454,0,0.0
+497,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors<181 AND f.cpufrequency>3500;,216.7958956176025,1,8.297500000026048,0,0.0
+498,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize=16000 AND f.gpupixelrate=116200 AND f.gpufp32performance=11150000 AND f.gpumemorybus=256 AND f.cpucachel3=22 AND f.gpunumberofexecutionunits<0;,1.0,0,13.646899999969264,0,0.0
+499,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize=90 AND f.cpucachel2<1536 AND f.gpunumberofshadingunits>0 AND f.cpubaseclock=133 AND f.cpunumberofcores=4 AND f.gpunumberofrops<20;,1.0,0,15.721199999973123,0,0.0
+500,SELECT COUNT(*) FROM fps f WHERE f.cpuprocesssize=65 AND f.gputexturerate=15500 AND f.gpubaseclock=775 AND f.gpunumberofcomputeunits=5 AND f.cputdp=65 AND f.cpumultiplierunlocked=1 AND f.gpunumberoftmus=20 AND f.gpuvulkan=6 AND f.cpunumberofcores<2;,1.0,0,23.378600000000915,0,0.0
+501,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize=7 AND f.gamesetting>2 AND f.cpumultiplierunlocked=2 AND f.gpunumberofshadingunits>2304 AND f.cpucachel2<1536 AND f.gamename=22 AND f.gpunumberofcomputeunits=40 AND f.cpumultiplier>38.0;,1.0,2,19.71579999997175,0,0.0
+502,SELECT COUNT(*) FROM fps f WHERE f.cputdp=73 AND f.gpubaseclock<1006 AND f.gpumemorytype=9;,64.25473247301801,95,9.147900000016307,0,0.0
+503,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate>25200 AND f.cpunumberofthreads=12 AND f.gpubandwidth<384000 AND f.gpumemorysize<16000 AND f.gpuvulkan=3 AND f.cpucachel1=384;,907.2188828767225,1770,14.758500000027652,0,0.0
+504,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize<24000 AND f.gpunumberoftransistors<1950 AND f.gpubusnterface<14 AND f.cpunumberoftransistors<504 AND f.gamesetting>3 AND f.gpupixelrate<14430 AND f.gpunumberofshadingunits=144 AND f.gpubaseclock=200 AND f.gpunumberoftmus=18;,1.0,2,14.310799999975643,0,0.0
+505,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1=1024 AND f.gpubandwidth>484400 AND f.gpumemorysize=11000 AND f.gpubusnterface=6 AND f.cpuprocesssize=14;,4.01593727504077,9,12.580399999990277,0,0.0
+506,SELECT COUNT(*) FROM fps f WHERE f.gameresolution>720 AND f.gpufp32performance=224000;,16.014623522090858,2,3.4186999999974432,0,0.0
+507,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3=32 AND f.gpuvulkan<3 AND f.cputdp<125 AND f.cpunumberoftransistors=3800 AND f.cputurboclock=4200 AND f.gpumemorytype>5 AND f.gpumemorybus>256 AND f.cpumultiplier=36.0;,4.033420757958568,178,21.634899999980917,0,0.0
+508,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate=4400 AND f.gpunumberofcomputeunits<0;,1.0,0,4.057600000010098,0,0.0
+509,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors=504 AND f.cpunumberofcores>2;,1603.2081916921095,0,8.208300000035251,0,0.0
+510,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3>2 AND f.gpubusnterface=1 AND f.gpunumberoftransistors<1500;,304.50800225232115,367,8.176300000002357,0,0.0
+511,SELECT COUNT(*) FROM fps f WHERE f.gamesetting=3 AND f.gpuboostclock=824 AND f.gpubaseclock=824 AND f.cpunumberofthreads=4 AND f.cpuprocesssize=22 AND f.gputexturerate=39550 AND f.cpubaseclock>100;,1.0,0,18.159699999955592,0,0.0
+512,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores>8 AND f.cpumultiplierunlocked<2;,210.6169101991688,6,9.25169999999298,0,0.0
+513,SELECT COUNT(*) FROM fps f WHERE f.cpuprocesssize<32 AND f.gputexturerate>84480 AND f.cpunumberoftransistors>9600 AND f.cpucachel1<2304 AND f.gpudiesize>0.000232 AND f.cputdp=180;,1.0,24,17.96060000003763,0,0.0
+514,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance<1581000 AND f.gpunumberoftmus=4 AND f.cpufrequency=4200;,1.0,3,10.778300000026775,0,0.0
+515,SELECT COUNT(*) FROM fps f WHERE f.gamesetting=1 AND f.gpunumberoftmus>4;,68450.88664504718,68457,3.759500000001026,0,0.0
+516,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan<2 AND f.gpunumberofexecutionunits=0 AND f.gpudiesize<0.000471 AND f.gpunumberoftransistors>0;,290728.31118255807,291905,6.511800000055246,0,0.0
+517,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier=22.0 AND f.gamesetting<3 AND f.gpupixelrate>103700 AND f.gpubandwidth=256300;,3.9225708121874487,3,10.831899999971029,0,0.0
+518,SELECT COUNT(*) FROM fps f WHERE f.gamesetting<3 AND f.gpubusnterface<10;,142724.51282044893,143002,2.7754999999842767,0,0.0
+519,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel<3 AND f.gpupixelrate>17600 AND f.gpubandwidth<182400 AND f.cputurboclock<4600 AND f.gpuvulkan=1 AND f.gpumemorybus=256 AND f.gpumemorytype=5 AND f.gpuboostclock=920 AND f.gpudiesize=0.000366;,1.0,1,16.930600000023333,0,0.0
+520,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors<278 AND f.gpubandwidth=16020 AND f.gpunumberofshadingunits=384 AND f.gputexturerate=17980 AND f.cpucachel3>3 AND f.cpunumberofcores>2 AND f.gamename>12 AND f.cpucachel2=1024 AND f.gpunumberofcomputeunits=0 AND f.gpumemorysize=2000;,1.0,16,21.207399999980225,0,0.0
+521,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock=4600 AND f.cpunumberofcores>4;,8926.663998732569,9797,9.528000000045722,0,0.0
+522,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock=800 AND f.gamesetting<3 AND f.gpuprocesssize<55 AND f.gpupixelrate=2500 AND f.gamename<29 AND f.gpunumberoftmus=8 AND f.cpudiesize=0.000107 AND f.cpufrequency=2100;,1.0,1,17.21840000004704,0,0.0
+523,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate=16000 AND f.gputexturerate=56000 AND f.gpunumberofexecutionunits=0 AND f.gamename=2 AND f.gpunumberoftransistors=2080 AND f.cpucachel3>4 AND f.cpudiesize=0.000315 AND f.gpufp32performance=1792000 AND f.cpunumberoftransistors=1200;,1.0,1,18.807900000012978,0,0.0
+524,SELECT COUNT(*) FROM fps f WHERE f.gamename=19;,1026.000000000002,1026,1.2903999999593907,0,0.0
+525,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan=3 AND f.gpuboostclock=810 AND f.cpumultiplierunlocked=2 AND f.cpucachel1=576 AND f.gpunumberofcomputeunits=0 AND f.gpubusnterface=13 AND f.cpunumberofcores<6;,1.0,0,16.99869999998782,0,0.0
+526,SELECT COUNT(*) FROM fps f WHERE f.gamesetting<3 AND f.cpunumberoftransistors>3800 AND f.cpucachel2=4096 AND f.gpushadermodel>1 AND f.cpumultiplier<38.0 AND f.cpunumberofcores=8 AND f.gpubandwidth<22400;,1.0,12,18.300699999997505,0,0.0
+527,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel<4 AND f.cpufrequency>3500 AND f.gamesetting<4 AND f.gpunumberofrops=4;,42.52114975832073,60,10.891700000001947,0,0.0
+528,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize=0.000285 AND f.cpucachel2=1024 AND f.gameresolution=1080;,3.2153286168464246,7,10.133300000006784,0,0.0
+529,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1<288 AND f.gpunumberoftransistors=4700 AND f.cpunumberofthreads=4;,17.22131437134505,52,12.087899999983165,0,0.0
+530,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate<27200 AND f.gpunumberofexecutionunits>18 AND f.cpudiesize=0.000177 AND f.cpunumberofthreads<2;,1.0,0,11.576800000000276,0,0.0
+531,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus=8 AND f.gpuboostclock<650 AND f.cpuprocesssize=65 AND f.cpumultiplierunlocked<2 AND f.cpunumberofcores>2;,8.751138308320341,0,15.839299999981904,0,0.0
+532,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus=8 AND f.gpuboostclock<650 AND f.cpuprocesssize=65 AND f.cpumultiplierunlocked<2;,34.91482008071518,23,12.726400000019567,0,0.0
+533,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface<9;,388750.99999999994,388751,1.9670000000360233,0,0.0
+534,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize>7.7e-05 AND f.gpunumberofexecutionunits=48 AND f.gpunumberofcomputeunits=0 AND f.gpunumberofrops=6 AND f.cpucachel1=128 AND f.cpunumberofthreads>2;,11.381601189293303,0,14.977799999996932,0,0.0
+535,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus<80 AND f.cpubaseclock=800 AND f.gpubaseclock=450 AND f.gpubusnterface=16 AND f.cpucachel2<1024;,1.0,0,11.719700000014655,0,0.0
+536,SELECT COUNT(*) FROM fps f WHERE f.cputdp=47 AND f.gpumemorybus=64 AND f.cpucachel3=8 AND f.cpunumberofcores=4 AND f.gpunumberofshadingunits=384 AND f.gpunumberofcomputeunits=0 AND f.cpunumberoftransistors=1400 AND f.gpunumberofrops=8 AND f.gpupixelrate=8992;,1.0,21,21.44429999998465,0,0.0
+537,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency<3700 AND f.gpumemorytype=5;,187298.596120275,187239,7.0482000000424705,0,0.0
+538,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize>22 AND f.gpubaseclock>1024;,49853.10140401954,46611,4.113200000006145,0,0.0
+539,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock>3067 AND f.gpushadermodel>1 AND f.gpufp32performance>1155000 AND f.gpunumberofshadingunits=4352 AND f.gpunumberofexecutionunits=0 AND f.gputexturerate=420200 AND f.gpuvulkan=1;,1936.449997485597,3155,13.021400000013728,0,0.0
+540,SELECT COUNT(*) FROM fps f WHERE f.fps=122.9 AND f.gpunumberoftmus<136 AND f.cpufrequency>3600 AND f.gpubandwidth=336000 AND f.gpudiesize=0.000445;,1.0,2,10.922400000026755,0,0.0
+541,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock=907 AND f.gpufp32performance=1393000 AND f.cpuprocesssize=14;,1.0,11,8.479899999997542,0,0.0
+542,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofshadingunits>2944 AND f.cpucachel2>3072;,4239.003228485338,4288,7.400999999958913,0,0.0
+543,SELECT COUNT(*) FROM fps f WHERE f.gamesetting>1 AND f.gpunumberofcomputeunits=11 AND f.gpushadermodel<9;,1.0,0,5.7727000000227235,0,0.0
+544,SELECT COUNT(*) FROM fps f WHERE f.cputdp=60 AND f.gpudiesize=0.000132 AND f.gpunumberofcomputeunits=0 AND f.gamesetting<2;,2.8746705009213365,1,10.398499999951127,0,0.0
+545,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface>13 AND f.cpunumberoftransistors>4950;,1.0649149922719936,1,6.172800000001644,0,0.0
+546,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads=12 AND f.cputurboclock=4200 AND f.gpudiesize<0.000545 AND f.gpunumberofrops<56;,1505.3300972704853,1588,13.477099999988695,0,0.0
+547,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1<1152;,423990.0,423990,6.60609999999906,0,0.0
+548,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier<35.0 AND f.gamename<10 AND f.gpuboostclock<772 AND f.cpumultiplierunlocked=2 AND f.cpubaseclock<200 AND f.cpucachel2=1024 AND f.gpubaseclock=675 AND f.cpunumberofthreads=4 AND f.gameresolution=1080 AND f.gpunumberofexecutionunits<0;,1.0,0,23.057100000016817,0,0.0
+549,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits=18 AND f.cpucachel1<384 AND f.gpuprocesssize=40 AND f.cpudiesize>9.4e-05 AND f.cputurboclock<2800 AND f.gpupixelrate>23200;,1.0,0,16.27840000003289,0,0.0
+550,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth=64130 AND f.gpunumberoftransistors<3300 AND f.gpunumberoftmus=64;,9.370274122513756,118,5.6657000000086555,0,0.0
+551,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock>550 AND f.gpuprocesssize>14;,292502.38511403603,292502,4.309800000044106,0,0.0
+552,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors<289 AND f.cpuprocesssize=14 AND f.gamename>25 AND f.cpucachel1>256 AND f.gpubandwidth<6400 AND f.gpumemorysize=0;,1.0,1,13.85210000000825,0,0.0
+553,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors=8900 AND f.gpunumberoftmus=256;,142.10960144927532,153,4.320000000006985,0,0.0
+554,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores>18 AND f.cputdp=250;,1.0,3,8.674900000016805,0,0.0
+555,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock>1800 AND f.gpumemorytype=8 AND f.gpuprocesssize<55 AND f.gpuvulkan>4 AND f.cpunumberoftransistors=0;,536.4414724891756,6,12.273699999980181,0,0.0
+556,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores>6;,51754.99999999998,51755,5.403199999989283,0,0.0
+557,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors=585 AND f.cpufrequency<3067 AND f.gpuvulkan<6;,316.50137512009087,0,8.679199999960474,0,0.0
+558,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel=6 AND f.cpunumberoftransistors=450 AND f.cpunumberofcores=2 AND f.gpubusnterface=13 AND f.cpunumberofthreads=2 AND f.gpunumberofshadingunits>96 AND f.gpupixelrate=4800 AND f.gputexturerate=19200 AND f.gpumemorybus=128;,1.0,1,21.18090000004713,0,0.0
+559,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize=384 AND f.cpudiesize=0.000126 AND f.gpumemorytype>9;,1.0,0,8.278800000027786,0,0.0
+560,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors>13600 AND f.gpumemorysize=11000;,2447.0978420794486,3155,4.897200000016255,0,0.0
+561,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize>7 AND f.cputurboclock=4400 AND f.gpupixelrate>59200 AND f.gpuvulkan<3 AND f.cpufrequency=3600 AND f.cpumultiplier=36.0 AND f.gpunumberofexecutionunits=0 AND f.cpunumberofthreads<16;,256.5946195322334,0,21.337399999993067,0,0.0
+562,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops<32 AND f.cputdp=45 AND f.cpumultiplierunlocked=1 AND f.cpucachel1>384;,27.093893828416604,1,13.893499999994674,0,0.0
+563,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency>1800 AND f.gputexturerate=8000 AND f.cpucachel2>512 AND f.gpuvulkan<6;,1.0,0,12.131300000021383,0,0.0
+564,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock>266 AND f.cpunumberofthreads=2 AND f.fps>10.0 AND f.cpunumberoftransistors=410 AND f.cpumultiplier>10.5 AND f.gamename<25;,1.082691433867394,0,17.199699999991935,0,0.0
+565,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan=2 AND f.cpumultiplierunlocked=1 AND f.gpunumberoftransistors=12500 AND f.gpufp32performance=10540000 AND f.cpucachel3>8 AND f.gpunumberofrops=64 AND f.gpumemorytype=7 AND f.cpuprocesssize=14 AND f.fps=100.0 AND f.cputdp=65;,1.0,1,21.466199999963465,0,0.0
+566,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock>266 AND f.cputdp=35 AND f.gpumemorytype=9 AND f.gpufp32performance>48000 AND f.gpupixelrate>2000;,1.0,7,11.5266000000247,0,0.0
+567,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2<3072 AND f.cpumultiplierunlocked=2 AND f.gpuvulkan>3 AND f.cpunumberofthreads<8 AND f.gputexturerate=52200 AND f.gpunumberofshadingunits=1440;,9.723323398727446,9,15.223900000023605,0,0.0
+568,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores=3;,390.0000000000003,390,5.5217999999968015,0,0.0
+569,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier>11.0 AND f.cpunumberofcores<14 AND f.cpumultiplierunlocked>1 AND f.cpudiesize=0.000239 AND f.gpuvulkan=3;,1.0,1,15.208799999982148,0,0.0
+570,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier=11.5 AND f.gpubaseclock=520 AND f.gpuvulkan=6 AND f.cpunumberofthreads=2 AND f.cputurboclock=3067 AND f.gameresolution=720;,1.0,11,14.963399999999183,0,0.0
+571,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan>5 AND f.gpumemorytype<9 AND f.gpufp32performance<110400 AND f.gpumemorybus>128 AND f.gpumemorysize=512 AND f.gpubusnterface=16 AND f.cpumultiplier=31.0 AND f.cputdp=95;,1.0,3,16.1092000000167,0,0.0
+572,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance<311000 AND f.gpunumberoftmus<32 AND f.cpunumberoftransistors=1400 AND f.cpumultiplierunlocked=1 AND f.gpumemorytype=5 AND f.fps<70.0;,15.535919478967417,24,12.42059999998446,0,0.0
+573,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock>3733 AND f.fps>218.9 AND f.cputdp<84;,16037.533266361537,11671,9.896000000026106,0,0.0
+574,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype<8 AND f.gpubaseclock>928 AND f.gpunumberoftmus=40 AND f.gpunumberofshadingunits=640 AND f.cpufrequency=3100 AND f.cpucachel2<8192 AND f.gpunumberoftransistors=1500 AND f.gpuvulkan=1 AND f.cpubaseclock>100;,1.0,0,18.817200000000867,0,0.0
+575,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock<670 AND f.gameresolution=720 AND f.gpubusnterface>1;,3298.1151216393737,3328,4.149499999982709,0,0.0
+576,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplierunlocked=2 AND f.cpucachel1=2304 AND f.gpumemorytype<5;,1.0,0,9.821700000031797,0,0.0
+577,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplierunlocked=2 AND f.gpunumberofrops>88 AND f.gpumemorytype<5 AND f.gpunumberofshadingunits<3840;,1.0,0,9.272500000008677,0,0.0
+578,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier<27.0 AND f.gpunumberofcomputeunits<1;,40837.34218949059,38406,7.259299999986979,0,0.0
+579,SELECT COUNT(*) FROM fps f WHERE f.cpuprocesssize>45 AND f.gpumemorybus=0 AND f.gamename>13;,15.710526443065124,1,7.580999999959204,0,0.0
+580,SELECT COUNT(*) FROM fps f WHERE f.gameresolution=1080 AND f.cpucachel2<3072 AND f.gpubaseclock<1090 AND f.gamesetting=3 AND f.cpunumberoftransistors<228 AND f.gpubusnterface<6 AND f.cpunumberofcores=4;,10.624210330481391,7,13.964999999984684,0,0.0
+581,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits=40 AND f.gpubandwidth=320000 AND f.gameresolution<1080 AND f.gpubusnterface=6 AND f.cpumultiplierunlocked<2 AND f.cpubaseclock=100 AND f.cpunumberofthreads=2 AND f.gamesetting=4;,1.0,2,15.180600000007871,0,0.0
+582,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock=5000 AND f.gpudiesize=0.000601 AND f.gpuboostclock=1076 AND f.gpufp32performance=6060000 AND f.gpupixelrate=103300 AND f.gpunumberofshadingunits<2816;,1.0,0,12.974999999983083,0,0.0
+583,SELECT COUNT(*) FROM fps f WHERE f.cputdp<35 AND f.gpunumberofshadingunits>640 AND f.cpudiesize>0.000118 AND f.gpunumberoftmus=160 AND f.gpudiesize>0.000545;,1.0,0,12.395499999968251,0,0.0
+584,SELECT COUNT(*) FROM fps f WHERE f.gameresolution>720 AND f.gpunumberofcomputeunits<9 AND f.cpubaseclock>133 AND f.cputurboclock=3000;,249.18518484641086,533,10.130100000026232,0,0.0
+585,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance<810000 AND f.gpunumberofcomputeunits=5 AND f.cpudiesize>8.2e-05 AND f.gpubaseclock>891 AND f.cpunumberofthreads>4;,32.81813474424338,3,13.296500000024025,0,0.0
+586,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel=3 AND f.gpunumberofcomputeunits=22 AND f.gpupixelrate=25600 AND f.gputexturerate=70400;,269.99999999999994,270,6.799999999998363,0,0.0
+587,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock=2300 AND f.cpumultiplierunlocked=1 AND f.cpudiesize>0.000107 AND f.cpubaseclock>100 AND f.cpufrequency=2300 AND f.cpucachel1=256 AND f.gameresolution>720;,1.0,0,20.85039999997207,0,0.0
+588,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface=6 AND f.gamesetting=4 AND f.cpunumberoftransistors>410 AND f.cputdp<45 AND f.cpufrequency<1800;,8.212081401588453,8,12.816499999985353,0,0.0
+589,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate>102600 AND f.gpuprocesssize>14;,242565.66749048437,242587,4.433899999980895,0,0.0
+590,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock>266 AND f.gamename>23 AND f.fps<40.0 AND f.gpunumberofexecutionunits=0 AND f.gpumemorysize<512;,1.0,0,6.9654999999784195,0,0.0
+591,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock<800 AND f.gpuboostclock>1188 AND f.cpucachel1<512 AND f.gpunumberoftransistors=10800 AND f.cputdp>91 AND f.gputexturerate>224400 AND f.cputurboclock=4600 AND f.cpucachel2<1536;,1.0,0,20.93939999997474,0,0.0
+592,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplierunlocked>1 AND f.gpunumberoftmus=120;,34541.40306915977,34542,7.1935000000280525,0,0.0
+593,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1>64 AND f.cpumultiplierunlocked<2 AND f.gpunumberoftransistors>1550 AND f.cputurboclock=3600 AND f.gpumemorysize=12000 AND f.cpumultiplier=28.0 AND f.gputexturerate>209100 AND f.gpunumberofshadingunits=3840;,1.0,2,20.349800000019513,0,0.0
+594,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize=14 AND f.gpushadermodel<4;,134.49083224779775,2,3.9686000000074273,0,0.0
+595,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency<3067 AND f.gputexturerate<409600 AND f.gpunumberofexecutionunits=18;,1.4242115971516485,3,7.6745999999729975,0,0.0
+596,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock>732 AND f.gpumemorysize>12000 AND f.gpufp32performance=11150000 AND f.gpubusnterface<6;,1.0,0,6.177299999990282,0,0.0
+597,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads>48 AND f.gpufp32performance>11340000 AND f.gpumemorysize<8000;,1.0,0,7.86870000001727,0,0.0
+598,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplierunlocked=1 AND f.cpuprocesssize>22 AND f.cpufrequency=2267 AND f.gpunumberofrops<8 AND f.gpudiesize=5.9e-05;,1.0,5,13.805500000046322,0,0.0
+599,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize>90;,1.9999999999999971,2,2.578000000028169,0,0.0
+600,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops>48 AND f.gpunumberoftmus=192;,1340.9999999999993,1341,3.6415999999803716,0,0.0
+601,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype>5 AND f.gpupixelrate<2800;,2899.4973790866075,2746,3.3225999999899614,0,0.0
+602,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors=1480 AND f.gpubandwidth=40000 AND f.cpumultiplier=24.0;,1.0,9,9.926500000005944,0,0.0
+603,SELECT COUNT(*) FROM fps f WHERE f.gameresolution>720 AND f.gpubandwidth>12320 AND f.gpunumberofcomputeunits=48 AND f.gpunumberofexecutionunits=0;,1.9469050339404608,2,4.563600000039969,0,0.0
+604,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency<2667 AND f.gamename=26 AND f.gpubandwidth=616000 AND f.gpuboostclock=1545 AND f.cputdp=165 AND f.gpubaseclock=1350;,1.0,1,14.657499999998436,0,0.0
+605,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1=1152 AND f.cpunumberoftransistors<3800;,618.6301390878934,69,8.360700000025645,0,0.0
+606,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops=64 AND f.gpufp32performance>2573000 AND f.cputurboclock<4900;,129835.5093694474,130140,9.11070000000791,0,0.0
+607,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores>12 AND f.cpucachel3=19 AND f.cpubaseclock=100 AND f.gpunumberofshadingunits<3840 AND f.cputurboclock=4400 AND f.cpucachel2=14336 AND f.gpupixelrate=139200 AND f.gpunumberoftmus>224;,1.0,0,20.775599999979022,0,0.0
+608,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize=7 AND f.cpucachel2=8192 AND f.cpumultiplierunlocked=2 AND f.gpuboostclock=1905 AND f.cputdp=125 AND f.cpubaseclock=200 AND f.cpufrequency=3500 AND f.gputexturerate=304800 AND f.gpubaseclock=1605 AND f.cpucachel1=384;,1.0,1,25.405799999987266,0,0.0
+609,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits<6 AND f.cputdp>47 AND f.gpunumberofshadingunits<3584 AND f.cpufrequency=2700 AND f.cpunumberoftransistors<410 AND f.cpuprocesssize<45;,4713.895214316512,5375,15.995200000020304,0,0.0
+610,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance<1196000 AND f.gpumemorybus>128 AND f.gpunumberoftransistors=1170 AND f.gpubandwidth<98500 AND f.cpumultiplierunlocked=1 AND f.cputdp<45 AND f.gpubusnterface=10 AND f.gamename=11;,1.0,1,15.483600000038678,0,0.0
+611,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock<1250 AND f.cpunumberoftransistors>1270 AND f.cpumultiplierunlocked=1 AND f.cpuprocesssize=12 AND f.gpunumberoftransistors<2080 AND f.gpubusnterface<6 AND f.gpumemorybus=32;,1.0,1,14.695700000004308,0,0.0
+612,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier<12.5 AND f.gpubusnterface<2 AND f.gpunumberofrops>4;,3.5320458717208676,0,7.611800000006497,0,0.0
+613,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate>11500 AND f.gpubusnterface<16 AND f.gpunumberofcomputeunits<56 AND f.gameresolution=720 AND f.cpumultiplier=12.5 AND f.gpunumberofshadingunits<1024 AND f.cputurboclock=2500 AND f.gpushadermodel>3 AND f.gpunumberofrops=24 AND f.cpufrequency=2500;,1.0,4,19.145899999955418,0,0.0
+614,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize<1024 AND f.gpunumberofshadingunits>512 AND f.gpudiesize<0.00021 AND f.cpucachel1>128;,54.14204970911782,7,9.431600000027629,0,0.0
+615,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance<176000 AND f.gpuboostclock=589 AND f.gpunumberofexecutionunits=0 AND f.gputexturerate=4712 AND f.fps>50.0 AND f.gpushadermodel=6;,1.0,4,7.413699999972323,0,0.0
+616,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplierunlocked<2 AND f.gpufp32performance<2378000 AND f.cpucachel1>288 AND f.gpunumberofshadingunits=40 AND f.cputdp<95 AND f.cpucachel2=1536;,1.0,1,17.324200000018664,0,0.0
+617,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize<2000 AND f.gpuvulkan<4 AND f.cpudiesize<0.00016;,4152.7963902930705,3131,7.840999999984888,0,0.0
+618,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits=18 AND f.gpuprocesssize=14 AND f.cpunumberoftransistors=0 AND f.cpucachel1=256 AND f.gpushadermodel=9;,1.0,3,11.558799999988878,0,0.0
+619,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock=1683 AND f.gpuprocesssize=16 AND f.gpunumberofcomputeunits=0 AND f.gpunumberofexecutionunits=0;,63423.99999999997,63424,5.968100000018239,0,0.0
+620,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits>6 AND f.cpumultiplier=23.0 AND f.cpucachel2=512;,2.7130806248686197,2,9.82830000003787,0,0.0
+621,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize>80 AND f.gpudiesize=0.00011;,1.0,2,4.223599999988892,0,0.0
+622,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3>32 AND f.cpunumberofcores=24;,1.0,1,8.888699999999972,0,0.0
+623,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize=12 AND f.gpubandwidth>651300;,59.72314860225583,4,4.22720000000254,0,0.0
+624,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2=18432 AND f.cputdp<165;,66.0949145906453,0,9.296199999994315,0,0.0
+625,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype=8 AND f.gamename=1 AND f.gpushadermodel>7 AND f.gpufp32performance=1760000;,37.06153843875049,9,6.353400000023157,0,0.0
+626,SELECT COUNT(*) FROM fps f WHERE f.gamesetting=1 AND f.cpucachel2>10240 AND f.gpunumberoftmus<224 AND f.gpuprocesssize=14;,1.0,1,9.21979999998257,0,0.0
+627,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits=18 AND f.gpumemorybus=0 AND f.cpumultiplier=15.0 AND f.cputdp=10 AND f.cpubaseclock=100;,1.0,3,13.275500000020202,0,0.0
+628,SELECT COUNT(*) FROM fps f WHERE f.gamename=7 AND f.gpumemorytype=7;,9.65369712625097,38,2.9733999999734806,0,0.0
+629,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus<384 AND f.gpudiesize<0.000166 AND f.cputurboclock<3000 AND f.gpuprocesssize=22;,611.7526756838447,221,10.119700000018383,0,0.0
+630,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency<3067;,56976.0,56976,5.953899999951773,0,0.0
+631,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock<800 AND f.cpumultiplier=16.0 AND f.gpufp32performance>208000 AND f.fps=40.0 AND f.cpunumberofthreads<8 AND f.cpunumberoftransistors=300 AND f.cputurboclock=3200 AND f.gpupixelrate=6264 AND f.gpunumberofrops=16 AND f.gpumemorysize<1024;,1.0,0,21.674899999993613,0,0.0
+632,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors<504 AND f.cpufrequency>3400 AND f.gpunumberofcomputeunits<10 AND f.gamesetting<2 AND f.cpucachel2=1024 AND f.gpubandwidth>40060 AND f.fps<450.0 AND f.gpumemorytype>3 AND f.cpuprocesssize=45 AND f.gpunumberofrops=24;,2.4399356133442174,1,19.981099999995422,0,0.0
+633,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits<24 AND f.gamesetting=1 AND f.gamename=20;,658.0190797398486,787,2.3175999999693886,0,0.0
+634,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits=10 AND f.gpubaseclock<950 AND f.cpunumberofcores<6 AND f.cpunumberoftransistors<382 AND f.cputurboclock=2900 AND f.gpubandwidth=64000 AND f.gpufp32performance<1024000;,1.0,0,16.83850000000575,0,0.0
+635,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits=0 AND f.gpupixelrate<86400 AND f.cpumultiplier=24.0 AND f.gpunumberoftmus=104 AND f.gpubusnterface=6 AND f.gamesetting=2;,1.0,1,11.197900000013306,0,0.0
+636,SELECT COUNT(*) FROM fps f WHERE f.gamename>16 AND f.cpucachel3=11 AND f.fps=250.0 AND f.cputdp=140 AND f.cpunumberofcores=8 AND f.gpumemorybus=352 AND f.gpushadermodel=9 AND f.cpubaseclock=100;,1.0,1,18.383200000016586,0,0.0
+637,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3=10 AND f.gpuvulkan=3 AND f.gpumemorybus<192 AND f.cputurboclock>3800 AND f.gpumemorytype=5;,1.1594718473345933,1,13.217699999984234,0,0.0
+638,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize=8.7e-05 AND f.gpupixelrate>7216 AND f.cpucachel1<192 AND f.gpumemorytype>2 AND f.gpubusnterface=2 AND f.cpumultiplierunlocked=1;,46.423293747633984,193,13.386099999991075,0,0.0
+639,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize>28 AND f.gpudiesize=0.000256 AND f.cpunumberofthreads<4 AND f.cputurboclock>3000 AND f.gpunumberofcomputeunits=10 AND f.gpuboostclock=750 AND f.gpumemorysize=512 AND f.cpucachel3=0;,1.0,6,19.362600000022212,0,0.0
+640,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits=18 AND f.gpubusnterface=8 AND f.gpumemorytype=8 AND f.cpumultiplier=15.0 AND f.gpunumberofshadingunits=144 AND f.cputdp=10 AND f.gpumemorybus=0 AND f.fps<30.0;,1.0,0,13.943299999993997,0,0.0
+641,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan>3 AND f.cpunumberoftransistors>774 AND f.cpudiesize=0.00016 AND f.gpubandwidth<41600 AND f.cpucachel3<8 AND f.gpunumberofcomputeunits<5 AND f.gameresolution>720 AND f.gamesetting>1 AND f.cputdp=77 AND f.gpunumberoftmus<32;,1.0,2,18.795699999998305,0,0.0
+642,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize<3000 AND f.gpuboostclock>977 AND f.gpumemorybus=192;,1915.9513702736945,2610,5.434100000002218,0,0.0
+643,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock=133 AND f.gpumemorytype>6;,202.52838670209584,153,4.788900000050944,0,0.0
+644,SELECT COUNT(*) FROM fps f WHERE f.gameresolution<1080 AND f.cpufrequency>3000 AND f.cpucachel2=1536 AND f.cpunumberoftransistors>1170 AND f.gpuprocesssize=16 AND f.gpufp32performance>6463000 AND f.cpumultiplier>33.0;,12.23876148955596,0,16.1352000000079,0,0.0
+645,SELECT COUNT(*) FROM fps f WHERE f.gameresolution<1080 AND f.cpumultiplier<34.0 AND f.gpunumberoftransistors=681 AND f.gpumemorytype=9;,1.1576313956303692,1,8.354600000018308,0,0.0
+646,SELECT COUNT(*) FROM fps f WHERE f.gameresolution>1080 AND f.gpubusnterface<15 AND f.gpubaseclock=970;,80.75254445952889,93,4.045100000041657,0,0.0
+647,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance=1312000 AND f.gpushadermodel=4 AND f.cpucachel3=6 AND f.cpufrequency=3100 AND f.gamename=18;,1.0,2,13.025500000026113,0,0.0
+648,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock<606 AND f.gpupixelrate=4400 AND f.gpushadermodel<6 AND f.cpumultiplier=28.0 AND f.cpubaseclock=100 AND f.gpunumberoftmus<16;,1.0,0,12.978799999984858,0,0.0
+649,SELECT COUNT(*) FROM fps f WHERE f.gamesetting=3 AND f.gputexturerate=123800 AND f.gpunumberofrops=32;,5.469900751321755,4,4.998999999997977,0,0.0
+650,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency=3300 AND f.gameresolution>720 AND f.fps<70.0 AND f.gpunumberofshadingunits>128 AND f.gpubusnterface<2 AND f.gpunumberoftmus=40 AND f.gpudiesize=0.000148 AND f.gamesetting=4 AND f.cpubaseclock=100;,1.0,2,15.043699999978344,0,0.0
+651,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype=2 AND f.gameresolution=1080 AND f.cpumultiplier>15.5 AND f.cputdp=65 AND f.cpucachel1=128 AND f.gpunumberoftransistors>292 AND f.gpubaseclock<1058 AND f.gpunumberofrops<8 AND f.gpubandwidth=14400 AND f.gpufp32performance<280000;,4.6613161912477965,0,20.06410000001324,0,0.0
+652,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock=100 AND f.cpumultiplier<22.0 AND f.cpunumberoftransistors>0;,1.0,0,10.094899999955942,0,0.0
+653,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits<22 AND f.cpunumberoftransistors=19200 AND f.gpupixelrate>110900 AND f.gpubandwidth<616000 AND f.gpubaseclock=1481;,2.0000000000001315,2,10.411099999998896,0,0.0
+654,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofshadingunits=1408 AND f.cputurboclock<3466 AND f.gpuvulkan<6 AND f.fps=100.0 AND f.gpumemorytype=5;,1.850305128675662,1,10.496699999976045,0,0.0
+655,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate>105400 AND f.gpuvulkan=2 AND f.gpunumberofrops=64;,356.0455203384927,33,5.373800000029405,0,0.0
+656,SELECT COUNT(*) FROM fps f WHERE f.gamename>26 AND f.cpumultiplierunlocked=1 AND f.gpuvulkan=1 AND f.cpumultiplier<22.0;,494.32186547231106,201,11.243299999989631,0,0.0
+657,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize=7 AND f.gpunumberofshadingunits=2304 AND f.cpucachel3<12 AND f.fps>59.4 AND f.gamesetting=3 AND f.cpumultiplierunlocked<2 AND f.gpupixelrate<110400;,1.0,0,14.431999999999334,0,0.0
+658,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2=3072 AND f.cpufrequency=3200 AND f.cpumultiplier<32.0;,259.6965534920591,0,12.068100000021786,0,0.0
+659,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock<800 AND f.gpunumberofexecutionunits=40 AND f.gpunumberofshadingunits=320 AND f.cpunumberofcores<8 AND f.gameresolution=1080;,12.917255530102667,6,9.471800000028452,0,0.0
+660,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize<0.000133 AND f.gpumemorybus>96 AND f.gpuprocesssize=90;,9.07076551982412,9,5.319400000018959,0,0.0
+661,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock>1395 AND f.cpubaseclock>200;,1.0014187730704425,1,5.204999999989468,0,0.0
+662,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock=200 AND f.gpufp32performance>5095000 AND f.gpushadermodel=1 AND f.gpuprocesssize=28 AND f.cpumultiplier<22.0 AND f.cpunumberofcores>6 AND f.gpunumberoftmus<224;,14.51907511552204,506,15.3803000000039,0,0.0
+663,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency<3600 AND f.gamename<9 AND f.gpuboostclock<888 AND f.gputexturerate=6480 AND f.gpunumberofexecutionunits=0 AND f.gpubusnterface=17 AND f.gpunumberofrops=4 AND f.gpudiesize=7.9e-05 AND f.cpuprocesssize=32 AND f.gpufp32performance=155500;,1.0,8,17.103000000020074,0,0.0
+664,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus>44 AND f.gputexturerate<102800 AND f.gpumemorytype>8 AND f.gpubaseclock<633 AND f.gpuboostclock=500 AND f.cpudiesize=0.000315 AND f.gpunumberofexecutionunits=0 AND f.gpuprocesssize=65 AND f.gpubandwidth=51200;,1.0,1,14.10339999995358,0,0.0
+665,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits<18 AND f.cpunumberofthreads<6 AND f.gpuprocesssize<14 AND f.gamesetting>3 AND f.cputurboclock<4000 AND f.gameresolution=1440 AND f.cpuprocesssize>14 AND f.gpushadermodel<5;,1.0,0,15.645400000039444,0,0.0
+666,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads>36 AND f.gpuvulkan>1 AND f.cputdp>250;,1.0,0,9.736900000007154,0,0.0
+667,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate>7944 AND f.cpunumberoftransistors<382 AND f.gpunumberofrops<64 AND f.gpuprocesssize=16 AND f.cputurboclock<5000 AND f.cpunumberofcores<10;,36469.37933174103,36456,15.33310000002075,0,0.0
+668,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors>177 AND f.gpuvulkan>3 AND f.gpunumberofcomputeunits>14 AND f.gputexturerate=60000 AND f.gpunumberoftmus=80 AND f.gpushadermodel<3;,1.0,0,9.185900000034053,0,0.0
+669,SELECT COUNT(*) FROM fps f WHERE f.fps>121.5 AND f.gpushadermodel<5;,15499.041805270655,11345,3.3475000000180444,0,0.0
+670,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype>8 AND f.gpunumberofcomputeunits<2 AND f.gputexturerate>17600 AND f.gpupixelrate<20740;,230.4694632287899,168,6.290199999966717,0,0.0
+671,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier=20.0 AND f.gpunumberofrops<56 AND f.gamename<6 AND f.gpupixelrate=6200 AND f.gpuprocesssize=40 AND f.gpubusnterface=10 AND f.gpushadermodel=4;,1.0,6,14.044100000035087,0,0.0
+672,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock=800 AND f.cpudiesize=0.000107 AND f.gpunumberoftransistors<314 AND f.cpuprocesssize=45 AND f.gpuboostclock<625 AND f.gpufp32performance=22400 AND f.gpuvulkan=6;,1.0,1,15.228200000024117,0,0.0
+673,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize=0.000103 AND f.gpupixelrate=17980 AND f.gpumemorysize=2000 AND f.gamename=2;,1.0,1,7.354699999950753,0,0.0
+674,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors=1270 AND f.cpumultiplier=36.0 AND f.gpupixelrate<28160 AND f.gpunumberofexecutionunits=0 AND f.cpunumberofthreads=8;,1.0,15,13.829899999961981,0,0.0
+675,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth>10480 AND f.cpunumberofcores=3 AND f.gpubusnterface<12 AND f.gpuboostclock=970 AND f.cpumultiplierunlocked=1;,1.0,2,13.41250000001537,0,0.0
+676,SELECT COUNT(*) FROM fps f WHERE f.gamename=24 AND f.gpunumberofrops>64 AND f.gpumemorysize=6000 AND f.gpupixelrate=103300 AND f.gameresolution=1080 AND f.cpufrequency<3900 AND f.gpufp32performance=6060000;,7.992989846537282,32,13.201199999969049,0,0.0
+677,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan<3 AND f.cpudiesize>0.00015 AND f.gpubandwidth>182400 AND f.gpuprocesssize=12 AND f.gpunumberofcomputeunits<36 AND f.fps=144.0 AND f.gpumemorysize=6000 AND f.gpubaseclock=1500 AND f.cpunumberofthreads>12;,1.0,0,17.380100000025323,0,0.0
+678,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize>80 AND f.gpuboostclock<450;,1.0,17,4.0465999999810265,0,0.0
+679,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize>0.000228 AND f.gpumemorysize<6000 AND f.cputdp=100 AND f.gpuprocesssize=40 AND f.gpuboostclock=783;,1.0,2,11.553300000002764,0,0.0
+680,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors=9600;,224.99999999999886,225,0.07970000001478184,0,0.0
+681,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel<7 AND f.gpupixelrate>8240 AND f.gpubandwidth<448000 AND f.gpumemorysize=1280 AND f.cpubaseclock=133 AND f.gpunumberoftransistors>3000 AND f.gpubaseclock=608 AND f.cpumultiplierunlocked=1 AND f.cputurboclock=3466;,1.0,1,20.14430000002676,0,0.0
+682,SELECT COUNT(*) FROM fps f WHERE f.gameresolution<1440 AND f.gpubandwidth=4256;,12.99595519601745,13,4.238999999984117,0,0.0
+683,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2=8192 AND f.gpudiesize=0.000284 AND f.gpunumberofshadingunits=1408 AND f.gpupixelrate=85680;,22.32698243867885,7,10.226700000032451,0,0.0
+684,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplierunlocked=1 AND f.gpubandwidth=36800 AND f.cpunumberofthreads=4;,2.6834953697299273,4,10.90110000001232,0,0.0
+685,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores=10 AND f.cpufrequency>3300 AND f.cpucachel3<19;,206.39949859500592,0,12.951499999985572,0,0.0
+686,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize>90 AND f.gpunumberofcomputeunits=0 AND f.cpudiesize=8.2e-05 AND f.cpubaseclock=200 AND f.gpufp32performance=0;,1.0,2,12.582000000008975,0,0.0
+687,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate<169900 AND f.cpumultiplierunlocked<2 AND f.cputdp>84 AND f.gputexturerate=25060 AND f.gpubusnterface<13;,17.177068906851847,0,13.160299999981362,0,0.0
+688,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel=7 AND f.gpumemorysize<1792 AND f.gpunumberoftmus=16 AND f.gpumemorytype=9;,27.620810286195905,397,6.623499999989235,0,0.0
+689,SELECT COUNT(*) FROM fps f WHERE f.gamename<3 AND f.cpumultiplierunlocked=1 AND f.cpunumberofcores>6 AND f.cpuprocesssize=22 AND f.fps<140.0 AND f.gpuboostclock>1076 AND f.gpumemorybus=352 AND f.cpunumberofthreads=16 AND f.gpubaseclock=1481;,1.0,2,20.66610000002811,0,0.0
+690,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors=4700 AND f.cpuprocesssize>7 AND f.cpucachel3=9 AND f.gamesetting>2 AND f.gpumemorytype=5 AND f.cpumultiplierunlocked=2 AND f.gpudiesize=0.0002 AND f.cpunumberoftransistors=0 AND f.cpucachel1<384;,1.0,0,22.367999999971744,0,0.0
+691,SELECT COUNT(*) FROM fps f WHERE f.fps<72.6 AND f.gpunumberoftmus<56 AND f.gpubusnterface>10 AND f.gpushadermodel=3;,3319.985162335329,4467,5.474999999989905,0,0.0
+692,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock>1266 AND f.cpudiesize<0.000192 AND f.gamesetting<3 AND f.cpucachel1=128 AND f.cpuprocesssize=65 AND f.gpubusnterface=6;,1.0,1,14.726900000027854,0,0.0
+693,SELECT COUNT(*) FROM fps f WHERE f.cputdp>25 AND f.cpucachel2=18432;,68.99438202247188,69,9.316899999987527,0,0.0
+694,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2>12288 AND f.gamesetting=3 AND f.gpunumberoftmus<152 AND f.gpubandwidth=243300 AND f.gpuprocesssize=16;,1.0,1,10.236799999972845,0,0.0
+695,SELECT COUNT(*) FROM fps f WHERE f.cputdp>17 AND f.gamesetting<4 AND f.gpushadermodel=4 AND f.gpubaseclock>730 AND f.gpudiesize<0.00052 AND f.gpuboostclock=933;,812.3826007032575,767,13.367399999992813,0,0.0
+696,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2=1024 AND f.gpunumberofexecutionunits=6 AND f.cputdp=77 AND f.gpupixelrate=1150 AND f.cpufrequency=3100 AND f.cpunumberofthreads=4 AND f.gpumemorytype=8 AND f.gpunumberofcomputeunits=0 AND f.gpubusnterface=16 AND f.gputexturerate=6900;,1.0,1,21.95819999997184,0,0.0
+697,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1<320 AND f.cpufrequency=3100 AND f.cpuprocesssize=45 AND f.fps>40.0;,243.34515916119474,21,12.905299999999897,0,0.0
+698,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors>956 AND f.gpushadermodel>3;,389491.8489300969,390059,4.666499999984808,0,0.0
+699,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus>184 AND f.cpunumberofthreads>32 AND f.cpufrequency<3000 AND f.gpufp32performance=13440000 AND f.cpucachel3=24 AND f.cpubaseclock=100;,1.0,1,17.738299999962237,0,0.0
+700,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus<4 AND f.gpubandwidth=0 AND f.gpunumberofcomputeunits<0;,1.0,0,5.906499999980497,0,0.0
+701,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus=36 AND f.cpunumberofthreads>8 AND f.cpumultiplier=34.0 AND f.gamename=6 AND f.gpunumberofshadingunits=720 AND f.cpudiesize>0.000192;,1.0,0,16.44579999998541,0,0.0
+702,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors=1400 AND f.cpufrequency=3400 AND f.gamesetting=2 AND f.gpubandwidth=112900 AND f.gpunumberofexecutionunits=0;,1.2711605189548305,4,10.944499999993695,0,0.0
+703,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3<25 AND f.cputdp<89 AND f.gpudiesize<0.000103 AND f.gpunumberofexecutionunits<24 AND f.gpunumberoftmus=80 AND f.cpudiesize=0.000149 AND f.cpunumberofcores>8;,1.0,0,18.00950000000512,0,0.0
+704,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier>23.5 AND f.fps<104.9 AND f.gpubandwidth=102700 AND f.gpunumberoftmus=44 AND f.cpunumberofcores<6 AND f.cpunumberofthreads=8;,1.0,2,16.137800000024072,0,0.0
+705,SELECT COUNT(*) FROM fps f WHERE f.fps<92.4 AND f.cpudiesize=7.4e-05 AND f.gpuprocesssize=12 AND f.gpunumberofrops=48 AND f.cputdp<105 AND f.gpunumberofshadingunits>1408 AND f.gpubusnterface=6 AND f.cpuprocesssize=7 AND f.cpunumberofthreads=12;,20.075064622256196,108,20.465699999988374,0,0.0
+706,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock>940;,383055.9999999999,383056,3.022499999985939,0,0.0
+707,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance>1248000;,387865.99999999994,387866,2.8694000000086817,0,0.0
+708,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors>8900 AND f.cpunumberofcores=6;,26553.272132608185,26542,7.706700000028377,0,0.0
+709,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel=5 AND f.cpumultiplier>35.0;,23335.993519423035,24132,8.128300000009858,0,0.0
+710,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus<320 AND f.cputdp>55 AND f.gpuprocesssize=55 AND f.cpubaseclock>200 AND f.cpunumberofcores=2 AND f.cpucachel1=128 AND f.gpuvulkan=6 AND f.gpunumberofshadingunits>320;,1.0,1,19.393500000035147,0,0.0
+711,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1>512 AND f.cpucachel3=16 AND f.fps<147.2 AND f.gpunumberoftransistors<11800 AND f.cpubaseclock=100 AND f.gpupixelrate=42880 AND f.gpuprocesssize=14 AND f.cpunumberoftransistors=4800 AND f.cpuprocesssize=12 AND f.gputexturerate=193000;,1.811646638723596,100,23.917299999993702,0,0.0
+712,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors<450 AND f.cpumultiplierunlocked<2 AND f.cpumultiplier=15.0 AND f.fps>160.0 AND f.gpunumberofrops<8 AND f.gpumemorytype>1;,2.2224023132296487,2,14.75510000000213,0,0.0
+713,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops=12 AND f.cpucachel3=3;,6.466329563361436,4,8.14980000001242,0,0.0
+714,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth<63550 AND f.gpunumberofshadingunits<640 AND f.gpushadermodel<7 AND f.gameresolution>720 AND f.gpuvulkan>1 AND f.cpudiesize=7.4e-05 AND f.gpuprocesssize=40;,1.0,2,12.638700000024983,0,0.0
+715,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan=7 AND f.gamesetting<4 AND f.gpubandwidth=0 AND f.gpufp32performance=230400 AND f.cputurboclock=2400 AND f.gpunumberoftransistors<0;,1.0,0,12.736399999994319,0,0.0
+716,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier<34.0 AND f.cputurboclock<4300 AND f.gpunumberofshadingunits>1280 AND f.gpunumberofrops>88 AND f.gpushadermodel=9 AND f.cpunumberofthreads=8 AND f.gpumemorysize=6000;,213.0425938212021,74,17.998699999964174,0,0.0
+717,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate=277300 AND f.cpuprocesssize>7 AND f.gpufp32performance=8873000 AND f.cpunumberofcores<14;,40431.04309950016,40429,11.88310000003412,0,0.0
+718,SELECT COUNT(*) FROM fps f WHERE f.cputdp=10 AND f.gameresolution>1080;,1.0,0,6.611500000019532,0,0.0
+719,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize>0.00026 AND f.cpumultiplierunlocked=2;,149673.02080427614,149568,6.906000000014956,0,0.0
+720,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores=2 AND f.gpunumberofshadingunits=256 AND f.gpuvulkan=3;,2.0656697310161616,49,8.599699999990662,0,0.0
+721,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency=3067 AND f.gpubaseclock<650 AND f.gamename>1 AND f.gpumemorysize<1024 AND f.cpumultiplier<11.5;,1.0,0,12.386600000013459,0,0.0
+722,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan>4 AND f.cpunumberoftransistors=228 AND f.cpucachel1=128 AND f.gpunumberoftransistors<2154 AND f.cpunumberofcores=2;,376.7518721420673,1234,14.125499999977364,0,0.0
+723,SELECT COUNT(*) FROM fps f WHERE f.cputdp<89 AND f.gpuprocesssize<22 AND f.gpupixelrate<107700 AND f.gpubusnterface=8 AND f.gpunumberofexecutionunits=18 AND f.cpunumberoftransistors=0 AND f.gameresolution=1080 AND f.gamename=18;,1.0,2,14.157699999998385,0,0.0
+724,SELECT COUNT(*) FROM fps f WHERE f.gamesetting=4 AND f.cpucachel2<3072 AND f.gameresolution>1080 AND f.cpumultiplier<15.0 AND f.gpuprocesssize=28 AND f.cpunumberoftransistors=300;,1.0,1,14.622300000041832,0,0.0
+725,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype<4 AND f.cpudiesize<0.000264 AND f.cpucachel1<512;,110677.48195751406,110462,9.689299999990908,0,0.0
+726,SELECT COUNT(*) FROM fps f WHERE f.gamesetting<2;,68480.0,68480,0.9113000000411375,0,0.0
+727,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate<6600 AND f.gpubandwidth=8000 AND f.gpunumberofcomputeunits=2 AND f.gpubusnterface<7;,1.0,0,6.945000000030177,0,0.0
+728,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth>54400 AND f.gpuprocesssize=12 AND f.cputurboclock<4700 AND f.cpubaseclock=200 AND f.gpunumberoftmus=88 AND f.cpumultiplier<16.5 AND f.gpumemorysize=6000 AND f.cpunumberoftransistors=1200 AND f.gamesetting=4;,1.0,1,20.556300000009742,0,0.0
+729,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads>1 AND f.cpunumberofcores=24 AND f.gpumemorysize=8000;,1.0,1,10.53269999999884,0,0.0
+730,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors<1270 AND f.gpumemorybus<64 AND f.gpumemorytype>2 AND f.gpuprocesssize<65 AND f.gamename<13 AND f.gpunumberofrops=8 AND f.gpuvulkan=1 AND f.gpunumberofcomputeunits=8 AND f.cpunumberofthreads=8;,1.0,94,17.18599999998105,0,0.0
+731,SELECT COUNT(*) FROM fps f WHERE f.gamesetting=1 AND f.gpunumberofexecutionunits=6 AND f.gpunumberofshadingunits=48 AND f.gpunumberofrops=1;,59.54513965434772,133,5.10300000001962,0,0.0
+732,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops>6;,408151.99999999994,408152,2.3559999999633874,0,0.0
+733,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock>3800 AND f.gamename=17 AND f.gpudiesize=0.000116 AND f.cpubaseclock<200 AND f.cpuprocesssize=14 AND f.fps=30.0 AND f.cpucachel1=128 AND f.gpuvulkan=6 AND f.gpunumberoftmus>16;,1.0,0,19.669799999974202,0,0.0
+734,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth<224400 AND f.cpudiesize>0.000123;,106087.69717007093,106095,6.638599999973849,0,0.0
+735,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads<36 AND f.gpunumberofshadingunits<512 AND f.cpucachel3=9 AND f.cpucachel1=384 AND f.gpudiesize>0.000116;,2.5623470116774065,14,14.864299999999275,0,0.0
+736,SELECT COUNT(*) FROM fps f WHERE f.gameresolution>720 AND f.gpunumberofrops=28 AND f.gpunumberofcomputeunits=0 AND f.gpuvulkan=6;,16.144820985774903,60,5.298499999980777,0,0.0
+737,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan=3 AND f.gpubandwidth<288400;,63262.29369715147,62772,3.9248999999585976,0,0.0
+738,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan>1 AND f.gamename=15 AND f.gpufp32performance<855400 AND f.gpupixelrate=2600;,7.013364779874217,12,6.289200000026085,0,0.0
+739,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface=12;,1848.0000000000005,1848,1.7694000000005872,0,0.0
+740,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock>3000 AND f.gpuvulkan<5 AND f.gpunumberofcomputeunits=16 AND f.gpumemorysize=2000 AND f.gputexturerate>59200 AND f.gpufp32performance=1997000 AND f.gpupixelrate=31200;,22.722102848215442,729,14.166199999976925,0,0.0
+741,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock<941 AND f.cpumultiplier>9.0 AND f.cpucachel2<3072 AND f.cpumultiplierunlocked>1 AND f.cpucachel3=2 AND f.cpuprocesssize=65 AND f.gameresolution<1080;,1.0,9,19.077299999992192,0,0.0
+742,SELECT COUNT(*) FROM fps f WHERE f.gpuvulkan=3;,70963.99999999999,70964,2.5581999999531035,0,0.0
+743,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofshadingunits<2176 AND f.cpunumberoftransistors=105;,115.00000000000027,115,7.159999999998945,0,0.0
+744,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits=11 AND f.cpunumberofthreads=8;,2028.0,2028,7.599200000015571,0,0.0
+745,SELECT COUNT(*) FROM fps f WHERE f.gameresolution<1440 AND f.cpunumberofcores=32 AND f.cpufrequency=3000 AND f.cpunumberofthreads=64 AND f.cpubaseclock=100 AND f.cpucachel2=16384 AND f.gpubusnterface=6;,1.0,1,19.362199999989116,0,0.0
+746,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors<180 AND f.cpunumberofthreads=32 AND f.cputurboclock=4400;,1.0,3,11.525000000006003,0,0.0
+747,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize>0.0002 AND f.gpunumberofrops>48 AND f.gpumemorysize>4000 AND f.gpunumberoftmus>128 AND f.cpumultiplier<15.5;,2.5477920877611644,3,11.236100000019178,0,0.0
+748,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops>24 AND f.gameresolution=720 AND f.fps>480.0 AND f.gpuvulkan>1 AND f.cpunumberofcores<8 AND f.cpumultiplier>31.0;,9.677405187143115,6,12.910099999999147,0,0.0
+749,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier>22.0 AND f.cpucachel1=768 AND f.gpunumberofexecutionunits=0 AND f.gamename>18 AND f.gpunumberoftmus<36 AND f.gpudiesize<7.7e-05 AND f.gpuprocesssize=40 AND f.cpucachel3=16 AND f.gpupixelrate=2600;,1.0,1,19.29539999997587,0,0.0
+750,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits>36 AND f.gputexturerate=268800 AND f.gpunumberoftmus=256 AND f.cpufrequency=3800;,4.015860621736373,1,10.725800000045638,0,0.0
+751,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus>32 AND f.cpucachel1>640 AND f.gpunumberoftmus<288 AND f.gpuboostclock>980;,24125.13316598323,24206,10.05609999998569,0,0.0
+752,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1=768 AND f.gputexturerate=72860;,250.87203018252254,251,7.436400000017329,0,0.0
+753,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface=3 AND f.gameresolution<1440 AND f.gpumemorybus=0 AND f.gamesetting<3 AND f.gpunumberofcomputeunits=8;,1.3571993474431387,185,6.199500000036551,0,0.0
+754,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits=5 AND f.gpuvulkan=6 AND f.cpuprocesssize<65 AND f.gpumemorysize=1024 AND f.gpumemorytype<9;,134.85216550050197,214,10.371200000008685,0,0.0
+755,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate<7944 AND f.cpuprocesssize=28 AND f.gameresolution<1080;,1.9752118466181505,0,7.06019999995533,0,0.0
+756,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1=896 AND f.gpuvulkan=3 AND f.gamename=18 AND f.gpuboostclock=928 AND f.gpudiesize=0.000561 AND f.gputexturerate=222700 AND f.cpucachel3=19 AND f.gpubaseclock=875 AND f.cpudiesize<0.0;,1.0,0,20.22429999999531,0,0.0
+757,SELECT COUNT(*) FROM fps f WHERE f.cputdp>54 AND f.gputexturerate>6992 AND f.cputurboclock=4300 AND f.gpudiesize=0.000398 AND f.gameresolution>1080 AND f.cpucachel3>8;,3.3076373243657535,13,16.02530000002389,0,0.0
+758,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency>3400 AND f.cpunumberofthreads=8 AND f.cpunumberoftransistors<1200 AND f.gpuvulkan=1 AND f.gputexturerate>25200 AND f.gpunumberofshadingunits<1408;,10208.554269310038,9599,16.46770000002107,0,0.0
+759,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier<20.0 AND f.gpunumberofrops<3 AND f.cpunumberofcores=2 AND f.cpudiesize<8.2e-05 AND f.gpufp32performance=0;,1.0,9,15.586799999994128,0,0.0
+760,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock>266 AND f.gpunumberoftmus=16 AND f.gpudiesize=0.000121 AND f.gpuvulkan=6 AND f.gpumemorysize=512 AND f.cpumultiplier>10.0;,1.0,5,13.933399999984886,0,0.0
+761,SELECT COUNT(*) FROM fps f WHERE f.gamename<2 AND f.gpubandwidth=547600;,2.646621205933009,7,4.01580000004742,0,0.0
+762,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize=0.00021 AND f.gpuprocesssize=28;,491.7791131118972,410,7.454300000006242,0,0.0
+763,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock=1600 AND f.gpunumberofcomputeunits=0 AND f.gpunumberofexecutionunits=0 AND f.cpufrequency=1600 AND f.gputexturerate=6480 AND f.gpubaseclock=810 AND f.cpuprocesssize=45 AND f.cputdp=25 AND f.cpunumberofcores=2 AND f.gpuvulkan=6;,1.0,1,24.106700000004366,0,0.0
+764,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel<3;,8467.0,8467,2.6265999999850465,0,0.0
+765,SELECT COUNT(*) FROM fps f WHERE f.fps<157.2 AND f.gpudiesize=0.0 AND f.gpuprocesssize=14 AND f.gpupixelrate<2400;,1.0,0,6.038199999977678,0,0.0
+766,SELECT COUNT(*) FROM fps f WHERE f.cpuprocesssize<65 AND f.gpumemorytype<8 AND f.cputurboclock<4200 AND f.cpucachel2>2560 AND f.gpubusnterface<12 AND f.gamesetting<3 AND f.gpuprocesssize>7 AND f.gpuboostclock=876;,5.333712863848704,3,17.10510000003751,0,0.0
+767,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits=0 AND f.gpubusnterface=14 AND f.gpuboostclock=630 AND f.cpuprocesssize=45 AND f.cpunumberofcores=2 AND f.cpumultiplier=15.0 AND f.gpupixelrate>1260;,1.0,0,17.373900000052345,0,0.0
+768,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize<16000;,424834.0,424834,2.6905999999939922,0,0.0
+769,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock<780 AND f.gpufp32performance=480000 AND f.gamename<11 AND f.cpunumberoftransistors>410;,16.972924110022127,17,9.126999999978125,0,0.0
+770,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate<27080 AND f.gameresolution<1080 AND f.gpuvulkan=1 AND f.gpumemorysize<3000 AND f.cpubaseclock<200 AND f.cpunumberofcores=8 AND f.gpufp32performance<1024000 AND f.gpunumberoftransistors=950 AND f.gpubaseclock=1000;,1.0,1,15.589799999986553,0,0.0
+771,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance>4375000 AND f.cpunumberoftransistors>2270 AND f.gpunumberofexecutionunits=0 AND f.cputdp=125 AND f.fps>70.0 AND f.cpubaseclock=100;,474.49356241194874,25,13.380999999981213,0,0.0
+772,SELECT COUNT(*) FROM fps f WHERE f.cpuprocesssize>12 AND f.cpucachel3>2 AND f.gpumemorysize>384;,363580.7821856935,363785,10.942000000000007,0,0.0
+773,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads>32 AND f.gpunumberoftmus=256 AND f.gamesetting=2 AND f.gpuvulkan=2 AND f.gpunumberofrops=64;,1.0,1,10.893800000019382,0,0.0
+774,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize>0.000331 AND f.gpunumberofcomputeunits=56 AND f.gamesetting=4 AND f.gpumemorybus>2048 AND f.gamename>16 AND f.gpuboostclock=1000 AND f.cpumultiplier>20.0 AND f.gpunumberofexecutionunits>0;,1.0,0,13.709899999980735,0,0.0
+775,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits<16 AND f.gpubandwidth<36800 AND f.gpunumberoftmus<24 AND f.gpubusnterface=9 AND f.gameresolution>1080 AND f.fps=30.0 AND f.gpuvulkan=3 AND f.cpunumberoftransistors=0 AND f.cpubaseclock=100 AND f.cpucachel1=128;,1.0,1,17.38549999998895,0,0.0
+776,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize=0.000137 AND f.cpumultiplier>14.5;,11.597528684907306,11,7.966100000032839,0,0.0
+777,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1>896 AND f.cpunumberofthreads>48 AND f.gpumemorysize>8000 AND f.fps=80.0 AND f.cpuprocesssize=12;,1.0,1,13.43850000000657,0,0.0
+778,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock=1530 AND f.gpumemorysize=6000 AND f.gpuboostclock=1785 AND f.gpunumberofrops=48 AND f.cpucachel3=8 AND f.gamename<24 AND f.gpumemorybus>192;,7.006861549077578,0,14.081700000019737,0,0.0
+779,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize>12 AND f.cpubaseclock<200 AND f.gpunumberofrops>40 AND f.fps>69.8 AND f.cpunumberofcores<6 AND f.gpunumberoftmus=104;,18646.97818530137,19511,12.482299999987845,0,0.0
+780,SELECT COUNT(*) FROM fps f WHERE f.gamename=17 AND f.cputurboclock>3000 AND f.gpupixelrate<33860 AND f.gpubusnterface>12 AND f.cpumultiplier<16.0 AND f.cpunumberoftransistors=1200 AND f.gpubaseclock<650 AND f.gpuvulkan=6 AND f.gpunumberoftmus<4;,1.0,0,18.790699999954086,0,0.0
+781,SELECT COUNT(*) FROM fps f WHERE f.gameresolution>720 AND f.cputdp=55 AND f.cpunumberofthreads=2 AND f.gpunumberoftmus>32 AND f.gpufp32performance>1200000 AND f.cpubaseclock=100 AND f.gpushadermodel=4 AND f.gputexturerate>59390 AND f.gpunumberofcomputeunits<16;,9.520724918383603,11,18.00869999999577,0,0.0
+782,SELECT COUNT(*) FROM fps f WHERE f.fps>141.5 AND f.gpunumberofrops>20 AND f.gpunumberoftransistors=1950 AND f.gpubandwidth>108800;,1.0,23,6.375300000001971,0,0.0
+783,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus=32 AND f.gpufp32performance=306000 AND f.cpucachel1>288 AND f.gpubusnterface=2 AND f.cpucachel3>0 AND f.gpumemorytype=2 AND f.gpubaseclock=797 AND f.cpudiesize>0.000315;,1.0,1,16.276899999979833,0,0.0
+784,SELECT COUNT(*) FROM fps f WHERE f.gameresolution=1440 AND f.gpunumberofshadingunits<336 AND f.gpumemorysize>512 AND f.cpudiesize<0.000177;,9.466199046006052,1,7.788000000005013,0,0.0
+785,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier<39.0 AND f.gpubaseclock<1090 AND f.cpumultiplierunlocked=1 AND f.gpunumberoftmus>12 AND f.gpunumberofcomputeunits>14 AND f.cpucachel3>12 AND f.gpunumberofexecutionunits=0 AND f.cpudiesize=0.000149;,3.6257143293522867,3,19.246500000008382,0,0.0
+786,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits<40;,425177.0,425177,0.7927999999992608,0,0.0
+787,SELECT COUNT(*) FROM fps f WHERE f.gameresolution<1080 AND f.cpucachel3>24 AND f.gpubaseclock<1365 AND f.gpufp32performance<3344000;,78.2054122010321,15,9.530800000050021,0,0.0
+788,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus<352 AND f.cputurboclock<4700 AND f.gpuvulkan<4 AND f.gpunumberofexecutionunits=0 AND f.gamename=30 AND f.cputdp=65 AND f.fps=140.1 AND f.cpumultiplier=36.0;,1.0,1,17.4546999999734,0,0.0
+789,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth=40060 AND f.cpunumberoftransistors>504 AND f.gamename=27;,29.859128360621355,10,8.3170999999993,0,0.0
+790,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate=4000 AND f.cpufrequency=2600 AND f.gameresolution=720 AND f.gpuvulkan=6 AND f.gamename=17 AND f.cpunumberoftransistors>300;,1.0,0,13.397899999972651,0,0.0
+791,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype<6 AND f.gpuvulkan=3 AND f.gameresolution=1080 AND f.gpunumberofrops=24 AND f.gpumemorybus=192 AND f.cpumultiplier>22.0 AND f.gpuprocesssize=28 AND f.gpupixelrate>12960 AND f.cpufrequency=2400 AND f.cputurboclock=3400;,1.0,39,20.462699999995948,0,0.0
+792,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplierunlocked=1 AND f.cpunumberoftransistors=1400 AND f.gpubusnterface<12 AND f.gpumemorytype=8 AND f.cpuprocesssize=22 AND f.cpudiesize<0.000177 AND f.gpumemorysize=0 AND f.gpubandwidth=0 AND f.gpunumberofrops=6;,1.0,2,19.70499999998765,0,0.0
+793,SELECT COUNT(*) FROM fps f WHERE f.gamename=12 AND f.gameresolution=720 AND f.gamesetting=2 AND f.cpumultiplier>37.0;,60.07134222824936,13,8.04470000002766,0,0.0
+794,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate<16080 AND f.cpubaseclock<266 AND f.cpucachel1=192 AND f.cputurboclock=3200 AND f.gpunumberoftransistors>915;,1.0,0,14.452000000005683,0,0.0
+795,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits>40 AND f.gpunumberoftmus>48;,1.0,0,3.0484000000114975,0,0.0
+796,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate=118400 AND f.cpubaseclock=100 AND f.gpushadermodel<4;,1.0,0,6.888800000012907,0,0.0
+797,SELECT COUNT(*) FROM fps f WHERE f.gamename>7 AND f.gamesetting<3 AND f.cpumultiplier>34.0 AND f.gpunumberofexecutionunits=40 AND f.gpushadermodel=4 AND f.gpunumberoftmus=40 AND f.gpudiesize=0.000181;,1.0,2,12.048999999990428,0,0.0
+798,SELECT COUNT(*) FROM fps f WHERE f.fps<212.6 AND f.gpubaseclock=824;,84.3315016261074,84,3.5195000000385335,0,0.0
+799,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype<9 AND f.gpuvulkan>1 AND f.gpufp32performance<2088000 AND f.fps<330.0 AND f.gpuprocesssize<65 AND f.cpunumberofcores>2 AND f.gpubandwidth=40000;,3.806665096692282,15,14.148500000032982,0,0.0
+800,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock>3400;,379614.99999999994,379615,7.278499999983978,0,0.0
+801,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3=10 AND f.gpunumberofshadingunits=3584 AND f.gpubaseclock=1481 AND f.gamename>1 AND f.cpumultiplier=36.0 AND f.cpudiesize=0.000294 AND f.gpubandwidth=484400 AND f.gpumemorytype=3 AND f.gpuprocesssize=16;,1.0,10,19.63349999999764,0,0.0
+802,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface<8 AND f.gpunumberofshadingunits=1536 AND f.cpubaseclock=200 AND f.cputurboclock=5000 AND f.gpunumberoftransistors>3540 AND f.gpunumberofrops=48;,1.4245744443678041,2,14.008499999988544,0,0.0
+803,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize=0.000121 AND f.cpudiesize=0.000117 AND f.cpumultiplier<15.0;,3.479739422417564,6,11.365599999976439,0,0.0
+804,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus>192 AND f.gpushadermodel<7 AND f.gpunumberoftransistors<10300 AND f.gpuboostclock=775 AND f.gpunumberofexecutionunits<0;,1.0,0,8.055399999989277,0,0.0
+805,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits<40 AND f.gpupixelrate>30400 AND f.gameresolution<1080 AND f.gamename>18 AND f.cpunumberofcores>16 AND f.gpunumberoftmus=224 AND f.gputexturerate=354400 AND f.gpuvulkan=1 AND f.cpudiesize>0.0;,1.0,1,15.764100000012604,0,0.0
+806,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors=1950 AND f.gpubandwidth=128000 AND f.gpumemorytype=5 AND f.fps<160.0 AND f.gpufp32performance=1089000 AND f.gpunumberoftmus>56;,1.0,0,9.094199999992725,0,0.0
+807,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2=2048 AND f.gpunumberofexecutionunits>0 AND f.gamesetting=2;,219.31804419930072,2,7.282599999996364,0,0.0
+808,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate=49410 AND f.gpunumberofcomputeunits<0;,1.0,0,4.266500000028373,0,0.0
+809,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock<1086 AND f.gpunumberoftransistors<681 AND f.cpumultiplier<26.0 AND f.cpumultiplierunlocked=1;,13422.578777459072,13882,11.855000000025484,0,0.0
+810,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock=133 AND f.gpudiesize>0.000116 AND f.gamesetting<4 AND f.gpuboostclock>518 AND f.cpumultiplierunlocked>1 AND f.cpunumberofthreads=12;,13.805383583115141,3,15.031600000043,0,0.0
+811,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock=1018 AND f.gpuprocesssize<28;,1.0,0,4.382700000007844,0,0.0
+812,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize=2500 AND f.cpumultiplier=34.0 AND f.cpuprocesssize=22 AND f.gpuprocesssize=40;,1.0,1,11.766700000009678,0,0.0
+813,SELECT COUNT(*) FROM fps f WHERE f.gamesetting>1 AND f.cpucachel2=4096 AND f.gpufp32performance=732700 AND f.gpunumberofcomputeunits=0 AND f.gpubusnterface=13 AND f.gpunumberofrops=16 AND f.cpudiesize=0.000192 AND f.gpuprocesssize=28;,1.0,1,15.399999999999636,0,0.0
+814,SELECT COUNT(*) FROM fps f WHERE f.gamename>8 AND f.gpunumberofexecutionunits=0 AND f.gpunumberoftmus=2 AND f.gpudiesize=0.0;,1.0,9,5.517300000008163,0,0.0
+815,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits>6 AND f.gpubandwidth=0 AND f.gpunumberofshadingunits>144 AND f.gpunumberoftmus<48 AND f.fps>70.0 AND f.gpuvulkan=5;,1.0,3,8.57989999997244,0,0.0
+816,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors=390 AND f.cpumultiplier<33.0 AND f.cpufrequency=2600 AND f.gamename=6 AND f.gpuvulkan=6 AND f.cputurboclock=2600;,1.0,2,16.84899999997924,0,0.0
+817,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores>6 AND f.cpuprocesssize>7 AND f.gpushadermodel<5 AND f.gpunumberofexecutionunits=40 AND f.cpudiesize=0.0 AND f.cpunumberoftransistors=0 AND f.gameresolution=720 AND f.gputexturerate=44000 AND f.gpufp32performance>704000;,1.0,0,19.621299999982966,0,0.0
+818,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplierunlocked=2;,242136.00000000003,242136,5.942599999968934,0,0.0
+819,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate<43920 AND f.gpuvulkan>6 AND f.gamename>18 AND f.cputdp=10;,1.0,1,10.231900000007954,0,0.0
+820,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate=12400 AND f.gamename<17;,3.1947403835370656,3,4.283999999984189,0,0.0
+821,SELECT COUNT(*) FROM fps f WHERE f.fps=176.4 AND f.gpudiesize>0.000251 AND f.gpunumberofshadingunits<2304 AND f.gpubusnterface=6 AND f.cpucachel3=16 AND f.cputurboclock=3800 AND f.cpucachel1=768;,1.0,1,17.79540000001134,0,0.0
+822,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits<40 AND f.gpuboostclock=1480 AND f.gpumemorybus<160 AND f.cpumultiplier>30.0;,17.85615265149721,4,10.182899999961137,0,0.0
+823,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate<31200;,67836.0,67836,3.1526999999869076,0,0.0
+824,SELECT COUNT(*) FROM fps f WHERE f.cputdp>220 AND f.cpumultiplier=30.0 AND f.gamename>17 AND f.gpumemorytype=7 AND f.gpunumberoftransistors=12500;,1.0,1,13.458999999954813,0,0.0
+825,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance=572200 AND f.cputdp=17 AND f.cpucachel3=3 AND f.cpuprocesssize=22 AND f.gpubaseclock=745 AND f.gpunumberofshadingunits=384 AND f.gpushadermodel=4 AND f.cpunumberofthreads=4;,1.0,2,21.331099999997605,0,0.0
+826,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth<56000 AND f.gpunumberoftransistors>915;,6852.6614410860875,6490,4.422200000021803,0,0.0
+827,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3<19 AND f.cpudiesize=8.2e-05 AND f.cpucachel2=2048 AND f.cpumultiplier>13.0 AND f.gpubaseclock=513 AND f.gpushadermodel=7 AND f.cpucachel1=128;,1.0,1,20.885099999986778,0,0.0
+828,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize>0.000471 AND f.gpunumberofexecutionunits=0 AND f.cpunumberofcores<12 AND f.cpucachel2=2048 AND f.gpubandwidth>192400 AND f.cpunumberoftransistors<2600 AND f.gpupixelrate>98880;,2687.136909453052,3512,14.602200000013,0,0.0
+829,SELECT COUNT(*) FROM fps f WHERE f.gpuprocesssize=65 AND f.gpunumberofexecutionunits=0 AND f.cpumultiplier=13.5 AND f.gpupixelrate=1800 AND f.cpubaseclock=200;,1.0,4,11.072799999965355,0,0.0
+830,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate<22560 AND f.gpunumberofrops=1 AND f.cpunumberofthreads=2 AND f.gpuprocesssize<90 AND f.cpumultiplierunlocked=1;,532.5530059572385,219,13.272900000004029,0,0.0
+831,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth=80130 AND f.cpumultiplier<36.0;,2.8194317140238114,2,7.860999999991236,0,0.0
+832,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3=64 AND f.gpunumberofcomputeunits=0 AND f.cpubaseclock=100 AND f.gpunumberoftransistors<7200 AND f.gpubusnterface=6 AND f.gpumemorybus>128 AND f.gpubaseclock<1500 AND f.gpunumberofshadingunits=2048 AND f.cputurboclock=4600;,2.161630265946048,48,18.889199999989614,0,0.0
+833,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors=11800 AND f.gpubandwidth>484400 AND f.gpunumberoftmus=240 AND f.gpumemorybus=384 AND f.gpudiesize=0.000471 AND f.fps=0.0;,1.0,1,8.702999999968597,0,0.0
+834,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier<11.5;,239.00000000000009,239,5.846799999972063,0,0.0
+835,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors>2270 AND f.gpunumberofshadingunits>1344 AND f.gpunumberoftransistors<11800;,51191.66643723816,51105,7.955400000014379,0,0.0
+836,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock=3333 AND f.gpunumberofcomputeunits<5 AND f.gpufp32performance>1825000 AND f.cpunumberofcores<4 AND f.gpubusnterface=6;,3.44753914224472,1,13.156900000012683,0,0.0
+837,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplierunlocked=1 AND f.cpucachel1=384;,25462.26378819508,22662,8.848999999997886,0,0.0
+838,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock=2200 AND f.cpunumberofcores>1 AND f.cpucachel3>2 AND f.cpudiesize=0.000149 AND f.gpufp32performance<256000 AND f.cpunumberoftransistors=624 AND f.cpumultiplierunlocked=1 AND f.gputexturerate<6480 AND f.gpubandwidth<12800;,1.0,0,23.36489999999003,0,0.0
+839,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplierunlocked>1 AND f.cpucachel1=576 AND f.cpunumberofthreads=12 AND f.gpuboostclock=1200 AND f.gpunumberoftmus=56 AND f.cpucachel2<3072;,1.0,0,17.438400000003185,0,0.0
+840,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads=24 AND f.cpucachel2=12288 AND f.gpufp32performance<10070000 AND f.gpudiesize=0.000352 AND f.cpucachel3=16 AND f.cpufrequency=2900 AND f.fps=60.0 AND f.gamesetting=2 AND f.gpupixelrate=25600;,1.0,1,20.581499999991593,0,0.0
+841,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize<768 AND f.gpumemorybus=256 AND f.cpuprocesssize>65;,1.0,1,7.509999999967931,0,0.0
+842,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads<32 AND f.cpufrequency>4100 AND f.fps=141.0 AND f.gpufp32performance<11340000 AND f.gpunumberofshadingunits=2944 AND f.gpunumberofexecutionunits=0 AND f.gpunumberoftransistors=13600 AND f.gputexturerate=314600;,1.0,1,15.580699999986791,0,0.0
+843,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype>5;,51937.999999999985,51938,1.9643999999630068,0,0.0
+844,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits>24 AND f.gpunumberoftmus=48 AND f.gpubaseclock=300 AND f.cpumultiplier=30.0 AND f.gpuprocesssize=14 AND f.gpuboostclock=1000 AND f.gameresolution=720;,1.0,143,12.925399999971887,0,0.0
+845,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits=0 AND f.gpunumberofcomputeunits<48 AND f.gpudiesize<0.000334 AND f.gpubaseclock<350 AND f.gameresolution<1440 AND f.gpunumberofshadingunits>512 AND f.cpunumberoftransistors=4950 AND f.cpucachel1=512 AND f.gpuprocesssize=14;,1999.2772966526393,2018,15.782200000046487,0,0.0
+846,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency>2100 AND f.gamename>26 AND f.gpuprocesssize<40 AND f.gpumemorysize<24000 AND f.gpudiesize>0.000125 AND f.cpucachel2<2048 AND f.cpunumberofthreads=2 AND f.cpunumberoftransistors<504 AND f.gpupixelrate>36430 AND f.cpuprocesssize>22;,2.2443669363765135,1,22.763200000042616,0,0.0
+847,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency>2100 AND f.gpumemorytype<7;,403824.40647800686,403964,7.364399999971738,0,0.0
+848,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors=300 AND f.gpubaseclock<625;,162.37630705440688,166,6.577200000037919,0,0.0
+849,SELECT COUNT(*) FROM fps f WHERE f.cpuprocesssize=65 AND f.gamesetting>1 AND f.cputdp=45 AND f.fps<20.0 AND f.cpudiesize=0.000126 AND f.gpumemorytype=9 AND f.gputexturerate=26400;,1.0,1,15.29729999998608,0,0.0
+850,SELECT COUNT(*) FROM fps f WHERE f.gamesetting=4 AND f.cpumultiplier>14.5 AND f.gputexturerate<42060 AND f.gpubaseclock=625;,70.31549005158749,85,9.848900000008598,0,0.0
+851,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize=7.4e-05 AND f.gpunumberofrops>24;,10506.303840165368,10521,6.785700000023098,0,0.0
+852,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus=80 AND f.cpucachel2>4096 AND f.gpufp32performance>2720000;,2972.7255066145667,2861,8.483800000021802,0,0.0
+853,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface>14 AND f.gamename=4 AND f.cputurboclock>3800 AND f.gpumemorybus=256 AND f.fps=86.5 AND f.gpunumberofcomputeunits=40;,1.0,1,10.986500000001342,0,0.0
+854,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3=3 AND f.gpubusnterface<12;,22621.93234606154,22687,6.985299999996641,0,0.0
+855,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency>3333 AND f.cpubaseclock>133 AND f.fps>800.0 AND f.cpuprocesssize<32;,1.0921565483295779,0,10.896700000046167,0,0.0
+856,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate<2000 AND f.gpubaseclock<500 AND f.gpubandwidth<5184 AND f.gpunumberoftmus<4 AND f.cpucachel2=512 AND f.gamesetting>2 AND f.cpunumberofthreads=2 AND f.cpubaseclock=100;,1.0,2,15.381999999988238,0,0.0
+857,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface<13 AND f.cpunumberoftransistors<382 AND f.cpufrequency<3400 AND f.gpumemorytype<5;,8311.458404651901,9247,9.43280000001323,0,0.0
+858,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock=1278 AND f.gpuvulkan=1 AND f.gamename=12 AND f.gpunumberoftmus=128 AND f.gpunumberoftransistors=7200;,1.0,1,7.5352000000066255,0,0.0
+859,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock<5000 AND f.cpumultiplier<35.0 AND f.cpunumberoftransistors>105 AND f.cpubaseclock=133 AND f.gputexturerate>1800;,1237.1768640816538,2026,15.584399999966081,0,0.0
+860,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock<1033 AND f.gpunumberofrops=20 AND f.cpunumberofthreads=4;,3.679213292641643,3,8.832000000040807,0,0.0
+861,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize>0.000216;,34920.99999999999,34921,5.443899999988844,0,0.0
+862,SELECT COUNT(*) FROM fps f WHERE f.cpuprocesssize<12 AND f.gpubaseclock>1400 AND f.gpunumberofcomputeunits=36 AND f.gpunumberoftransistors=10300 AND f.cputurboclock>4400 AND f.gpumemorytype=6;,99.55012514068517,97,13.689100000021881,0,0.0
+863,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock>1455 AND f.gpunumberofexecutionunits=0 AND f.gpubandwidth=409600 AND f.gpupixelrate=94140 AND f.cputurboclock=3100 AND f.cpucachel3=3 AND f.gpudiesize=0.000495 AND f.gamesetting=1;,1.0,1,16.23050000000603,0,0.0
+864,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2=6144;,11481.999999999996,11482,0.06180000002586894,0,0.0
+865,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth<152000 AND f.gpunumberoftransistors>2640 AND f.gpubaseclock<1392 AND f.gpufp32performance>1981000 AND f.cpudiesize>0.000169 AND f.cpucachel1=384 AND f.cpunumberoftransistors<2270 AND f.gameresolution=720 AND f.gputexturerate<67200;,420.1509574433007,275,18.257100000028004,0,0.0
+866,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3>8 AND f.gpunumberofrops>88 AND f.gpumemorysize=6000 AND f.gpushadermodel=9 AND f.gpunumberofshadingunits=2816;,1597.9999999999993,1598,11.476299999969797,0,0.0
+867,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel>5 AND f.cpudiesize=0.000118 AND f.gpumemorysize>4000;,2.0010158925730783,2,8.305699999993976,0,0.0
+868,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock<602 AND f.gpumemorysize>512 AND f.gpunumberoftmus>44 AND f.gpubusnterface=13 AND f.gpushadermodel=7 AND f.cpucachel3<8 AND f.gameresolution>720;,1.3566859935114968,22,12.75110000000268,0,0.0
+869,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype>6;,20213.000000000004,20213,2.0407000000091102,0,0.0
+870,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel<9 AND f.fps<245.6 AND f.cpucachel2>2048;,25969.787575749724,27455,7.873099999983424,0,0.0
+871,SELECT COUNT(*) FROM fps f WHERE f.cputdp>51 AND f.gpunumberofexecutionunits>40 AND f.cpudiesize=0.000177 AND f.cpunumberoftransistors=1400 AND f.gamename<29 AND f.gpubandwidth=0 AND f.cpucachel2=512;,2.55984864977742,331,17.370099999993727,0,0.0
+872,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock<720 AND f.gpunumberofcomputeunits>4 AND f.gpunumberofrops=8 AND f.gpuboostclock=1240 AND f.gpunumberofshadingunits=704;,84.87438425678997,85,7.855199999994511,0,0.0
+873,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3>20 AND f.cpumultiplierunlocked=1 AND f.gpunumberofshadingunits<3840 AND f.cpubaseclock=100 AND f.gpushadermodel=9 AND f.cpuprocesssize<14;,172.32309809887946,0,16.32030000001805,0,0.0
+874,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel>5 AND f.cpucachel1>2304;,1.225355566454236,2,6.749899999988429,0,0.0
+875,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize=16000 AND f.gputexturerate=348500 AND f.gpunumberofexecutionunits=0 AND f.gpubaseclock=1620;,1.0,2,6.375999999988835,0,0.0
+876,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofshadingunits<80 AND f.cpuprocesssize=14 AND f.gpunumberofexecutionunits=0 AND f.gpunumberoftmus<8 AND f.gpufp32performance>134400;,1.0,0,10.27360000000499,0,0.0
+877,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus<256 AND f.cpuprocesssize=90 AND f.cpufrequency>2000;,14.972488522961847,3,10.714900000039052,0,0.0
+878,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock=824 AND f.cpunumberofthreads=8 AND f.gpumemorytype=5 AND f.cpucachel3=8 AND f.gpumemorybus=128 AND f.gpuprocesssize=28;,11.892618146983315,34,15.132800000003499,0,0.0
+879,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock>815 AND f.gamename<19 AND f.cpuprocesssize=32 AND f.cpudiesize<0.000239 AND f.gpubandwidth<96000 AND f.cpucachel2>512 AND f.gpushadermodel>3 AND f.cputurboclock>2900 AND f.gpupixelrate=7200;,39.20365458521944,1,20.833000000038737,0,0.0
+880,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize>0.000315 AND f.gpumemorybus=128;,12.753281972645723,10,7.150499999966087,0,0.0
+881,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus>160 AND f.gameresolution>1080 AND f.cpucachel2=14336 AND f.cpudiesize=0.0;,2.053023472689597,24,10.95250000003034,0,0.0
+882,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits>2 AND f.gpumemorytype<7;,62628.67417595834,61374,3.9012999999954445,0,0.0
+883,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate=13200 AND f.gpudiesize=0.000196 AND f.gpunumberofshadingunits=0;,1.0,1,6.296899999995276,0,0.0
+884,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits>18 AND f.gpunumberofcomputeunits=0 AND f.cpucachel3<22 AND f.cpufrequency>3200 AND f.cpucachel2>512 AND f.cpumultiplier=36.0 AND f.gputexturerate<44000;,6.565358748814769,0,18.772100000035152,0,0.0
+885,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock<1650 AND f.gpudiesize=0.000118 AND f.gpumemorysize<1024;,27.222844141611848,126,6.093599999985599,0,0.0
+886,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1=1024 AND f.gpubandwidth=448000 AND f.cpudiesize=0.0 AND f.gpunumberoftmus>184 AND f.cpunumberofthreads=32 AND f.gamesetting=3 AND f.cpucachel2=16384;,1.0,2,19.03060000000778,0,0.0
+887,SELECT COUNT(*) FROM fps f WHERE f.fps=243.6 AND f.gpunumberofexecutionunits=0 AND f.cpumultiplierunlocked=2 AND f.gpunumberofshadingunits>1920 AND f.gamename=16 AND f.gpuprocesssize>12;,1.0,1,10.836799999992763,0,0.0
+888,SELECT COUNT(*) FROM fps f WHERE f.gamename=18 AND f.cpuprocesssize=32 AND f.gpunumberofcomputeunits>4 AND f.gpunumberoftransistors=956;,2.1297856895375586,5,9.780200000022887,0,0.0
+889,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate>43920 AND f.cpunumberofcores>3 AND f.cpufrequency=2900 AND f.cpuprocesssize=14 AND f.cputurboclock=4400 AND f.gpunumberofexecutionunits=0 AND f.gpudiesize>0.000352 AND f.gpupixelrate>109400 AND f.gpunumberoftransistors=18600;,1.6205556753761052,10,21.966700000007222,0,0.0
+890,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize=5.7e-05 AND f.cpunumberoftransistors<1178 AND f.cpumultiplier=12.0 AND f.gpumemorytype=2 AND f.gpupixelrate=2080 AND f.gpunumberoftransistors=260;,1.0,3,14.588400000036472,0,0.0
+891,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier>15.5 AND f.gpudiesize=0.00016 AND f.gpuvulkan=1;,907.2728506285521,1539,9.512999999969907,0,0.0
+892,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads=1 AND f.gpumemorysize<1024;,3.0811133200795258,3,7.98170000001619,0,0.0
+893,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1>288;,176606.99999999994,176607,6.093099999986862,0,0.0
+894,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier>28.0 AND f.gpunumberofshadingunits=128 AND f.gpubusnterface=13 AND f.gpuvulkan>6;,1.0,0,10.356199999989713,0,0.0
+895,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize<7.4e-05 AND f.cpunumberoftransistors>1300 AND f.gpunumberoftmus>20 AND f.cpucachel3=3 AND f.gamesetting>1;,128.34690857298142,16,12.841999999977816,0,0.0
+896,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits<6 AND f.cpuprocesssize<12 AND f.cpucachel3=32 AND f.cpumultiplier<39.0 AND f.cpunumberofthreads=12 AND f.gpumemorysize<1024 AND f.gamesetting=3;,1.0,1,18.57540000003155,0,0.0
+897,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency>2300 AND f.cpubaseclock<133 AND f.gamename>4 AND f.gpuboostclock=967 AND f.gamesetting>3;,42.30147894903744,49,11.806499999977405,0,0.0
+898,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface=15;,2855.9999999999986,2856,2.0819000000074084,0,0.0
+899,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance>953900 AND f.cpucachel1=512 AND f.gpubusnterface<15 AND f.cpudiesize>0.0 AND f.gpumemorysize<2000 AND f.cputdp<100 AND f.cpunumberofcores=4;,2180.1867549539143,2300,18.619099999966693,0,0.0
+900,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplierunlocked<2 AND f.gpumemorybus<2048 AND f.cpucachel2=1536 AND f.gpunumberofshadingunits>352 AND f.gamesetting<4 AND f.gpuboostclock<933 AND f.cpufrequency=2700 AND f.gpunumberofexecutionunits=0 AND f.gpubaseclock>775 AND f.gamename=23;,1.0,3,19.457199999976638,0,0.0
+901,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock<1600;,230087.99999999997,230088,3.1913999999915177,0,0.0
+902,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock=1683 AND f.gpubusnterface=6;,63423.12315501233,63424,4.119100000025355,0,0.0
+903,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftmus=88 AND f.cpumultiplierunlocked<2 AND f.cpumultiplier>28.0 AND f.fps<800.0 AND f.cputdp<88 AND f.gameresolution<1080 AND f.gpubusnterface=6 AND f.gpupixelrate=85680;,21.286748496306778,28,16.55230000000074,0,0.0
+904,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits=0 AND f.gpuboostclock<550 AND f.gpubandwidth<22400 AND f.gpupixelrate<3200 AND f.cputdp<125 AND f.cpucachel3=12;,1.0,1,13.205099999993308,0,0.0
+905,SELECT COUNT(*) FROM fps f WHERE f.cputdp<220 AND f.cpudiesize>0.000263;,33442.09116563489,33138,8.995600000048398,0,0.0
+906,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads<4 AND f.gputexturerate<1200 AND f.cpubaseclock=100 AND f.cputurboclock=2900 AND f.gpumemorybus=0 AND f.gpumemorysize>0;,1.0,0,15.76620000003004,0,0.0
+907,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3>11 AND f.cpumultiplierunlocked<2 AND f.cputdp<65 AND f.gpubandwidth<80190 AND f.cpufrequency=2200 AND f.gpumemorybus>128;,1.0,0,18.166699999994762,0,0.0
+908,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3=16 AND f.gpunumberofexecutionunits=40 AND f.gpuvulkan=4 AND f.cpucachel2=2048 AND f.gameresolution=720 AND f.cpunumberofcores=8;,1.0,3,14.670499999965614,0,0.0
+909,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock>1075 AND f.cpufrequency=3466 AND f.cpunumberofthreads=12 AND f.fps=80.0 AND f.gpubandwidth=336600 AND f.gpunumberofexecutionunits=0 AND f.cputdp=130 AND f.cpucachel3>12;,1.0,0,18.593399999986104,0,0.0
+910,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops=4 AND f.cpumultiplier>33.0 AND f.gpuvulkan<6;,226.04407186341336,3,8.578199999988101,0,0.0
+911,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores<32;,425831.0,425831,5.927600000006805,0,0.0
+912,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize=0.000216 AND f.cputdp<95 AND f.gpuprocesssize=28 AND f.gpunumberoftmus<128 AND f.gpunumberofrops>8 AND f.gpuboostclock<1178 AND f.cpunumberoftransistors=1160;,146.55111970000644,1,17.09419999997408,0,0.0
+913,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1<288 AND f.gpuprocesssize>65 AND f.gpunumberofrops=24 AND f.cputdp>65 AND f.cpunumberofthreads=4 AND f.gpunumberoftmus=24 AND f.gpubandwidth=67200 AND f.gpuvulkan=6 AND f.gameresolution=1080 AND f.gputexturerate>24000;,1.0,0,20.499099999994996,0,0.0
+914,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3>16 AND f.gpunumberoftransistors>2540 AND f.cpuprocesssize>14 AND f.gpubandwidth<616000 AND f.gpufp32performance>8873000 AND f.cpucachel2=2048 AND f.gpumemorysize=11000;,1.0,13,18.178100000000086,0,0.0
+915,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype=6 AND f.cpudiesize<0.000315 AND f.cpucachel2>1024 AND f.cpunumberofthreads=16 AND f.cpumultiplier=31.0 AND f.fps=300.0 AND f.cpucachel3=16 AND f.gpuvulkan=1;,1.0,1,22.056599999984883,0,0.0
+916,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel=4;,55999.00000000001,55999,2.9170000000249274,0,0.0
+917,SELECT COUNT(*) FROM fps f WHERE f.cpubaseclock<133 AND f.gpushadermodel>2 AND f.gamesetting>1 AND f.cpufrequency=1800 AND f.gpunumberofcomputeunits=5 AND f.gameresolution=720 AND f.gpuvulkan=1 AND f.cpuprocesssize=22 AND f.cpucachel2=512 AND f.gpupixelrate=8240;,1.0,3,20.990700000027118,0,0.0
+918,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize=0.00021 AND f.gpupixelrate=55680 AND f.gpunumberoftransistors=7080;,1.0,4,9.118800000010197,0,0.0
+919,SELECT COUNT(*) FROM fps f WHERE f.gpuboostclock>1183 AND f.gpunumberofexecutionunits=0 AND f.cpucachel1<640 AND f.gpunumberofrops>16 AND f.gpubusnterface<15 AND f.gpuvulkan>2;,7807.9203601323,7611,10.917899999981273,0,0.0
+920,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus<160;,91171.0,91171,2.8487000000154694,0,0.0
+921,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofcores=4 AND f.cpumultiplierunlocked=2 AND f.gpunumberofexecutionunits=0 AND f.gpushadermodel>4 AND f.gamename>2 AND f.gpunumberofshadingunits>1920 AND f.gameresolution=1440 AND f.fps<290.0 AND f.cpunumberofthreads=8 AND f.gpubaseclock=1607;,1665.3060589752145,1374,18.623200000035922,0,0.0
+922,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofshadingunits>2816 AND f.cpunumberofcores<10 AND f.gpupixelrate<106900 AND f.cpubaseclock=200 AND f.cpudiesize<0.000315 AND f.gpunumberoftransistors=7080 AND f.fps=100.0;,1.0,1,14.923299999964001,0,0.0
+923,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1=3072;,2.0000000000001807,2,5.945800000006329,0,0.0
+924,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock=2534 AND f.gpuboostclock<750 AND f.gpumemorytype=9 AND f.gpudiesize=0.0001 AND f.cpunumberofthreads=4 AND f.gamename=29 AND f.cputdp=35 AND f.gpunumberofshadingunits=48;,1.0,1,18.101400000034573,0,0.0
+925,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads>4 AND f.gputexturerate=5000 AND f.fps=70.0 AND f.cpucachel3=16 AND f.cpunumberofcores>4 AND f.gpushadermodel=3;,1.0,1,15.250299999991057,0,0.0
+926,SELECT COUNT(*) FROM fps f WHERE f.cpuprocesssize<65 AND f.gpuvulkan>1 AND f.gpufp32performance>1200000 AND f.gpumemorysize=1280 AND f.gpupixelrate=21960 AND f.gputexturerate=43920 AND f.gpunumberoftransistors=3000 AND f.gpubusnterface>13;,1.0,0,14.596900000015012,0,0.0
+927,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors=1040 AND f.cpucachel3>4 AND f.gpubusnterface<13 AND f.cpunumberoftransistors=1160 AND f.cpunumberofthreads=8;,10.573194400241773,2,14.688300000045729,0,0.0
+928,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface>5 AND f.cpunumberofthreads=6 AND f.gpumemorybus=96 AND f.gpunumberofshadingunits=768;,1041.4724346376797,1042,10.317199999974491,0,0.0
+929,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock<2900 AND f.gpumemorytype=5 AND f.gpudiesize>7.7e-05 AND f.gpuboostclock=1200 AND f.cpucachel1=256 AND f.cpubaseclock=200 AND f.gpunumberoftmus=56 AND f.cpucachel3=0 AND f.gpunumberofrops=16 AND f.gpuprocesssize=14;,1.0,1,22.174400000039896,0,0.0
+930,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier>33.0 AND f.gpubaseclock<1100 AND f.gpushadermodel=8 AND f.gpuprocesssize=90 AND f.gpudiesize>0.0 AND f.gpunumberoftransistors=112 AND f.gamename=27 AND f.gpubandwidth=4256 AND f.gpumemorytype=1 AND f.cputdp=65;,1.0,1,19.752999999980148,0,0.0
+931,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize<3000;,73330.0,73330,2.9107000000294647,0,0.0
+932,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock<4300 AND f.gpubusnterface=7 AND f.gpunumberofexecutionunits=0 AND f.cpuprocesssize>45 AND f.gpuvulkan=6 AND f.cpunumberofthreads=2 AND f.cpudiesize>7.7e-05;,1.0,0,17.815100000007078,0,0.0
+933,SELECT COUNT(*) FROM fps f WHERE f.gameresolution<1080 AND f.fps<480.0 AND f.cpudiesize<0.000435 AND f.gpubandwidth=140200 AND f.cpucachel3=16 AND f.gpumemorytype>5;,1.0,0,13.081399999975929,0,0.0
+934,SELECT COUNT(*) FROM fps f WHERE f.gamesetting>1 AND f.gputexturerate<1600 AND f.gamename>12 AND f.gpupixelrate<1200 AND f.gpunumberofexecutionunits=0 AND f.cpunumberoftransistors<504;,1.0,7,9.605399999998099,0,0.0
+935,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize<0.00016 AND f.gpushadermodel>2;,233008.9403940332,233535,7.192799999984345,0,0.0
+936,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits<18 AND f.fps>309.3 AND f.gpumemorysize=1024 AND f.cpunumberoftransistors=1400 AND f.gpubandwidth<80190 AND f.gpufp32performance=812500;,1.0,2,10.812900000018999,0,0.0
+937,SELECT COUNT(*) FROM fps f WHERE f.gamesetting<3 AND f.gpunumberofcomputeunits<60 AND f.gpubusnterface=4 AND f.cpuprocesssize=45 AND f.gpudiesize=8.6e-05 AND f.gameresolution=1080;,1.0,1,10.540899999966769,0,0.0
+938,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplier=25.0 AND f.gamesetting=4 AND f.cpumultiplierunlocked=1 AND f.cpufrequency>2500 AND f.cputurboclock=3600 AND f.cpucachel2=1536 AND f.gpubusnterface=6 AND f.gpushadermodel=9 AND f.gpumemorysize=8000;,1.0,1,23.177400000008674,0,0.0
+939,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate=13200 AND f.cpucachel1>128;,1.0,0,7.754200000022138,0,0.0
+940,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize=896;,14.999999999999998,15,3.1020000000125947,0,0.0
+941,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplierunlocked<2 AND f.gpunumberoftransistors>0 AND f.gameresolution=720 AND f.cpunumberofcores=2 AND f.gpushadermodel>3 AND f.gpubusnterface>1 AND f.fps>160.0 AND f.cpudiesize>0.0;,314.8486382293812,309,16.64720000002262,0,0.0
+942,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype=5 AND f.gpubaseclock<823 AND f.gamesetting=3 AND f.gpufp32performance<1244000;,637.6342079133468,596,5.9286000000042804,0,0.0
+943,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops<48 AND f.gamesetting<4 AND f.gamename=24 AND f.gpuprocesssize<14 AND f.cpunumberoftransistors<4800 AND f.gpuboostclock=1545;,1.8657735175771872,15,10.708800000031715,0,0.0
+944,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplierunlocked>1 AND f.cpufrequency=3100 AND f.gpunumberofshadingunits>2880 AND f.gpudiesize=0.000545 AND f.cpunumberofcores>14;,1.0,3,14.89150000003292,0,0.0
+945,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel>5;,320875.0,320875,2.8156999999850996,0,0.0
+946,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits=6 AND f.fps>150.0 AND f.cpunumberofthreads<4 AND f.cpuprocesssize=22 AND f.cpudiesize=9.4e-05 AND f.cpucachel2=512 AND f.gpuvulkan>4;,1.0,0,17.70640000000867,0,0.0
+947,SELECT COUNT(*) FROM fps f WHERE f.cputdp>112 AND f.cpuprocesssize>22 AND f.gpudiesize<0.000445 AND f.gamename<12 AND f.gpumemorysize=6000 AND f.cpudiesize=0.000294;,1.0,5,15.263199999992594,0,0.0
+948,SELECT COUNT(*) FROM fps f WHERE f.cpumultiplierunlocked<2 AND f.gpuvulkan<4 AND f.gpuboostclock<1350 AND f.gpupixelrate>20030 AND f.cpunumberoftransistors<1300 AND f.cpunumberofthreads=4 AND f.gpumemorysize=1536;,42.6713376723117,8,16.991600000039853,0,0.0
+949,SELECT COUNT(*) FROM fps f WHERE f.gamesetting=3;,210220.99999999997,210221,0.9938000000033753,0,0.0
+950,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits<5 AND f.cpunumberofcores<2 AND f.cputurboclock=2200 AND f.cpucachel2=512 AND f.gputexturerate=8640 AND f.gpupixelrate>4320;,1.0,0,16.404600000043956,0,0.0
+951,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors<154 AND f.gpunumberofshadingunits<384 AND f.cpubaseclock=200 AND f.gpubusnterface>7 AND f.gpunumberofrops=4 AND f.gamename>1 AND f.cpufrequency<2200 AND f.gpuvulkan=6;,4.29840369544265,12,15.75970000004645,0,0.0
+952,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth<256300;,247303.00000000006,247303,3.2400000000052387,0,0.0
+953,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors=1870 AND f.gpunumberofshadingunits=512 AND f.gpubaseclock=1058 AND f.cpumultiplier=32.0 AND f.cpunumberoftransistors=4800 AND f.gpuvulkan=3;,1.0,1,14.633600000024671,0,0.0
+954,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize>8000 AND f.gpubaseclock>797 AND f.cpuprocesssize>14 AND f.cpunumberofcores=8 AND f.gpupixelrate>104500 AND f.gpumemorytype<6 AND f.cpunumberofthreads<16;,24.202612518619205,56,16.780300000050374,0,0.0
+955,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype<4 AND f.gamename>17 AND f.gpushadermodel>4 AND f.gamesetting>1 AND f.gpumemorysize<512 AND f.cpumultiplier>34.0 AND f.gpunumberofcomputeunits=0 AND f.cpunumberofthreads<8;,1.509101289001512,0,14.328100000000177,0,0.0
+956,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock<4200 AND f.gpubaseclock=1200 AND f.gpumemorybus=3072 AND f.cpudiesize=0.0 AND f.gpunumberofcomputeunits=0 AND f.gpupixelrate=139700 AND f.fps=10.0 AND f.cpucachel1=256;,1.0,1,17.394800000033683,0,0.0
+957,SELECT COUNT(*) FROM fps f WHERE f.gpubaseclock<540 AND f.gpudiesize=0.000133 AND f.cputdp<28 AND f.gpumemorytype>8;,1.0,0,8.757699999989654,0,0.0
+958,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits=44 AND f.gpunumberoftmus=176 AND f.gpuboostclock<1050 AND f.gpumemorysize=4000;,554.0100522351804,632,6.368999999949665,0,0.0
+959,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus=448 AND f.cpunumberoftransistors=1160 AND f.gpudiesize=0.00047;,1.7158150492894,10,7.433800000001156,0,0.0
+960,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize=0.000484 AND f.cpunumberofcores>2 AND f.gameresolution>720 AND f.cpumultiplierunlocked=2 AND f.cpunumberoftransistors=1200;,1.0,1,13.015699999982644,0,0.0
+961,SELECT COUNT(*) FROM fps f WHERE f.gputexturerate<135400 AND f.gameresolution<1080 AND f.cputdp<220 AND f.cpumultiplier<13.0 AND f.cpunumberoftransistors=105;,4.1156905523319764,66,13.137799999981326,0,0.0
+962,SELECT COUNT(*) FROM fps f WHERE f.cputdp>77 AND f.gameresolution>1080 AND f.gpuboostclock>1668 AND f.cputurboclock>3200 AND f.cpudiesize=0.000149 AND f.cpucachel1=384 AND f.gamesetting>1;,1.447271425022624,1,17.564199999981156,0,0.0
+963,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits=24 AND f.fps=120.0 AND f.cputurboclock<2100 AND f.gpumemorytype=8 AND f.cpumultiplierunlocked=1 AND f.gpumemorybus>0;,1.0,0,12.913499999967826,0,0.0
+964,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1=3072 AND f.gpunumberoftmus<256 AND f.gpudiesize=0.000471 AND f.gpuprocesssize=16;,1.0000000000000657,1,10.03120000001445,0,0.0
+965,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype<4 AND f.cpucachel1=896 AND f.cputdp=165 AND f.cputurboclock=4400;,1.0,22,13.322899999991478,0,0.0
+966,SELECT COUNT(*) FROM fps f WHERE f.cpudiesize>0.000117 AND f.gpubusnterface=12 AND f.gpunumberofrops=16 AND f.gpunumberoftransistors=1800 AND f.gpumemorybus=64 AND f.gamename>13 AND f.cpunumberofthreads=12 AND f.gamesetting=2;,1.1141604958564488,8,15.207999999972799,0,0.0
+967,SELECT COUNT(*) FROM fps f WHERE f.cpucachel1=256 AND f.cpufrequency<3700 AND f.gputexturerate<37800 AND f.gpuvulkan=3 AND f.gpuboostclock=977 AND f.cpunumberofcores=4 AND f.cputurboclock<4200;,1.0,1,19.153899999992063,0,0.0
+968,SELECT COUNT(*) FROM fps f WHERE f.gpushadermodel=6 AND f.cpubaseclock=133 AND f.cpunumberoftransistors=384 AND f.gpunumberofcomputeunits=0 AND f.gpubandwidth>12800 AND f.gpuprocesssize=40;,1.0,1,12.010799999984556,0,0.0
+969,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofexecutionunits=48 AND f.gpumemorysize<0;,1.0,0,2.9882000000043263,0,0.0
+970,SELECT COUNT(*) FROM fps f WHERE f.fps=114.2 AND f.gputexturerate=72860 AND f.gpuvulkan=1;,1.0,1,4.5900000000074215,0,0.0
+971,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize=0.000135;,12.999999999999957,13,2.8194000000212327,0,0.0
+972,SELECT COUNT(*) FROM fps f WHERE f.fps>306.3 AND f.cpudiesize=0.00016 AND f.cpumultiplier=24.0;,1.0,1,9.179800000026717,0,0.0
+973,SELECT COUNT(*) FROM fps f WHERE f.gpumemorytype=6 AND f.gpunumberofshadingunits=2304;,9773.840054901555,9027,3.4903000000099382,0,0.0
+974,SELECT COUNT(*) FROM fps f WHERE f.cpuprocesssize<65 AND f.cpumultiplier<20.0 AND f.gpudiesize<0.000294 AND f.cpubaseclock=133;,339.2588909801421,23,11.732100000017454,0,0.0
+975,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance>480000 AND f.gpubandwidth<172800 AND f.gputexturerate>50400 AND f.cpudiesize=0.000169 AND f.cpunumberofcores=4 AND f.gamesetting>2 AND f.gpumemorysize=3000;,11.416507038275151,10,14.117499999997563,0,0.0
+976,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits=28 AND f.gamesetting>3 AND f.gpubusnterface=6 AND f.cpunumberofcores<8 AND f.cpucachel3>6 AND f.gpunumberofexecutionunits=0 AND f.gpunumberofrops=32 AND f.gpuvulkan=1 AND f.gpunumberoftmus=112 AND f.gamename>12;,75.62839022464446,122,16.211699999985285,0,0.0
+977,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors>410 AND f.cpufrequency=4400;,193.0283601852063,221,8.675200000027417,0,0.0
+978,SELECT COUNT(*) FROM fps f WHERE f.cpunumberoftransistors>1160 AND f.cpunumberofthreads<20 AND f.gpunumberofshadingunits=512 AND f.gputexturerate=34720 AND f.cpucachel1>128 AND f.gpuprocesssize=28 AND f.fps>370.0 AND f.gameresolution=1080;,1.0,1,16.085499999974218,0,0.0
+979,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofrops>88 AND f.gamesetting<3 AND f.gpunumberoftmus=192 AND f.fps=60.0 AND f.gpunumberofexecutionunits<0;,1.0,0,5.495900000028087,0,0.0
+980,SELECT COUNT(*) FROM fps f WHERE f.gpunumberofcomputeunits>60 AND f.cpufrequency>3300 AND f.gputexturerate<427000 AND f.gpunumberofshadingunits=4096 AND f.gpunumberofrops<64;,1.0,0,11.380400000007285,0,0.0
+981,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads=28 AND f.cpucachel1=896 AND f.gpuboostclock>1709 AND f.gpumemorysize>8000;,1.0,1,11.700599999983297,0,0.0
+982,SELECT COUNT(*) FROM fps f WHERE f.gpubusnterface>14 AND f.cputurboclock<2800 AND f.gameresolution<1080 AND f.gpuboostclock<550 AND f.cpubaseclock=100 AND f.gpudiesize=0.000127 AND f.gpunumberofexecutionunits=0 AND f.gpubaseclock=459 AND f.cpudiesize>0.000131;,1.0,0,16.104799999993702,0,0.0
+983,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate<77820 AND f.cpumultiplierunlocked<2 AND f.gpumemorybus>160 AND f.gamesetting=3 AND f.cpucachel1=256 AND f.gpuboostclock>967;,11466.169629836735,10268,14.23949999997376,0,0.0
+984,SELECT COUNT(*) FROM fps f WHERE f.cputdp<89 AND f.gamesetting>2 AND f.cpunumberofcores>1;,125297.93770458168,120355,9.549999999990177,0,0.0
+985,SELECT COUNT(*) FROM fps f WHERE f.gpubandwidth=52480 AND f.cpubaseclock<200 AND f.cpucachel2=1024 AND f.gpunumberofexecutionunits=0;,1.3996753317870725,1,9.832200000005287,0,0.0
+986,SELECT COUNT(*) FROM fps f WHERE f.gpupixelrate>19200 AND f.cpuprocesssize>22 AND f.cpufrequency>3800 AND f.gpunumberofcomputeunits>24 AND f.cpumultiplierunlocked=1 AND f.gpuprocesssize>12 AND f.cpubaseclock=200 AND f.cpucachel2<4096;,33.989021670218655,0,20.102799999961007,0,0.0
+987,SELECT COUNT(*) FROM fps f WHERE f.gpunumberoftransistors>1170 AND f.gputexturerate=48160 AND f.gpuboostclock=602 AND f.cpunumberoftransistors=228 AND f.cpunumberofcores=2 AND f.cpumultiplier=13.0;,1.0,1,15.899899999965328,0,0.0
+988,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency>3067 AND f.gpumemorytype=5 AND f.cpumultiplier<22.0 AND f.gpuvulkan<3 AND f.cpunumberofthreads<6 AND f.gamename>17;,1093.2829519503023,681,14.82719999995652,0,0.0
+989,SELECT COUNT(*) FROM fps f WHERE f.cpufrequency=2000 AND f.gpupixelrate=12800 AND f.cputdp=89 AND f.cpunumberofcores=2 AND f.gameresolution=1080 AND f.gpudiesize<0.000123;,1.0,0,15.472100000010869,0,0.0
+990,SELECT COUNT(*) FROM fps f WHERE f.gpudiesize=0.000196 AND f.gpumemorytype=9 AND f.cputdp>73 AND f.gpunumberoftmus=24;,1.0,3,10.437299999978222,0,0.0
+991,SELECT COUNT(*) FROM fps f WHERE f.gpumemorysize=128;,9.000000000000009,9,3.1152000000247426,0,0.0
+992,SELECT COUNT(*) FROM fps f WHERE f.cpucachel3=32 AND f.cpunumberofthreads<24 AND f.gpuprocesssize=40 AND f.gpuboostclock=900 AND f.cpufrequency=3600 AND f.cpucachel1>576;,1.0,0,18.754700000044977,0,0.0
+993,SELECT COUNT(*) FROM fps f WHERE f.cpucachel2=10240 AND f.gpumemorytype=7 AND f.cpuprocesssize=14;,6.387984811141055,1,10.086699999988014,0,0.0
+994,SELECT COUNT(*) FROM fps f WHERE f.gpufp32performance=2611000 AND f.gameresolution=720 AND f.gpumemorysize<4000;,137.7400252030078,0,5.056099999990238,0,0.0
+995,SELECT COUNT(*) FROM fps f WHERE f.fps<78.3 AND f.cpufrequency=2300 AND f.gpubandwidth>288000 AND f.gpupixelrate=98880 AND f.gpunumberofshadingunits=2304;,1.0,1,11.331899999959205,0,0.0
+996,SELECT COUNT(*) FROM fps f WHERE f.gamesetting<4;,372519.00000000006,372519,1.0080000000129985,0,0.0
+997,SELECT COUNT(*) FROM fps f WHERE f.gpumemorybus<128 AND f.gpunumberofexecutionunits=40;,310.2454473475852,316,3.1948000000170396,0,0.0
+998,SELECT COUNT(*) FROM fps f WHERE f.cputurboclock=2534 AND f.cpuprocesssize=32 AND f.gpunumberoftmus=16 AND f.gpunumberoftransistors=486 AND f.gputexturerate<9200;,1.0,0,14.171199999964301,0,0.0
+999,SELECT COUNT(*) FROM fps f WHERE f.cpunumberofthreads>36 AND f.cpumultiplier=30.0 AND f.gameresolution>720 AND f.gpufp32performance>5834000 AND f.gpunumberoftransistors<12500;,1.0,0,12.701800000002095,0,0.0
