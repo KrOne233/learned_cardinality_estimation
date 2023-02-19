@@ -35,24 +35,9 @@ def select_sample(table_names, dict_table_filepath, num_samples):
 
     return df_samples
 
-def join_order(joins):
-    join_tables=[]
-    for join in joins:
-        join_tables.append(join.split('=')[0].split('.')[0])
-        join_tables.append(join.split('=')[1].split('.')[0])
-    join_tables = list(pd.value_counts(join_tables).sort(ascending = False).index)
-    join_order=[]
-    for t in join_tables:
-        for join in joins:
-            tables = [join.split('=')[0].split('.')[0], join.split('=')[1].split('.')[0]]
-            if t in tables:
-                join_order.append(join)
-                joins.remove(join)
-    return join_order
 
 
 def query_on_sample(df_samples, sql_csv_line):
-    joins = sql_csv_line[1].split(',')
     predicates = sql_csv_line[2].split(',')
     i = 0
     df_sample = {}
@@ -64,52 +49,15 @@ def query_on_sample(df_samples, sql_csv_line):
     i = 0
     while i < len(predicates):
         t = predicates[i].split('.')[0]
+        if len(df_sample[t]) == 0:
+            i = i+3
+            continue
         if predicates[i + 1] == '=':
             predicates[i + 1] = '=='
         df_sample[t] = df_sample[t][
             eval('df_sample[t][predicates[i].split(".")[1]]' + predicates[i + 1] + predicates[i + 2])]
-        if len(df_sample[t]) == 0:
-            return df_sample[t]
         i = i + 3
-    if len(joins[0]) > 0:
-        joins = join_order(joins)
-        i = 0
-        joined_t = []
-        for join in joins:
-            left = join.split('=')[0]
-            right = join.split('=')[1]
-            t_left = left.split('.')[0]
-            col_left = left.split('.')[1]
-            t_right = right.split('.')[0]
-            col_right = right.split('.')[1]
-            if i == 0:
-                if col_left == col_right:
-                    df_merge = df_sample[t_left].merge(df_sample[t_right], on=col_left)
-                else:
-                    df_merge = df_sample[t_left].merge(df_sample[t_right], left_on=col_left, right_on=col_right)
-                if len(df_merge) == 0:
-                    return df_merge
-                joined_t.append(t_left)
-                joined_t.append(t_right)
-                i = i + 1
-            else:
-                if t_left in joined_t:
-                    if col_left == col_right:
-                        df_merge = df_merge.merge(df_sample[t_right], on=col_left)
-                    else:
-                        df_merge = df_merge.merge(df_sample[t_right], left_on=col_left, right_on=col_right)
-                    if len(df_merge) == 0:
-                        return df_merge
-                    joined_t.append(t_right)
-                elif t_right in joined_t:
-                    if col_left == col_right:
-                        df_merge = df_merge.merge(df_sample[t_left], on=col_left)
-                    else:
-                        df_merge = df_merge.merge(df_sample[t_left], left_on=col_left, right_on=col_right)
-                    if len(df_merge) == 0:
-                        return df_merge
-                    joined_t.append(t_left)
-        return df_merge
+
     return df_sample[t]
 
 

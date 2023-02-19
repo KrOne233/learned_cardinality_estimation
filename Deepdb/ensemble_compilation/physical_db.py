@@ -6,7 +6,7 @@ from Deepdb.ensemble_compilation.utils import gen_full_join_query, print_conditi
 
 class DBConnection:
 
-    def __init__(self, db_user="postgres", db_password="wzy07wx25", db_host="localhost", db_port="5432", db="shopdb"):
+    def __init__(self, db_user="postgres", db_password="xxx", db_host="localhost", db_port="5432", db="shopdb"):
         self.db_user = db_user
         self.db_password = db_password
         self.db_host = db_host

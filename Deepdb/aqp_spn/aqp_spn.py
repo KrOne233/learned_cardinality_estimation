@@ -406,6 +406,8 @@ class AQPSPN(CombineSPN, RSPN):
             matching_cols = [column for column in self.column_names if column + '<' in table + '.' + condition or
                              column + '=' in table + '.' + condition or column + '>' in table + '.' + condition
                              or column + ' ' in table + '.' + condition]
+
+
             assert len(matching_cols) == 1 or len(matching_fd_cols) == 1, "Found multiple or no matching columns"
             if len(matching_cols) == 1:
                 matching_column = matching_cols[0]

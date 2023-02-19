@@ -658,6 +658,7 @@ def prepare_sample_hdf(schema, hdf_path, max_table_data, sample_size):
 
                     df_samples = df_sample_cache[relationship_obj.start]
                     df_samples = df_samples.set_index(right_attribute, drop=False)
+                    df_samples.index.name = None
                     next_table_data = next_table_data.set_index(left_attribute, drop=False)
                     next_table_data = df_samples.merge(next_table_data, right_index=True, left_on=right_attribute)
                     # only keep rows with join partner

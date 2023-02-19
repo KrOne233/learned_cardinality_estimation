@@ -108,7 +108,7 @@ dictalias = {'fps': ['f']}
 tables = ['fps f']
 
 conn = psycopg2.connect(database="fps",
-                        user='postgres', password='wzy07wx25',
+                        user='postgres', password='',
                         host='localhost', port='5432'
                         )
 

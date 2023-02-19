@@ -13,12 +13,11 @@ from Deepdb.ensemble_compilation.spn_ensemble import read_ensemble
 from Deepdb.ensemble_creation.naive import create_naive_all_split_ensemble, naive_every_relationship_ensemble
 from Deepdb.ensemble_creation.rdc_based import candidate_evaluation
 from Deepdb.evaluation.confidence_interval_evaluation import evaluate_confidence_intervals
-from Deepdb.schemas.imdb.schema import gen_job_light_imdb_schema
+from Deepdb.schemas.tpch.schema import gen_tpch_schema
 
+dataset = 'tpch'
 
-dataset = 'imdb'
-
-if dataset == 'imdb':
+if dataset == 'tpch':
 
     os.makedirs('Deepdb/logs_deepdb', exist_ok=True)
     logging.basicConfig(
@@ -32,12 +31,12 @@ if dataset == 'imdb':
     logger = logging.getLogger(__name__)
 
     # Generate schema
-    csv_path = 'data/imdb'
+    csv_path = 'data/tpch'
     table_csv_path = csv_path + '/{}.csv'
-    schema = gen_job_light_imdb_schema(table_csv_path)
+    schema = gen_tpch_schema(table_csv_path)
 
     # Generate HDF files for simpler sampling
-    hdf_path = 'data/imdb/hdf_files'
+    hdf_path = 'data/tpch/hdf_files'
     max_rows_per_hdf_file = 100000000
 
     logger.info(f"Generating HDF files for tables in {csv_path} and store to path {hdf_path}")
@@ -61,11 +60,11 @@ if dataset == 'imdb':
 
     # Generate ensemble for cardinality schemas
     ensemble_strategy = 'rdc_based'
-    ensemble_path = 'data/imdb/ensembles'
-    samples_per_spn = [10000000, 10000000, 1000000, 1000000, 1000000]
+    ensemble_path = 'data/tpch/ensembles'
+    samples_per_spn = [10000000, 10000000, 1000000, 1000000, 1000000, 100000, 100000]
     bloom_filters = False
     rdc_threshold = 0.3
-    post_sampling_factor = [10, 10, 5, 1, 1]
+    post_sampling_factor = [10, 10, 5, 5, 1, 1, 1]
     incremental_learning_rate = 0
 
     if not os.path.exists(ensemble_path):
@@ -84,10 +83,10 @@ if dataset == 'imdb':
     elif ensemble_strategy == 'rdc_based':
 
         samples_rdc_ensemble_tests = 10000
-        database_name = 'imdb'
+        database_name = 'tpch'
         ensemble_budget_factor = 5
         ensemble_max_no_joins = 2
-        pairwise_rdc_path = 'data/imdb/ensembles/pairwise_rdc.pkl'
+        pairwise_rdc_path = 'data/tpch/ensembles/pairwise_rdc.pkl'
         incremental_condition = None
 
         logging.info(
@@ -108,25 +107,25 @@ if dataset == 'imdb':
     # cardinality prediction using ensemble generated
     from Deepdb.evaluation.cardinality_evaluation import evaluate_cardinalities
 
-    ensemble_location = 'data/imdb/ensembles/ensemble_join_2_budget_5_10000000.pkl'
-    query_file = 'data/imdb/imdb_test_sql_deepdb.sql'
-    true_cardinalities_path = 'data/imdb/imdb_test_deepdb_true_cardinalities.csv'
+    ensemble_location = 'data/tpch/ensembles/ensemble_join_2_budget_5_10000000.pkl'
+    query_file = 'data/tpch/deepdb_sql.sql'
+    true_cardinalities_path = 'data/tpch/deepdb_true_cardinalities.csv'
     target_csv_path = 'results/result_deepdb_tpch.csv'
-    pairwise_rdc_path = 'data/imdb/ensembles/pairwise_rdc.pkl'
+    pairwise_rdc_path = 'data/tpch/ensembles/pairwise_rdc.pkl'
     evaluate_cardinalities(ensemble_location=ensemble_location, query_filename=query_file,
                            target_csv_path=target_csv_path,
-                           schema=schema, use_generated_code=False, physical_db_name='imdb', rdc_spn_selection=True,
+                           schema=schema, use_generated_code=False, physical_db_name='tpch', rdc_spn_selection=True,
                            pairwise_rdc_path=pairwise_rdc_path, true_cardinalities_path=true_cardinalities_path,
                            max_variants=1, merge_indicator_exp=False, exploit_overlapping=False, min_sample_ratio=0)
 
-    for j in range(0, 5):
-        ensemble_location = 'data/imdb/ensembles/ensemble_join_2_budget_5_10000000.pkl'
-        query_file = f'data/imdb/more_joins/imdb_sql_test_{j}_deepdb_sql.sql'
-        true_cardinalities_path = f'data/imdb/more_joins/imdb_sql_test_{j}_deepdb_true_cardinalities.csv'
-        target_csv_path = f'results/result_deepdb_imdb_{j}.csv'
-        pairwise_rdc_path = 'data/imdb/ensembles/pairwise_rdc.pkl'
+    for j in range(0, 7):
+        ensemble_location = 'data/tpch/ensembles/ensemble_join_2_budget_5_10000000.pkl'
+        query_file = f'data/tpch/more_joins/tpch_sql_test_{j}_deepdb_sql.sql'
+        true_cardinalities_path = f'data/tpch/more_joins/tpch_sql_test_{j}_deepdb_true_cardinalities.csv'
+        target_csv_path = f'results/result_deepdb_tpch_{j}.csv'
+        pairwise_rdc_path = 'data/tpch/ensembles/pairwise_rdc.pkl'
         evaluate_cardinalities(ensemble_location=ensemble_location, query_filename=query_file,
                                target_csv_path=target_csv_path,
-                               schema=schema, use_generated_code=False, physical_db_name='imdb', rdc_spn_selection=True,
+                               schema=schema, use_generated_code=False, physical_db_name='tpch', rdc_spn_selection=True,
                                pairwise_rdc_path=pairwise_rdc_path, true_cardinalities_path=true_cardinalities_path,
                                max_variants=1, merge_indicator_exp=False, exploit_overlapping=False, min_sample_ratio=0)

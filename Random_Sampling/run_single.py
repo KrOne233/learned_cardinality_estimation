@@ -59,7 +59,7 @@ def sample_predict(sql_csv_file, df_sample, min_max_file):  # single table
 
 
 conn = psycopg2.connect(database="black_friday_purchase",
-                        user='postgres', password='wzy07wx25',
+                        user='postgres', password='',
                         host='localhost', port='5432'
 )
 
@@ -92,3 +92,4 @@ with open('results/predicitons_sampling_fps.csv','w') as f:
     for i in range(len(predict)):
         f.write(f'{predict[i]},{true_card[i]}\n')
 f.close()
+

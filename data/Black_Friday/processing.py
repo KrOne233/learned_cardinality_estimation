@@ -32,7 +32,7 @@ table.to_csv('data/Black_Friday/Black_Friday_Purchase_num.csv', index=False)
 table = pd.read_csv('data/Black_Friday/Black_Friday_Purchase_num.csv')
 
 conn = psycopg2.connect(database="black_friday_purchase",
-                        user='postgres', password='wzy07wx25',
+                        user='postgres', password='',
                         host='localhost', port='5432'
 )
 conn.autocommit = True

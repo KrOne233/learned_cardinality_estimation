@@ -49,7 +49,7 @@ io_buff = StringIO()
 df.to_csv(io_buff, sep='\t', index=False, header=False)
 io_buff_value = io_buff.getvalue()
 conn = psycopg2.connect(database="fps",
-                        user='postgres', password='wzy07wx25',
+                        user='postgres', password='',
                         host='localhost', port='5432'
                         )
 cur = conn.cursor()
@@ -75,7 +75,7 @@ df_fps = pd.read_csv('data/gpu_game_fps/fps_num_lower.csv', escapechar='\\', enc
 dictalias = {'fps': ['f']}
 
 conn = psycopg2.connect(database="fps",
-                        user='postgres', password='wzy07wx25',
+                        user='postgres', password='',
                         host='localhost', port='5432'
                         )
 conn.autocommit = True

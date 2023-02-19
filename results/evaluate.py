@@ -247,6 +247,7 @@ q_deepdb_2col.to_csv('results/q_deepdb_2col.csv', index=False)
 
 
 
+
 bfp_all_qerror = print_qerror(mscn_bfp.iloc[:, 0], mscn_bfp.iloc[:, 1])
 fig = go.Figure()
 fig.add_trace(go.Box(x=bfp_all_qerror))

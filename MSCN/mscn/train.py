@@ -218,3 +218,13 @@ num_materialized_samples = 0
 train_and_predict(workload_name, filename_queries_train, filename_queries_test, min_max_file, num_queries, num_epochs, batch_size, hid_units, cuda, num_materialized_samples)
 
 
+workload_name = 'tpch'
+filename_queries_train = 'data/tpch/tpch_sql'
+filename_queries_test = 'data/tpch/tpch_sql_test'
+min_max_file = 'data/tpch/column_min_max_vals.csv'
+num_queries = 100000
+num_epochs, batch_size, hid_units = 100, 1024, 256
+cuda = True
+num_materialized_samples = 0
+train_and_predict(workload_name, filename_queries_train, filename_queries_test, min_max_file, num_queries, num_epochs, batch_size, hid_units, cuda, num_materialized_samples)
+

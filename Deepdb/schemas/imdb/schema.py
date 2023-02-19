@@ -23,6 +23,7 @@ def gen_job_light_imdb_schema(csv_path):
     # movie_info_idx
     schema.add_table(Table('movie_info_idx', attributes=['id', 'movie_id', 'info_type_id', 'info', 'note'],
                            csv_file_location=csv_path.format('movie_info_idx'),
+                           keep_fk_attributes=['movie_id'],
                            irrelevant_attributes=['info', 'note'],
                            no_compression=['info_type_id'],
                            table_size=1380035))
@@ -30,6 +31,7 @@ def gen_job_light_imdb_schema(csv_path):
     # movie_info
     schema.add_table(Table('movie_info', attributes=['id', 'movie_id', 'info_type_id'],
                            csv_file_location=csv_path.format('movie_info'),
+                           keep_fk_attributes=['movie_id'],
                            irrelevant_attributes=[],
                            no_compression=['info_type_id'],
                            table_size=14835720))
@@ -37,19 +39,22 @@ def gen_job_light_imdb_schema(csv_path):
     # cast_info
     schema.add_table(Table('cast_info', attributes=['id', 'person_id', 'movie_id', 'role_id'],
                            csv_file_location=csv_path.format('cast_info'),
+                           keep_fk_attributes=['movie_id'],
                            irrelevant_attributes=[],
-                           no_compression=['role_id'],
+                           no_compression=['role_id', 'person_id'],
                            table_size=36244344))
 
     # movie_keyword
     schema.add_table(Table('movie_keyword', attributes=['id', 'movie_id', 'keyword_id'],
                            csv_file_location=csv_path.format('movie_keyword'),
+                           keep_fk_attributes=['movie_id'],
                            no_compression=['keyword_id'],
                            table_size=4523930))
 
     # movie_companies
     schema.add_table(Table('movie_companies', attributes=['id', 'movie_id', 'company_id', 'company_type_id', 'note'],
                            csv_file_location=csv_path.format('movie_companies'),
+                           keep_fk_attributes=['movie_id'],
                            irrelevant_attributes=['note'],
                            no_compression=['company_id', 'company_type_id'],
                            table_size=2609129))

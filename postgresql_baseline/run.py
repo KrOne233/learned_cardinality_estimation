@@ -1,7 +1,7 @@
 import psycopg2
 import csv
 import numpy as np
-
+from tqdm import tqdm
 
 def gain_plan_postgre(sql_file, conn):
     conn.autocommit = True
@@ -10,7 +10,7 @@ def gain_plan_postgre(sql_file, conn):
     true_card = []
     with open(sql_file) as f:
         lines = list(list(rec) for rec in csv.reader(f, delimiter='#'))
-        for line in lines:
+        for line in tqdm(lines):
             sql = 'SELECT * FROM '
             tables = line[0]
             sql = f'{sql}{tables} WHERE '
@@ -21,7 +21,7 @@ def gain_plan_postgre(sql_file, conn):
                     sql += f'{join} AND '
             predicates = line[2].split(',')
             i = 0
-            while i < len(predicates):
+            while i < len(predicates) and len(predicates[0]) > 0:
                 predicate = str(predicates[i])+str(predicates[i+1])+str(predicates[i+2])
                 sql += f'{predicate} AND '
                 i = i+3
@@ -60,7 +60,7 @@ def print_qerror(preds, labels):
 
 # for black friday purchase
 conn = psycopg2.connect(database="black_friday_purchase",
-                        user='postgres', password='wzy07wx25',
+                        user='postgres', password='',
                         host='localhost', port='5432'
 )
 
@@ -76,7 +76,7 @@ f.close()
 
 #for fps
 conn = psycopg2.connect(database="fps",
-                        user='postgres', password='wzy07wx25',
+                        user='postgres', password='',
                         host='localhost', port='5432'
 )
 
@@ -92,7 +92,7 @@ f.close()
 
 # for bfp 2_col_i
 conn = psycopg2.connect(database="black_friday_purchase",
-                        user='postgres', password='wzy07wx25',
+                        user='postgres', password='',
                         host='localhost', port='5432'
 )
 i=1
@@ -110,7 +110,7 @@ while i<8:
 
 #for fps 2_col_i
 conn = psycopg2.connect(database="fps",
-                        user='postgres', password='wzy07wx25',
+                        user='postgres', password='',
                         host='localhost', port='5432'
 )
 i=1
@@ -125,3 +125,63 @@ while i<38:
     f.close()
     i=i+4
 
+# imdb
+conn = psycopg2.connect(database="imdb",
+                        user='postgres', password='',
+                        host='localhost', port='5432'
+)
+
+sql_file = 'data/imdb/imdb_test_sql.csv'
+preds, labels = gain_plan_postgre(sql_file, conn)
+print_qerror(preds, labels)
+with open('results/predicitons_postgre_imdb.csv','w') as f:
+    f.write('prediction,true\n')
+    for i in range(len(preds)):
+        f.write(f'{preds[i]},{labels[i]}\n')
+f.close()
+
+
+# tpch
+conn = psycopg2.connect(database="tpch",
+                        user='postgres', password='',
+                        host='localhost', port='5432'
+)
+
+sql_file = 'data/tpch/tpch_sql_test.csv'
+preds, labels = gain_plan_postgre(sql_file, conn)
+print_qerror(preds, labels)
+with open('results/predicitons_postgre_tpch.csv','w') as f:
+    f.write('prediction,true\n')
+    for i in range(len(preds)):
+        f.write(f'{preds[i]},{labels[i]}\n')
+f.close()
+
+# tpch_multi_joins
+conn = psycopg2.connect(database="tpch",
+                        user='postgres', password='',
+                        host='localhost', port='5432'
+)
+for j in range(0,7):
+    sql_file = f'data/tpch/more_joins/tpch_sql_test_{j}.csv'
+    preds, labels = gain_plan_postgre(sql_file, conn)
+    print_qerror(preds, labels)
+    with open(f'results/predicitons_postgre_tpch_{j}.csv', 'w') as f:
+        f.write('prediction,true\n')
+        for i in range(len(preds)):
+            f.write(f'{preds[i]},{labels[i]}\n')
+    f.close()
+
+# imdb multi joins
+conn = psycopg2.connect(database="imdb",
+                        user='postgres', password='',
+                        host='localhost', port='5432'
+)
+for j in range(0,5):
+    sql_file = f'data/imdb/more_joins/imdb_sql_test_{j}.csv'
+    preds, labels = gain_plan_postgre(sql_file, conn)
+    print_qerror(preds, labels)
+    with open(f'results/predicitons_postgre_imdb_{j}.csv', 'w') as f:
+        f.write('prediction,true\n')
+        for i in range(len(preds)):
+            f.write(f'{preds[i]},{labels[i]}\n')
+    f.close()

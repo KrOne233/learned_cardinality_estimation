@@ -12,7 +12,7 @@ df_purchase = pd.read_csv('data/Black_Friday/Black_Friday_Purchase_num.csv', sep
 df_purchase.columns = [c.lower() for c in df_purchase.columns]
 
 conn = psycopg2.connect(database="black_friday_purchase",
-                        user='postgres', password='wzy07wx25',
+                        user='postgres', password='',
                         host='localhost', port='5432'
                         )
 conn.autocommit = True
@@ -190,7 +190,7 @@ def N_col_sql(num_col, sorted_colset, order, f, f_sql, df, tables, dictalias, co
 
 sorted_colset = list(anova.iloc[:, -1].sort_values().index)
 conn = psycopg2.connect(database="black_friday_purchase",
-                        user='postgres', password='wzy07wx25',
+                        user='postgres', password='',
                         host='localhost', port='5432')
 
 dictalias = {'black_friday_purchase': ['bfp']}

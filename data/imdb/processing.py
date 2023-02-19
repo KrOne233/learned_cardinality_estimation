@@ -107,7 +107,7 @@ def import_postgre(table_name, db_name, df):
     df.to_csv(io_buff, sep='\t', index=False, header=False)
     io_buff_value = io_buff.getvalue()
     conn = psycopg2.connect(database=db_name,
-                            user='postgres', password='wzy07wx25',
+                            user='postgres', password='xxx',
                             host='localhost', port='5432'
                             )
     cur = conn.cursor()
@@ -135,3 +135,72 @@ import_postgre('movie_keyword', 'imdb', df_movie_keyword)
 
 import_postgre('movie_companies', 'imdb', df_movie_companies)
 
+
+# select the queries with certain number of joins
+with open('data/imdb/imdb_test_sql.csv','r') as f:
+    lines = f.readlines()
+    with open('data/imdb/more_joins/imdb_sql_test_0.csv', 'w') as w:
+        for line in lines:
+            q = line.split('#')
+            tables = q[0].split(',')
+            if len(tables) == 1:
+                w.write(line)
+
+
+
+# prepare deepdb qeury file
+def gen_deepdb_true_card(sql_file_csv, deepdb_file_dir, deepdb_sql_dir):
+    with open(sql_file_csv, 'r') as f:
+        lines = f.readlines()
+        with open(deepdb_file_dir + '/deepdb_true_cardinalities.csv', 'w') as d:
+            d.write('query_no,query,cardinality_true\n')
+            with open(deepdb_sql_dir + '/deepdb_sql.sql', 'w') as s:
+                for no_query, query_str in enumerate(lines):
+                    query_str = query_str.split("#")
+                    tables = query_str[0]
+                    joins = query_str[1]
+                    predicates = query_str[2].split(',')
+                    card = query_str[3]
+                    if len(joins) == 0:
+                        qstr = "SELECT COUNT(*) FROM " + str(tables) + " WHERE "
+                    else:
+                        qstr = "SELECT COUNT(*) FROM " + str(tables) + " WHERE "
+                        joins = joins.split(',')
+                        for j in range(len(joins)):
+                            qstr += str(joins[j]) + ' AND '
+
+                    if len(predicates[0]) > 0:
+                        i = 0
+                        p = ''
+                        while i < len(predicates):
+                            p = p + str(predicates[i]) + str(predicates[i + 1]) + str(predicates[i + 2]) + ' AND '
+                            i = i + 3
+                        qstr = qstr+p
+                    qstr = qstr[:len(qstr) - 5] + ';'
+                    d.write(f'{no_query},"{qstr}",{card}')
+                    s.write(f'{qstr}\n')
+            s.close()
+        d.close()
+    f.close()
+
+gen_deepdb_true_card('data/imdb/more_joins/imdb_sql_test_4.csv', 'data/imdb/more_joins', 'data/imdb/more_joins')
+
+# delete the queries contain foreign key in predicates
+with open('data/imdb/more_joins/imdb_sql_test_3.csv','r') as f:
+    lines = f.readlines()
+    with open('data/imdb/more_joins/imdb_sql_test_3_adj.csv', 'w') as w:
+        for line in lines:
+            q = line.split('#')
+            tables = q[0].split(',')
+            predicates = q[2].split(',')
+            if len(predicates[0])>0:
+                i = 0
+                while i<len(predicates):
+                    if predicates[i].split('.')[1] == 'movie_id':
+                        i = 100
+                        break
+                    i = i+3
+                if i < 100:
+                    w.write(line)
+            else:
+                w.write(line)
