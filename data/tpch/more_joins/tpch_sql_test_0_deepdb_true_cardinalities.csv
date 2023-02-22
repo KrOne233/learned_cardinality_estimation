@@ -1,0 +1,1497 @@
+query_no,query,cardinality_true
+0,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>334.65;",533092
+1,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=165.76;",1
+2,"SELECT COUNT(*) FROM part p WHERE p.p_size>43 AND p.p_retailprice=1711.69;",1
+3,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>10 AND s.s_acctbal>7766.29;",1141
+4,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>227752.25;",319032
+5,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1590.63 AND p.p_size=1;",2386
+6,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<6;",2437
+7,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey<88712 AND ps.ps_availqty=6741 AND ps.ps_supplycost<130.16;",9
+8,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey>64322 AND l.l_tax<0.06 AND l.l_suppkey<84 AND l.l_extendedprice<1951.96 AND l.l_quantity<22.0;",403
+9,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey=5047 AND ps.ps_supplycost>608.35 AND ps.ps_partkey=2002 AND ps.ps_availqty>9770;",0
+10,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=48650;",11
+11,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=7096.75;",1
+12,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=15 AND s.s_acctbal>5376.28;",166
+13,"SELECT COUNT(*) FROM part p WHERE p.p_size=2;",4060
+14,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber<4 AND l.l_extendedprice=26366.4 AND l.l_discount=0.06 AND l.l_orderkey=203939 AND l.l_partkey=41778;",0
+15,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>8720.00;",17383
+16,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=522.71 AND ps.ps_partkey>84983 AND ps.ps_availqty>9179;",0
+17,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber=3 AND l.l_tax>0.05 AND l.l_orderkey<199591 AND l.l_extendedprice=60221.94;",0
+18,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=4;",5
+19,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>59441 AND o.o_totalprice=93216.99;",0
+20,"SELECT COUNT(*) FROM part p WHERE p.p_size>14;",143394
+21,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=2;",5
+22,"SELECT COUNT(*) FROM part p WHERE p.p_size=37 AND p.p_retailprice<1375.30;",1465
+23,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=133949 AND o.o_totalprice<281770.49;",14
+24,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=3;",5
+25,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=999.64;",8
+26,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<89528;",894660
+27,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>175.76 AND ps.ps_availqty<129 AND ps.ps_partkey<144000;",6082
+28,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<2;",10
+29,"SELECT COUNT(*) FROM lineitem l WHERE l.l_quantity<6.0;",599038
+30,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>5736.09 AND s.s_nationkey>7;",2633
+31,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=282816.22 AND o.o_custkey=18398;",0
+32,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=2752.44 AND s.s_nationkey>24;",0
+33,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1613.58;",10
+34,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey>68680 AND ps.ps_supplycost<300.83 AND ps.ps_suppkey=5261 AND ps.ps_availqty<2986;",4
+35,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>243824.40;",251572
+36,"SELECT COUNT(*) FROM part p WHERE p.p_size>48;",7834
+37,"SELECT COUNT(*) FROM part p WHERE p.p_size=16;",4103
+38,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice>36325.91 AND l.l_orderkey>4517505 AND l.l_tax>0.04 AND l.l_quantity>38.0;",158037
+39,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>8 AND s.s_acctbal=9463.06;",0
+40,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=2649.41;",1
+41,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=19 AND c.c_acctbal>2189.55;",4371
+42,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<3;",15
+43,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>6472.62;",3217
+44,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=143327.67;",1
+45,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>55313 AND o.o_totalprice=154344.68;",1
+46,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<1;",5
+47,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice>81640.34 AND l.l_orderkey=1742017 AND l.l_tax<0.04 AND l.l_linenumber<5;",0
+48,"SELECT COUNT(*) FROM lineitem l WHERE l.l_quantity=13.0 AND l.l_extendedprice>31257.66 AND l.l_tax>0.03 AND l.l_partkey>75161 AND l.l_orderkey<4869603;",0
+49,"SELECT COUNT(*) FROM part p WHERE p.p_size>17;",131507
+50,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+51,"SELECT COUNT(*) FROM part p WHERE p.p_size=29;",4086
+52,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>1110.73;",121462
+53,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=4;",5
+54,"SELECT COUNT(*) FROM lineitem l WHERE l.l_quantity=14.0 AND l.l_partkey<146511 AND l.l_extendedprice<75680.99;",87537
+55,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1924.93 AND p.p_size<35;",10401
+56,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber=1 AND l.l_tax=0.0;",166370
+57,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<113119.03 AND o.o_custkey>40796;",417510
+58,"SELECT COUNT(*) FROM part p WHERE p.p_size=22 AND p.p_retailprice<1968.90;",3909
+59,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>828.41 AND ps.ps_suppkey>2260 AND ps.ps_availqty=3670;",6
+60,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=4386 AND ps.ps_partkey>10985 AND ps.ps_supplycost<26.64;",2
+61,"SELECT COUNT(*) FROM lineitem l WHERE l.l_quantity>50.0 AND l.l_suppkey=2269 AND l.l_tax=0.08;",0
+62,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey=113327 AND l.l_suppkey=1272 AND l.l_orderkey>881670 AND l.l_extendedprice<59270.77;",0
+63,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<3019.76;",3624
+64,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey=4784134;",7
+65,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=2;",5
+66,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=24;",393
+67,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>11;",5114
+68,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax<0.01 AND l.l_extendedprice>43656.55;",268516
+69,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>8878.01 AND c.c_nationkey=14;",653
+70,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1729.69 AND p.p_size=19;",1016
+71,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>-871.02 AND c.c_nationkey<13;",77058
+72,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<1;",5
+73,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=16;",5974
+74,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=227409.07 AND o.o_custkey<144286;",1
+75,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=11839 AND o.o_totalprice>209732.07;",8
+76,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>3794.31 AND s.s_nationkey<11;",2527
+77,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=-785.38;",1
+78,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice<16096.47 AND l.l_orderkey>3026850 AND l.l_linenumber>1;",476419
+79,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<3 AND c.c_acctbal>9087.12;",1489
+80,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<21 AND s.s_acctbal<8490.64;",7268
+81,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=3707.49 AND s.s_nationkey>0;",1
+82,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<2287.17 AND c.c_nationkey=4;",1799
+83,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=3 AND s.s_acctbal<6757.33;",270
+84,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<0;",0
+85,"SELECT COUNT(*) FROM lineitem l WHERE l.l_suppkey=614 AND l.l_linenumber>2;",342
+86,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<3;",15
+87,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=79496.22 AND o.o_custkey>41224;",1
+88,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+89,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey=166896 AND l.l_orderkey=4790306 AND l.l_extendedprice>9595.35 AND l.l_suppkey=7675;",0
+90,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey<9886 AND ps.ps_partkey=112065;",4
+91,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>0;",20
+92,"SELECT COUNT(*) FROM lineitem l WHERE l.l_suppkey<2614 AND l.l_tax=0.03 AND l.l_extendedprice<19458.6 AND l.l_linenumber<2;",11412
+93,"SELECT COUNT(*) FROM part p WHERE p.p_size<47 AND p.p_retailprice>1705.71;",54192
+94,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=20 AND c.c_acctbal<-868.05;",82
+95,"SELECT COUNT(*) FROM part p WHERE p.p_size>32 AND p.p_retailprice>1654.59;",24775
+96,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>2;",10
+97,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=89.4 AND ps.ps_availqty>6438;",5
+98,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey=140040;",4
+99,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<3;",15
+100,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=6 AND s.s_acctbal<3448.45;",151
+101,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=0;",5
+102,"SELECT COUNT(*) FROM part p WHERE p.p_size<16;",60513
+103,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=5382 AND ps.ps_partkey=133818 AND ps.ps_supplycost<982.35 AND ps.ps_suppkey<3739;",0
+104,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>329.38 AND ps.ps_partkey<2619 AND ps.ps_availqty>1319;",6045
+105,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<3;",15
+106,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=20 AND s.s_acctbal<8481.23;",364
+107,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>3;",5
+108,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>0;",20
+109,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=956.01 AND p.p_size>1;",9
+110,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=2454 AND ps.ps_supplycost>657.78 AND ps.ps_suppkey>5907;",7
+111,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<11647;",116063
+112,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=15 AND c.c_acctbal<4784.51;",3127
+113,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=130550 AND o.o_totalprice<227699.32;",7
+114,"SELECT COUNT(*) FROM part p WHERE p.p_size=11;",4006
+115,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>3828.87 AND s.s_nationkey>9;",3328
+116,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey<853 AND ps.ps_partkey=58524 AND ps.ps_availqty<9701 AND ps.ps_supplycost>435.55;",0
+117,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=385.54 AND ps.ps_partkey<98197;",6
+118,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=13;",6033
+119,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost<747.47 AND ps.ps_availqty=1263 AND ps.ps_partkey<173032;",45
+120,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<115.78 AND s.s_nationkey<14;",560
+121,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<1;",5
+122,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>32474.97 AND o.o_custkey<135544;",1247247
+123,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=7233.70 AND s.s_nationkey<23;",1
+124,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey=3523299 AND l.l_partkey=11331;",0
+125,"SELECT COUNT(*) FROM part p WHERE p.p_size>49 AND p.p_retailprice<1023.00;",152
+126,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey=56982 AND ps.ps_suppkey<4199 AND ps.ps_supplycost>372.27;",1
+127,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=4;",5
+128,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<0;",0
+129,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=23 AND c.c_acctbal<8696.23;",5327
+130,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>92.17 AND ps.ps_availqty>6945;",222439
+131,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=9072;",86
+132,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>5135.98;",66102
+133,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey=114123 AND ps.ps_suppkey=9734 AND ps.ps_availqty=1461;",0
+134,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber>6 AND l.l_tax>0.04 AND l.l_suppkey=5870;",9
+135,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>5311.85;",63752
+136,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>5;",114134
+137,"SELECT COUNT(*) FROM lineitem l WHERE l.l_quantity>27.0 AND l.l_discount=0.08;",250102
+138,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<1160.00;",1951
+139,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey<85905;",343616
+140,"SELECT COUNT(*) FROM part p WHERE p.p_size<41 AND p.p_retailprice=1033.12;",9
+141,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<2261.9;",2935
+142,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1118.07;",10
+143,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice=63230.08 AND l.l_orderkey>5581382;",0
+144,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>3844.28;",5604
+145,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<2;",10
+146,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice=33055.44 AND l.l_quantity<34.0 AND l.l_partkey>54146;",20
+147,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>32748.14 AND o.o_custkey=18379;",11
+148,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost<370.34;",295669
+149,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=183669.38;",1
+150,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<-308.09 AND c.c_nationkey=24;",373
+151,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax<0.01;",665254
+152,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey=145896 AND ps.ps_supplycost<150.96 AND ps.ps_availqty=1765;",0
+153,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<0;",0
+154,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<6180.84;",6549
+155,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<1;",5925
+156,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>363.94 AND c.c_nationkey<1;",5182
+157,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1271.25;",10
+158,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey>3969123 AND l.l_linenumber>2 AND l.l_discount<0.09 AND l.l_extendedprice>39613.92;",411001
+159,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>2;",10
+160,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber=3;",1071394
+161,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty>1218;",702775
+162,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<3;",15
+163,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey<6822;",545680
+164,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>4;",0
+165,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<2;",10
+166,"SELECT COUNT(*) FROM part p WHERE p.p_size=40;",3970
+167,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey<828 AND ps.ps_availqty<5082 AND ps.ps_suppkey=2434;",0
+168,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>22;",11994
+169,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<8439.97;",8578
+170,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>11 AND s.s_acctbal=9143.31;",1
+171,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=23;",390
+172,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>8;",96084
+173,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<-827.58 AND c.c_nationkey<13;",1253
+174,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1813.84 AND p.p_size=16;",759
+175,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=3;",5
+176,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>155.62 AND ps.ps_suppkey>7851;",145412
+177,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<1;",5
+178,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>4 AND s.s_acctbal>341.04;",6960
+179,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey<101357 AND ps.ps_supplycost>836.7;",65866
+180,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>18;",2392
+181,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>8054.76;",26465
+182,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<3;",15
+183,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=5302.34 AND c.c_nationkey<19;",0
+184,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>136286.70;",795302
+185,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1310.37;",62259
+186,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=419.46 AND ps.ps_suppkey<4263;",7
+187,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>103949.55;",977411
+188,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber<1;",0
+189,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=0;",5
+190,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1098.16 AND p.p_size=40;",3592
+191,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>68236 AND o.o_totalprice=95663.78;",1
+192,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty<5168;",413079
+193,"SELECT COUNT(*) FROM lineitem l WHERE l.l_discount<0.01 AND l.l_quantity>24.0 AND l.l_suppkey<8994 AND l.l_tax=0.04 AND l.l_partkey=143834;",0
+194,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>1;",15
+195,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=3671.97;",1
+196,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<17;",101917
+197,"SELECT COUNT(*) FROM lineitem l WHERE l.l_discount<0.0 AND l.l_tax>0.01;",0
+198,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=9 AND s.s_acctbal>3652.07;",239
+199,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<235293.94 AND o.o_custkey=102287;",9
+200,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey>126030 AND ps.ps_suppkey=3609;",30
+201,"SELECT COUNT(*) FROM part p WHERE p.p_size>3 AND p.p_retailprice<1787.87;",148041
+202,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<15 AND s.s_acctbal<7044.94;",4365
+203,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<114081.25 AND o.o_custkey=7168;",2
+204,"SELECT COUNT(*) FROM part p WHERE p.p_size<1;",0
+205,"SELECT COUNT(*) FROM part p WHERE p.p_size>48;",7834
+206,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1843.92 AND p.p_size<13;",7545
+207,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<2;",10
+208,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<2 AND c.c_acctbal=4223.97;",0
+209,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1323.27 AND p.p_size>3;",60728
+210,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey=471142 AND l.l_extendedprice=21204.95 AND l.l_suppkey>7452 AND l.l_linenumber=3 AND l.l_discount<0.07;",0
+211,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>123665;",263318
+212,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>1;",138100
+213,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>3703.12 AND c.c_nationkey<2;",6723
+214,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=4970.40 AND o.o_custkey<6452;",0
+215,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1368.39;",73821
+216,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<195799.67;",1027658
+217,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<2489.75 AND s.s_nationkey<8;",1019
+218,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>43930;",1060596
+219,"SELECT COUNT(*) FROM part p WHERE p.p_size<14 AND p.p_retailprice=1275.26;",3
+220,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=9169.42 AND c.c_nationkey=3;",0
+221,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<27107.81;",95557
+222,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice>28948.4 AND l.l_suppkey>9347;",242979
+223,"SELECT COUNT(*) FROM part p WHERE p.p_size=2 AND p.p_retailprice=1429.50;",0
+224,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=4856.06;",2
+225,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1172.15;",165413
+226,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>10;",5552
+227,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=666.84 AND ps.ps_availqty<6786 AND ps.ps_suppkey>9675 AND ps.ps_partkey<185049;",1
+228,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=3;",5
+229,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<34360;",343563
+230,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1939.87;",10
+231,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<115885 AND o.o_totalprice<102040.30;",396136
+232,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<214104.08 AND o.o_custkey>4169;",1087325
+233,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>22 AND c.c_acctbal=7028.13;",0
+234,"SELECT COUNT(*) FROM lineitem l WHERE l.l_suppkey>9555;",267214
+235,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1479.39;",95910
+236,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice=23194.29;",11
+237,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey>9925 AND ps.ps_supplycost>622.47 AND ps.ps_suppkey=9990 AND ps.ps_availqty>3948;",16
+238,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>1;",15
+239,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>5254.78;",4331
+240,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>3;",5
+241,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty<9933;",794552
+242,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>75310.50;",1139886
+243,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=3;",5
+244,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>1821.61 AND s.s_nationkey<1;",314
+245,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+246,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=4;",5
+247,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey=667 AND ps.ps_supplycost>75.33 AND ps.ps_availqty<5529 AND ps.ps_partkey>198538;",0
+248,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey=104139 AND ps.ps_availqty=8515 AND ps.ps_supplycost=629.4 AND ps.ps_suppkey>4498;",0
+249,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey>8420 AND ps.ps_supplycost>238.45 AND ps.ps_availqty<6851;",65776
+250,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>296.67 AND ps.ps_suppkey<6057;",341280
+251,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey=7117;",80
+252,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice<51263.4;",4204927
+253,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1892.80 AND p.p_size<25;",4
+254,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=16144;",27
+255,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=3892.55 AND c.c_nationkey<8;",1
+256,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=1301.47 AND s.s_nationkey=10;",0
+257,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=6373.69;",1
+258,"SELECT COUNT(*) FROM lineitem l WHERE l.l_suppkey>3612 AND l.l_discount>0.08 AND l.l_extendedprice<3709.6;",29118
+259,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<98497 AND o.o_totalprice<171305.64;",590725
+260,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<1;",5
+261,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<13;",5263
+262,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1382.46;",123313
+263,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=0;",5
+264,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>7998.30 AND s.s_nationkey>7;",1238
+265,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>24;",0
+266,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1970.89;",8356
+267,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>-939.51;",9951
+268,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<17 AND c.c_acctbal>8704.59;",12056
+269,"SELECT COUNT(*) FROM part p WHERE p.p_size>20 AND p.p_retailprice>1420.48;",69356
+270,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty>6298;",296360
+271,"SELECT COUNT(*) FROM part p WHERE p.p_size=14;",4153
+272,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+273,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=2;",5
+274,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=37394.71;",1
+275,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber>5;",643691
+276,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<5810.71;",6194
+277,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost<887.47 AND ps.ps_partkey>196528 AND ps.ps_suppkey=2861;",1
+278,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<0;",0
+279,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1644.73 AND p.p_size=6;",1406
+280,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>1;",15
+281,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=791.87 AND ps.ps_suppkey<2553 AND ps.ps_availqty<8582 AND ps.ps_partkey<104995;",1
+282,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey<1647712 AND l.l_linenumber=3 AND l.l_suppkey>7020 AND l.l_quantity<44.0;",74948
+283,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=4652.45;",1
+284,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey<5146 AND ps.ps_availqty<423 AND ps.ps_supplycost>873.48 AND ps.ps_partkey>36722;",1755
+285,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>4;",0
+286,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=11 AND c.c_acctbal=9526.69;",0
+287,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=3;",5
+288,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey<71926 AND l.l_orderkey<2465412 AND l.l_suppkey>5759 AND l.l_tax<0.02 AND l.l_discount<0.05;",37664
+289,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=9008.23 AND s.s_nationkey<24;",1
+290,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<9;",3650
+291,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=845.01 AND s.s_nationkey<4;",1
+292,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1107.02;",10
+293,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<2;",10
+294,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>10;",83914
+295,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>29392;",1205887
+296,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=779.8 AND ps.ps_partkey<2092 AND ps.ps_suppkey=9285 AND ps.ps_availqty>8284;",0
+297,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>24;",0
+298,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>235554.01 AND o.o_custkey<35548;",67639
+299,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1818.72;",163701
+300,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>9;",89923
+301,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax<0.05 AND l.l_orderkey>4840099 AND l.l_partkey<86108 AND l.l_quantity=30.0 AND l.l_linenumber=7;",189
+302,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>17;",2799
+303,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>68626;",813437
+304,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=12.87;",4
+305,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>8;",6350
+306,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=8727 AND ps.ps_suppkey<8029 AND ps.ps_supplycost=503.04 AND ps.ps_partkey<109514;",0
+307,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>24;",0
+308,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<22;",8816
+309,"SELECT COUNT(*) FROM part p WHERE p.p_size<21;",80332
+310,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1297.24;",10
+311,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey<67771 AND ps.ps_supplycost<363.05;",98464
+312,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+313,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>6871.25;",2859
+314,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>5 AND c.c_acctbal>6807.64;",33176
+315,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>18;",36084
+316,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>396.74;",483193
+317,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>0;",20
+318,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>2;",10
+319,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+320,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=75043.03;",1
+321,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty>9446 AND ps.ps_supplycost=761.46;",0
+322,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=24259;",16
+323,"SELECT COUNT(*) FROM lineitem l WHERE l.l_suppkey>5856 AND l.l_quantity=33.0 AND l.l_extendedprice<58618.87 AND l.l_orderkey<4417122 AND l.l_discount<0.09;",22924
+324,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=19 AND c.c_acctbal<1664.89;",1460
+325,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<42958;",429671
+326,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<1927.50;",39931
+327,"SELECT COUNT(*) FROM lineitem l WHERE l.l_quantity=15.0 AND l.l_suppkey<5288 AND l.l_linenumber<4;",41132
+328,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<0;",0
+329,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1288.23 AND p.p_size<26;",71110
+330,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey>32391 AND l.l_discount>0.04;",2743633
+331,"SELECT COUNT(*) FROM lineitem l WHERE l.l_quantity=26.0;",119702
+332,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+333,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<2;",10
+334,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey=48;",80
+335,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<2 AND c.c_acctbal<19.28;",1126
+336,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>1 AND c.c_acctbal>2428.77;",94934
+337,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=9072;",86
+338,"SELECT COUNT(*) FROM part p WHERE p.p_size>42;",31674
+339,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>831.82 AND ps.ps_suppkey<5817 AND ps.ps_partkey=66979 AND ps.ps_availqty<2493;",1
+340,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey=119473 AND ps.ps_suppkey=2216 AND ps.ps_supplycost=155.96;",0
+341,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax<0.05 AND l.l_extendedprice<98731.08;",3329231
+342,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey=28848 AND ps.ps_supplycost=940.88;",0
+343,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<0;",0
+344,"SELECT COUNT(*) FROM part p WHERE p.p_size=47 AND p.p_retailprice>936.03;",4018
+345,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice>61121.92 AND l.l_quantity<5.0 AND l.l_suppkey=393 AND l.l_tax<0.0;",0
+346,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>2;",8770
+347,"SELECT COUNT(*) FROM lineitem l WHERE l.l_discount>0.1;",0
+348,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=2;",5
+349,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=7;",396
+350,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=1769.67;",1
+351,"SELECT COUNT(*) FROM part p WHERE p.p_size=42;",4031
+352,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>4312.78;",77267
+353,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<18 AND s.s_acctbal>1979.86;",5289
+354,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey>3277122 AND l.l_linenumber<1 AND l.l_partkey>98517;",0
+355,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<7492.04 AND c.c_nationkey=6;",4751
+356,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey<53799 AND l.l_tax=0.02 AND l.l_quantity>24.0;",93117
+357,"SELECT COUNT(*) FROM part p WHERE p.p_size>9 AND p.p_retailprice>1076.04;",150903
+358,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost<690.83 AND ps.ps_availqty<5932;",327493
+359,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>8;",6350
+360,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=21;",6008
+361,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>180.01 AND ps.ps_suppkey=6708;",67
+362,"SELECT COUNT(*) FROM part p WHERE p.p_size=3 AND p.p_retailprice=1250.34;",0
+363,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<24;",144017
+364,"SELECT COUNT(*) FROM part p WHERE p.p_size<23;",88438
+365,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey=197947;",4
+366,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=5388.72;",1
+367,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>965.68 AND c.c_nationkey>14;",49391
+368,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+369,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<14;",84030
+370,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<6020.84;",6385
+371,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<181078.97 AND o.o_custkey<16916;",107532
+372,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=105824;",5
+373,"SELECT COUNT(*) FROM part p WHERE p.p_size<8 AND p.p_retailprice>1155.16;",23835
+374,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey>4159619 AND l.l_quantity=34.0 AND l.l_tax>0.06 AND l.l_extendedprice>25486.03 AND l.l_suppkey<4543;",3784
+375,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<4;",1642
+376,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+377,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=0;",5
+378,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>710.55;",8437
+379,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>5970.77;",3669
+380,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=977.02 AND p.p_size<14;",4
+381,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<11;",4448
+382,"SELECT COUNT(*) FROM part p WHERE p.p_size=2 AND p.p_retailprice=1833.86;",0
+383,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=609.77 AND ps.ps_partkey=101495;",0
+384,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1057.08;",187508
+385,"SELECT COUNT(*) FROM lineitem l WHERE l.l_quantity=39.0 AND l.l_extendedprice>88139.5;",0
+386,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<3;",15
+387,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=1789.34;",1
+388,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty>1929 AND ps.ps_suppkey>8870 AND ps.ps_partkey<85261;",31030
+389,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<198599.27 AND o.o_custkey=58130;",10
+390,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=2781.03;",1
+391,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>184.65 AND ps.ps_availqty=6797;",55
+392,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=133354 AND o.o_totalprice>158662.03;",4
+393,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=999.62;",1
+394,"SELECT COUNT(*) FROM part p WHERE p.p_size>41 AND p.p_retailprice=1159.11;",3
+395,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<3;",15
+396,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>4819.56;",70417
+397,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>288.00 AND c.c_nationkey>5;",100845
+398,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=155132.65;",1
+399,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>1;",15
+400,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey<115048 AND l.l_linenumber>1 AND l.l_extendedprice>14297.94;",2084706
+401,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>0;",20
+402,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost<245.04 AND ps.ps_partkey=12624 AND ps.ps_availqty>8573;",0
+403,"SELECT COUNT(*) FROM lineitem l WHERE l.l_quantity=32.0 AND l.l_discount>0.02 AND l.l_partkey<22161 AND l.l_tax<0.08;",8683
+404,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=142427;",13
+405,"SELECT COUNT(*) FROM part p WHERE p.p_size<27;",104309
+406,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=0;",5
+407,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey>813 AND ps.ps_partkey=117723 AND ps.ps_supplycost>643.88 AND ps.ps_availqty=6184;",0
+408,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<23;",9217
+409,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>2521.72;",101866
+410,"SELECT COUNT(*) FROM part p WHERE p.p_size>15 AND p.p_retailprice>1461.50;",75091
+411,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<8971.64;",9062
+412,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey<2817984 AND l.l_quantity=5.0 AND l.l_discount>0.09 AND l.l_tax>0.04 AND l.l_partkey>36869;",1846
+413,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey=24238 AND ps.ps_availqty>8831 AND ps.ps_supplycost=374.52;",0
+414,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=0;",5
+415,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>22 AND c.c_acctbal<1027.46;",2121
+416,"SELECT COUNT(*) FROM part p WHERE p.p_size<38 AND p.p_retailprice>1723.66;",40975
+417,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost<871.45 AND ps.ps_partkey<5717 AND ps.ps_suppkey=1126 AND ps.ps_availqty<1878;",0
+418,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey<9008;",720560
+419,"SELECT COUNT(*) FROM part p WHERE p.p_size>6;",175765
+420,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber=3 AND l.l_quantity=38.0 AND l.l_partkey<94209 AND l.l_orderkey<1622118 AND l.l_suppkey>3578;",1790
+421,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1670.67 AND p.p_size>20;",39472
+422,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=7015.45;",1
+423,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>4316.36 AND s.s_nationkey<20;",4176
+424,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax=0.04;",666908
+425,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>3659.56 AND s.s_nationkey=12;",231
+426,"SELECT COUNT(*) FROM part p WHERE p.p_size<36;",140332
+427,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<0;",0
+428,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey<80999 AND ps.ps_availqty<8731;",282940
+429,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey>133236 AND ps.ps_supplycost>964.3 AND ps.ps_availqty>449;",9128
+430,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1838.93 AND p.p_size>16;",113691
+431,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<45328.6;",184642
+432,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=24;",5983
+433,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>8;",6350
+434,"SELECT COUNT(*) FROM part p WHERE p.p_size=5;",4062
+435,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=14;",376
+436,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<7464.35 AND c.c_nationkey>6;",83057
+437,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<0;",0
+438,"SELECT COUNT(*) FROM lineitem l WHERE l.l_discount<0.08 AND l.l_quantity<24.0 AND l.l_suppkey<3487 AND l.l_orderkey=2615365;",1
+439,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<4581.80;",5029
+440,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<2;",10
+441,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber<3 AND l.l_orderkey>4095364 AND l.l_discount=0.02;",80782
+442,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey=185614 AND l.l_linenumber<6 AND l.l_extendedprice>13013.39 AND l.l_discount=0.01;",3
+443,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>1;",15
+444,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<102542 AND o.o_totalprice>262797.37;",124763
+445,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1974.94 AND p.p_size=7;",3925
+446,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<6699.38 AND s.s_nationkey>4;",5521
+447,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=22;",401
+448,"SELECT COUNT(*) FROM part p WHERE p.p_size=7;",4079
+449,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>339.25 AND c.c_nationkey=10;",5234
+450,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey<110451 AND ps.ps_suppkey<4474 AND ps.ps_availqty=6378;",20
+451,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<263732.26 AND o.o_custkey=71627;",14
+452,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>1;",15
+453,"SELECT COUNT(*) FROM lineitem l WHERE l.l_discount<0.0 AND l.l_quantity<13.0 AND l.l_partkey>168233 AND l.l_tax<0.0 AND l.l_extendedprice>21717.12;",0
+454,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=41270.69 AND o.o_custkey<96701;",1
+455,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=107621;",10
+456,"SELECT COUNT(*) FROM part p WHERE p.p_size=36 AND p.p_retailprice<1617.55;",2416
+457,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost<589.57;",471711
+458,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty>5078 AND ps.ps_partkey=36014 AND ps.ps_suppkey=818;",0
+459,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<277285.23;",1360225
+460,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey<39863 AND l.l_quantity<6.0;",119909
+461,"SELECT COUNT(*) FROM part p WHERE p.p_size<42;",164295
+462,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=86638;",27
+463,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax>0.01 AND l.l_extendedprice<50452.5 AND l.l_discount=0.08 AND l.l_suppkey<7164;",210223
+464,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber>1 AND l.l_quantity<49.0 AND l.l_orderkey=2283296;",4
+465,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<171663.24;",900257
+466,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<2;",10
+467,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey>3971 AND ps.ps_supplycost<20.52 AND ps.ps_availqty>8252 AND ps.ps_suppkey=1995;",0
+468,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>0;",20
+469,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost<373.21 AND ps.ps_availqty=7919 AND ps.ps_partkey<186982 AND ps.ps_suppkey<9318;",20
+470,"SELECT COUNT(*) FROM part p WHERE p.p_size<43;",168326
+471,"SELECT COUNT(*) FROM part p WHERE p.p_size=26;",4001
+472,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>213.41;",8907
+473,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<8617.50;",131202
+474,"SELECT COUNT(*) FROM part p WHERE p.p_size=48;",4056
+475,"SELECT COUNT(*) FROM part p WHERE p.p_size>49;",3889
+476,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1408.42;",118179
+477,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>142186 AND o.o_totalprice=142361.50;",0
+478,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey<4748 AND ps.ps_availqty>4297 AND ps.ps_partkey<144782;",157071
+479,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=4038.60 AND c.c_nationkey<19;",1
+480,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber>1;",4501215
+481,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=9663.03;",1
+482,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1670.70;",134229
+483,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>16 AND s.s_acctbal<566.83;",466
+484,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=2082.14;",1
+485,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>2;",10
+486,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>9;",5945
+487,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<1293.74;",31095
+488,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost<392.92;",313716
+489,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>247429.11;",237689
+490,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey<152761 AND l.l_suppkey>1298;",3985386
+491,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=11 AND s.s_acctbal<5058.50;",231
+492,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1744.71;",10
+493,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty>2124;",630235
+494,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>4694.28;",72105
+495,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey=5944 AND ps.ps_availqty>9219;",6
+496,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>140683;",93299
+497,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<0;",0
+498,"SELECT COUNT(*) FROM part p WHERE p.p_size>19;",123631
+499,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<121127 AND o.o_totalprice=103809.17;",1
+500,"SELECT COUNT(*) FROM lineitem l WHERE l.l_quantity=6.0 AND l.l_suppkey=1767;",10
+501,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+502,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax<0.04 AND l.l_orderkey>1049508 AND l.l_linenumber<6;",1964637
+503,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<2;",833
+504,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<9 AND c.c_acctbal=9741.19;",0
+505,"SELECT COUNT(*) FROM lineitem l WHERE l.l_suppkey>9129 AND l.l_linenumber>3 AND l.l_tax<0.05;",103874
+506,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=109165;",22
+507,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey>100770 AND ps.ps_availqty>5277;",187693
+508,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>16;",48083
+509,"SELECT COUNT(*) FROM lineitem l WHERE l.l_discount>0.0 AND l.l_quantity=49.0 AND l.l_linenumber=3;",19346
+510,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<1;",5
+511,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>0;",20
+512,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>1;",15
+513,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey<2226 AND ps.ps_partkey>138824;",54288
+514,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost<699.43 AND ps.ps_partkey=104635 AND ps.ps_suppkey>6628;",2
+515,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1351.29;",70338
+516,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>5058.00;",67184
+517,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=2 AND c.c_acctbal<4715.84;",3182
+518,"SELECT COUNT(*) FROM lineitem l WHERE l.l_discount>0.05;",2727089
+519,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>95729 AND o.o_totalprice=244883.78;",0
+520,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<1;",5925
+521,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=3;",5
+522,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber=2;",1285828
+523,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1456.42;",91363
+524,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<4 AND c.c_acctbal>911.37;",19788
+525,"SELECT COUNT(*) FROM part p WHERE p.p_size=47 AND p.p_retailprice<2048.98;",3994
+526,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1471.52;",94448
+527,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>-703.26;",145897
+528,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>134033;",159889
+529,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<1;",5
+530,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1046.02;",10750
+531,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=2;",397
+532,"SELECT COUNT(*) FROM part p WHERE p.p_size<22 AND p.p_retailprice>1007.01;",81932
+533,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1044.00;",10
+534,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>9440.96;",7556
+535,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>0;",20
+536,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>8698.99;",17666
+537,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=2;",5
+538,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<987.39;",26955
+539,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>0;",20
+540,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<92.44;",985
+541,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>7269.68;",37181
+542,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey=8869 AND ps.ps_availqty<4265;",41
+543,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost<969.73 AND ps.ps_availqty>5804 AND ps.ps_partkey<114394 AND ps.ps_suppkey=720;",18
+544,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<477.23;",20045
+545,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<245263.22;",1253914
+546,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<3;",15
+547,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1793.82;",158826
+548,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<62024 AND o.o_totalprice=281920.25;",1
+549,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=4;",5
+550,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<157207.75 AND o.o_custkey<113077;",619431
+551,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>62989.64 AND o.o_custkey<101951;",823893
+552,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey=83877 AND l.l_suppkey=963;",0
+553,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<1;",5
+554,"SELECT COUNT(*) FROM part p WHERE p.p_size>25;",99692
+555,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey=5803715 AND l.l_linenumber=3 AND l.l_partkey<133666 AND l.l_discount=0.01;",0
+556,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<3;",15
+557,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax=0.06 AND l.l_discount=0.03 AND l.l_orderkey<676229;",6927
+558,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<-132.86;",769
+559,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey>54890;",580440
+560,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=4926.77;",1
+561,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=8804 AND ps.ps_suppkey<4417 AND ps.ps_partkey<167390 AND ps.ps_supplycost=827.7;",0
+562,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=10 AND c.c_acctbal=6855.02;",0
+563,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>1;",15
+564,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey<58775 AND l.l_linenumber<3 AND l.l_tax<0.04;",362628
+565,"SELECT COUNT(*) FROM part p WHERE p.p_size>25 AND p.p_retailprice>1073.01;",92128
+566,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<16;",95943
+567,"SELECT COUNT(*) FROM part p WHERE p.p_size=45 AND p.p_retailprice=1598.69;",3
+568,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1486.49 AND p.p_size<11;",20696
+569,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<2;",10
+570,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<60553;",605854
+571,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>14;",3999
+572,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber=3;",1071394
+573,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=163650.39 AND o.o_custkey>7003;",1
+574,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>120232;",297941
+575,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>2;",10
+576,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>986.88 AND ps.ps_partkey<156521 AND ps.ps_availqty=6874 AND ps.ps_suppkey=6559;",0
+577,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+578,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey>2439747 AND l.l_partkey<65155 AND l.l_suppkey>6647 AND l.l_extendedprice>58850.1;",71368
+579,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>6116.07 AND s.s_nationkey=8;",143
+580,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>1;",15
+581,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=27.34 AND s.s_nationkey<10;",1
+582,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=52878.32;",1
+583,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey<180454 AND ps.ps_suppkey=5587 AND ps.ps_supplycost>452.22 AND ps.ps_availqty<4776;",17
+584,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>2 AND s.s_acctbal<6188.23;",5715
+585,"SELECT COUNT(*) FROM part p WHERE p.p_size=32;",4003
+586,"SELECT COUNT(*) FROM part p WHERE p.p_size=12 AND p.p_retailprice=1521.57;",0
+587,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1132.17 AND p.p_size<40;",135548
+588,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+589,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1882.84 AND p.p_size<27;",12225
+590,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey<4980418;",4981538
+591,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty>7716 AND ps.ps_suppkey<4543 AND ps.ps_partkey>46838 AND ps.ps_supplycost>12.53;",62477
+592,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=5225.05 AND s.s_nationkey<12;",0
+593,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax>0.07 AND l.l_extendedprice=63738.19 AND l.l_discount<0.09 AND l.l_partkey>78106 AND l.l_suppkey>3534;",0
+594,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>7682.40;",31605
+595,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<7837.02;",8039
+596,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=90968;",10
+597,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1201.28 AND p.p_size<1;",0
+598,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey<499718 AND l.l_discount>0.03 AND l.l_quantity<35.0;",216590
+599,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1342.33;",131403
+600,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=1;",5
+601,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>55301.37 AND o.o_custkey>77749;",605915
+602,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1828.73;",34289
+603,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=36610 AND o.o_totalprice<59302.80;",4
+604,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey=26831 AND l.l_quantity>17.0 AND l.l_linenumber<2 AND l.l_orderkey=4582534 AND l.l_tax>0.03;",0
+605,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>150.77 AND s.s_nationkey<21;",7538
+606,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<15 AND c.c_acctbal=-529.63;",1
+607,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=21 AND s.s_acctbal<4919.06;",225
+608,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=312904.09 AND o.o_custkey=42815;",0
+609,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>-418.26;",9473
+610,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax=0.02;",667458
+611,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1324.42;",134900
+612,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1167.20;",166358
+613,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<1;",5
+614,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1794.84;",159045
+615,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>105935.70;",966386
+616,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice<56880.12 AND l.l_linenumber=2;",991001
+617,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey<134863 AND l.l_extendedprice=76100.97;",8
+618,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1770.85;",45711
+619,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<9373.87;",141528
+620,"SELECT COUNT(*) FROM part p WHERE p.p_size>42 AND p.p_retailprice<1684.67;",21788
+621,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=3793.96 AND s.s_nationkey>9;",1
+622,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>6257.01;",3388
+623,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<88484 AND o.o_totalprice<208961.17;",645483
+624,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<1;",5
+625,"SELECT COUNT(*) FROM part p WHERE p.p_size<29 AND p.p_retailprice<1605.65;",68039
+626,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=1236.35;",1
+627,"SELECT COUNT(*) FROM part p WHERE p.p_size=45;",3893
+628,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<-619.38 AND c.c_nationkey=22;",189
+629,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1852.76;",10
+630,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>259.36 AND ps.ps_partkey>155105 AND ps.ps_availqty=5662 AND ps.ps_suppkey=1643;",0
+631,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=21 AND c.c_acctbal>8677.58;",705
+632,"SELECT COUNT(*) FROM lineitem l WHERE l.l_suppkey=9253 AND l.l_linenumber>1;",447
+633,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice=16023.0 AND l.l_tax>0.0 AND l.l_suppkey<6727 AND l.l_partkey=199160 AND l.l_quantity<11.0;",0
+634,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>78343 AND o.o_totalprice<42694.91;",81467
+635,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey>2098;",632160
+636,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey>887 AND ps.ps_supplycost<70.01;",50053
+637,"SELECT COUNT(*) FROM part p WHERE p.p_size>5;",179729
+638,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<3;",15
+639,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey=5573156 AND l.l_tax<0.07 AND l.l_linenumber=2 AND l.l_quantity=15.0 AND l.l_partkey>187550;",0
+640,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey=3437 AND ps.ps_partkey=21376 AND ps.ps_availqty<3025;",0
+641,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>15 AND s.s_acctbal<4172.27;",1708
+642,"SELECT COUNT(*) FROM lineitem l WHERE l.l_quantity>2.0 AND l.l_suppkey>2472;",4336215
+643,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey<58996 AND ps.ps_supplycost<706.41 AND ps.ps_availqty=9962;",11
+644,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>14 AND c.c_acctbal>4139.75;",32001
+645,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey<3145734 AND l.l_linenumber=3;",561571
+646,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<3172.87 AND s.s_nationkey<16;",2387
+647,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>210663.79 AND o.o_custkey>51241;",262423
+648,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=14 AND s.s_acctbal>9571.65;",13
+649,"SELECT COUNT(*) FROM part p WHERE p.p_size=9;",4034
+650,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=7993.74;",2
+651,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=47749;",18
+652,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>18 AND c.c_acctbal=8224.95;",1
+653,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>5324.47 AND s.s_nationkey=20;",167
+654,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey>5869221 AND l.l_tax>0.03;",72574
+655,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey<19138;",76548
+656,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey<105903 AND l.l_suppkey<2714 AND l.l_quantity<48.0 AND l.l_orderkey=3216327 AND l.l_discount=0.08;",1
+657,"SELECT COUNT(*) FROM part p WHERE p.p_size=3 AND p.p_retailprice>1809.81;",811
+658,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=8499 AND ps.ps_partkey>16669 AND ps.ps_supplycost>590.83;",24
+659,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+660,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey<194148;",776588
+661,"SELECT COUNT(*) FROM part p WHERE p.p_size=40 AND p.p_retailprice>1069.12;",3696
+662,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1215.19;",156816
+663,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=7726.59 AND c.c_nationkey<24;",1
+664,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=467.12 AND s.s_nationkey>19;",1
+665,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>1 AND s.s_acctbal>9438.28;",470
+666,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey=126927 AND ps.ps_suppkey<1383 AND ps.ps_supplycost=340.4 AND ps.ps_availqty<4157;",0
+667,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>15;",54057
+668,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<1;",5
+669,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>3;",5
+670,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>9 AND c.c_acctbal>5063.48;",40434
+671,"SELECT COUNT(*) FROM part p WHERE p.p_size=28;",3924
+672,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice<71059.68 AND l.l_discount<0.0 AND l.l_suppkey<3539;",0
+673,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=143974.96;",1
+674,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>20299.81;",1432379
+675,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<-679.29;",4436
+676,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>823.26 AND ps.ps_partkey<20245 AND ps.ps_suppkey<4415;",6280
+677,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=90110.88 AND o.o_custkey=110276;",0
+678,"SELECT COUNT(*) FROM part p WHERE p.p_size>23 AND p.p_retailprice>1348.43;",70304
+679,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=0;",5
+680,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey=4132772;",6
+681,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1539.46 AND p.p_size<14;",24141
+682,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>50609 AND o.o_totalprice=106473.61;",1
+683,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>4;",7943
+684,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=4;",5
+685,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=93979.47 AND o.o_custkey=58303;",0
+686,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=21 AND s.s_acctbal=7128.07;",0
+687,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey=197240 AND ps.ps_availqty=9421 AND ps.ps_suppkey>6778 AND ps.ps_supplycost=61.14;",0
+688,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<6565.37 AND c.c_nationkey<17;",69976
+689,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<10 AND c.c_acctbal<9669.56;",58244
+690,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<3;",15
+691,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=8;",415
+692,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey<1534;",122640
+693,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<12;",72049
+694,"SELECT COUNT(*) FROM part p WHERE p.p_size=30;",4127
+695,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<193059.76 AND o.o_custkey>314;",1011496
+696,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<7;",41966
+697,"SELECT COUNT(*) FROM lineitem l WHERE l.l_discount>0.09 AND l.l_suppkey=7966 AND l.l_quantity<32.0;",34
+698,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<14;",5625
+699,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<8567.11;",130528
+700,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>80245.25;",1111313
+701,"SELECT COUNT(*) FROM lineitem l WHERE l.l_quantity<8.0 AND l.l_linenumber<4 AND l.l_suppkey>7791 AND l.l_orderkey=672196 AND l.l_tax=0.03;",0
+702,"SELECT COUNT(*) FROM part p WHERE p.p_size<36 AND p.p_retailprice>1675.64;",45458
+703,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber<2;",1500000
+704,"SELECT COUNT(*) FROM lineitem l WHERE l.l_suppkey<621 AND l.l_quantity=10.0 AND l.l_orderkey<2817572 AND l.l_extendedprice>95564.16 AND l.l_partkey=169459;",0
+705,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=670.61 AND ps.ps_availqty>3769;",7
+706,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=665 AND ps.ps_suppkey<4937 AND ps.ps_supplycost=741.87 AND ps.ps_partkey<148513;",0
+707,"SELECT COUNT(*) FROM lineitem l WHERE l.l_discount>0.04 AND l.l_extendedprice>50339.52 AND l.l_orderkey=2982977 AND l.l_quantity=22.0;",0
+708,"SELECT COUNT(*) FROM part p WHERE p.p_size=14 AND p.p_retailprice=1048.09;",1
+709,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=7684.70;",1
+710,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber>1 AND l.l_suppkey>1115 AND l.l_discount<0.07 AND l.l_quantity=9.0;",51351
+711,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>266858.18;",170334
+712,"SELECT COUNT(*) FROM part p WHERE p.p_size>43 AND p.p_retailprice=1218.23;",2
+713,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey<3703;",296160
+714,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=454.16;",9
+715,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>23 AND s.s_acctbal=3051.23;",0
+716,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1273.35 AND p.p_size=41;",1131
+717,"SELECT COUNT(*) FROM lineitem l WHERE l.l_suppkey>1160 AND l.l_extendedprice>13046.67;",4399333
+718,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=239.33;",10
+719,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>126025;",239541
+720,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<4014.62 AND s.s_nationkey>6;",3262
+721,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice=13209.04;",4
+722,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=525.87 AND ps.ps_suppkey<6283;",5
+723,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>4;",0
+724,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber<3;",2785828
+725,"SELECT COUNT(*) FROM part p WHERE p.p_size>30;",79625
+726,"SELECT COUNT(*) FROM part p WHERE p.p_size=22;",4102
+727,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>1;",15
+728,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice<11927.43 AND l.l_tax>0.02 AND l.l_partkey=52709 AND l.l_linenumber<5;",1
+729,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty>465;",762919
+730,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<2;",10
+731,"SELECT COUNT(*) FROM lineitem l WHERE l.l_discount=0.06 AND l.l_suppkey>5217 AND l.l_partkey<56515;",73782
+732,"SELECT COUNT(*) FROM lineitem l WHERE l.l_discount=0.02 AND l.l_quantity=45.0 AND l.l_extendedprice>41105.76 AND l.l_suppkey=6665 AND l.l_linenumber=5;",0
+733,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<76072 AND o.o_totalprice>45120.24;",667574
+734,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<81774.18 AND o.o_custkey=20746;",8
+735,"SELECT COUNT(*) FROM part p WHERE p.p_size=43;",3884
+736,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>904.46 AND ps.ps_availqty>8678;",10142
+737,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>22 AND s.s_acctbal<9740.52;",761
+738,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=4;",5
+739,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber>2 AND l.l_extendedprice<33596.37;",1466827
+740,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>4;",0
+741,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey>9060 AND ps.ps_supplycost<790.98;",59635
+742,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>4;",0
+743,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<9497.29;",9555
+744,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty<9701 AND ps.ps_partkey<107997;",419064
+745,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=3;",5
+746,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>3;",5
+747,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=248886.90 AND o.o_custkey<94625;",1
+748,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>5416.92;",62372
+749,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=2;",5
+750,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>4;",0
+751,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=23;",390
+752,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1993.97 AND p.p_size>30;",77403
+753,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>1 AND c.c_acctbal<7238.09;",103435
+754,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=72059;",9
+755,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<14804.89 AND o.o_custkey<112510;",34925
+756,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=10;",6009
+757,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey>7419 AND ps.ps_supplycost=478.32 AND ps.ps_availqty>8840;",1
+758,"SELECT COUNT(*) FROM part p WHERE p.p_size<8 AND p.p_retailprice=1458.45;",1
+759,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<2;",10
+760,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>9539 AND o.o_totalprice=118559.16;",1
+761,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1719.75 AND p.p_size<32;",89482
+762,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey<37629 AND ps.ps_supplycost<619.19 AND ps.ps_suppkey>6886 AND ps.ps_availqty<7089;",20555
+763,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>3.85;",797710
+764,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey>992805 AND l.l_linenumber>4;",1073962
+765,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=3 AND c.c_acctbal=361.67;",0
+766,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<0;",0
+767,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey=264131 AND l.l_tax>0.0 AND l.l_quantity<37.0 AND l.l_suppkey<9986;",1
+768,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<3872.78;",4422
+769,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>39505 AND o.o_totalprice<344906.75;",1085781
+770,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<3;",15
+771,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax>0.0 AND l.l_suppkey=2272 AND l.l_orderkey=2646594 AND l.l_extendedprice<64718.88;",0
+772,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey=153669;",4
+773,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>1;",15
+774,"SELECT COUNT(*) FROM part p WHERE p.p_size<27 AND p.p_retailprice<1594.57;",62035
+775,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey>8061;",155120
+776,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<156814.96;",819034
+777,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=9964.68 AND c.c_nationkey=15;",0
+778,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=13;",6033
+779,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1569.61;",85950
+780,"SELECT COUNT(*) FROM part p WHERE p.p_size>17;",131507
+781,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>1198.76 AND c.c_nationkey>12;",57830
+782,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=8817 AND ps.ps_supplycost>354.69;",60
+783,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax>0.06;",1334307
+784,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=1944.08 AND s.s_nationkey<22;",1
+785,"SELECT COUNT(*) FROM part p WHERE p.p_size>8;",167737
+786,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>2;",10
+787,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>4;",0
+788,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=410.70 AND s.s_nationkey>11;",1
+789,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax=0.05 AND l.l_quantity=3.0 AND l.l_partkey=120846 AND l.l_orderkey>3597155 AND l.l_extendedprice=34311.72;",0
+790,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>23 AND c.c_acctbal>-294.48;",5601
+791,"SELECT COUNT(*) FROM lineitem l WHERE l.l_suppkey<5875 AND l.l_extendedprice=75271.91 AND l.l_partkey<56023 AND l.l_orderkey=1068258 AND l.l_discount<0.04;",0
+792,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1138.17;",27831
+793,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>1194.90 AND c.c_nationkey>13;",53011
+794,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax=0.03 AND l.l_extendedprice<18525.64 AND l.l_quantity>5.0 AND l.l_partkey<171745;",85675
+795,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax=0.08 AND l.l_discount=0.08 AND l.l_quantity>41.0 AND l.l_orderkey=4411783 AND l.l_extendedprice>52255.56;",0
+796,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<5731.19;",91830
+797,"SELECT COUNT(*) FROM lineitem l WHERE l.l_quantity=29.0;",119907
+798,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>2;",10
+799,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=24217.52;",1
+800,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<21 AND c.c_acctbal>5557.20;",50687
+801,"SELECT COUNT(*) FROM lineitem l WHERE l.l_suppkey=3771 AND l.l_quantity<12.0 AND l.l_linenumber<4 AND l.l_tax=0.07;",4
+802,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey=22733 AND ps.ps_supplycost>564.86 AND ps.ps_suppkey=8464 AND ps.ps_availqty<5830;",0
+803,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey<61776 AND ps.ps_availqty<4617;",114028
+804,"SELECT COUNT(*) FROM lineitem l WHERE l.l_discount<0.04 AND l.l_extendedprice=38436.65;",2
+805,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>116312.27;",908351
+806,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>22 AND c.c_acctbal=3048.96;",0
+807,"SELECT COUNT(*) FROM part p WHERE p.p_size>27 AND p.p_retailprice<1743.77;",68294
+808,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<86641.64 AND o.o_custkey=39628;",5
+809,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>268237.68 AND o.o_custkey>74504;",84122
+810,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=1;",5975
+811,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost<800.58;",640384
+812,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<23;",138006
+813,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>2;",10
+814,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<27253 AND o.o_totalprice=145464.08;",0
+815,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=4;",5
+816,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>5071.16 AND c.c_nationkey<2;",5224
+817,"SELECT COUNT(*) FROM lineitem l WHERE l.l_discount<0.1;",5455400
+818,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<1;",5
+819,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<3;",15
+820,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=738.07 AND ps.ps_suppkey=4704;",0
+821,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=140824.56 AND o.o_custkey<24980;",1
+822,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=0;",5
+823,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey>18567 AND ps.ps_suppkey>9224 AND ps.ps_supplycost<392.34;",22223
+824,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=1;",5
+825,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey=62891;",4
+826,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>65636 AND o.o_totalprice>136035.20;",448541
+827,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<11;",66086
+828,"SELECT COUNT(*) FROM part p WHERE p.p_size>25;",99692
+829,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=6100.64;",2
+830,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=-503.09 AND c.c_nationkey=14;",0
+831,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1682.78 AND p.p_size<32;",84936
+832,"SELECT COUNT(*) FROM part p WHERE p.p_size=2 AND p.p_retailprice<1156.25;",680
+833,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey=7706 AND ps.ps_availqty>5374 AND ps.ps_supplycost<962.42 AND ps.ps_partkey>163538;",6
+834,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<220842.94 AND o.o_custkey=17224;",19
+835,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=541.7 AND ps.ps_partkey<34952 AND ps.ps_availqty<2601 AND ps.ps_suppkey=3167;",0
+836,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<223261.26 AND o.o_custkey=91754;",9
+837,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice=3944.08 AND l.l_orderkey>3700771 AND l.l_partkey<145864;",0
+838,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>114.67 AND ps.ps_suppkey=7118 AND ps.ps_partkey<13135;",4
+839,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<0;",0
+840,"SELECT COUNT(*) FROM part p WHERE p.p_size<37 AND p.p_retailprice=1225.15;",8
+841,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<1;",5
+842,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>1;",15
+843,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=267.87 AND ps.ps_partkey=39640 AND ps.ps_suppkey=6080;",0
+844,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=197652.70;",1
+845,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=68.44 AND ps.ps_suppkey=1747 AND ps.ps_partkey<118569;",0
+846,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>11 AND c.c_acctbal=-273.09;",0
+847,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<0;",0
+848,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<1;",420
+849,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1825.76 AND p.p_size>9;",10
+850,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=424 AND o.o_totalprice<246181.95;",9
+851,"SELECT COUNT(*) FROM part p WHERE p.p_size=2;",4060
+852,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=1860.90;",1
+853,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=271978.40 AND o.o_custkey>29675;",0
+854,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>2;",132101
+855,"SELECT COUNT(*) FROM lineitem l WHERE l.l_quantity<16.0;",1797906
+856,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=139418.84;",1
+857,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=7;",396
+858,"SELECT COUNT(*) FROM part p WHERE p.p_size=36 AND p.p_retailprice<1053.01;",205
+859,"SELECT COUNT(*) FROM lineitem l WHERE l.l_discount=0.02 AND l.l_suppkey<8923 AND l.l_orderkey<2220964 AND l.l_partkey<186032 AND l.l_quantity<39.0;",127142
+860,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey=127452 AND l.l_suppkey>8045 AND l.l_discount>0.01 AND l.l_tax=0.07 AND l.l_extendedprice=34745.88;",0
+861,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=1;",5
+862,"SELECT COUNT(*) FROM part p WHERE p.p_size=2;",4060
+863,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1471.55 AND p.p_size<31;",63436
+864,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=8794 AND ps.ps_partkey>123269 AND ps.ps_supplycost<514.02 AND ps.ps_suppkey>2180;",15
+865,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<124372;",1243680
+866,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=0;",5
+867,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<7035.97;",7283
+868,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost<618.79 AND ps.ps_availqty>8645;",66958
+869,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=-349.29 AND s.s_nationkey>20;",1
+870,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice>64966.14 AND l.l_discount>0.1 AND l.l_tax>0.0 AND l.l_linenumber>7 AND l.l_quantity>43.0;",0
+871,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=127283;",6
+872,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey>88468;",446128
+873,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=5385.35;",1
+874,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>818.29 AND ps.ps_partkey=168615 AND ps.ps_suppkey<4246 AND ps.ps_availqty>7035;",1
+875,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>75089;",749016
+876,"SELECT COUNT(*) FROM part p WHERE p.p_size<45;",176220
+877,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty>9554;",35570
+878,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey>145257;",218972
+879,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=6;",6100
+880,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>6227.55;",51519
+881,"SELECT COUNT(*) FROM part p WHERE p.p_size<1;",0
+882,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>157468.57;",677367
+883,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey=5761 AND ps.ps_availqty=8293;",0
+884,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=17 AND s.s_acctbal>2382.14;",301
+885,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>-181.63 AND s.s_nationkey<0;",0
+886,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+887,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1947.94 AND p.p_size=21;",0
+888,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty>5783 AND ps.ps_suppkey>4694;",179051
+889,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<8798.71;",8911
+890,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>20;",1583
+891,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=56230 AND o.o_totalprice<166613.72;",11
+892,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=1280;",4
+893,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<4697.79;",77941
+894,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<83908;",838354
+895,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey<145726 AND l.l_quantity>2.0 AND l.l_discount<0.07 AND l.l_tax=0.04 AND l.l_extendedprice=63427.05;",0
+896,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey=5633477 AND l.l_discount<0.02 AND l.l_tax=0.03 AND l.l_linenumber<5 AND l.l_extendedprice>6541.2;",0
+897,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1803.85 AND p.p_size>3;",151027
+898,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=1547.80;",1
+899,"SELECT COUNT(*) FROM part p WHERE p.p_size<32;",124210
+900,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=47587 AND o.o_totalprice>67981.66;",17
+901,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=7909;",86
+902,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<10 AND s.s_acctbal<2645.36;",1327
+903,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1756.66;",151303
+904,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>2064.62;",7241
+905,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey>2491 AND ps.ps_availqty>6917 AND ps.ps_supplycost=141.9;",2
+906,"SELECT COUNT(*) FROM part p WHERE p.p_size<7;",24235
+907,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=2;",5
+908,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=114272.20;",1
+909,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=8049;",83
+910,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=80942;",15
+911,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<16 AND s.s_acctbal<3513.22;",2578
+912,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>4980.97;",4611
+913,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<13 AND c.c_acctbal=3785.84;",1
+914,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=257826.50 AND o.o_custkey>133691;",0
+915,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost<368.45;",294170
+916,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>4;",0
+917,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<135566.88;",700614
+918,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1605.57 AND p.p_size>15;",6
+919,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey=9167;",80
+920,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=49627;",24
+921,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey>4542 AND ps.ps_supplycost<732.8 AND ps.ps_partkey<125641;",200957
+922,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=19 AND s.s_acctbal<9934.44;",394
+923,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=2;",5
+924,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty<2751;",219228
+925,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey<37706;",150820
+926,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<3;",15
+927,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey=157477 AND l.l_suppkey>3226;",26
+928,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>270023.47 AND o.o_custkey>101152;",52813
+929,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey=6369;",80
+930,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<2;",10
+931,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=13;",362
+932,"SELECT COUNT(*) FROM part p WHERE p.p_size<29;",112162
+933,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey=112336 AND ps.ps_availqty>9339 AND ps.ps_suppkey<6409;",0
+934,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>285108.83 AND o.o_custkey=17446;",0
+935,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>4;",0
+936,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>3;",8358
+937,"SELECT COUNT(*) FROM lineitem l WHERE l.l_suppkey=5999 AND l.l_orderkey<3354851 AND l.l_tax=0.06 AND l.l_extendedprice>38076.38 AND l.l_partkey=65745;",0
+938,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>1284.30 AND c.c_nationkey>12;",57265
+939,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=733.91 AND ps.ps_availqty=3952 AND ps.ps_suppkey=9010 AND ps.ps_partkey=99847;",0
+940,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey>20477 AND l.l_orderkey>3832326 AND l.l_linenumber<3 AND l.l_discount<0.07;",574899
+941,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<231671.59;",1197906
+942,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+943,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>1414.92;",117206
+944,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey=3864896;",4
+945,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1554.58 AND p.p_size>50;",0
+946,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey>79361;",482556
+947,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey<9848;",787760
+948,"SELECT COUNT(*) FROM part p WHERE p.p_size>36;",55773
+949,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey<3205857 AND l.l_suppkey<7726 AND l.l_tax<0.08 AND l.l_extendedprice>37889.75 AND l.l_partkey<37891;",187785
+950,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=120830.73;",1
+951,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=2;",5
+952,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<355.66;",18502
+953,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1843.93;",168886
+954,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=2;",5
+955,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>3;",5
+956,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey=34224 AND l.l_tax<0.08 AND l.l_quantity=32.0 AND l.l_extendedprice=32605.75 AND l.l_discount=0.05;",0
+957,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=-877.23 AND c.c_nationkey=3;",0
+958,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey=61748 AND ps.ps_availqty<1146 AND ps.ps_supplycost>307.37;",1
+959,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=2021.90;",2
+960,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=29686 AND o.o_totalprice>80915.51;",14
+961,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=197671.57 AND o.o_custkey<77353;",1
+962,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice=16651.2 AND l.l_orderkey=4699684 AND l.l_discount<0.05 AND l.l_tax=0.06;",0
+963,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey=74320;",4
+964,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1153.05 AND p.p_size=9;",3438
+965,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<93477.11 AND o.o_custkey>3023;",454951
+966,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber<1 AND l.l_extendedprice>64792.8 AND l.l_suppkey>933 AND l.l_partkey=162013;",0
+967,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=22 AND s.s_acctbal=3452.01;",0
+968,"SELECT COUNT(*) FROM lineitem l WHERE l.l_quantity=48.0 AND l.l_linenumber=3;",21437
+969,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>2;",10
+970,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<0;",0
+971,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<17;",101917
+972,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>1;",15
+973,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>66122.96;",1193952
+974,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=100405;",18
+975,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost<132.23;",104739
+976,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=104898.16 AND o.o_custkey<40984;",0
+977,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>83242 AND o.o_totalprice=359420.07;",1
+978,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>18;",2392
+979,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=6517.55;",1
+980,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey<190437 AND l.l_quantity>39.0 AND l.l_discount<0.03 AND l.l_tax=0.02;",38167
+981,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=6410 AND ps.ps_supplycost<398.2;",41
+982,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<24 AND s.s_acctbal<-537.20;",411
+983,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=22;",6078
+984,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<7629.18;",7857
+985,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<3;",15
+986,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=3977 AND ps.ps_suppkey>7587 AND ps.ps_supplycost>594.7 AND ps.ps_partkey>17674;",8
+987,"SELECT COUNT(*) FROM part p WHERE p.p_size>50 AND p.p_retailprice=1452.51;",0
+988,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1830.77 AND p.p_size<19;",60252
+989,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+990,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=1;",5
+991,"SELECT COUNT(*) FROM part p WHERE p.p_size>25;",99692
+992,"SELECT COUNT(*) FROM part p WHERE p.p_size<17 AND p.p_retailprice<1672.59;",43534
+993,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=1;",5
+994,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>23;",5983
+995,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<2;",11900
+996,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=221273.28;",1
+997,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<3;",15
+998,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=2;",397
+999,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1273.21;",145254
+1000,"SELECT COUNT(*) FROM part p WHERE p.p_size>46;",15916
+1001,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1878.82 AND p.p_size>46;",0
+1002,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=5 AND s.s_acctbal=6305.48;",0
+1003,"SELECT COUNT(*) FROM part p WHERE p.p_size<8 AND p.p_retailprice>1144.04;",24173
+1004,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=9777 AND ps.ps_supplycost<631.9 AND ps.ps_suppkey=3562;",0
+1005,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>129518.75;",833464
+1006,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey>105199 AND ps.ps_availqty<7244 AND ps.ps_supplycost<378.93;",103543
+1007,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>2;",10
+1008,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<2;",10
+1009,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>1299.33 AND s.s_nationkey>19;",1592
+1010,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<79859 AND o.o_totalprice>146761.19;",391472
+1011,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=-345.82;",1
+1012,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>0;",20
+1013,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>9493.58 AND s.s_nationkey>21;",62
+1014,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey<118723 AND ps.ps_availqty<9845 AND ps.ps_supplycost>753.01;",115143
+1015,"SELECT COUNT(*) FROM part p WHERE p.p_size<7 AND p.p_retailprice=1747.69;",0
+1016,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>15 AND s.s_acctbal<7023.84;",2657
+1017,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>1;",15
+1018,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>62482.08;",1215573
+1019,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<11;",66086
+1020,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>23 AND c.c_acctbal<9378.03;",5633
+1021,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber=4 AND l.l_tax=0.01 AND l.l_extendedprice>19084.8 AND l.l_orderkey=4372071;",0
+1022,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<2;",10
+1023,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber>1 AND l.l_tax=0.03;",500078
+1024,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>125637.37 AND o.o_custkey<51580;",293958
+1025,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<1573.77 AND c.c_nationkey=8;",1463
+1026,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=3;",5
+1027,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<1;",5925
+1028,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>3542.36;",87762
+1029,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=134218;",22
+1030,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>9643.50;",4799
+1031,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>534.19;",129173
+1032,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber=1 AND l.l_quantity>2.0 AND l.l_suppkey>8595;",202601
+1033,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>3;",5
+1034,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1073.10 AND p.p_size=40;",290
+1035,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<4 AND c.c_acctbal=1092.19;",0
+1036,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=1544 AND ps.ps_suppkey=8702;",0
+1037,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=3;",5
+1038,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=94834 AND o.o_totalprice<172736.17;",11
+1039,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost<543.21 AND ps.ps_partkey<128302 AND ps.ps_suppkey>8341 AND ps.ps_availqty=2176;",9
+1040,"SELECT COUNT(*) FROM part p WHERE p.p_size<46;",180113
+1041,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey>168507 AND ps.ps_availqty=8747 AND ps.ps_supplycost=380.19 AND ps.ps_suppkey=2948;",0
+1042,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=2270.59 AND s.s_nationkey=23;",0
+1043,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1047.05 AND p.p_size=7;",0
+1044,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=2495.27;",1
+1045,"SELECT COUNT(*) FROM lineitem l WHERE l.l_quantity<5.0 AND l.l_tax=0.03 AND l.l_linenumber>1 AND l.l_discount<0.0;",0
+1046,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=4 AND s.s_acctbal<6130.78;",281
+1047,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>4324.87;",5196
+1048,"SELECT COUNT(*) FROM part p WHERE p.p_size>14 AND p.p_retailprice=1077.00;",7
+1049,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey>92084 AND ps.ps_supplycost>925.24;",32414
+1050,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=15 AND c.c_acctbal=8135.72;",0
+1051,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>2989.28 AND s.s_nationkey=5;",253
+1052,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey=2721285 AND l.l_tax=0.0 AND l.l_linenumber<4;",1
+1053,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey=173376 AND ps.ps_availqty=4508;",0
+1054,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=72347.12;",1
+1055,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=2;",5
+1056,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>108220.08 AND o.o_custkey>35149;",730248
+1057,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1780.87 AND p.p_size>15;",30497
+1058,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=3;",5
+1059,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<33727 AND o.o_totalprice>190006.88;",112465
+1060,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=7577.42;",1
+1061,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=82363;",28
+1062,"SELECT COUNT(*) FROM part p WHERE p.p_size<10;",36297
+1063,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>8;",6350
+1064,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=1408.47;",1
+1065,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<69732.62;",327366
+1066,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1713.63 AND p.p_size=7;",1153
+1067,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<3;",15
+1068,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<31732.10 AND o.o_custkey>78640;",55170
+1069,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=141545;",15
+1070,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey<1591 AND ps.ps_supplycost<837.16;",106305
+1071,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey>120277 AND ps.ps_supplycost<299.64 AND ps.ps_suppkey<7682;",72978
+1072,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=396538.94;",1
+1073,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey<8405 AND ps.ps_partkey>116709;",279717
+1074,"SELECT COUNT(*) FROM part p WHERE p.p_size>31 AND p.p_retailprice>1838.92;",12174
+1075,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>2;",10
+1076,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=2;",5
+1077,"SELECT COUNT(*) FROM part p WHERE p.p_size<10;",36297
+1078,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber=4 AND l.l_suppkey<2830 AND l.l_orderkey=2281094;",0
+1079,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=1;",5
+1080,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>149749;",2512
+1081,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>5389.53;",4206
+1082,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1998.93;",194880
+1083,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax<0.08 AND l.l_linenumber=1 AND l.l_discount<0.05;",605366
+1084,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>0;",144075
+1085,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<1;",5925
+1086,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=68669 AND o.o_totalprice=166243.01;",0
+1087,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>7 AND s.s_acctbal<351.44;",839
+1088,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty<429 AND ps.ps_suppkey>2465 AND ps.ps_supplycost<996.44;",25751
+1089,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey=84598;",25
+1090,"SELECT COUNT(*) FROM lineitem l WHERE l.l_suppkey>4369 AND l.l_linenumber=6 AND l.l_quantity>37.0 AND l.l_orderkey=1431910;",0
+1091,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>3;",5
+1092,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost<61.32 AND ps.ps_partkey=170677 AND ps.ps_availqty>6684;",0
+1093,"SELECT COUNT(*) FROM part p WHERE p.p_size<23;",88438
+1094,"SELECT COUNT(*) FROM lineitem l WHERE l.l_discount>0.05 AND l.l_tax<0.02 AND l.l_linenumber>1 AND l.l_quantity<30.0 AND l.l_orderkey=128615;",1
+1095,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=16;",5974
+1096,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty>8119;",150462
+1097,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>125823.63 AND o.o_custkey>112627;",213550
+1098,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=138881;",7
+1099,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=77128;",20
+1100,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<1;",5
+1101,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<0;",0
+1102,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<1343.89;",31770
+1103,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>1;",9167
+1104,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey=68787 AND ps.ps_availqty=2766;",0
+1105,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1734.80;",10
+1106,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>888.56;",88885
+1107,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>79890.96;",1113323
+1108,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>72228.25;",1157829
+1109,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>2 AND s.s_acctbal>-264.20;",8183
+1110,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1944.86 AND p.p_size<6;",0
+1111,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=0;",5
+1112,"SELECT COUNT(*) FROM part p WHERE p.p_size>28 AND p.p_retailprice>1011.11;",85003
+1113,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=226760.07 AND o.o_custkey=102262;",0
+1114,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey<783427;",784057
+1115,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<24;",144017
+1116,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax<0.0 AND l.l_extendedprice>3915.72 AND l.l_partkey>67423 AND l.l_suppkey<8917 AND l.l_linenumber<6;",0
+1117,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=75845.9;",1
+1118,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>3;",5
+1119,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1547.59;",109642
+1120,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<97529;",974997
+1121,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>116800;",332128
+1122,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty>5752 AND ps.ps_supplycost<672.71;",229060
+1123,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber<1 AND l.l_suppkey=9771;",0
+1124,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<12;",72049
+1125,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax>0.04;",2667742
+1126,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=3080.38;",1
+1127,"SELECT COUNT(*) FROM lineitem l WHERE l.l_discount<0.03 AND l.l_orderkey>4207717;",489139
+1128,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+1129,"SELECT COUNT(*) FROM part p WHERE p.p_size>35 AND p.p_retailprice<1735.75;",43940
+1130,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<2;",10
+1131,"SELECT COUNT(*) FROM lineitem l WHERE l.l_suppkey<728;",435854
+1132,"SELECT COUNT(*) FROM part p WHERE p.p_size>6 AND p.p_retailprice>1246.21;",132467
+1133,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+1134,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<7180.02 AND s.s_nationkey=11;",322
+1135,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<189857.03;",996973
+1136,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>4146.17 AND s.s_nationkey<0;",0
+1137,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey>647 AND ps.ps_supplycost<714.23 AND ps.ps_availqty=9996 AND ps.ps_partkey>8512;",50
+1138,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey<1218820 AND l.l_linenumber<2 AND l.l_partkey>180174;",30395
+1139,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<1;",420
+1140,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+1141,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>15;",3626
+1142,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=1;",5
+1143,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<9468.79;",142840
+1144,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=243895.12 AND o.o_custkey=133049;",0
+1145,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<66355;",663947
+1146,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=557.65;",8
+1147,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>95017;",550220
+1148,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>133393;",166116
+1149,"SELECT COUNT(*) FROM part p WHERE p.p_size>26 AND p.p_retailprice=1042.12;",3
+1150,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1745.73;",50806
+1151,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=21;",6008
+1152,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>20 AND c.c_acctbal=4318.89;",0
+1153,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey=1270 AND ps.ps_availqty>6171 AND ps.ps_partkey=146433 AND ps.ps_supplycost>44.98;",0
+1154,"SELECT COUNT(*) FROM part p WHERE p.p_size<15;",56606
+1155,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1777.84;",44328
+1156,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty>9643 AND ps.ps_partkey=12327 AND ps.ps_suppkey>5040;",0
+1157,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<30760 AND o.o_totalprice<110268.44;",114658
+1158,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice=15233.94 AND l.l_orderkey>2482308 AND l.l_linenumber=6;",0
+1159,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>4;",0
+1160,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>14;",3999
+1161,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty>5048 AND ps.ps_supplycost>953.62 AND ps.ps_suppkey>7151;",5289
+1162,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>2460.19;",102689
+1163,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty<8754 AND ps.ps_suppkey=3657 AND ps.ps_supplycost>242.17;",64
+1164,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=4;",5
+1165,"SELECT COUNT(*) FROM lineitem l WHERE l.l_quantity=16.0;",120518
+1166,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<109903 AND o.o_totalprice=384894.83;",1
+1167,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>207558.48 AND o.o_custkey>72926;",213182
+1168,"SELECT COUNT(*) FROM part p WHERE p.p_size<10 AND p.p_retailprice>1144.04;",31026
+1169,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=-433.11 AND s.s_nationkey=6;",1
+1170,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>1;",138100
+1171,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=4;",5
+1172,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1973.93;",7935
+1173,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey>77747;",489012
+1174,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=7544.88 AND s.s_nationkey<19;",1
+1175,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber<4 AND l.l_orderkey=3734752 AND l.l_partkey<143061 AND l.l_suppkey<6173 AND l.l_tax<0.06;",0
+1176,"SELECT COUNT(*) FROM part p WHERE p.p_size<33 AND p.p_retailprice<1399.48;",51355
+1177,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty>7729 AND ps.ps_suppkey<6459 AND ps.ps_supplycost=170.12 AND ps.ps_partkey<126688;",0
+1178,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey<194231 AND ps.ps_supplycost=827.28;",7
+1179,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax<0.0;",0
+1180,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<40492;",404812
+1181,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>2;",10
+1182,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>5;",114134
+1183,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>4;",0
+1184,"SELECT COUNT(*) FROM part p WHERE p.p_size<40 AND p.p_retailprice>1271.17;",113928
+1185,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey<1131;",90400
+1186,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=12 AND c.c_acctbal>584.82;",5125
+1187,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>15;",54057
+1188,"SELECT COUNT(*) FROM part p WHERE p.p_size=13 AND p.p_retailprice<1385.39;",1449
+1189,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>101.73 AND ps.ps_availqty<1778 AND ps.ps_partkey<195073 AND ps.ps_suppkey<5604;",69517
+1190,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<4903.30 AND c.c_nationkey>4;",64430
+1191,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<8 AND c.c_acctbal<3262.13;",18727
+1192,"SELECT COUNT(*) FROM lineitem l WHERE l.l_discount>0.09 AND l.l_orderkey>3474082 AND l.l_tax=0.03 AND l.l_linenumber=6 AND l.l_quantity=43.0;",31
+1193,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=1;",5
+1194,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax<0.01 AND l.l_partkey<157186 AND l.l_linenumber=3 AND l.l_suppkey<9731;",90784
+1195,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>10 AND c.c_acctbal>5014.68;",38097
+1196,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<13;",77997
+1197,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey>48311 AND l.l_quantity>16.0;",3097773
+1198,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>0 AND c.c_acctbal<2974.43;",52164
+1199,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber>7;",0
+1200,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<2 AND s.s_acctbal=6228.67;",1
+1201,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1526.56;",10
+1202,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1966.94;",191162
+1203,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=1;",5
+1204,"SELECT COUNT(*) FROM part p WHERE p.p_size<31;",120375
+1205,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>0;",144075
+1206,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<137183.13 AND o.o_custkey=141526;",10
+1207,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty>8545 AND ps.ps_partkey=51917 AND ps.ps_supplycost<354.48;",0
+1208,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>82169.10;",1100231
+1209,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey=179272 AND ps.ps_suppkey<8640;",3
+1210,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=0;",5
+1211,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>13;",4375
+1212,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1252.31;",149333
+1213,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<2587.02;",3224
+1214,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey<8522 AND ps.ps_partkey<29797 AND ps.ps_availqty=1769 AND ps.ps_supplycost=566.37;",0
+1215,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<4931.12 AND s.s_nationkey>8;",3384
+1216,"SELECT COUNT(*) FROM part p WHERE p.p_size>28 AND p.p_retailprice=1377.41;",3
+1217,"SELECT COUNT(*) FROM lineitem l WHERE l.l_suppkey>3861 AND l.l_extendedprice=53312.3 AND l.l_linenumber<2 AND l.l_orderkey=5025569 AND l.l_partkey=70545;",0
+1218,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>957.53;",8234
+1219,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>3;",8358
+1220,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<1;",5
+1221,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1364.39;",10
+1222,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=969.16 AND ps.ps_suppkey=1344;",0
+1223,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>2761.29 AND s.s_nationkey=22;",284
+1224,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey=4657 AND ps.ps_partkey<105453 AND ps.ps_availqty=693;",0
+1225,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=3;",5
+1226,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey=2747 AND ps.ps_availqty>5506 AND ps.ps_partkey<186718 AND ps.ps_supplycost>378.47;",23
+1227,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=56.41 AND ps.ps_suppkey<4490 AND ps.ps_partkey>93489;",0
+1228,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<173829.41 AND o.o_custkey>107279;",258740
+1229,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1538.59;",10
+1230,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1193.12;",161264
+1231,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>6086.71 AND c.c_nationkey=20;",2098
+1232,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=1796 AND ps.ps_partkey>58077 AND ps.ps_suppkey=6299;",0
+1233,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=1;",5
+1234,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>-874.84 AND s.s_nationkey<18;",7118
+1235,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey<161267;",645064
+1236,"SELECT COUNT(*) FROM part p WHERE p.p_size=13 AND p.p_retailprice=1850.83;",0
+1237,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>104447.27;",974646
+1238,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<20 AND c.c_acctbal>7199.79;",30509
+1239,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<60016 AND o.o_totalprice>232086.94;",119745
+1240,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>4;",120086
+1241,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=70289;",17
+1242,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+1243,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<139321 AND o.o_totalprice<73719.54;",325940
+1244,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey>173795;",787236
+1245,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<14 AND c.c_acctbal>2516.39;",56957
+1246,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=110797.49;",1
+1247,"SELECT COUNT(*) FROM part p WHERE p.p_size=46;",3971
+1248,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>6290.11;",3365
+1249,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<9 AND c.c_acctbal<7754.89;",42912
+1250,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice>17711.73;",4586593
+1251,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=126367 AND o.o_totalprice>302433.91;",1
+1252,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=2052.95;",7
+1253,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<246388.75 AND o.o_custkey>137321;",106281
+1254,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=9404.07;",1
+1255,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=19 AND s.s_acctbal<6318.14;",257
+1256,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<3;",15
+1257,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice=4452.76 AND l.l_quantity>43.0 AND l.l_partkey<172197 AND l.l_orderkey>1996966;",0
+1258,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1319.30 AND p.p_size<37;",97973
+1259,"SELECT COUNT(*) FROM lineitem l WHERE l.l_quantity>37.0 AND l.l_extendedprice<31494.02 AND l.l_tax=0.08 AND l.l_linenumber=2 AND l.l_suppkey>3662;",0
+1260,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=3;",5
+1261,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey<4255652 AND l.l_suppkey<9742 AND l.l_partkey<174257 AND l.l_quantity<24.0 AND l.l_discount>0.06;",605620
+1262,"SELECT COUNT(*) FROM lineitem l WHERE l.l_suppkey=6770 AND l.l_partkey<6368 AND l.l_orderkey<2932487 AND l.l_linenumber<4;",4
+1263,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty<7393 AND ps.ps_partkey<52532 AND ps.ps_suppkey<5391;",83831
+1264,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=13 AND s.s_acctbal<-670.56;",15
+1265,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<3079.42 AND c.c_nationkey=16;",2159
+1266,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<5845.41;",93401
+1267,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+1268,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>3866.71 AND c.c_nationkey<15;",49886
+1269,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<228794.72;",1185494
+1270,"SELECT COUNT(*) FROM part p WHERE p.p_size=30 AND p.p_retailprice>1724.73;",1145
+1271,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=9593 AND ps.ps_partkey>103331;",44
+1272,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=198639.27;",1
+1273,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=627.10 AND s.s_nationkey=1;",0
+1274,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=14;",5992
+1275,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty>2108 AND ps.ps_suppkey>7015 AND ps.ps_supplycost>742.78;",48124
+1276,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey>154596 AND ps.ps_supplycost<794.4;",143938
+1277,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<14 AND c.c_acctbal>8823.64;",9032
+1278,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty<5054 AND ps.ps_supplycost=94.7 AND ps.ps_suppkey=4187;",0
+1279,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=1310.77;",1
+1280,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=342240.43 AND o.o_custkey=106816;",0
+1281,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>267.27;",586954
+1282,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>1;",15
+1283,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=17 AND s.s_acctbal=8577.07;",0
+1284,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<22;",131928
+1285,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<4111.07;",4610
+1286,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<12;",4886
+1287,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>6;",7161
+1288,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1947.86;",188384
+1289,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey<3338 AND ps.ps_supplycost=278.48;",1
+1290,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=143105 AND o.o_totalprice<198952.64;",8
+1291,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<2;",10
+1292,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<62682.57 AND o.o_custkey=39952;",4
+1293,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=5293 AND ps.ps_supplycost>939.45 AND ps.ps_suppkey=9384;",0
+1294,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+1295,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>170734.74;",604753
+1296,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>18;",2392
+1297,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1868.91 AND p.p_size=45;",3383
+1298,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty>6904 AND ps.ps_partkey<80138;",99054
+1299,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<0;",0
+1300,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>29278;",1207028
+1301,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>134338;",156846
+1302,"SELECT COUNT(*) FROM part p WHERE p.p_size>49;",3889
+1303,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=1480 AND o.o_totalprice>217732.76;",4
+1304,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<6214.23;",98311
+1305,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>2237.64;",7091
+1306,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>17 AND s.s_acctbal>493.02;",2418
+1307,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>1;",9167
+1308,"SELECT COUNT(*) FROM lineitem l WHERE l.l_quantity<10.0 AND l.l_extendedprice<47200.6 AND l.l_linenumber>1 AND l.l_partkey>187128 AND l.l_orderkey<4931296;",42688
+1309,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>3339.67 AND c.c_nationkey>4;",72526
+1310,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>14 AND s.s_acctbal=8425.38;",1
+1311,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=130009.17;",1
+1312,"SELECT COUNT(*) FROM part p WHERE p.p_size=44 AND p.p_retailprice>1152.21;",3399
+1313,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=565.51 AND ps.ps_partkey<37185;",2
+1314,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey>5421825 AND l.l_partkey>180817 AND l.l_discount<0.0 AND l.l_linenumber<2;",0
+1315,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=5167.97 AND c.c_nationkey>1;",1
+1316,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=160205.75;",1
+1317,"SELECT COUNT(*) FROM part p WHERE p.p_size=14;",4153
+1318,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>707.01;",234529
+1319,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>8875.71 AND s.s_nationkey=13;",32
+1320,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1576.48;",10
+1321,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=3849.33;",1
+1322,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>2;",10
+1323,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice=28733.52;",4
+1324,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<9461.05 AND s.s_nationkey>19;",1899
+1325,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=0;",5
+1326,"SELECT COUNT(*) FROM lineitem l WHERE l.l_suppkey<5548 AND l.l_extendedprice<38221.17 AND l.l_partkey>18227 AND l.l_orderkey>2190304 AND l.l_discount>0.02;",721953
+1327,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=5510.90 AND c.c_nationkey>23;",0
+1328,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<167356.26;",876801
+1329,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey>4892480 AND l.l_quantity>36.0 AND l.l_partkey=64757 AND l.l_extendedprice>62630.04 AND l.l_tax<0.05;",2
+1330,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1172.11;",10
+1331,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=86.30 AND c.c_nationkey>19;",0
+1332,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<7163.96;",7406
+1333,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=3;",5
+1334,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1023.11 AND p.p_size<47;",7127
+1335,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>259276.13 AND o.o_custkey=133822;",1
+1336,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax>0.07;",667429
+1337,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty>322 AND ps.ps_suppkey>5712;",331859
+1338,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey>62787 AND l.l_tax>0.03 AND l.l_linenumber<6;",2042188
+1339,"SELECT COUNT(*) FROM lineitem l WHERE l.l_discount<0.02 AND l.l_tax>0.06 AND l.l_suppkey>8397 AND l.l_quantity<28.0 AND l.l_linenumber>1;",15751
+1340,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<14;",5625
+1341,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=7848.56;",1
+1342,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=7;",5908
+1343,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>0;",20
+1344,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=678.06;",7
+1345,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=20 AND c.c_acctbal<7016.83;",4321
+1346,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<65779;",658163
+1347,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<256933.30;",1296820
+1348,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax>0.06;",1334307
+1349,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>292993.44 AND o.o_custkey<16208;",10701
+1350,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty<5247 AND ps.ps_partkey=87187 AND ps.ps_suppkey=7072 AND ps.ps_supplycost>192.06;",0
+1351,"SELECT COUNT(*) FROM part p WHERE p.p_size>32;",71787
+1352,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=4;",5
+1353,"SELECT COUNT(*) FROM part p WHERE p.p_size<39;",152282
+1354,"SELECT COUNT(*) FROM part p WHERE p.p_size<38;",148241
+1355,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>93886.34;",1033455
+1356,"SELECT COUNT(*) FROM lineitem l WHERE l.l_quantity=19.0 AND l.l_tax<0.07 AND l.l_suppkey<2477;",23230
+1357,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=5113 AND ps.ps_suppkey<3861;",22
+1358,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>3;",5
+1359,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>4;",0
+1360,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice=16527.03 AND l.l_linenumber>2;",2
+1361,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=4;",5
+1362,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey<4753282;",4754543
+1363,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<3;",15
+1364,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>2 AND c.c_acctbal=-878.14;",1
+1365,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey<10000;",799920
+1366,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<121441;",1214129
+1367,"SELECT COUNT(*) FROM part p WHERE p.p_size=36 AND p.p_retailprice<1842.76;",3285
+1368,"SELECT COUNT(*) FROM lineitem l WHERE l.l_suppkey>958;",5425995
+1369,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<15;",6001
+1370,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<916.00 AND p.p_size=4;",4
+1371,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=109153.21;",2
+1372,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=31527.66 AND o.o_custkey>5068;",1
+1373,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>1 AND c.c_acctbal=4398.10;",1
+1374,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>562.87 AND ps.ps_partkey>4990 AND ps.ps_suppkey<6241;",213106
+1375,"SELECT COUNT(*) FROM lineitem l WHERE l.l_discount>0.08 AND l.l_extendedprice>55265.85;",270572
+1376,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<6104.45 AND s.s_nationkey>22;",492
+1377,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<13;",77997
+1378,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=126252.62;",1
+1379,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<29522;",295368
+1380,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<14 AND c.c_acctbal<848.85;",14126
+1381,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=137804 AND o.o_totalprice<192250.49;",2
+1382,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber=5 AND l.l_quantity=16.0 AND l.l_partkey<147746 AND l.l_tax=0.0 AND l.l_suppkey>2947;",778
+1383,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>3;",5
+1384,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=608.42;",1
+1385,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=67791.97 AND o.o_custkey>33655;",1
+1386,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=8201 AND ps.ps_suppkey=4580 AND ps.ps_partkey=184969 AND ps.ps_supplycost>572.57;",0
+1387,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey=143038 AND ps.ps_availqty=447;",0
+1388,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>87329.76;",1070669
+1389,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=4;",5
+1390,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax>0.02 AND l.l_quantity<11.0 AND l.l_suppkey=8732 AND l.l_discount<0.04;",28
+1391,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<0;",0
+1392,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=0;",5
+1393,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey>15 AND c.c_acctbal=4209.32;",0
+1394,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<-942.93;",43
+1395,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey>132331 AND ps.ps_availqty<79 AND ps.ps_supplycost=381.12;",1
+1396,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<53774.13;",233356
+1397,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty>6738 AND ps.ps_suppkey<3476 AND ps.ps_partkey=26223;",0
+1398,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=1062.01;",1
+1399,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=17 AND c.c_acctbal=170.15;",1
+1400,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=17;",421
+1401,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1027.06;",10
+1402,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal=2547.64 AND s.s_nationkey<18;",1
+1403,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<5303.73 AND c.c_nationkey=6;",3552
+1404,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey<123130 AND o.o_totalprice>129850.58;",682034
+1405,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice<170405.35;",893471
+1406,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>3;",5
+1407,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber=4 AND l.l_tax<0.05 AND l.l_quantity=35.0 AND l.l_partkey>129549 AND l.l_orderkey=3172710;",0
+1408,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=7248.84 AND c.c_nationkey=5;",0
+1409,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=10975;",24
+1410,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=8542.04;",1
+1411,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=8963;",66
+1412,"SELECT COUNT(*) FROM part p WHERE p.p_size=17;",3877
+1413,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost>153.63 AND ps.ps_suppkey=588 AND ps.ps_availqty>8727;",9
+1414,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=81293.51;",1
+1415,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<2;",10
+1416,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey<673540;",673847
+1417,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=181.3 AND ps.ps_partkey=190597 AND ps.ps_availqty>5966 AND ps.ps_suppkey=6322;",0
+1418,"SELECT COUNT(*) FROM lineitem l WHERE l.l_partkey=148849 AND l.l_quantity>39.0 AND l.l_discount>0.0 AND l.l_suppkey=7387 AND l.l_orderkey>3966977;",0
+1419,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_availqty=3585 AND ps.ps_partkey=184069 AND ps.ps_suppkey<5766;",0
+1420,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=28027;",26
+1421,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>1547.92 AND s.s_nationkey=24;",309
+1422,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey=118250 AND o.o_totalprice=21481.43;",0
+1423,"SELECT COUNT(*) FROM lineitem l WHERE l.l_discount<0.1 AND l.l_extendedprice=71589.6 AND l.l_orderkey=1482563 AND l.l_tax<0.0 AND l.l_partkey<61827;",0
+1424,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost=653.89 AND ps.ps_partkey=106918 AND ps.ps_availqty<7411 AND ps.ps_suppkey<8563;",0
+1425,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1866.85;",26607
+1426,"SELECT COUNT(*) FROM part p WHERE p.p_size=46;",3971
+1427,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>58523.95;",1238749
+1428,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>3832.21;",83811
+1429,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey>19 AND s.s_acctbal=258.33;",0
+1430,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<2116.69;",2800
+1431,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice>1959.92 AND p.p_size>10;",7839
+1432,"SELECT COUNT(*) FROM part p WHERE p.p_size<35;",136244
+1433,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal<2036.02;",2730
+1434,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=2 AND c.c_acctbal<3452.60;",2431
+1435,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<3;",15
+1436,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey<3398368 AND l.l_suppkey<3442 AND l.l_partkey<99440 AND l.l_tax<0.05 AND l.l_linenumber=1;",81123
+1437,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice<1816.88 AND p.p_size>4;",150249
+1438,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>-562.49;",144021
+1439,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>1;",15
+1440,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=0 AND c.c_acctbal>5094.35;",2577
+1441,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<4 AND s.s_acctbal>9189.98;",117
+1442,"SELECT COUNT(*) FROM part p WHERE p.p_size=15 AND p.p_retailprice<1318.29;",1242
+1443,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey<127018 AND ps.ps_suppkey=3713 AND ps.ps_availqty=517 AND ps.ps_supplycost>416.74;",0
+1444,"SELECT COUNT(*) FROM lineitem l WHERE l.l_suppkey=7846 AND l.l_linenumber=1 AND l.l_partkey>150045 AND l.l_extendedprice>39241.65;",12
+1445,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_partkey<127528 AND ps.ps_suppkey<4210 AND ps.ps_availqty<1363;",29043
+1446,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey=16 AND c.c_acctbal=2879.88;",0
+1447,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<15 AND c.c_acctbal>3266.33;",54855
+1448,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>3;",5
+1449,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey>8528 AND ps.ps_partkey=3817 AND ps.ps_availqty=5985;",0
+1450,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey>4391969 AND l.l_tax<0.05 AND l.l_suppkey=8360 AND l.l_discount=0.03 AND l.l_partkey=149028;",0
+1451,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>5201.40;",4387
+1452,"SELECT COUNT(*) FROM part p WHERE p.p_size<44;",172210
+1453,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey>1623015 AND l.l_quantity>44.0;",524767
+1454,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey=1386535;",5
+1455,"SELECT COUNT(*) FROM customer c WHERE c.c_nationkey<4;",23919
+1456,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost<533.97;",426898
+1457,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=2;",5
+1458,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1713.71;",10
+1459,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<2;",10
+1460,"SELECT COUNT(*) FROM lineitem l WHERE l.l_extendedprice<86296.8 AND l.l_linenumber<2 AND l.l_discount=0.05 AND l.l_tax>0.04;",59203
+1461,"SELECT COUNT(*) FROM part p WHERE p.p_size=42 AND p.p_retailprice<1227.13;",948
+1462,"SELECT COUNT(*) FROM part p WHERE p.p_size=13 AND p.p_retailprice<1295.22;",1137
+1463,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<4771.14 AND c.c_nationkey>24;",0
+1464,"SELECT COUNT(*) FROM lineitem l WHERE l.l_quantity<38.0 AND l.l_partkey>40131 AND l.l_orderkey=662560 AND l.l_extendedprice=38450.23 AND l.l_linenumber<5;",0
+1465,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=2;",5
+1466,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=2;",5
+1467,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<2;",10
+1468,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1235.23;",10
+1469,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<0;",0
+1470,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=179787.74 AND o.o_custkey>82093;",1
+1471,"SELECT COUNT(*) FROM orders o WHERE o.o_custkey>8359;",1416655
+1472,"SELECT COUNT(*) FROM part p WHERE p.p_size>34 AND p.p_retailprice>1285.32;",45695
+1473,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>1;",15
+1474,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice>302030.47;",81960
+1475,"SELECT COUNT(*) FROM orders o WHERE o.o_totalprice=32839.69;",1
+1476,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey>3;",5
+1477,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal<3081.61;",55864
+1478,"SELECT COUNT(*) FROM part p WHERE p.p_retailprice=1290.29 AND p.p_size>34;",3
+1479,"SELECT COUNT(*) FROM lineitem l WHERE l.l_tax>0.05 AND l.l_suppkey<5157;",1031846
+1480,"SELECT COUNT(*) FROM lineitem l WHERE l.l_linenumber>3 AND l.l_orderkey<924773;",330634
+1481,"SELECT COUNT(*) FROM lineitem l WHERE l.l_discount=0.09;",545309
+1482,"SELECT COUNT(*) FROM part p WHERE p.p_size<10;",36297
+1483,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey=4;",5
+1484,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey=10;",393
+1485,"SELECT COUNT(*) FROM nation n WHERE n.n_regionkey<4;",20
+1486,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey=1571587 AND l.l_suppkey<7094 AND l.l_tax<0.08 AND l.l_linenumber<3 AND l.l_quantity=9.0;",0
+1487,"SELECT COUNT(*) FROM lineitem l WHERE l.l_orderkey<3190949 AND l.l_quantity>21.0 AND l.l_suppkey=3919 AND l.l_discount<0.05 AND l.l_linenumber=5;",8
+1488,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_supplycost<361.14 AND ps.ps_suppkey<3919 AND ps.ps_availqty=672;",10
+1489,"SELECT COUNT(*) FROM supplier s WHERE s.s_nationkey<16;",6374
+1490,"SELECT COUNT(*) FROM partsupp ps WHERE ps.ps_suppkey>8735 AND ps.ps_availqty=9150;",14
+1491,"SELECT COUNT(*) FROM part p WHERE p.p_size>19 AND p.p_retailprice>1693.70;",37850
+1492,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal=9651.35;",1
+1493,"SELECT COUNT(*) FROM supplier s WHERE s.s_acctbal>9440.83;",509
+1494,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>5168.50 AND c.c_nationkey=20;",2558
+1495,"SELECT COUNT(*) FROM customer c WHERE c.c_acctbal>6589.18 AND c.c_nationkey<6;",11087
