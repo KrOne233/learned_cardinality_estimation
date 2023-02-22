@@ -1,0 +1,1001 @@
+query_no,query,cardinality_true
+0,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.product_category_3=9 AND bfp.product_category_2>6 AND bfp.purchase>3522 AND bfp.product_category_1=1;",332
+1,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<3 AND bfp.product_category_2<11 AND bfp.product_category_1>1 AND bfp.age<7 AND bfp.marital_status=0 AND bfp.gender>1 AND bfp.product_category_3=13 AND bfp.purchase<16144 AND bfp.stay_in_current_city_years<2 AND bfp.occupation<5;",29
+2,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>23623 AND bfp.city_category>2 AND bfp.product_category_2<15;",55
+3,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0;",67202
+4,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<3 AND bfp.marital_status=1 AND bfp.product_category_3=3 AND bfp.city_category>1 AND bfp.gender>1 AND bfp.age>3;",26
+5,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>3 AND bfp.gender=1 AND bfp.product_category_1<5 AND bfp.city_category<3 AND bfp.marital_status>0 AND bfp.occupation>19 AND bfp.product_category_3>10 AND bfp.product_category_2<3 AND bfp.age<4 AND bfp.purchase>12042;",11
+6,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=3 AND bfp.stay_in_current_city_years=4 AND bfp.product_category_1<12;",918
+7,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=10 AND bfp.gender<2 AND bfp.age>2 AND bfp.product_category_2=3 AND bfp.purchase<12983 AND bfp.city_category>2 AND bfp.stay_in_current_city_years=3 AND bfp.product_category_1=2 AND bfp.marital_status>0 AND bfp.occupation>13;",1
+8,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>4 AND bfp.product_category_3<13 AND bfp.occupation=20 AND bfp.product_category_1=6 AND bfp.marital_status<1 AND bfp.city_category=2 AND bfp.gender=1 AND bfp.stay_in_current_city_years=3 AND bfp.product_category_2=8;",1
+9,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<4;",112191
+10,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=3 AND bfp.occupation=14 AND bfp.purchase<15488 AND bfp.product_category_1>8 AND bfp.gender=2 AND bfp.stay_in_current_city_years=2 AND bfp.marital_status=0;",7
+11,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.product_category_3<10 AND bfp.stay_in_current_city_years>4 AND bfp.product_category_2>3 AND bfp.purchase<9923 AND bfp.age=5;",49
+12,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=2 AND bfp.stay_in_current_city_years<2 AND bfp.occupation=15 AND bfp.product_category_3>8 AND bfp.marital_status=1 AND bfp.city_category>1 AND bfp.purchase<11727 AND bfp.age=4;",2
+13,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=0 AND bfp.product_category_1>6 AND bfp.stay_in_current_city_years=2;",641
+14,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>11 AND bfp.stay_in_current_city_years=1 AND bfp.age=1;",8
+15,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<3 AND bfp.product_category_2<13 AND bfp.marital_status=0 AND bfp.purchase<20422 AND bfp.stay_in_current_city_years<3;",25550
+16,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<13 AND bfp.stay_in_current_city_years<3 AND bfp.city_category=2 AND bfp.purchase<4483 AND bfp.product_category_1=8 AND bfp.product_category_3>14 AND bfp.product_category_2>14 AND bfp.marital_status=0 AND bfp.age>2;",10
+17,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=1 AND bfp.product_category_2=16 AND bfp.occupation<11 AND bfp.gender>1 AND bfp.product_category_1>8;",25
+18,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<5 AND bfp.product_category_1=8 AND bfp.stay_in_current_city_years>4 AND bfp.product_category_3<15;",71
+19,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>8 AND bfp.purchase=6864;",8
+20,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1<5 AND bfp.city_category=2 AND bfp.occupation=4 AND bfp.marital_status=0 AND bfp.product_category_2=9 AND bfp.age=2 AND bfp.product_category_3=14;",14
+21,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=3 AND bfp.product_category_3<4 AND bfp.stay_in_current_city_years<2 AND bfp.gender>1 AND bfp.age<4 AND bfp.purchase<18990 AND bfp.marital_status=1 AND bfp.occupation<17;",0
+22,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<10032 AND bfp.marital_status=1;",26079
+23,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=1 AND bfp.gender<2 AND bfp.product_category_3=17 AND bfp.purchase<19024 AND bfp.stay_in_current_city_years>1 AND bfp.product_category_2>12 AND bfp.age=6 AND bfp.occupation<12 AND bfp.product_category_1<5;",8
+24,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=15571 AND bfp.product_category_2=8 AND bfp.gender>1 AND bfp.product_category_1=1 AND bfp.stay_in_current_city_years<4 AND bfp.occupation>0;",1
+25,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=15 AND bfp.product_category_1=1;",21748
+26,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.city_category=2 AND bfp.marital_status>0 AND bfp.product_category_3<14 AND bfp.occupation<15 AND bfp.age>6 AND bfp.product_category_2<5 AND bfp.purchase>11861 AND bfp.stay_in_current_city_years>2 AND bfp.product_category_1=2;",2
+27,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<2 AND bfp.product_category_2>8;",11534
+28,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=3 AND bfp.purchase<2856 AND bfp.product_category_1<8 AND bfp.marital_status<1;",910
+29,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>6 AND bfp.product_category_2=16 AND bfp.product_category_3=17 AND bfp.city_category=1 AND bfp.stay_in_current_city_years<4 AND bfp.purchase<8098 AND bfp.gender=1 AND bfp.age=3 AND bfp.marital_status=1;",2
+30,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>12;",33503
+31,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=6925 AND bfp.product_category_1<5 AND bfp.gender<2;",0
+32,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=6925 AND bfp.product_category_1<5;",3
+33,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=3 AND bfp.age<2 AND bfp.product_category_1=12 AND bfp.purchase=1747 AND bfp.product_category_3=17 AND bfp.marital_status=0 AND bfp.gender=1;",1
+34,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.age=3 AND bfp.product_category_2>5 AND bfp.gender=1 AND bfp.product_category_1=13;",80
+35,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<17 AND bfp.product_category_2<10 AND bfp.product_category_1=1 AND bfp.gender=1 AND bfp.age>3 AND bfp.city_category>1 AND bfp.purchase>8178 AND bfp.stay_in_current_city_years<5 AND bfp.product_category_3>14;",1287
+36,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>5 AND bfp.product_category_2<10 AND bfp.purchase=10845 AND bfp.city_category=3 AND bfp.product_category_1=3 AND bfp.age>3;",0
+37,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=23050 AND bfp.product_category_3=16 AND bfp.stay_in_current_city_years=1 AND bfp.occupation=14 AND bfp.marital_status=0 AND bfp.product_category_2=13;",1
+38,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.occupation=14 AND bfp.product_category_1=5 AND bfp.city_category<2;",176
+39,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=14063 AND bfp.product_category_1=10 AND bfp.product_category_2=15 AND bfp.city_category<3;",0
+40,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<1 AND bfp.city_category>1 AND bfp.product_category_1>5 AND bfp.purchase<12421 AND bfp.marital_status>0 AND bfp.product_category_3<18 AND bfp.gender<2;",154
+41,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<2 AND bfp.product_category_2<5;",2465
+42,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=11 AND bfp.age=7 AND bfp.city_category>1 AND bfp.purchase>19512 AND bfp.occupation>16;",0
+43,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.city_category>1;",73453
+44,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>4 AND bfp.marital_status>0 AND bfp.gender>1 AND bfp.occupation<8 AND bfp.product_category_3>13 AND bfp.age>6 AND bfp.purchase<7076;",100
+45,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<3 AND bfp.product_category_3=5 AND bfp.product_category_2>2 AND bfp.stay_in_current_city_years<4 AND bfp.gender=2;",1112
+46,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=4 AND bfp.product_category_2=13;",1033
+47,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>23113 AND bfp.occupation=11 AND bfp.product_category_1=10;",12
+48,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=6 AND bfp.stay_in_current_city_years>4;",1125
+49,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>0 AND bfp.age>6 AND bfp.product_category_2>10;",1439
+50,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=10 AND bfp.occupation=20 AND bfp.product_category_3>16;",0
+51,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<5 AND bfp.age<4 AND bfp.product_category_1>1 AND bfp.purchase=7963 AND bfp.gender=2 AND bfp.city_category=1;",2
+52,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.product_category_3>3 AND bfp.product_category_1<12 AND bfp.age=2 AND bfp.occupation=0 AND bfp.city_category=1;",71
+53,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<4 AND bfp.purchase=15851 AND bfp.city_category=1 AND bfp.product_category_3=3 AND bfp.age=5 AND bfp.stay_in_current_city_years<2;",0
+54,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<12527 AND bfp.occupation<18 AND bfp.product_category_2>11 AND bfp.city_category=2 AND bfp.gender=1 AND bfp.product_category_1=5 AND bfp.stay_in_current_city_years<2 AND bfp.marital_status=1;",30
+55,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.purchase>5592 AND bfp.marital_status<1;",66594
+56,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.occupation<14;",29742
+57,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=20537 AND bfp.city_category>2 AND bfp.stay_in_current_city_years=2;",3
+58,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=4 AND bfp.product_category_2<10 AND bfp.occupation>9 AND bfp.gender>1 AND bfp.stay_in_current_city_years>1 AND bfp.marital_status<1;",4271
+59,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=1 AND bfp.marital_status=0 AND bfp.product_category_2=8;",548
+60,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=14 AND bfp.occupation<7 AND bfp.gender<2 AND bfp.marital_status<1 AND bfp.city_category=3 AND bfp.product_category_3>16 AND bfp.purchase<5952 AND bfp.age=1 AND bfp.product_category_1=8;",1
+61,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<15 AND bfp.city_category<2 AND bfp.occupation<4 AND bfp.purchase=11673 AND bfp.age=3 AND bfp.product_category_1=1 AND bfp.marital_status=1;",1
+62,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>4 AND bfp.occupation>9 AND bfp.age<2 AND bfp.purchase<1951;",45
+63,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>3 AND bfp.product_category_3>9 AND bfp.purchase<15296;",26178
+64,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<15 AND bfp.city_category>1 AND bfp.purchase=12999 AND bfp.product_category_2=3 AND bfp.marital_status>0 AND bfp.stay_in_current_city_years>3;",0
+65,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.product_category_3<10;",11270
+66,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=8 AND bfp.purchase<11730 AND bfp.stay_in_current_city_years<5;",11390
+67,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=5 AND bfp.city_category>2 AND bfp.occupation>9 AND bfp.gender=1 AND bfp.product_category_3>14 AND bfp.purchase<19117 AND bfp.marital_status=0 AND bfp.stay_in_current_city_years>3 AND bfp.product_category_1=5;",1
+68,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<13 AND bfp.product_category_3>13 AND bfp.purchase=10045;",6
+69,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<2 AND bfp.gender=2;",32351
+70,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>2 AND bfp.purchase=12801 AND bfp.product_category_1=2 AND bfp.marital_status>0;",0
+71,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>2 AND bfp.purchase=12801 AND bfp.product_category_1=2;",4
+72,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>8 AND bfp.age=5 AND bfp.occupation<14 AND bfp.city_category>1 AND bfp.marital_status<1 AND bfp.product_category_3<15 AND bfp.product_category_1>4 AND bfp.stay_in_current_city_years>3 AND bfp.purchase>15955;",3
+73,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.gender=1 AND bfp.age=3 AND bfp.purchase>15366 AND bfp.occupation=11 AND bfp.city_category>1;",20
+74,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>14 AND bfp.age>3;",32130
+75,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2;",37594
+76,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>3 AND bfp.age<5;",135858
+77,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>2 AND bfp.product_category_3>8 AND bfp.age>4 AND bfp.occupation=3 AND bfp.product_category_1<10 AND bfp.purchase<15285 AND bfp.city_category<3 AND bfp.marital_status=1;",182
+78,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.marital_status=0 AND bfp.product_category_3>9 AND bfp.purchase>9918;",33688
+79,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=10 AND bfp.product_category_2<14 AND bfp.age<2 AND bfp.marital_status=0 AND bfp.product_category_3=16 AND bfp.gender<2 AND bfp.occupation<10 AND bfp.purchase<23313;",1
+80,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<6 AND bfp.product_category_3>9 AND bfp.product_category_2=13 AND bfp.age=3 AND bfp.product_category_1<8 AND bfp.marital_status=1 AND bfp.city_category=2 AND bfp.stay_in_current_city_years<2;",3
+81,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=1 AND bfp.product_category_2=15 AND bfp.product_category_3=16 AND bfp.purchase<7632 AND bfp.stay_in_current_city_years<2;",145
+82,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=5877 AND bfp.product_category_1=8 AND bfp.stay_in_current_city_years>2;",1
+83,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>2 AND bfp.city_category>2 AND bfp.product_category_3<15 AND bfp.marital_status=0 AND bfp.product_category_1<6 AND bfp.product_category_2>12 AND bfp.gender=2 AND bfp.purchase=5416 AND bfp.age>4;",0
+84,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.age=2 AND bfp.product_category_3<4 AND bfp.occupation>14;",8
+85,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<15 AND bfp.age>6 AND bfp.stay_in_current_city_years>4;",789
+86,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1;",99619
+87,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=4 AND bfp.product_category_2=9;",454
+88,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>2;",86145
+89,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<16365 AND bfp.product_category_1>13;",72
+90,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>2 AND bfp.marital_status<1 AND bfp.city_category=2 AND bfp.product_category_3<11 AND bfp.purchase>2806 AND bfp.age=3 AND bfp.occupation<5 AND bfp.product_category_1=2 AND bfp.product_category_2<4;",60
+91,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=1 AND bfp.product_category_3>10 AND bfp.city_category<3 AND bfp.purchase=11053 AND bfp.age=7 AND bfp.product_category_2=4;",1
+92,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>1 AND bfp.product_category_1=4 AND bfp.gender<2;",1334
+93,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>4 AND bfp.age=4 AND bfp.occupation<5 AND bfp.purchase<15850 AND bfp.product_category_3>9 AND bfp.marital_status=0 AND bfp.city_category=1 AND bfp.gender=1;",25
+94,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=5 AND bfp.product_category_1<2 AND bfp.marital_status=0 AND bfp.purchase>11951;",3166
+95,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<2 AND bfp.product_category_3>13 AND bfp.occupation=19 AND bfp.marital_status<1 AND bfp.stay_in_current_city_years>4;",80
+96,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>13 AND bfp.product_category_1=11 AND bfp.stay_in_current_city_years=4 AND bfp.purchase>4547 AND bfp.gender=2 AND bfp.city_category=2 AND bfp.marital_status>0 AND bfp.product_category_3=16 AND bfp.product_category_2<15 AND bfp.age<5;",2
+97,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=17 AND bfp.stay_in_current_city_years>1 AND bfp.gender<2 AND bfp.product_category_2=2 AND bfp.purchase>15240;",9
+98,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=2 AND bfp.marital_status>0 AND bfp.product_category_3<15 AND bfp.product_category_1<3 AND bfp.city_category<3 AND bfp.gender<2 AND bfp.occupation=4 AND bfp.purchase=11500 AND bfp.product_category_2=6;",1
+99,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<18 AND bfp.city_category=3 AND bfp.product_category_1=8 AND bfp.stay_in_current_city_years>2 AND bfp.product_category_2=12;",20
+100,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2;",129227
+101,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=8325;",21
+102,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=2 AND bfp.stay_in_current_city_years=2 AND bfp.product_category_3=15 AND bfp.marital_status>0 AND bfp.product_category_2=9 AND bfp.gender=2;",61
+103,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.product_category_1=12 AND bfp.purchase=1777 AND bfp.city_category=2 AND bfp.stay_in_current_city_years=5 AND bfp.product_category_3=17;",1
+104,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<13;",117383
+105,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>2 AND bfp.age<4 AND bfp.stay_in_current_city_years<3 AND bfp.product_category_3=3;",68
+106,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=16616 AND bfp.product_category_1=6 AND bfp.gender=2 AND bfp.age=3 AND bfp.product_category_3=14 AND bfp.product_category_2<8;",0
+107,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1<6 AND bfp.purchase<13119;",85773
+108,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=11529 AND bfp.gender=2 AND bfp.city_category=1 AND bfp.product_category_1=1 AND bfp.marital_status=1;",1
+109,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<9 AND bfp.occupation<1 AND bfp.age=5 AND bfp.stay_in_current_city_years=5 AND bfp.purchase=19335 AND bfp.product_category_3=9 AND bfp.marital_status=1 AND bfp.city_category=2 AND bfp.gender>1;",0
+110,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>6 AND bfp.stay_in_current_city_years=1 AND bfp.marital_status=0 AND bfp.product_category_1>13;",1
+111,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>3 AND bfp.purchase>15948 AND bfp.product_category_2=9;",69
+112,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>12 AND bfp.purchase=939 AND bfp.product_category_3=16 AND bfp.marital_status=0 AND bfp.product_category_2>14;",1
+113,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=1;",37594
+114,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>20300 AND bfp.age=4 AND bfp.product_category_3=13 AND bfp.product_category_1=6 AND bfp.marital_status>0 AND bfp.occupation>6 AND bfp.gender=1 AND bfp.city_category=3 AND bfp.stay_in_current_city_years=5;",1
+115,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=1 AND bfp.occupation=7;",4602
+116,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1 AND bfp.product_category_1=13 AND bfp.product_category_2=15 AND bfp.marital_status=0 AND bfp.purchase>588 AND bfp.age<2 AND bfp.product_category_3=16 AND bfp.stay_in_current_city_years=2;",2
+117,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.marital_status=1 AND bfp.city_category>1 AND bfp.product_category_1=10 AND bfp.stay_in_current_city_years<3;",220
+118,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=5 AND bfp.product_category_2=9 AND bfp.city_category=2 AND bfp.age>2 AND bfp.gender=1 AND bfp.product_category_1>5;",5
+119,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>1 AND bfp.product_category_1=11 AND bfp.age=5 AND bfp.marital_status<1 AND bfp.gender>1 AND bfp.city_category<3 AND bfp.occupation>5 AND bfp.purchase=6003 AND bfp.product_category_3=16 AND bfp.product_category_2=15;",1
+120,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>5 AND bfp.product_category_3=17 AND bfp.product_category_1>12 AND bfp.marital_status=1 AND bfp.stay_in_current_city_years>1 AND bfp.product_category_2>16;",0
+121,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<3 AND bfp.purchase=15426 AND bfp.product_category_3>15;",10
+122,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<16 AND bfp.gender=2 AND bfp.occupation>5 AND bfp.age<3 AND bfp.purchase=8180 AND bfp.stay_in_current_city_years=5 AND bfp.city_category=1 AND bfp.product_category_3=12 AND bfp.marital_status=0;",1
+123,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.product_category_2>12 AND bfp.purchase=13056 AND bfp.age<4;",0
+124,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=10 AND bfp.city_category=1;",469
+125,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>13 AND bfp.occupation>9 AND bfp.gender>1;",9500
+126,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.stay_in_current_city_years=4 AND bfp.city_category>2 AND bfp.purchase>20043 AND bfp.product_category_2<15 AND bfp.age>5 AND bfp.occupation<7 AND bfp.product_category_1=10;",1
+127,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.occupation>13 AND bfp.age=3 AND bfp.marital_status=1 AND bfp.purchase>7810 AND bfp.stay_in_current_city_years=1 AND bfp.product_category_2=4 AND bfp.product_category_1=1 AND bfp.city_category=3;",1
+128,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>1 AND bfp.gender=1 AND bfp.purchase>3923 AND bfp.age>3 AND bfp.product_category_1=5 AND bfp.city_category>1 AND bfp.marital_status=0 AND bfp.product_category_3>15 AND bfp.occupation>4;",121
+129,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1;",99619
+130,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=10;",2261
+131,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>13 AND bfp.age=4;",5511
+132,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>13305 AND bfp.product_category_1<3 AND bfp.city_category<2 AND bfp.occupation<5 AND bfp.age=3 AND bfp.marital_status>0 AND bfp.gender>1;",879
+133,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1 AND bfp.product_category_3>13 AND bfp.stay_in_current_city_years=2 AND bfp.product_category_1=13 AND bfp.occupation=3 AND bfp.gender=1 AND bfp.marital_status=0;",1
+134,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=1 AND bfp.stay_in_current_city_years<5 AND bfp.product_category_2=2 AND bfp.occupation>17 AND bfp.city_category=2 AND bfp.product_category_1<1;",0
+135,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<19475 AND bfp.product_category_1<10 AND bfp.occupation<15 AND bfp.product_category_3>10 AND bfp.gender=2 AND bfp.city_category=1 AND bfp.age>1 AND bfp.marital_status=0 AND bfp.stay_in_current_city_years=2;",3155
+136,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=8 AND bfp.occupation=6 AND bfp.marital_status<1 AND bfp.product_category_3<17 AND bfp.city_category=1 AND bfp.purchase=9871 AND bfp.product_category_2=15 AND bfp.stay_in_current_city_years=2 AND bfp.age=3 AND bfp.gender>2;",0
+137,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>2 AND bfp.purchase>2820 AND bfp.product_category_2<10;",40300
+138,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1;",125302
+139,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.gender<2 AND bfp.occupation>4 AND bfp.purchase=8317;",1
+140,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.city_category<2 AND bfp.purchase>10680 AND bfp.product_category_2>10 AND bfp.occupation<8 AND bfp.product_category_1=6 AND bfp.marital_status=1 AND bfp.product_category_3<16 AND bfp.age=5;",1
+141,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=3 AND bfp.age>6 AND bfp.marital_status=1 AND bfp.occupation>16 AND bfp.product_category_3>10 AND bfp.product_category_2=5;",4
+142,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=2980 AND bfp.stay_in_current_city_years<3 AND bfp.age=3 AND bfp.marital_status=1 AND bfp.product_category_2=15 AND bfp.gender=2 AND bfp.occupation=12 AND bfp.city_category=2 AND bfp.product_category_3=16;",1
+143,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<14 AND bfp.product_category_3<13 AND bfp.product_category_1>5 AND bfp.purchase=16482 AND bfp.city_category=1 AND bfp.stay_in_current_city_years=4 AND bfp.gender=2;",1
+144,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<5 AND bfp.marital_status=0 AND bfp.product_category_2<15 AND bfp.product_category_1=8 AND bfp.product_category_3=15 AND bfp.stay_in_current_city_years>3 AND bfp.city_category>1 AND bfp.purchase=9859;",2
+145,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=1 AND bfp.product_category_1<2 AND bfp.product_category_3>16 AND bfp.product_category_2>5 AND bfp.marital_status=0 AND bfp.city_category=2 AND bfp.stay_in_current_city_years>2 AND bfp.gender=1 AND bfp.purchase<19283 AND bfp.occupation>10;",0
+146,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>4 AND bfp.gender<2 AND bfp.purchase<4101 AND bfp.product_category_3=12 AND bfp.age>5 AND bfp.marital_status=0 AND bfp.city_category<3;",0
+147,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<3 AND bfp.stay_in_current_city_years=1 AND bfp.purchase>11559;",7565
+148,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>9 AND bfp.city_category<2 AND bfp.product_category_1=5 AND bfp.product_category_3=15 AND bfp.stay_in_current_city_years=3 AND bfp.marital_status>0;",0
+149,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<16 AND bfp.purchase=13702 AND bfp.product_category_2=4;",9
+150,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>20447 AND bfp.gender=2 AND bfp.product_category_1=15 AND bfp.marital_status<1 AND bfp.age=3;",1
+151,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<2 AND bfp.product_category_2=8 AND bfp.gender=2 AND bfp.purchase<11458 AND bfp.age>3 AND bfp.product_category_1>2 AND bfp.stay_in_current_city_years<2;",106
+152,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1<6 AND bfp.occupation>17 AND bfp.gender<2;",2558
+153,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<3 AND bfp.product_category_2=13 AND bfp.gender>1 AND bfp.product_category_1<8 AND bfp.occupation=11 AND bfp.purchase<15709 AND bfp.age>4;",12
+154,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<12 AND bfp.occupation<6 AND bfp.city_category=2 AND bfp.marital_status>0 AND bfp.product_category_1<8 AND bfp.stay_in_current_city_years=4 AND bfp.gender>1 AND bfp.age>3 AND bfp.product_category_3<8 AND bfp.purchase<10792;",37
+155,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.product_category_2>8 AND bfp.age=3 AND bfp.stay_in_current_city_years=4 AND bfp.occupation>4 AND bfp.purchase>7848;",136
+156,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=1 AND bfp.city_category>1 AND bfp.marital_status=0 AND bfp.stay_in_current_city_years=3 AND bfp.product_category_2>2 AND bfp.product_category_1=15;",1
+157,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1<3 AND bfp.marital_status<1 AND bfp.product_category_3<11 AND bfp.occupation<9 AND bfp.age<5 AND bfp.gender=1 AND bfp.purchase>12057 AND bfp.city_category=2;",747
+158,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=3 AND bfp.product_category_1<11;",30910
+159,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>2;",130632
+160,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=5;",19011
+161,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=2 AND bfp.product_category_3>3 AND bfp.product_category_2=5 AND bfp.product_category_1<4 AND bfp.marital_status>0 AND bfp.occupation>11;",131
+162,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<2 AND bfp.product_category_1>1 AND bfp.product_category_2<10 AND bfp.gender<2 AND bfp.purchase>3471 AND bfp.product_category_3=16 AND bfp.stay_in_current_city_years>1 AND bfp.age>1 AND bfp.marital_status=1 AND bfp.occupation=1;",10
+163,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.age=5 AND bfp.product_category_1>5 AND bfp.product_category_2=16 AND bfp.product_category_3=17 AND bfp.gender<2 AND bfp.city_category=3;",2
+164,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=11 AND bfp.occupation=8 AND bfp.marital_status<1 AND bfp.gender=1;",5
+165,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<2 AND bfp.purchase=10122;",2
+166,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>6;",5865
+167,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=1 AND bfp.occupation<12 AND bfp.product_category_2=6;",1070
+168,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=3;",56059
+169,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>1;",0
+170,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=1 AND bfp.product_category_3=16 AND bfp.occupation<12;",7841
+171,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<17 AND bfp.purchase=5874 AND bfp.product_category_2>13 AND bfp.product_category_1=8;",1
+172,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1<6 AND bfp.product_category_2<8;",93944
+173,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=16 AND bfp.stay_in_current_city_years=1 AND bfp.age=5;",10
+174,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<3 AND bfp.age<4 AND bfp.gender=1 AND bfp.product_category_1<13 AND bfp.purchase<19688 AND bfp.marital_status=0 AND bfp.product_category_3=6;",96
+175,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.purchase<8274 AND bfp.age=4 AND bfp.product_category_2<13 AND bfp.city_category=1 AND bfp.marital_status>0 AND bfp.product_category_1<8 AND bfp.stay_in_current_city_years=1;",108
+176,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<2 AND bfp.product_category_2<15 AND bfp.product_category_3<6 AND bfp.occupation>5 AND bfp.gender>1 AND bfp.marital_status<1 AND bfp.product_category_1=2 AND bfp.age<3 AND bfp.city_category=2 AND bfp.purchase=6832;",1
+177,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=4 AND bfp.product_category_2>8 AND bfp.marital_status<1 AND bfp.stay_in_current_city_years>2 AND bfp.purchase=16451 AND bfp.age=3 AND bfp.gender=2;",1
+178,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=4 AND bfp.occupation<14 AND bfp.city_category=1;",5119
+179,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1<4 AND bfp.product_category_2>3;",73495
+180,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.product_category_2=8 AND bfp.city_category=2 AND bfp.age=2 AND bfp.purchase<12007 AND bfp.gender=2 AND bfp.stay_in_current_city_years<5 AND bfp.occupation>10;",114
+181,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.age=2 AND bfp.product_category_1>6 AND bfp.product_category_2=16 AND bfp.occupation<7 AND bfp.purchase=10019;",1
+182,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=5 AND bfp.occupation<7 AND bfp.purchase>12002 AND bfp.city_category<2 AND bfp.product_category_1>2 AND bfp.product_category_2=4 AND bfp.marital_status=0 AND bfp.stay_in_current_city_years<3;",40
+183,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=13 AND bfp.gender>1 AND bfp.occupation<14 AND bfp.marital_status=1;",219
+184,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=16 AND bfp.city_category=2 AND bfp.product_category_1=8 AND bfp.stay_in_current_city_years=5 AND bfp.gender<2 AND bfp.purchase>8072 AND bfp.occupation>17 AND bfp.age=4 AND bfp.marital_status=0 AND bfp.product_category_2=13;",1
+185,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>9755 AND bfp.age=3 AND bfp.city_category=3 AND bfp.marital_status=0 AND bfp.stay_in_current_city_years=4 AND bfp.product_category_2=6 AND bfp.product_category_3=15 AND bfp.gender<2;",0
+186,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=12 AND bfp.occupation=15 AND bfp.age>5 AND bfp.stay_in_current_city_years>1;",14
+187,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=3 AND bfp.marital_status<1 AND bfp.age=7 AND bfp.city_category<2 AND bfp.gender=2 AND bfp.purchase<7843;",17
+188,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.product_category_1=3 AND bfp.age>4 AND bfp.city_category<2 AND bfp.product_category_3>12 AND bfp.gender=2 AND bfp.purchase=10869 AND bfp.stay_in_current_city_years=4 AND bfp.occupation=1;",1
+189,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=3 AND bfp.age>4 AND bfp.product_category_1>6 AND bfp.marital_status=1 AND bfp.gender>1 AND bfp.occupation=14 AND bfp.city_category<3;",4
+190,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=7 AND bfp.product_category_3>5 AND bfp.marital_status=1;",3302
+191,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.occupation=17 AND bfp.product_category_2<11 AND bfp.purchase=18974 AND bfp.age=6;",1
+192,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>17 AND bfp.gender<2 AND bfp.purchase>15473;",694
+193,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=14 AND bfp.product_category_1=10 AND bfp.product_category_3=16 AND bfp.age>6 AND bfp.city_category=1 AND bfp.purchase>19028;",1
+194,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<3 AND bfp.purchase>12538;",43685
+195,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=11 AND bfp.age<4 AND bfp.purchase=4525 AND bfp.product_category_3=16 AND bfp.product_category_2=13;",2
+196,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<15 AND bfp.purchase=20160;",1
+197,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=6 AND bfp.product_category_3<4 AND bfp.age=4;",6
+198,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>5 AND bfp.product_category_1>10 AND bfp.city_category=1 AND bfp.occupation=2 AND bfp.stay_in_current_city_years>2 AND bfp.purchase=961;",1
+199,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=1 AND bfp.stay_in_current_city_years>1;",58451
+200,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=16625 AND bfp.product_category_1=6 AND bfp.stay_in_current_city_years>2 AND bfp.gender=2;",1
+201,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.city_category<2 AND bfp.product_category_1>4 AND bfp.gender<2 AND bfp.occupation=9 AND bfp.age=2 AND bfp.product_category_2>8 AND bfp.stay_in_current_city_years=3 AND bfp.purchase=7113;",1
+202,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=1 AND bfp.purchase<3478 AND bfp.occupation>0 AND bfp.product_category_3<18 AND bfp.product_category_1>11 AND bfp.stay_in_current_city_years<2 AND bfp.city_category<2;",2
+203,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=20450 AND bfp.gender=2 AND bfp.product_category_1=6;",2
+204,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1;",99619
+205,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=10 AND bfp.marital_status>0 AND bfp.gender>1 AND bfp.product_category_1>8;",3
+206,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<4 AND bfp.city_category<3;",30223
+207,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<20 AND bfp.product_category_1<13 AND bfp.purchase<12088 AND bfp.stay_in_current_city_years>3 AND bfp.gender=1 AND bfp.marital_status>0 AND bfp.city_category=1 AND bfp.product_category_3>14 AND bfp.product_category_2=13 AND bfp.age<4;",11
+208,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=3 AND bfp.age=7 AND bfp.stay_in_current_city_years=5;",343
+209,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=6 AND bfp.purchase=7636 AND bfp.city_category=2 AND bfp.marital_status=1 AND bfp.age=3 AND bfp.product_category_2>5;",0
+210,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>12 AND bfp.product_category_1>2 AND bfp.gender<2 AND bfp.occupation=18 AND bfp.purchase=7113 AND bfp.age=6;",1
+211,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<10 AND bfp.product_category_2=16 AND bfp.product_category_1=8 AND bfp.gender>1 AND bfp.age=4 AND bfp.product_category_3=17 AND bfp.stay_in_current_city_years=5 AND bfp.marital_status=0;",3
+212,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.occupation<1 AND bfp.gender>1 AND bfp.product_category_3>15 AND bfp.product_category_1>5 AND bfp.stay_in_current_city_years<5 AND bfp.product_category_2=16 AND bfp.purchase=5936 AND bfp.city_category=2 AND bfp.age=2;",1
+213,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=11 AND bfp.purchase>4636 AND bfp.product_category_3>16;",0
+214,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>5 AND bfp.product_category_1>1 AND bfp.occupation>19 AND bfp.city_category=3 AND bfp.gender=1 AND bfp.marital_status>1;",0
+215,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.age=7 AND bfp.marital_status=0 AND bfp.stay_in_current_city_years=3 AND bfp.purchase=9750 AND bfp.city_category=3 AND bfp.product_category_3=17 AND bfp.product_category_2=14 AND bfp.product_category_1=8;",1
+216,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.gender=1 AND bfp.product_category_2<8 AND bfp.stay_in_current_city_years=2 AND bfp.product_category_1<5 AND bfp.product_category_3<18 AND bfp.purchase>19318 AND bfp.age>1 AND bfp.city_category<2 AND bfp.occupation=6;",5
+217,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<12 AND bfp.product_category_3=3 AND bfp.product_category_1=1 AND bfp.age>5;",19
+218,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=1 AND bfp.occupation=8 AND bfp.product_category_3>16 AND bfp.age=7 AND bfp.gender=1 AND bfp.stay_in_current_city_years>1;",0
+219,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1 AND bfp.marital_status>0 AND bfp.occupation<16 AND bfp.product_category_2<5 AND bfp.stay_in_current_city_years<4;",10198
+220,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=15 AND bfp.occupation<18;",143
+221,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=3 AND bfp.product_category_3<11 AND bfp.marital_status=1 AND bfp.occupation>5 AND bfp.stay_in_current_city_years<3 AND bfp.product_category_1>1 AND bfp.gender=1 AND bfp.purchase=9668;",1
+222,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=6 AND bfp.gender=2 AND bfp.occupation<16 AND bfp.product_category_2<11 AND bfp.marital_status<1 AND bfp.product_category_3>13 AND bfp.purchase=11872 AND bfp.stay_in_current_city_years=2;",1
+223,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>4 AND bfp.gender=1 AND bfp.purchase=15948 AND bfp.age=2;",1
+224,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=5 AND bfp.purchase=3041 AND bfp.city_category=2 AND bfp.age=2 AND bfp.marital_status=0 AND bfp.product_category_2=4 AND bfp.occupation=4 AND bfp.gender<2;",0
+225,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=1 AND bfp.product_category_2=9 AND bfp.product_category_1>4 AND bfp.age=1 AND bfp.product_category_3=14 AND bfp.city_category=1 AND bfp.stay_in_current_city_years<2 AND bfp.occupation=10;",1
+226,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>3 AND bfp.occupation=14 AND bfp.marital_status=0 AND bfp.gender=1 AND bfp.product_category_2<3 AND bfp.purchase=7895;",1
+227,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<18 AND bfp.purchase>14520 AND bfp.occupation>12;",17927
+228,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<6 AND bfp.occupation<20 AND bfp.marital_status=0 AND bfp.gender=1 AND bfp.stay_in_current_city_years>3 AND bfp.product_category_1<2 AND bfp.purchase<7682 AND bfp.product_category_3<11 AND bfp.age=6;",4
+229,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.purchase<11568 AND bfp.product_category_2>2 AND bfp.stay_in_current_city_years<2 AND bfp.product_category_3>12 AND bfp.occupation=10 AND bfp.marital_status<0;",0
+230,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=1;",41519
+231,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=3 AND bfp.product_category_1>4 AND bfp.marital_status>0 AND bfp.purchase=8655 AND bfp.gender=1 AND bfp.stay_in_current_city_years=4;",1
+232,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=9 AND bfp.gender>1 AND bfp.occupation>16 AND bfp.stay_in_current_city_years=2 AND bfp.purchase=16159;",1
+233,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>6 AND bfp.occupation>1 AND bfp.marital_status=0;",6443
+234,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=8 AND bfp.product_category_2<5 AND bfp.city_category<2 AND bfp.product_category_1>2 AND bfp.stay_in_current_city_years>3;",21
+235,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>4113 AND bfp.product_category_2>15 AND bfp.product_category_1=1 AND bfp.product_category_3=17 AND bfp.gender>1;",154
+236,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<3 AND bfp.product_category_2<14 AND bfp.marital_status>0 AND bfp.gender<2;",6767
+237,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>5 AND bfp.product_category_3>17 AND bfp.city_category=1;",3
+238,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<5 AND bfp.occupation<16;",2003
+239,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.occupation<17 AND bfp.stay_in_current_city_years>4 AND bfp.gender=1 AND bfp.product_category_3<14 AND bfp.product_category_2<3 AND bfp.purchase<4355;",14
+240,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1 AND bfp.product_category_1>12 AND bfp.occupation=8 AND bfp.age>5 AND bfp.purchase=575;",1
+241,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.gender=1 AND bfp.age>2 AND bfp.city_category<3 AND bfp.purchase=5359 AND bfp.product_category_3=14 AND bfp.occupation=6;",1
+242,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.purchase<2060 AND bfp.occupation<2 AND bfp.age>5 AND bfp.stay_in_current_city_years<4;",31
+243,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<17 AND bfp.purchase<19985 AND bfp.marital_status<1 AND bfp.gender=1 AND bfp.product_category_1=11;",256
+244,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=6 AND bfp.city_category=1 AND bfp.product_category_2=10 AND bfp.product_category_1=6 AND bfp.age<5 AND bfp.gender=2 AND bfp.marital_status=0 AND bfp.stay_in_current_city_years=5;",1
+245,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<3 AND bfp.product_category_2<4 AND bfp.product_category_1>1 AND bfp.stay_in_current_city_years=2 AND bfp.occupation<11 AND bfp.gender=2 AND bfp.purchase>3216 AND bfp.age<7 AND bfp.product_category_3=10;",103
+246,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>4 AND bfp.city_category>1;",30463
+247,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=4 AND bfp.marital_status<1 AND bfp.city_category>2 AND bfp.product_category_2<16 AND bfp.product_category_3>17 AND bfp.stay_in_current_city_years=5 AND bfp.product_category_1>1 AND bfp.gender=2;",11
+248,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>10 AND bfp.purchase<8595 AND bfp.age>6 AND bfp.product_category_3<4 AND bfp.product_category_1=1 AND bfp.city_category=1;",1
+249,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=2;",58287
+250,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<3;",80676
+251,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<3 AND bfp.gender<2 AND bfp.age<6 AND bfp.product_category_3<13 AND bfp.purchase=19161 AND bfp.marital_status=0;",1
+252,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=16047 AND bfp.stay_in_current_city_years<5 AND bfp.product_category_2<8 AND bfp.age=4 AND bfp.city_category=2 AND bfp.marital_status=0 AND bfp.occupation>12;",0
+253,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>3 AND bfp.occupation>2 AND bfp.age>2 AND bfp.product_category_2<16;",31095
+254,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1;",125302
+255,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<2 AND bfp.purchase=8064 AND bfp.stay_in_current_city_years=2 AND bfp.age=2;",1
+256,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>7689 AND bfp.stay_in_current_city_years=1 AND bfp.marital_status=1 AND bfp.product_category_1=6 AND bfp.occupation<9 AND bfp.gender>1;",207
+257,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.occupation<4;",14153
+258,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=6 AND bfp.product_category_1>2;",2888
+259,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.product_category_2<15 AND bfp.product_category_1=10 AND bfp.purchase>23085 AND bfp.gender<2 AND bfp.product_category_3=16;",57
+260,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.occupation=1 AND bfp.gender>1;",4565
+261,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=3 AND bfp.marital_status=1 AND bfp.stay_in_current_city_years<2 AND bfp.city_category>1 AND bfp.age>3 AND bfp.purchase=15887 AND bfp.occupation=20;",1
+262,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=11622 AND bfp.gender<1;",0
+263,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<5467;",23987
+264,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>2 AND bfp.occupation<9 AND bfp.age=6 AND bfp.stay_in_current_city_years=3 AND bfp.product_category_1=6 AND bfp.product_category_3=14 AND bfp.city_category<3 AND bfp.marital_status=1;",2
+265,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<5 AND bfp.product_category_2>15 AND bfp.city_category=1 AND bfp.marital_status<1 AND bfp.product_category_3=17 AND bfp.age>6 AND bfp.product_category_1=8;",2
+266,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>3 AND bfp.product_category_1=15;",107
+267,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=5;",15835
+268,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.purchase>9882 AND bfp.city_category>2 AND bfp.product_category_3=15;",4241
+269,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=9 AND bfp.product_category_2>5 AND bfp.stay_in_current_city_years=5 AND bfp.purchase<3486 AND bfp.product_category_1<5 AND bfp.occupation<20 AND bfp.city_category=2 AND bfp.age=4;",12
+270,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.product_category_2>13 AND bfp.age>2 AND bfp.occupation=9 AND bfp.product_category_3<18;",144
+271,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=2 AND bfp.product_category_1>2 AND bfp.product_category_3>15 AND bfp.purchase<7943 AND bfp.gender<2 AND bfp.occupation=8;",4
+272,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>13597 AND bfp.gender=2 AND bfp.age<5 AND bfp.marital_status>0 AND bfp.product_category_2=6 AND bfp.occupation=11 AND bfp.stay_in_current_city_years=5 AND bfp.city_category=3 AND bfp.product_category_3<14 AND bfp.product_category_1=1;",2
+273,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<4 AND bfp.stay_in_current_city_years>4 AND bfp.product_category_3=9 AND bfp.product_category_1>2 AND bfp.purchase=2758 AND bfp.gender=1;",1
+274,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=4 AND bfp.purchase=10834 AND bfp.age<3;",0
+275,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=1 AND bfp.marital_status=0 AND bfp.product_category_1=1 AND bfp.gender>1;",1863
+276,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=9 AND bfp.marital_status>0 AND bfp.age<5;",3100
+277,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>15;",35018
+278,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>13 AND bfp.stay_in_current_city_years=3 AND bfp.purchase>13286 AND bfp.occupation>3 AND bfp.gender=2 AND bfp.age=1 AND bfp.product_category_2<5 AND bfp.city_category<3 AND bfp.product_category_1>1 AND bfp.marital_status=0;",1
+279,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<14 AND bfp.product_category_1<2 AND bfp.gender=2 AND bfp.product_category_2>5 AND bfp.occupation<6 AND bfp.stay_in_current_city_years>2 AND bfp.city_category=2 AND bfp.marital_status=0;",230
+280,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<18 AND bfp.product_category_2=12 AND bfp.product_category_1=2 AND bfp.gender=1 AND bfp.occupation=20;",1
+281,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>6 AND bfp.occupation>17 AND bfp.gender=1 AND bfp.marital_status>0 AND bfp.stay_in_current_city_years<5 AND bfp.purchase=7848 AND bfp.city_category=2;",1
+282,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<2 AND bfp.product_category_2=2 AND bfp.product_category_3=5 AND bfp.occupation>13 AND bfp.product_category_1=1 AND bfp.marital_status<1 AND bfp.stay_in_current_city_years<5;",287
+283,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<2 AND bfp.purchase<19196 AND bfp.occupation<20 AND bfp.gender<2 AND bfp.stay_in_current_city_years=1 AND bfp.product_category_2=2 AND bfp.age<3 AND bfp.marital_status=1 AND bfp.product_category_1>1;",0
+284,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>2 AND bfp.product_category_3=11 AND bfp.stay_in_current_city_years<4 AND bfp.city_category=1 AND bfp.age>5 AND bfp.product_category_1=5;",1
+285,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1 AND bfp.age=1 AND bfp.occupation>4 AND bfp.purchase>11635 AND bfp.gender>1 AND bfp.product_category_3=10 AND bfp.marital_status=0 AND bfp.stay_in_current_city_years<4;",5
+286,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=8 AND bfp.purchase=8365;",1
+287,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0;",67202
+288,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>3 AND bfp.product_category_3>12 AND bfp.stay_in_current_city_years=3 AND bfp.city_category<2 AND bfp.gender>1;",983
+289,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1 AND bfp.age<3 AND bfp.stay_in_current_city_years>4 AND bfp.gender=1 AND bfp.product_category_2=11 AND bfp.product_category_3>15 AND bfp.marital_status<1 AND bfp.purchase<7801 AND bfp.occupation=4 AND bfp.product_category_1=5;",1
+290,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=5 AND bfp.purchase=6991 AND bfp.city_category=1 AND bfp.age=3 AND bfp.marital_status=0 AND bfp.stay_in_current_city_years<5 AND bfp.product_category_2=9 AND bfp.product_category_3=14 AND bfp.gender<2;",0
+291,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=9 AND bfp.occupation<6 AND bfp.age=4 AND bfp.stay_in_current_city_years<4 AND bfp.gender=1;",47
+292,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=5 AND bfp.city_category=2 AND bfp.age<7 AND bfp.gender<2 AND bfp.occupation=5;",12
+293,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>6 AND bfp.occupation=16;",640
+294,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>16 AND bfp.product_category_1=5 AND bfp.stay_in_current_city_years=1 AND bfp.city_category<3 AND bfp.marital_status<1 AND bfp.age>4 AND bfp.occupation=13 AND bfp.gender=2 AND bfp.purchase=6942;",1
+295,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>3698 AND bfp.product_category_3<4 AND bfp.product_category_2=2 AND bfp.product_category_1=1;",613
+296,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<1861 AND bfp.product_category_3>12 AND bfp.age>3 AND bfp.city_category>1 AND bfp.product_category_1=4 AND bfp.gender>1;",79
+297,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=17 AND bfp.city_category<2 AND bfp.product_category_3=4 AND bfp.product_category_1>1 AND bfp.product_category_2=3 AND bfp.age=4 AND bfp.marital_status<0;",0
+298,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1;",129227
+299,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<11 AND bfp.age>2 AND bfp.product_category_3<17 AND bfp.product_category_1=4 AND bfp.purchase>803 AND bfp.stay_in_current_city_years=2 AND bfp.occupation=20;",91
+300,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>4 AND bfp.product_category_3=11 AND bfp.product_category_1=1 AND bfp.city_category>2 AND bfp.marital_status<1 AND bfp.stay_in_current_city_years=1 AND bfp.purchase>11838 AND bfp.product_category_2=2 AND bfp.gender=1;",1
+301,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<14 AND bfp.product_category_3>3 AND bfp.purchase>12353;",60727
+302,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>16 AND bfp.stay_in_current_city_years=4 AND bfp.product_category_3<17 AND bfp.purchase=6934 AND bfp.product_category_2=8;",1
+303,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>3;",63690
+304,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<4 AND bfp.stay_in_current_city_years>4 AND bfp.occupation=20 AND bfp.purchase>15355 AND bfp.city_category=2 AND bfp.marital_status<1;",0
+305,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<14 AND bfp.age>1 AND bfp.occupation<4 AND bfp.marital_status=1 AND bfp.product_category_1=10 AND bfp.city_category=2 AND bfp.product_category_3=16 AND bfp.gender=2 AND bfp.stay_in_current_city_years=3;",9
+306,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<5 AND bfp.product_category_1<12 AND bfp.gender<2 AND bfp.purchase<23595 AND bfp.marital_status=0 AND bfp.stay_in_current_city_years=4 AND bfp.product_category_3<13 AND bfp.city_category<3;",1089
+307,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=1 AND bfp.product_category_1<10 AND bfp.product_category_2>11 AND bfp.product_category_3<17 AND bfp.age>2 AND bfp.purchase>5979 AND bfp.marital_status=0 AND bfp.occupation=18 AND bfp.gender=2;",3
+308,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.product_category_3>16 AND bfp.occupation<3 AND bfp.age=6 AND bfp.gender=2 AND bfp.stay_in_current_city_years<4 AND bfp.product_category_1>4 AND bfp.city_category=3;",16
+309,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0;",67202
+310,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=5 AND bfp.product_category_3>15 AND bfp.marital_status<1 AND bfp.city_category>1 AND bfp.gender=2 AND bfp.stay_in_current_city_years=1 AND bfp.product_category_2<6 AND bfp.purchase>2798 AND bfp.product_category_1=1 AND bfp.occupation=5;",6
+311,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=2 AND bfp.city_category=3 AND bfp.purchase<11956 AND bfp.product_category_2<6 AND bfp.age=5 AND bfp.gender=2 AND bfp.marital_status<1 AND bfp.product_category_1=2 AND bfp.occupation>14;",2
+312,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<14 AND bfp.product_category_3=14 AND bfp.marital_status<1 AND bfp.purchase<15423 AND bfp.gender<2 AND bfp.stay_in_current_city_years<2 AND bfp.product_category_1>6;",5
+313,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1<3 AND bfp.product_category_3<5 AND bfp.gender=2;",1960
+314,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<12 AND bfp.marital_status=0 AND bfp.city_category<2 AND bfp.purchase>15707 AND bfp.product_category_1=2 AND bfp.age<2;",3
+315,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.city_category<3 AND bfp.stay_in_current_city_years<4 AND bfp.product_category_1>6 AND bfp.product_category_2>10 AND bfp.product_category_3=17 AND bfp.occupation>19 AND bfp.age>5;",5
+316,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<5 AND bfp.occupation>8 AND bfp.age<6 AND bfp.stay_in_current_city_years>4;",3521
+317,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=8 AND bfp.stay_in_current_city_years=5 AND bfp.product_category_2<11 AND bfp.city_category=3;",12
+318,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>12 AND bfp.occupation>1 AND bfp.marital_status=1 AND bfp.stay_in_current_city_years<4 AND bfp.gender<2 AND bfp.purchase=1404 AND bfp.city_category=3 AND bfp.product_category_1=4 AND bfp.product_category_2=5;",1
+319,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=1 AND bfp.product_category_2>3 AND bfp.purchase=19144 AND bfp.stay_in_current_city_years<2 AND bfp.gender=2 AND bfp.product_category_1=1 AND bfp.marital_status<1;",1
+320,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=13 AND bfp.purchase<15718 AND bfp.product_category_1<4 AND bfp.occupation<3 AND bfp.stay_in_current_city_years<5 AND bfp.marital_status=1;",141
+321,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=0 AND bfp.product_category_2>13 AND bfp.purchase<18579 AND bfp.product_category_3=18;",128
+322,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>5 AND bfp.gender>1;",65505
+323,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<8 AND bfp.marital_status=0 AND bfp.occupation=7 AND bfp.product_category_1=3 AND bfp.purchase<8118 AND bfp.age>3 AND bfp.city_category>1;",50
+324,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=4 AND bfp.occupation=4;",413
+325,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<12 AND bfp.marital_status>0 AND bfp.city_category<3 AND bfp.gender>1 AND bfp.stay_in_current_city_years<4;",18001
+326,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>4 AND bfp.product_category_1<15 AND bfp.product_category_2=15 AND bfp.purchase=19522 AND bfp.gender=2 AND bfp.marital_status=0 AND bfp.occupation>1;",1
+327,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>1 AND bfp.purchase>7007 AND bfp.occupation=9 AND bfp.product_category_3<17 AND bfp.gender=1 AND bfp.product_category_1>3 AND bfp.stay_in_current_city_years<2 AND bfp.city_category>2 AND bfp.product_category_2>10 AND bfp.marital_status=1;",1
+328,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>13033 AND bfp.occupation<14 AND bfp.product_category_1>2 AND bfp.product_category_3>16 AND bfp.marital_status>0 AND bfp.city_category=3 AND bfp.gender=2;",7
+329,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.purchase>11034 AND bfp.product_category_2>4 AND bfp.stay_in_current_city_years<2 AND bfp.age>4;",848
+330,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>13 AND bfp.gender>1 AND bfp.product_category_3=17 AND bfp.age=7 AND bfp.city_category=2;",2
+331,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>4 AND bfp.marital_status=1 AND bfp.age=2 AND bfp.occupation<20 AND bfp.product_category_2>9 AND bfp.gender>1 AND bfp.city_category>2 AND bfp.stay_in_current_city_years>4 AND bfp.purchase=2971;",1
+332,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>1 AND bfp.product_category_2>13 AND bfp.product_category_3<18 AND bfp.stay_in_current_city_years<5 AND bfp.age>2 AND bfp.purchase>3447 AND bfp.city_category>1 AND bfp.marital_status=0 AND bfp.product_category_1<11 AND bfp.gender=1;",959
+333,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<10 AND bfp.occupation<13 AND bfp.city_category=3 AND bfp.product_category_1=3;",3082
+334,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<9;",120891
+335,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<6 AND bfp.marital_status<1 AND bfp.product_category_3=6 AND bfp.purchase>11503 AND bfp.occupation>3 AND bfp.stay_in_current_city_years<2;",225
+336,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2;",129227
+337,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=8 AND bfp.product_category_1>4 AND bfp.age>3;",430
+338,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1<6;",144273
+339,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1 AND bfp.gender=1 AND bfp.age<3 AND bfp.product_category_2>14;",449
+340,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=2 AND bfp.product_category_3<17 AND bfp.occupation>13;",16902
+341,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.marital_status=0 AND bfp.stay_in_current_city_years>4 AND bfp.city_category=2;",4579
+342,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=11 AND bfp.product_category_1>13 AND bfp.city_category>1 AND bfp.marital_status<1 AND bfp.age=4 AND bfp.product_category_2=16 AND bfp.stay_in_current_city_years=2 AND bfp.purchase<17351;",0
+343,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<3 AND bfp.occupation<12 AND bfp.stay_in_current_city_years<2 AND bfp.gender<2 AND bfp.product_category_2<6 AND bfp.marital_status<1 AND bfp.product_category_1>1 AND bfp.product_category_3=12 AND bfp.city_category=2 AND bfp.purchase=8031;",1
+344,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<13303 AND bfp.age>4 AND bfp.stay_in_current_city_years=3 AND bfp.product_category_2=4 AND bfp.gender=1;",136
+345,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>12 AND bfp.stay_in_current_city_years<2 AND bfp.purchase<18978 AND bfp.age=6 AND bfp.occupation<16 AND bfp.product_category_2=10 AND bfp.city_category=2 AND bfp.marital_status>0;",4
+346,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<2 AND bfp.occupation>3 AND bfp.marital_status=1 AND bfp.stay_in_current_city_years>1 AND bfp.product_category_3>11 AND bfp.gender=2 AND bfp.age>5 AND bfp.product_category_2=16 AND bfp.purchase=17369 AND bfp.product_category_1=15;",1
+347,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.occupation=10 AND bfp.city_category>2 AND bfp.product_category_3=17 AND bfp.product_category_1=5 AND bfp.product_category_2<14 AND bfp.age=2 AND bfp.purchase=8673 AND bfp.stay_in_current_city_years=2;",1
+348,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.occupation=20 AND bfp.product_category_2=4 AND bfp.product_category_3>14 AND bfp.purchase<12855 AND bfp.city_category>1;",3
+349,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>11 AND bfp.gender<2 AND bfp.product_category_2<16 AND bfp.purchase<765 AND bfp.city_category<3 AND bfp.stay_in_current_city_years<2 AND bfp.marital_status<1 AND bfp.age>3 AND bfp.occupation=2 AND bfp.product_category_3=16;",1
+350,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=1 AND bfp.product_category_3>6;",31941
+351,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.stay_in_current_city_years=1 AND bfp.purchase>3569 AND bfp.gender=1 AND bfp.product_category_2>11 AND bfp.occupation>13;",86
+352,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.city_category<2 AND bfp.stay_in_current_city_years>3 AND bfp.purchase>7869 AND bfp.occupation=13 AND bfp.product_category_3<6;",5
+353,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.product_category_1>4 AND bfp.age<5 AND bfp.occupation>2 AND bfp.product_category_3<18;",7583
+354,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=10 AND bfp.age>3 AND bfp.product_category_3=13 AND bfp.occupation<18 AND bfp.purchase=19954 AND bfp.stay_in_current_city_years=5 AND bfp.city_category=3 AND bfp.product_category_1=6 AND bfp.gender=2 AND bfp.marital_status<0;",0
+355,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=3 AND bfp.city_category=3 AND bfp.occupation<17 AND bfp.purchase<8356 AND bfp.product_category_3=9 AND bfp.gender=2 AND bfp.marital_status=1;",14
+356,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=23513 AND bfp.product_category_1=10 AND bfp.city_category=3 AND bfp.product_category_2>13;",0
+357,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.city_category=3 AND bfp.stay_in_current_city_years<4 AND bfp.product_category_2>12 AND bfp.marital_status>0;",2555
+358,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>3 AND bfp.product_category_3>9 AND bfp.city_category>1 AND bfp.gender=1;",6226
+359,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=15 AND bfp.purchase<5828 AND bfp.age>5 AND bfp.stay_in_current_city_years<5 AND bfp.product_category_1<5 AND bfp.gender=1;",7
+360,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<4 AND bfp.stay_in_current_city_years=1 AND bfp.gender<2;",14
+361,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=2 AND bfp.gender=2 AND bfp.occupation=4 AND bfp.purchase<19532 AND bfp.product_category_2>14 AND bfp.marital_status>0 AND bfp.age<3;",96
+362,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=10 AND bfp.purchase=6526 AND bfp.product_category_3=15 AND bfp.city_category=2 AND bfp.gender=2;",1
+363,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<2 AND bfp.age<5 AND bfp.product_category_1<11 AND bfp.city_category<2 AND bfp.product_category_3=9;",350
+364,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>12;",1207
+365,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=4 AND bfp.purchase<19198 AND bfp.gender>1 AND bfp.occupation=6 AND bfp.age<7 AND bfp.product_category_1<6 AND bfp.product_category_3>6;",250
+366,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=8 AND bfp.city_category=2 AND bfp.stay_in_current_city_years>3 AND bfp.marital_status>0;",1474
+367,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=16;",7333
+368,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.city_category>2 AND bfp.product_category_1<3;",29833
+369,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=1 AND bfp.age=5 AND bfp.gender>1 AND bfp.product_category_1>6 AND bfp.product_category_3=15 AND bfp.product_category_2>13 AND bfp.stay_in_current_city_years=2 AND bfp.marital_status=0 AND bfp.city_category=2;",1
+370,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>10920 AND bfp.gender=2 AND bfp.occupation=1 AND bfp.product_category_3>9 AND bfp.age=5 AND bfp.marital_status=1;",383
+371,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=15 AND bfp.purchase<15838 AND bfp.city_category<2 AND bfp.occupation<13 AND bfp.product_category_1=13;",105
+372,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>10;",63188
+373,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>12 AND bfp.marital_status=1 AND bfp.product_category_2=13 AND bfp.occupation>18 AND bfp.gender>1;",124
+374,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=11 AND bfp.city_category=3 AND bfp.marital_status=1 AND bfp.product_category_1=5 AND bfp.occupation=5;",1
+375,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<3 AND bfp.product_category_1<10 AND bfp.product_category_3>14 AND bfp.marital_status>0 AND bfp.occupation>9;",8317
+376,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.product_category_1>5 AND bfp.product_category_3=10 AND bfp.gender=1 AND bfp.age<5 AND bfp.purchase>12691;",50
+377,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<2 AND bfp.product_category_3>12 AND bfp.occupation=9;",136
+378,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>3 AND bfp.stay_in_current_city_years<5;",54431
+379,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1<11 AND bfp.product_category_2<5 AND bfp.purchase>9619 AND bfp.gender=2 AND bfp.occupation=4 AND bfp.city_category=3 AND bfp.marital_status=0 AND bfp.product_category_3<5;",44
+380,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>2 AND bfp.product_category_1=6 AND bfp.product_category_3=16 AND bfp.occupation>5 AND bfp.age<2 AND bfp.product_category_2>8 AND bfp.stay_in_current_city_years<2 AND bfp.purchase=4440 AND bfp.marital_status=0;",1
+381,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>13 AND bfp.city_category=3 AND bfp.product_category_1<8 AND bfp.age=7 AND bfp.purchase=8005 AND bfp.marital_status=1 AND bfp.gender=2;",1
+382,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=1 AND bfp.product_category_2<13;",17860
+383,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<2 AND bfp.product_category_1>12 AND bfp.product_category_3=16 AND bfp.gender=1 AND bfp.age=4 AND bfp.occupation=1 AND bfp.purchase=576;",1
+384,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>5 AND bfp.marital_status<1 AND bfp.city_category<2 AND bfp.gender=1 AND bfp.age=5 AND bfp.product_category_2>11 AND bfp.stay_in_current_city_years=4 AND bfp.purchase<7783 AND bfp.occupation>0 AND bfp.product_category_1=12;",1
+385,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<6 AND bfp.stay_in_current_city_years<5 AND bfp.product_category_1<10;",123312
+386,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>2;",124798
+387,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>4 AND bfp.occupation=17 AND bfp.marital_status=0 AND bfp.city_category=1 AND bfp.gender=2 AND bfp.stay_in_current_city_years=4;",21
+388,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.marital_status=1 AND bfp.purchase>15219 AND bfp.age>6 AND bfp.product_category_1>2 AND bfp.product_category_2=15 AND bfp.occupation=13 AND bfp.stay_in_current_city_years=3 AND bfp.product_category_3=16;",1
+389,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<405 AND bfp.gender<2 AND bfp.age<2 AND bfp.product_category_1=13 AND bfp.marital_status=0 AND bfp.product_category_2<15;",0
+390,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>7010 AND bfp.gender>1 AND bfp.stay_in_current_city_years>2 AND bfp.marital_status>0;",21575
+391,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<18 AND bfp.age>2 AND bfp.stay_in_current_city_years<3 AND bfp.gender>1 AND bfp.purchase>3460;",44739
+392,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>2 AND bfp.product_category_2>12 AND bfp.gender=2 AND bfp.product_category_1<10;",7593
+393,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>6646;",138430
+394,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=6 AND bfp.gender<2 AND bfp.product_category_2>2 AND bfp.occupation>14 AND bfp.purchase<8130;",11
+395,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<9 AND bfp.city_category>2 AND bfp.stay_in_current_city_years=5 AND bfp.gender=1 AND bfp.age>2 AND bfp.purchase<11690;",516
+396,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<18 AND bfp.marital_status<1;",96916
+397,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=11 AND bfp.stay_in_current_city_years<5 AND bfp.gender>1 AND bfp.city_category<2 AND bfp.age=6;",8
+398,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>17 AND bfp.gender=2 AND bfp.marital_status=0 AND bfp.purchase>15771 AND bfp.age>3 AND bfp.city_category>2 AND bfp.stay_in_current_city_years<2 AND bfp.product_category_2=8;",4
+399,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>5 AND bfp.marital_status<1 AND bfp.product_category_2=4 AND bfp.occupation<8 AND bfp.product_category_1>1 AND bfp.age>5 AND bfp.stay_in_current_city_years>1 AND bfp.gender>1;",63
+400,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=5 AND bfp.product_category_2=14 AND bfp.city_category>1 AND bfp.product_category_3>17 AND bfp.marital_status=1 AND bfp.purchase=6018 AND bfp.age=6 AND bfp.gender=2 AND bfp.product_category_1=8 AND bfp.occupation=6;",1
+401,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>13 AND bfp.occupation<16 AND bfp.product_category_2<16;",0
+402,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<3 AND bfp.gender=1 AND bfp.product_category_1=12 AND bfp.city_category>2;",3
+403,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=1 AND bfp.marital_status=0 AND bfp.age>3 AND bfp.product_category_2>13 AND bfp.stay_in_current_city_years<3 AND bfp.occupation=9 AND bfp.product_category_1>1 AND bfp.purchase=9709 AND bfp.product_category_3>17;",0
+404,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<9 AND bfp.occupation>18 AND bfp.purchase<10731 AND bfp.product_category_1=2 AND bfp.marital_status>0 AND bfp.gender<2 AND bfp.city_category=2 AND bfp.product_category_2=5 AND bfp.stay_in_current_city_years=5 AND bfp.age=6;",1
+405,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<4 AND bfp.product_category_3=11 AND bfp.gender<2;",229
+406,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>7 AND bfp.age=7 AND bfp.stay_in_current_city_years=2 AND bfp.product_category_3<4 AND bfp.city_category=3 AND bfp.marital_status=0 AND bfp.purchase>11982;",0
+407,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<12;",106901
+408,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=3 AND bfp.occupation<6 AND bfp.gender<2 AND bfp.purchase=12605 AND bfp.age=3 AND bfp.stay_in_current_city_years=3 AND bfp.product_category_3=13 AND bfp.marital_status>1;",0
+409,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>14 AND bfp.marital_status<1 AND bfp.purchase>3959;",45502
+410,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>3 AND bfp.gender=2 AND bfp.age>3 AND bfp.city_category=2 AND bfp.product_category_3>9 AND bfp.product_category_1=3;",547
+411,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<3 AND bfp.purchase<19377 AND bfp.product_category_3=14 AND bfp.marital_status=1;",1319
+412,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>3 AND bfp.stay_in_current_city_years<3 AND bfp.city_category>1 AND bfp.age>4 AND bfp.marital_status=0 AND bfp.purchase=16677 AND bfp.occupation=1;",1
+413,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.product_category_3=15 AND bfp.age<5 AND bfp.purchase=7646 AND bfp.city_category>2;",0
+414,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=2 AND bfp.age>1 AND bfp.gender<2 AND bfp.product_category_1<6 AND bfp.occupation>2 AND bfp.marital_status=1 AND bfp.purchase<1369 AND bfp.product_category_3>8 AND bfp.product_category_2<5;",0
+415,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=2 AND bfp.gender=1 AND bfp.age<3 AND bfp.marital_status=1 AND bfp.purchase=5920 AND bfp.product_category_2=13;",1
+416,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.city_category<2 AND bfp.product_category_1>8 AND bfp.product_category_3>16 AND bfp.product_category_2<14;",0
+417,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.product_category_2>3 AND bfp.product_category_1>2;",34913
+418,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<3 AND bfp.stay_in_current_city_years>1 AND bfp.product_category_3=8 AND bfp.purchase=8751 AND bfp.product_category_1=5 AND bfp.age=3 AND bfp.product_category_2=6 AND bfp.marital_status=0;",1
+419,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<6 AND bfp.product_category_2=11 AND bfp.gender<2 AND bfp.occupation<9 AND bfp.product_category_1>6 AND bfp.purchase<8056 AND bfp.city_category<2;",0
+420,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<4 AND bfp.product_category_3=3 AND bfp.purchase=19175 AND bfp.gender=1 AND bfp.product_category_2=2 AND bfp.age=1 AND bfp.city_category=1 AND bfp.marital_status=0 AND bfp.occupation<10;",0
+421,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=13 AND bfp.marital_status>0 AND bfp.city_category>1 AND bfp.occupation>1 AND bfp.age=4 AND bfp.product_category_1>4;",143
+422,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=5;",16658
+423,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=4 AND bfp.age>6;",1010
+424,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>10 AND bfp.city_category=2 AND bfp.stay_in_current_city_years=3 AND bfp.product_category_3=12;",258
+425,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<7;",160956
+426,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<6 AND bfp.marital_status=0 AND bfp.product_category_2>9 AND bfp.purchase=16584 AND bfp.city_category=3;",1
+427,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<9795 AND bfp.gender<2 AND bfp.marital_status=0;",9311
+428,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=4;",5349
+429,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.product_category_3>14;",65978
+430,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>4 AND bfp.product_category_2=11;",879
+431,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=10 AND bfp.gender=1 AND bfp.purchase=18611 AND bfp.marital_status=0;",1
+432,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.purchase>16005 AND bfp.product_category_2>11 AND bfp.product_category_1=1 AND bfp.occupation<15 AND bfp.city_category>1;",1760
+433,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.city_category=3 AND bfp.purchase>19597 AND bfp.product_category_2>8 AND bfp.stay_in_current_city_years<3 AND bfp.product_category_3>15 AND bfp.product_category_1<10 AND bfp.occupation>13 AND bfp.age<5 AND bfp.marital_status=1;",14
+434,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=5 AND bfp.marital_status>0 AND bfp.occupation=6 AND bfp.product_category_2=3 AND bfp.gender<2 AND bfp.city_category=1 AND bfp.stay_in_current_city_years=2 AND bfp.product_category_1<2;",0
+435,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>12 AND bfp.stay_in_current_city_years<5 AND bfp.city_category=3 AND bfp.product_category_3>16;",36
+436,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.purchase<9741 AND bfp.product_category_1<6;",29926
+437,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.gender=1 AND bfp.product_category_2=10 AND bfp.product_category_3=16 AND bfp.product_category_1>6 AND bfp.purchase=6174 AND bfp.stay_in_current_city_years=2;",1
+438,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=1 AND bfp.occupation<8 AND bfp.gender=2 AND bfp.marital_status>0 AND bfp.product_category_2>13 AND bfp.stay_in_current_city_years<3 AND bfp.product_category_3=18 AND bfp.age=2 AND bfp.purchase<11654;",3
+439,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<2 AND bfp.purchase=13222 AND bfp.marital_status<0;",0
+440,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.purchase>13300 AND bfp.product_category_2>12 AND bfp.stay_in_current_city_years>4 AND bfp.gender=1 AND bfp.city_category=1 AND bfp.age>3 AND bfp.product_category_3=16 AND bfp.product_category_1=1;",11
+441,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=13171 AND bfp.product_category_1=2 AND bfp.occupation<4 AND bfp.gender=1 AND bfp.product_category_3>4;",1
+442,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>8 AND bfp.gender<2 AND bfp.product_category_2=16 AND bfp.age=1 AND bfp.purchase<17337 AND bfp.city_category=1;",1
+443,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>1 AND bfp.stay_in_current_city_years<2 AND bfp.purchase<16024 AND bfp.product_category_1<8 AND bfp.product_category_3=16 AND bfp.product_category_2>6 AND bfp.city_category>2 AND bfp.gender>1 AND bfp.marital_status<1 AND bfp.occupation=19;",3
+444,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>14;",81980
+445,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=5 AND bfp.gender=1 AND bfp.stay_in_current_city_years<2 AND bfp.occupation<19 AND bfp.purchase=10147;",1
+446,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<2 AND bfp.age>6 AND bfp.gender<2 AND bfp.city_category>2 AND bfp.purchase<8720;",51
+447,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>6 AND bfp.stay_in_current_city_years=4 AND bfp.purchase>3602 AND bfp.occupation<6;",5100
+448,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.city_category>1 AND bfp.age<3 AND bfp.product_category_1<6 AND bfp.stay_in_current_city_years>4 AND bfp.purchase=15893 AND bfp.product_category_3=8;",1
+449,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<4 AND bfp.age=3 AND bfp.marital_status<1 AND bfp.product_category_3>5 AND bfp.city_category=3 AND bfp.occupation=18 AND bfp.gender<2;",0
+450,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>6 AND bfp.gender=1 AND bfp.product_category_2=12 AND bfp.purchase<7035 AND bfp.occupation<7 AND bfp.marital_status=1 AND bfp.product_category_3=14 AND bfp.product_category_1=5 AND bfp.city_category=2;",1
+451,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<2 AND bfp.purchase=11980 AND bfp.gender=1 AND bfp.product_category_2>2;",0
+452,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>13 AND bfp.age=4;",20317
+453,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>2 AND bfp.occupation=3;",1580
+454,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>3 AND bfp.marital_status>0;",21407
+455,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.age=3 AND bfp.city_category<2 AND bfp.gender<2 AND bfp.stay_in_current_city_years=4 AND bfp.product_category_2>10 AND bfp.product_category_1<6;",34
+456,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.purchase>15258 AND bfp.gender=2 AND bfp.stay_in_current_city_years>3 AND bfp.product_category_3<5 AND bfp.product_category_1=2 AND bfp.city_category>1 AND bfp.occupation<14 AND bfp.age=4;",2
+457,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=11 AND bfp.product_category_2>13 AND bfp.marital_status=0 AND bfp.gender=1 AND bfp.product_category_3=16 AND bfp.city_category=3;",30
+458,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<2 AND bfp.gender=1 AND bfp.occupation=19 AND bfp.marital_status=1;",35
+459,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<6;",73276
+460,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=1 AND bfp.product_category_3<8 AND bfp.gender=2 AND bfp.purchase<8325 AND bfp.product_category_1<2 AND bfp.stay_in_current_city_years<5 AND bfp.product_category_2>3 AND bfp.marital_status=0;",72
+461,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=12105 AND bfp.product_category_3<8 AND bfp.product_category_2<5 AND bfp.age<3 AND bfp.product_category_1>1;",0
+462,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.product_category_2>12 AND bfp.purchase=18732 AND bfp.city_category=1;",1
+463,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<4 AND bfp.city_category=3 AND bfp.product_category_3<4 AND bfp.purchase=12074 AND bfp.occupation<4;",0
+464,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>2 AND bfp.purchase<11865 AND bfp.product_category_3>16 AND bfp.marital_status=1 AND bfp.stay_in_current_city_years=3 AND bfp.occupation<17;",272
+465,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<2 AND bfp.product_category_2=15 AND bfp.purchase<15879 AND bfp.gender<2 AND bfp.marital_status<1 AND bfp.age>4 AND bfp.stay_in_current_city_years>4 AND bfp.product_category_3=16;",3
+466,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>7051 AND bfp.age=5 AND bfp.stay_in_current_city_years=3;",1961
+467,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>12 AND bfp.occupation>16 AND bfp.city_category<2 AND bfp.marital_status=0 AND bfp.product_category_3>16 AND bfp.stay_in_current_city_years<3 AND bfp.age=3 AND bfp.purchase=12666 AND bfp.gender=2 AND bfp.product_category_2=16;",1
+468,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=14;",8387
+469,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=4 AND bfp.occupation<4;",1534
+470,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>2 AND bfp.product_category_3=5 AND bfp.product_category_2=4 AND bfp.city_category<2 AND bfp.marital_status=0 AND bfp.product_category_1=3 AND bfp.gender=2 AND bfp.purchase=10646 AND bfp.age=3;",1
+471,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=10 AND bfp.purchase>7766 AND bfp.occupation=18 AND bfp.city_category>2 AND bfp.product_category_3=13 AND bfp.marital_status<1 AND bfp.stay_in_current_city_years<5 AND bfp.age=2 AND bfp.gender=2 AND bfp.product_category_1=6;",1
+472,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>3 AND bfp.purchase=1736 AND bfp.product_category_1=11;",1
+473,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>14 AND bfp.gender<2 AND bfp.purchase>11533 AND bfp.product_category_3=16 AND bfp.stay_in_current_city_years=3 AND bfp.occupation>7 AND bfp.product_category_1<10;",58
+474,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=0 AND bfp.stay_in_current_city_years<4 AND bfp.purchase=4210 AND bfp.product_category_1=1;",1
+475,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=1909 AND bfp.age>3 AND bfp.city_category=3 AND bfp.marital_status=0 AND bfp.product_category_1>5;",0
+476,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<5 AND bfp.marital_status=1 AND bfp.product_category_2<3 AND bfp.occupation=11 AND bfp.age<5;",1
+477,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=2 AND bfp.stay_in_current_city_years<3 AND bfp.marital_status<1 AND bfp.purchase<8753 AND bfp.age=1 AND bfp.product_category_1<2 AND bfp.occupation=1 AND bfp.product_category_2=2 AND bfp.product_category_3=14 AND bfp.gender=1;",1
+478,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.marital_status=1 AND bfp.occupation=4 AND bfp.city_category>1;",2975
+479,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<7 AND bfp.purchase>19393 AND bfp.stay_in_current_city_years=5 AND bfp.city_category<2 AND bfp.occupation=11 AND bfp.marital_status=0 AND bfp.product_category_2=2 AND bfp.gender=2 AND bfp.product_category_1=1 AND bfp.product_category_3=5;",1
+480,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>15394;",50955
+481,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=11 AND bfp.occupation<10 AND bfp.product_category_2=15 AND bfp.marital_status=1 AND bfp.stay_in_current_city_years>1;",180
+482,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1 AND bfp.product_category_2=11 AND bfp.product_category_1<5 AND bfp.product_category_3>15 AND bfp.occupation=12 AND bfp.gender=1;",2
+483,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=15;",151
+484,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=3 AND bfp.product_category_2=2 AND bfp.age<7 AND bfp.stay_in_current_city_years<3;",315
+485,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.stay_in_current_city_years=2 AND bfp.product_category_3>12 AND bfp.age>6 AND bfp.gender=2 AND bfp.city_category>2 AND bfp.purchase>10015;",213
+486,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=3 AND bfp.gender=2 AND bfp.age=7 AND bfp.product_category_3<14 AND bfp.purchase=13533 AND bfp.stay_in_current_city_years=1;",1
+487,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>13 AND bfp.stay_in_current_city_years>1;",23665
+488,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.occupation<5;",43106
+489,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.age>6 AND bfp.occupation=6 AND bfp.product_category_1=10;",1
+490,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>2 AND bfp.product_category_1>11 AND bfp.stay_in_current_city_years=5 AND bfp.purchase<955 AND bfp.product_category_2=14 AND bfp.product_category_3=16;",19
+491,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=14 AND bfp.product_category_1<2 AND bfp.city_category<3 AND bfp.product_category_3<17 AND bfp.stay_in_current_city_years<3 AND bfp.gender=1 AND bfp.occupation<8 AND bfp.marital_status<1 AND bfp.age>3;",24
+492,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=9 AND bfp.marital_status=1 AND bfp.stay_in_current_city_years=2 AND bfp.purchase=10084;",1
+493,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.product_category_3>14 AND bfp.age=3 AND bfp.purchase>13008 AND bfp.city_category=3;",1919
+494,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=6887 AND bfp.occupation<14 AND bfp.product_category_2=15 AND bfp.city_category=3 AND bfp.product_category_3>18;",0
+495,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=13 AND bfp.gender<2 AND bfp.product_category_1>5 AND bfp.city_category=3 AND bfp.stay_in_current_city_years>3 AND bfp.occupation>4 AND bfp.product_category_2>8 AND bfp.purchase<20054 AND bfp.marital_status=0 AND bfp.age>4;",2
+496,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=8 AND bfp.purchase>20677 AND bfp.product_category_3<15 AND bfp.city_category=3 AND bfp.occupation<6 AND bfp.stay_in_current_city_years=2;",1
+497,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=1 AND bfp.occupation>12 AND bfp.stay_in_current_city_years=5 AND bfp.purchase=11717 AND bfp.product_category_2=2 AND bfp.age>6;",0
+498,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<5 AND bfp.age>4 AND bfp.product_category_1<6;",7440
+499,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>2 AND bfp.occupation=1 AND bfp.marital_status<1 AND bfp.product_category_1>8 AND bfp.city_category=3 AND bfp.product_category_2=16 AND bfp.product_category_3=17 AND bfp.purchase>12515;",2
+500,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>1 AND bfp.purchase<7960 AND bfp.stay_in_current_city_years>4 AND bfp.occupation>15 AND bfp.city_category=1 AND bfp.product_category_2<14 AND bfp.product_category_1>5 AND bfp.marital_status=1 AND bfp.product_category_3=15 AND bfp.gender=2;",2
+501,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<16 AND bfp.age=5;",8884
+502,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>2 AND bfp.product_category_3>16;",20913
+503,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>1;",161948
+504,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<3 AND bfp.marital_status>0 AND bfp.gender=1 AND bfp.purchase=8869;",1
+505,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<4 AND bfp.purchase<4074 AND bfp.gender>1 AND bfp.marital_status=1 AND bfp.product_category_1=1 AND bfp.age<7 AND bfp.occupation>7;",101
+506,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<17 AND bfp.purchase<4499 AND bfp.stay_in_current_city_years<2 AND bfp.product_category_1=2 AND bfp.marital_status=1;",41
+507,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<4 AND bfp.product_category_3>15 AND bfp.purchase>15406 AND bfp.age=2 AND bfp.gender<2 AND bfp.stay_in_current_city_years>4 AND bfp.city_category=2 AND bfp.product_category_1>1;",0
+508,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<4 AND bfp.product_category_3>15 AND bfp.purchase>15406 AND bfp.age=2 AND bfp.gender<2 AND bfp.stay_in_current_city_years>4 AND bfp.city_category=2;",2
+509,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>11 AND bfp.city_category=3 AND bfp.purchase=8712 AND bfp.product_category_3=16 AND bfp.age<6 AND bfp.gender=1 AND bfp.product_category_1=5 AND bfp.marital_status=0;",1
+510,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<5 AND bfp.product_category_2=10 AND bfp.product_category_3=13 AND bfp.stay_in_current_city_years>1;",1029
+511,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=5 AND bfp.city_category<2 AND bfp.age<2 AND bfp.gender=2 AND bfp.product_category_1=3 AND bfp.purchase=13432 AND bfp.marital_status<0;",0
+512,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>6 AND bfp.stay_in_current_city_years=2 AND bfp.city_category<3 AND bfp.occupation=7 AND bfp.marital_status>0 AND bfp.purchase=5875;",1
+513,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<4 AND bfp.stay_in_current_city_years=5 AND bfp.purchase=8144 AND bfp.gender=2 AND bfp.occupation>0 AND bfp.product_category_3<15;",0
+514,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=6 AND bfp.gender<2 AND bfp.product_category_3=16 AND bfp.purchase=15196 AND bfp.product_category_1=1;",1
+515,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=4 AND bfp.product_category_1=1 AND bfp.product_category_3=9 AND bfp.age=6;",11
+516,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<15 AND bfp.city_category<2 AND bfp.gender>1 AND bfp.product_category_2>12 AND bfp.stay_in_current_city_years<5 AND bfp.purchase<8625 AND bfp.occupation=15 AND bfp.product_category_1=1 AND bfp.age=3;",2
+517,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>15880 AND bfp.city_category<2 AND bfp.gender<2 AND bfp.product_category_3=11 AND bfp.marital_status=1 AND bfp.occupation<1;",0
+518,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=3;",66942
+519,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>1 AND bfp.gender=2 AND bfp.city_category<3 AND bfp.occupation=9;",95
+520,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=3 AND bfp.purchase<9528 AND bfp.city_category>2;",3291
+521,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>3 AND bfp.city_category=1 AND bfp.gender=1 AND bfp.product_category_2>10 AND bfp.age=3 AND bfp.product_category_1=12 AND bfp.occupation=14;",1
+522,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.marital_status>0;",51686
+523,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=9996 AND bfp.product_category_3<15 AND bfp.city_category=2 AND bfp.occupation>4 AND bfp.product_category_1<2;",0
+524,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=13 AND bfp.city_category>1 AND bfp.purchase<15867 AND bfp.age>5 AND bfp.stay_in_current_city_years<5 AND bfp.product_category_3<15 AND bfp.gender<2 AND bfp.occupation<4 AND bfp.product_category_1=8 AND bfp.marital_status=1;",1
+525,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.stay_in_current_city_years<4 AND bfp.city_category<3 AND bfp.product_category_2>5 AND bfp.product_category_1=13 AND bfp.marital_status<1 AND bfp.purchase=587 AND bfp.product_category_3=16 AND bfp.age>2 AND bfp.occupation=2;",1
+526,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>3;",54630
+527,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<4 AND bfp.product_category_2=5 AND bfp.marital_status=1 AND bfp.city_category>1 AND bfp.purchase<3492 AND bfp.product_category_1<4 AND bfp.gender=1;",1
+528,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>13540;",61804
+529,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.city_category>2 AND bfp.age>3 AND bfp.product_category_2<10 AND bfp.product_category_1=1 AND bfp.gender>2;",0
+530,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=1 AND bfp.city_category>2 AND bfp.age<5;",9172
+531,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.product_category_3<15 AND bfp.stay_in_current_city_years<4 AND bfp.product_category_2>2 AND bfp.age<5;",24070
+532,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>10 AND bfp.marital_status=1 AND bfp.occupation<15 AND bfp.product_category_3<17 AND bfp.stay_in_current_city_years>3 AND bfp.age>6 AND bfp.city_category=2 AND bfp.purchase<777 AND bfp.gender=2;",2
+533,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<2 AND bfp.purchase=3849 AND bfp.product_category_2>2 AND bfp.age>2 AND bfp.product_category_3=16 AND bfp.product_category_1=1 AND bfp.occupation=0;",1
+534,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<5;",2488
+535,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=16 AND bfp.age=3 AND bfp.product_category_3=17 AND bfp.marital_status=0;",213
+536,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=1 AND bfp.product_category_3=13 AND bfp.product_category_2<11;",113
+537,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.product_category_2=8 AND bfp.marital_status=0 AND bfp.city_category<3 AND bfp.stay_in_current_city_years<2;",330
+538,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1 AND bfp.age=2 AND bfp.product_category_1=4 AND bfp.marital_status<1 AND bfp.purchase=2075;",1
+539,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<7 AND bfp.product_category_3=8 AND bfp.product_category_2<5;",4243
+540,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>4 AND bfp.product_category_2=6 AND bfp.marital_status>0 AND bfp.gender<2 AND bfp.purchase=3756;",1
+541,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=3 AND bfp.marital_status>0 AND bfp.occupation<5 AND bfp.age>6 AND bfp.purchase>19598 AND bfp.stay_in_current_city_years=2 AND bfp.gender=2;",5
+542,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>11578 AND bfp.stay_in_current_city_years>4 AND bfp.occupation>10;",5389
+543,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=11777 AND bfp.gender=1;",9
+544,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>14 AND bfp.city_category>1;",11715
+545,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=5 AND bfp.city_category=2 AND bfp.product_category_1=1 AND bfp.gender>1;",3003
+546,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.product_category_1<15 AND bfp.marital_status=0 AND bfp.product_category_3<17 AND bfp.occupation=13 AND bfp.stay_in_current_city_years<3;",491
+547,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=15 AND bfp.product_category_2<9 AND bfp.product_category_1=1 AND bfp.stay_in_current_city_years>3 AND bfp.city_category=3 AND bfp.purchase=19103 AND bfp.gender=2 AND bfp.age>2 AND bfp.occupation=2;",1
+548,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.marital_status>0 AND bfp.product_category_1>3 AND bfp.stay_in_current_city_years=5;",2313
+549,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>1 AND bfp.purchase<16566 AND bfp.occupation<20 AND bfp.product_category_1=12;",123
+550,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.gender>1 AND bfp.city_category<2;",11906
+551,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=1 AND bfp.stay_in_current_city_years=1 AND bfp.gender>1 AND bfp.product_category_1=1;",3639
+552,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=15 AND bfp.city_category>1 AND bfp.occupation<3 AND bfp.product_category_1>8 AND bfp.product_category_3=16 AND bfp.gender=2 AND bfp.purchase<570 AND bfp.age=5;",1
+553,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>10 AND bfp.product_category_3=17 AND bfp.product_category_2=16 AND bfp.stay_in_current_city_years>1 AND bfp.age<5 AND bfp.city_category=3 AND bfp.purchase=16662 AND bfp.marital_status=1;",1
+554,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=6 AND bfp.product_category_1=5 AND bfp.stay_in_current_city_years>4 AND bfp.city_category<3 AND bfp.product_category_3=9;",56
+555,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1<13 AND bfp.purchase<3841 AND bfp.marital_status<1 AND bfp.occupation=12 AND bfp.gender=1 AND bfp.stay_in_current_city_years>3 AND bfp.product_category_2=5 AND bfp.product_category_3=18;",1
+556,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.city_category<3 AND bfp.purchase=781 AND bfp.age=2 AND bfp.gender<2 AND bfp.product_category_3=12 AND bfp.product_category_1=4 AND bfp.occupation=4 AND bfp.stay_in_current_city_years=3;",1
+557,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.marital_status>0 AND bfp.product_category_1<12 AND bfp.product_category_2>9 AND bfp.occupation>7 AND bfp.age=4 AND bfp.product_category_3>17 AND bfp.stay_in_current_city_years>2;",15
+558,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=3 AND bfp.product_category_2>4;",18821
+559,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<10664 AND bfp.product_category_3=9 AND bfp.gender>1 AND bfp.occupation=15 AND bfp.product_category_2>2 AND bfp.age>6 AND bfp.stay_in_current_city_years=5;",1
+560,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<15843 AND bfp.age=5 AND bfp.stay_in_current_city_years>1;",9137
+561,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1<13 AND bfp.age>2 AND bfp.purchase<4687 AND bfp.occupation=15 AND bfp.gender<2 AND bfp.product_category_2>5;",27
+562,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>1 AND bfp.marital_status=0 AND bfp.product_category_3<14;",37938
+563,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>5 AND bfp.city_category>1 AND bfp.stay_in_current_city_years=2 AND bfp.marital_status=0 AND bfp.age=1 AND bfp.gender>1 AND bfp.product_category_2=15 AND bfp.product_category_3=16 AND bfp.purchase>14291 AND bfp.occupation=10;",2
+564,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=9867 AND bfp.stay_in_current_city_years>4 AND bfp.gender>1 AND bfp.product_category_1<8 AND bfp.occupation=4 AND bfp.city_category=2 AND bfp.marital_status=0;",1
+565,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=16 AND bfp.product_category_2<5 AND bfp.age=6 AND bfp.product_category_1=1 AND bfp.gender=1 AND bfp.product_category_3=14 AND bfp.marital_status<1 AND bfp.purchase<15800;",0
+566,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<4 AND bfp.stay_in_current_city_years<4 AND bfp.marital_status>0 AND bfp.product_category_2<13 AND bfp.gender=2 AND bfp.city_category<3 AND bfp.age>2 AND bfp.purchase>2167 AND bfp.product_category_1>5;",366
+567,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>15;",53967
+568,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=1 AND bfp.product_category_3<16 AND bfp.product_category_2<4 AND bfp.purchase=12791 AND bfp.occupation=12 AND bfp.city_category=3 AND bfp.gender=2 AND bfp.product_category_1>2;",0
+569,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.city_category=1 AND bfp.product_category_2=13 AND bfp.occupation<12 AND bfp.purchase<3010 AND bfp.stay_in_current_city_years<5 AND bfp.gender=1 AND bfp.age<3 AND bfp.product_category_1>11;",0
+570,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>14418 AND bfp.city_category>1 AND bfp.age=1 AND bfp.product_category_3=12 AND bfp.product_category_1<2;",11
+571,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0;",67202
+572,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2;",37594
+573,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.marital_status>0 AND bfp.product_category_3<10 AND bfp.purchase=13166 AND bfp.occupation=7 AND bfp.city_category<3;",0
+574,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=1 AND bfp.marital_status>0 AND bfp.age<6 AND bfp.stay_in_current_city_years=3 AND bfp.product_category_2>2 AND bfp.product_category_3>17 AND bfp.product_category_1>1 AND bfp.gender=2 AND bfp.purchase<1863 AND bfp.occupation=20;",1
+575,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=1 AND bfp.city_category>1 AND bfp.product_category_2=4 AND bfp.product_category_3<12 AND bfp.product_category_1<3 AND bfp.marital_status=0 AND bfp.gender=1 AND bfp.occupation>10;",18
+576,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.product_category_1<2;",74432
+577,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0;",67202
+578,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>15 AND bfp.gender=1 AND bfp.purchase=7980 AND bfp.city_category=1 AND bfp.age=3;",1
+579,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<2 AND bfp.purchase<4143 AND bfp.marital_status=0 AND bfp.city_category<2 AND bfp.product_category_3>9 AND bfp.product_category_2=2 AND bfp.occupation=10 AND bfp.stay_in_current_city_years<4 AND bfp.gender=1;",4
+580,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<3 AND bfp.product_category_3>4 AND bfp.city_category=3 AND bfp.gender=2 AND bfp.product_category_2>5;",10267
+581,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>8 AND bfp.product_category_3>17 AND bfp.product_category_1>5;",18
+582,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>1 AND bfp.product_category_1=8 AND bfp.product_category_2>9 AND bfp.gender<2 AND bfp.city_category=2;",1004
+583,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<2 AND bfp.marital_status<0;",0
+584,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.product_category_3>12 AND bfp.product_category_1=5 AND bfp.marital_status>0 AND bfp.product_category_2=11 AND bfp.city_category<2 AND bfp.occupation>15 AND bfp.age>3;",2
+585,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<14 AND bfp.purchase<3803 AND bfp.age=3 AND bfp.product_category_2=6 AND bfp.gender<2 AND bfp.city_category=1;",12
+586,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>12;",1207
+587,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=6;",12137
+588,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.city_category<2 AND bfp.age=5 AND bfp.purchase=9924 AND bfp.product_category_1<8;",1
+589,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=11 AND bfp.product_category_2=4 AND bfp.age=3 AND bfp.stay_in_current_city_years=1 AND bfp.product_category_1>2 AND bfp.gender=2;",11
+590,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>10 AND bfp.gender=1 AND bfp.product_category_3<13 AND bfp.city_category<3 AND bfp.stay_in_current_city_years=3 AND bfp.purchase=5475 AND bfp.occupation=7 AND bfp.product_category_1=5;",1
+591,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<3 AND bfp.city_category>1 AND bfp.marital_status=1 AND bfp.occupation<12;",3413
+592,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1 AND bfp.product_category_2=2 AND bfp.occupation<17 AND bfp.product_category_1=1 AND bfp.product_category_3=5 AND bfp.purchase=4292;",1
+593,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.product_category_1=12 AND bfp.occupation<9 AND bfp.product_category_3=17 AND bfp.city_category>1;",30
+594,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=12 AND bfp.product_category_1>5 AND bfp.stay_in_current_city_years<4 AND bfp.occupation=20 AND bfp.age<4 AND bfp.product_category_3=17 AND bfp.marital_status=1 AND bfp.city_category=3 AND bfp.gender=1 AND bfp.purchase=9804;",1
+595,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<4 AND bfp.occupation=17 AND bfp.age=4 AND bfp.purchase=11778 AND bfp.marital_status=0 AND bfp.gender=2 AND bfp.city_category=2 AND bfp.product_category_1=1 AND bfp.product_category_2=2 AND bfp.stay_in_current_city_years=2;",1
+596,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>6 AND bfp.marital_status<0;",0
+597,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>7938 AND bfp.city_category<2 AND bfp.product_category_2=15;",2401
+598,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<2 AND bfp.gender=2 AND bfp.city_category=2 AND bfp.product_category_2<6;",3154
+599,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.purchase=4175;",6
+600,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=4 AND bfp.age=6 AND bfp.product_category_2<8 AND bfp.stay_in_current_city_years>3 AND bfp.city_category>1 AND bfp.product_category_3=15 AND bfp.gender=2 AND bfp.occupation=17 AND bfp.purchase<2857;",1
+601,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<2 AND bfp.product_category_1=6 AND bfp.stay_in_current_city_years=5 AND bfp.product_category_2=8 AND bfp.product_category_3<15 AND bfp.gender=2 AND bfp.marital_status>0;",0
+602,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<2 AND bfp.product_category_3=17 AND bfp.product_category_2<8 AND bfp.purchase=11868 AND bfp.gender=2;",1
+603,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<3 AND bfp.stay_in_current_city_years<4 AND bfp.gender<2 AND bfp.purchase<5233 AND bfp.product_category_2>11 AND bfp.product_category_3<18 AND bfp.product_category_1<10;",122
+604,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=19519;",24
+605,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<7 AND bfp.occupation=7 AND bfp.marital_status<1 AND bfp.product_category_1=3 AND bfp.city_category=2 AND bfp.gender=2 AND bfp.product_category_2=4 AND bfp.purchase=8358;",1
+606,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<19 AND bfp.marital_status>0 AND bfp.stay_in_current_city_years>1 AND bfp.age=6 AND bfp.product_category_2<5 AND bfp.product_category_3=8 AND bfp.purchase=18994 AND bfp.gender=1 AND bfp.product_category_1=1;",1
+607,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.city_category=1 AND bfp.stay_in_current_city_years=3 AND bfp.occupation>10;",2415
+608,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=4 AND bfp.purchase<20574 AND bfp.product_category_2>3 AND bfp.stay_in_current_city_years=4 AND bfp.product_category_1<6 AND bfp.product_category_3=6 AND bfp.age=3 AND bfp.marital_status=0 AND bfp.gender<2 AND bfp.city_category=1;",1
+609,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.product_category_1=1 AND bfp.purchase=15695 AND bfp.product_category_3=9 AND bfp.stay_in_current_city_years>3;",0
+610,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=1;",67202
+611,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>16 AND bfp.gender<2 AND bfp.occupation>19 AND bfp.product_category_1>5 AND bfp.product_category_2<14 AND bfp.stay_in_current_city_years>2 AND bfp.marital_status>0;",3
+612,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=6 AND bfp.product_category_1>6 AND bfp.product_category_2<15 AND bfp.product_category_3>15 AND bfp.occupation<16 AND bfp.city_category=2 AND bfp.purchase<5903 AND bfp.stay_in_current_city_years<2 AND bfp.gender<2;",1
+613,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=6 AND bfp.product_category_3>14 AND bfp.purchase<11791 AND bfp.occupation<14 AND bfp.marital_status>0 AND bfp.product_category_1=10;",2
+614,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<4 AND bfp.age<4 AND bfp.product_category_3=18 AND bfp.marital_status<1 AND bfp.purchase>15373 AND bfp.occupation>0 AND bfp.city_category>2 AND bfp.product_category_2=5 AND bfp.gender=1;",7
+615,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>6 AND bfp.stay_in_current_city_years=3;",16460
+616,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=8 AND bfp.product_category_1>4 AND bfp.age=2 AND bfp.product_category_3=16 AND bfp.stay_in_current_city_years=5 AND bfp.gender=2 AND bfp.city_category=1;",1
+617,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1 AND bfp.occupation=9 AND bfp.age=7 AND bfp.product_category_2=12 AND bfp.gender>1;",0
+618,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=1 AND bfp.purchase<7646 AND bfp.gender>1;",7889
+619,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.purchase=1982 AND bfp.marital_status=0 AND bfp.city_category=1 AND bfp.product_category_1=5 AND bfp.occupation>7;",0
+620,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=1 AND bfp.age<3 AND bfp.stay_in_current_city_years<3 AND bfp.product_category_1=15 AND bfp.gender=2 AND bfp.purchase=21219;",1
+621,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=2 AND bfp.product_category_2>4 AND bfp.city_category>1 AND bfp.product_category_1=2 AND bfp.product_category_3=8 AND bfp.marital_status>0 AND bfp.age>5 AND bfp.occupation<16 AND bfp.gender=2;",12
+622,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>9 AND bfp.product_category_2<3 AND bfp.marital_status=0 AND bfp.occupation>9 AND bfp.city_category>1;",4835
+623,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.city_category=3 AND bfp.age>3 AND bfp.product_category_2<12 AND bfp.purchase<20646 AND bfp.occupation>13 AND bfp.stay_in_current_city_years<2 AND bfp.product_category_3>16 AND bfp.marital_status=1 AND bfp.product_category_1=4;",1
+624,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>2 AND bfp.marital_status>0;",23677
+625,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>2 AND bfp.stay_in_current_city_years=2 AND bfp.product_category_2=15 AND bfp.age>4 AND bfp.product_category_3<18 AND bfp.city_category<2 AND bfp.marital_status=0 AND bfp.occupation=20 AND bfp.purchase>1556 AND bfp.gender=2;",5
+626,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>1 AND bfp.age>3 AND bfp.gender=1 AND bfp.product_category_2=6 AND bfp.occupation=4 AND bfp.city_category=3 AND bfp.product_category_1=5 AND bfp.marital_status=0 AND bfp.purchase=5241;",1
+627,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=1 AND bfp.product_category_1<4 AND bfp.age>1 AND bfp.product_category_3>11 AND bfp.product_category_2=4 AND bfp.stay_in_current_city_years>1 AND bfp.purchase<10700 AND bfp.gender=1 AND bfp.occupation<14 AND bfp.marital_status=0;",76
+628,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>4 AND bfp.product_category_1>11 AND bfp.age=7 AND bfp.stay_in_current_city_years>2;",43
+629,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>10 AND bfp.marital_status=1 AND bfp.occupation<19;",15411
+630,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.city_category<2 AND bfp.purchase=2775 AND bfp.product_category_2=5 AND bfp.product_category_3>12;",0
+631,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=4 AND bfp.product_category_2=14;",2128
+632,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>7 AND bfp.gender<2 AND bfp.product_category_2>12 AND bfp.purchase<8069;",1159
+633,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>12 AND bfp.city_category<2 AND bfp.marital_status<1 AND bfp.purchase<20342 AND bfp.gender=1 AND bfp.product_category_2>14;",387
+634,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.purchase=13056 AND bfp.age>3 AND bfp.occupation=17 AND bfp.city_category=2;",1
+635,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>4 AND bfp.product_category_2=4 AND bfp.occupation=15 AND bfp.product_category_1=1 AND bfp.marital_status=0;",7
+636,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>2 AND bfp.gender=1 AND bfp.marital_status=1 AND bfp.product_category_1=11 AND bfp.age>2;",31
+637,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1 AND bfp.gender=1 AND bfp.product_category_3<16 AND bfp.stay_in_current_city_years>4;",2963
+638,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=12 AND bfp.occupation<11 AND bfp.stay_in_current_city_years=3 AND bfp.marital_status<1 AND bfp.age>5 AND bfp.product_category_1=5 AND bfp.purchase=5360 AND bfp.gender=2 AND bfp.city_category=2 AND bfp.product_category_3<14;",0
+639,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>2 AND bfp.product_category_2>12 AND bfp.product_category_1<2 AND bfp.stay_in_current_city_years<3 AND bfp.marital_status<1;",3527
+640,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1<5 AND bfp.occupation=16 AND bfp.product_category_2<3;",1959
+641,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=5392 AND bfp.product_category_1=3 AND bfp.stay_in_current_city_years=2 AND bfp.age=3 AND bfp.product_category_2=4 AND bfp.marital_status=0 AND bfp.city_category=2 AND bfp.occupation=16 AND bfp.gender=2;",1
+642,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=4 AND bfp.age=1 AND bfp.stay_in_current_city_years>4 AND bfp.occupation>8 AND bfp.gender=1;",14
+643,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>3 AND bfp.occupation=19 AND bfp.product_category_2=6 AND bfp.product_category_1>1;",17
+644,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<2 AND bfp.product_category_2>3 AND bfp.marital_status=0 AND bfp.product_category_3>11 AND bfp.purchase=18960 AND bfp.city_category=1 AND bfp.product_category_1=1 AND bfp.stay_in_current_city_years=1 AND bfp.gender<2;",0
+645,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<4;",112191
+646,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.stay_in_current_city_years=2 AND bfp.age>5 AND bfp.product_category_3>3 AND bfp.purchase=2010 AND bfp.product_category_2=13;",1
+647,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.city_category=3 AND bfp.stay_in_current_city_years<3 AND bfp.product_category_3<5 AND bfp.age>2;",182
+648,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.marital_status=0 AND bfp.purchase=15223 AND bfp.stay_in_current_city_years>4 AND bfp.age=3 AND bfp.product_category_1=1;",2
+649,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=12 AND bfp.age=1 AND bfp.product_category_2>13 AND bfp.stay_in_current_city_years=2 AND bfp.product_category_1<8;",6
+650,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=8 AND bfp.city_category>1 AND bfp.stay_in_current_city_years=3 AND bfp.occupation>14 AND bfp.product_category_1<2 AND bfp.product_category_3>14 AND bfp.gender<2 AND bfp.age=5 AND bfp.marital_status=1 AND bfp.purchase=15849;",1
+651,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=7 AND bfp.stay_in_current_city_years=1 AND bfp.gender>1 AND bfp.city_category=2 AND bfp.product_category_2=5 AND bfp.marital_status<1 AND bfp.occupation=1 AND bfp.product_category_3=8;",1
+652,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=1 AND bfp.product_category_1>10 AND bfp.gender=2 AND bfp.product_category_2=13;",40
+653,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>13 AND bfp.age=2 AND bfp.product_category_2=9 AND bfp.marital_status=0 AND bfp.product_category_1=2 AND bfp.gender=2 AND bfp.occupation=3;",2
+654,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.product_category_3<9 AND bfp.age>6 AND bfp.product_category_2<6 AND bfp.stay_in_current_city_years>2 AND bfp.marital_status=1 AND bfp.occupation>1 AND bfp.city_category=2 AND bfp.purchase<9567 AND bfp.product_category_1=3;",1
+655,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>6 AND bfp.purchase>18696 AND bfp.marital_status=0;",610
+656,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<3 AND bfp.occupation>8 AND bfp.product_category_1<2 AND bfp.gender<2 AND bfp.marital_status>0;",330
+657,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=23354 AND bfp.product_category_1=10 AND bfp.age=3;",1
+658,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=15 AND bfp.purchase>19067 AND bfp.stay_in_current_city_years<4 AND bfp.age=2 AND bfp.city_category>2;",125
+659,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>6 AND bfp.product_category_1=1 AND bfp.occupation<16;",2195
+660,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1 AND bfp.purchase>11821 AND bfp.product_category_3<8 AND bfp.occupation<2 AND bfp.gender=1;",509
+661,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=15449 AND bfp.age>4;",9
+662,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.occupation>17 AND bfp.age=6 AND bfp.purchase=8382 AND bfp.marital_status<1;",0
+663,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1;",99619
+664,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=1;",4873
+665,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.city_category>1 AND bfp.product_category_2>10 AND bfp.marital_status>0 AND bfp.product_category_1=13 AND bfp.product_category_3<16;",0
+666,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>11 AND bfp.gender<2 AND bfp.occupation=14 AND bfp.product_category_3<16 AND bfp.product_category_1>1 AND bfp.city_category>1 AND bfp.stay_in_current_city_years>4 AND bfp.purchase=3952 AND bfp.marital_status=1;",1
+667,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>11 AND bfp.product_category_1>5 AND bfp.occupation>1 AND bfp.purchase=19910 AND bfp.product_category_2>10;",0
+668,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<16 AND bfp.product_category_2>10 AND bfp.gender=1 AND bfp.marital_status<1 AND bfp.product_category_1=5 AND bfp.purchase>8765 AND bfp.stay_in_current_city_years>2 AND bfp.age=7 AND bfp.occupation>0;",0
+669,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1 AND bfp.product_category_2=12 AND bfp.product_category_3=14 AND bfp.purchase>3728 AND bfp.marital_status=0 AND bfp.stay_in_current_city_years<4 AND bfp.occupation<3 AND bfp.product_category_1=5 AND bfp.gender>1;",38
+670,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<3 AND bfp.city_category<2;",10498
+671,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=17 AND bfp.stay_in_current_city_years<3 AND bfp.gender=2 AND bfp.product_category_1>8 AND bfp.occupation>13 AND bfp.age=6 AND bfp.city_category=1;",5
+672,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=5 AND bfp.age>2;",12320
+673,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<8 AND bfp.marital_status=1 AND bfp.occupation=4;",924
+674,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.gender>1 AND bfp.product_category_2>5 AND bfp.product_category_1<4 AND bfp.occupation>15 AND bfp.city_category<3 AND bfp.stay_in_current_city_years=5 AND bfp.age>4 AND bfp.purchase>13098;",84
+675,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<14 AND bfp.purchase=15760 AND bfp.age>2 AND bfp.stay_in_current_city_years=3 AND bfp.product_category_2=2 AND bfp.marital_status=0 AND bfp.gender=2;",1
+676,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>16 AND bfp.product_category_2<5 AND bfp.product_category_1>1 AND bfp.age>1 AND bfp.gender=1 AND bfp.product_category_3>9 AND bfp.purchase>7969 AND bfp.marital_status=0 AND bfp.city_category=1;",8
+677,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.gender=2 AND bfp.stay_in_current_city_years<3 AND bfp.product_category_2=12;",179
+678,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.product_category_2<16 AND bfp.stay_in_current_city_years=3;",12322
+679,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>2 AND bfp.occupation=14;",2675
+680,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.age=6 AND bfp.purchase=10565 AND bfp.marital_status=1 AND bfp.product_category_1<3;",0
+681,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>2 AND bfp.stay_in_current_city_years<2 AND bfp.product_category_2<3 AND bfp.product_category_1=1 AND bfp.age>5 AND bfp.marital_status=1 AND bfp.purchase=15782;",1
+682,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>4 AND bfp.age=1 AND bfp.city_category>2 AND bfp.stay_in_current_city_years=2;",116
+683,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<11 AND bfp.product_category_2>2 AND bfp.product_category_1=1 AND bfp.occupation>19 AND bfp.age=5;",30
+684,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.product_category_1<12 AND bfp.purchase=11638 AND bfp.marital_status>0 AND bfp.occupation=20 AND bfp.age=2 AND bfp.product_category_3=16;",1
+685,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<5 AND bfp.gender>1 AND bfp.purchase=4367 AND bfp.stay_in_current_city_years=2 AND bfp.marital_status=1 AND bfp.product_category_1=1 AND bfp.product_category_3=5 AND bfp.occupation<0;",0
+686,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1<11 AND bfp.product_category_3<4;",613
+687,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<12 AND bfp.stay_in_current_city_years<3;",24900
+688,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=4 AND bfp.purchase>20616 AND bfp.product_category_3=17 AND bfp.stay_in_current_city_years>4;",2
+689,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.product_category_2=6 AND bfp.occupation>1 AND bfp.city_category=2 AND bfp.marital_status=1 AND bfp.product_category_3=9 AND bfp.product_category_1=5 AND bfp.purchase=8678 AND bfp.stay_in_current_city_years=3 AND bfp.age=7;",1
+690,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<13 AND bfp.gender<2 AND bfp.city_category>1 AND bfp.marital_status>0;",4547
+691,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<4 AND bfp.gender=1 AND bfp.product_category_2=2 AND bfp.stay_in_current_city_years<4 AND bfp.purchase=8041 AND bfp.occupation=6;",1
+692,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=1 AND bfp.stay_in_current_city_years<2 AND bfp.purchase=4186;",1
+693,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>3 AND bfp.city_category=2 AND bfp.product_category_3<14 AND bfp.marital_status=0 AND bfp.product_category_2<10 AND bfp.occupation<7 AND bfp.stay_in_current_city_years=3 AND bfp.purchase>3460;",127
+694,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<3 AND bfp.product_category_2<3 AND bfp.product_category_3=11 AND bfp.occupation<1 AND bfp.marital_status=1 AND bfp.stay_in_current_city_years<5 AND bfp.age=7;",1
+695,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<3 AND bfp.age=6 AND bfp.city_category>1 AND bfp.product_category_2>5 AND bfp.product_category_1>13 AND bfp.product_category_3=17 AND bfp.purchase>16677;",1
+696,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=3 AND bfp.marital_status<1 AND bfp.product_category_3>16 AND bfp.stay_in_current_city_years>3 AND bfp.product_category_2<5 AND bfp.product_category_1=1 AND bfp.purchase>11715 AND bfp.gender>1 AND bfp.occupation=5;",1
+697,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=3;",2884
+698,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>11 AND bfp.occupation=4 AND bfp.gender<2 AND bfp.city_category>1 AND bfp.age>2 AND bfp.stay_in_current_city_years<3;",5
+699,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<12 AND bfp.product_category_1<5 AND bfp.marital_status>0 AND bfp.occupation>17 AND bfp.purchase=7982;",1
+700,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>6 AND bfp.marital_status=1 AND bfp.occupation=15 AND bfp.product_category_3=12 AND bfp.gender=1 AND bfp.stay_in_current_city_years<3 AND bfp.product_category_1=3 AND bfp.product_category_2=4 AND bfp.purchase>8334;",0
+701,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<2 AND bfp.occupation<1 AND bfp.gender>1 AND bfp.purchase<19354 AND bfp.city_category<3 AND bfp.product_category_1>6 AND bfp.marital_status>0;",0
+702,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=11 AND bfp.gender<2 AND bfp.purchase=4306 AND bfp.marital_status=1;",1
+703,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<7650 AND bfp.city_category=3 AND bfp.occupation>18 AND bfp.product_category_1<6 AND bfp.marital_status>0 AND bfp.product_category_3>4 AND bfp.stay_in_current_city_years>2 AND bfp.gender=1;",37
+704,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>12 AND bfp.product_category_3=8 AND bfp.product_category_1>3 AND bfp.city_category=2;",229
+705,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=7 AND bfp.occupation=15 AND bfp.product_category_2<13 AND bfp.product_category_3=18 AND bfp.marital_status=1 AND bfp.product_category_1=2 AND bfp.purchase>13086;",0
+706,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=5 AND bfp.marital_status<1 AND bfp.gender=1 AND bfp.age<6 AND bfp.product_category_2>12;",640
+707,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>14 AND bfp.product_category_3>16;",3245
+708,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.product_category_3>10 AND bfp.stay_in_current_city_years<3 AND bfp.purchase=19218;",7
+709,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=11 AND bfp.purchase<6137 AND bfp.city_category<3 AND bfp.gender=2 AND bfp.occupation=10 AND bfp.stay_in_current_city_years>2 AND bfp.marital_status=0 AND bfp.age=1 AND bfp.product_category_2=13;",4
+710,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>1 AND bfp.product_category_2=16 AND bfp.gender=2 AND bfp.marital_status>0 AND bfp.occupation<7 AND bfp.stay_in_current_city_years<4 AND bfp.product_category_3=17;",65
+711,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<4 AND bfp.product_category_3=11 AND bfp.marital_status=1 AND bfp.gender=2 AND bfp.city_category=2;",155
+712,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<2 AND bfp.age<2 AND bfp.purchase<20287 AND bfp.product_category_3>14 AND bfp.marital_status=0 AND bfp.occupation<2 AND bfp.product_category_2=14 AND bfp.product_category_1=5 AND bfp.gender=1 AND bfp.stay_in_current_city_years=3;",1
+713,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=3 AND bfp.marital_status=1 AND bfp.purchase<7014 AND bfp.age=7 AND bfp.occupation<13 AND bfp.stay_in_current_city_years<2 AND bfp.product_category_3<17 AND bfp.gender=2 AND bfp.product_category_1=1;",2
+714,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.product_category_1<12 AND bfp.city_category>2 AND bfp.product_category_3=5 AND bfp.occupation>13 AND bfp.age=3 AND bfp.stay_in_current_city_years<4;",318
+715,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>4 AND bfp.age>5 AND bfp.city_category<3;",2851
+716,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<3 AND bfp.purchase>1939 AND bfp.product_category_3=13 AND bfp.city_category>1;",1868
+717,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1 AND bfp.purchase>3230 AND bfp.gender<2 AND bfp.age>5 AND bfp.product_category_3<16 AND bfp.stay_in_current_city_years=5 AND bfp.product_category_2>9 AND bfp.marital_status=1 AND bfp.product_category_1<2 AND bfp.occupation=0;",1
+718,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=1 AND bfp.product_category_3=18 AND bfp.gender=1 AND bfp.product_category_2<14 AND bfp.age<4 AND bfp.purchase<13298 AND bfp.occupation=3;",4
+719,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>3 AND bfp.product_category_3=3 AND bfp.product_category_1=1;",166
+720,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<9;",36598
+721,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>6 AND bfp.gender=1 AND bfp.stay_in_current_city_years=4 AND bfp.product_category_1<4 AND bfp.purchase<11904 AND bfp.product_category_3<18 AND bfp.age>3 AND bfp.marital_status=1;",92
+722,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<4 AND bfp.product_category_1=10 AND bfp.occupation=19;",22
+723,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<17 AND bfp.city_category=1 AND bfp.purchase>13030;",12608
+724,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=6 AND bfp.age=2 AND bfp.occupation>10;",289
+725,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=14335 AND bfp.city_category<1;",0
+726,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>13 AND bfp.gender<2 AND bfp.product_category_3=17 AND bfp.marital_status<1 AND bfp.product_category_2=16 AND bfp.age<5 AND bfp.purchase>12994;",5
+727,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>6 AND bfp.product_category_3>10 AND bfp.age>4 AND bfp.purchase=16612 AND bfp.marital_status<1;",0
+728,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=2 AND bfp.city_category>2 AND bfp.product_category_3=16 AND bfp.gender>1;",1613
+729,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<4328 AND bfp.gender=1 AND bfp.product_category_3<18 AND bfp.product_category_1<13 AND bfp.occupation=11 AND bfp.age<5 AND bfp.marital_status>0;",13
+730,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=1 AND bfp.stay_in_current_city_years=2 AND bfp.gender=2 AND bfp.city_category=1 AND bfp.product_category_2=9 AND bfp.marital_status=0 AND bfp.purchase<5424 AND bfp.product_category_3=14 AND bfp.product_category_1=5;",1
+731,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.age<5;",30158
+732,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=13 AND bfp.product_category_1<8;",1779
+733,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<3 AND bfp.product_category_3<18 AND bfp.occupation>7;",18589
+734,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=4 AND bfp.product_category_1<8 AND bfp.product_category_3=17 AND bfp.gender=1 AND bfp.marital_status>0 AND bfp.product_category_2=2 AND bfp.city_category=3;",1
+735,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<18 AND bfp.product_category_3=3;",553
+736,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>2 AND bfp.marital_status<1 AND bfp.stay_in_current_city_years>1;",27993
+737,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=1 AND bfp.product_category_3>9 AND bfp.age>5 AND bfp.stay_in_current_city_years<4 AND bfp.product_category_1=11 AND bfp.occupation>2 AND bfp.city_category=2;",35
+738,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=4419 AND bfp.occupation>3 AND bfp.marital_status=0 AND bfp.product_category_1=1 AND bfp.age=3 AND bfp.city_category=2 AND bfp.product_category_3=16;",1
+739,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=11 AND bfp.age=2 AND bfp.marital_status<1 AND bfp.product_category_3=16 AND bfp.purchase=2988 AND bfp.occupation=11;",1
+740,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>15 AND bfp.occupation<14 AND bfp.purchase<3609 AND bfp.stay_in_current_city_years=4 AND bfp.product_category_1=8 AND bfp.marital_status=0 AND bfp.product_category_2=14 AND bfp.city_category>2 AND bfp.gender=1 AND bfp.age=3;",1
+741,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.stay_in_current_city_years>4 AND bfp.product_category_1=5 AND bfp.age=1;",59
+742,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.gender=1;",15516
+743,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=2 AND bfp.marital_status>0 AND bfp.product_category_3>9 AND bfp.city_category>2 AND bfp.stay_in_current_city_years<5 AND bfp.occupation=3;",17
+744,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<3 AND bfp.occupation<2 AND bfp.gender=2;",16716
+745,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=1 AND bfp.product_category_2<14 AND bfp.marital_status=1 AND bfp.product_category_3<15 AND bfp.product_category_1=8 AND bfp.age=5;",4
+746,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>19 AND bfp.gender=1 AND bfp.purchase<19590;",2307
+747,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<8708 AND bfp.marital_status=0;",33621
+748,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<14 AND bfp.purchase<3159 AND bfp.product_category_1>3 AND bfp.product_category_2<8 AND bfp.city_category=3;",810
+749,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>14 AND bfp.product_category_3=18 AND bfp.stay_in_current_city_years>1 AND bfp.gender>1 AND bfp.product_category_1=2 AND bfp.purchase>16431 AND bfp.age=4 AND bfp.city_category=2 AND bfp.marital_status=0 AND bfp.product_category_2=8;",2
+750,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.product_category_3<5 AND bfp.purchase=12897 AND bfp.city_category=1 AND bfp.stay_in_current_city_years=1 AND bfp.age=3 AND bfp.product_category_2=3;",1
+751,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0;",67202
+752,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.product_category_3<5;",891
+753,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>14 AND bfp.product_category_3>17 AND bfp.city_category=1 AND bfp.stay_in_current_city_years=5 AND bfp.product_category_1=1 AND bfp.purchase=11658 AND bfp.product_category_2=5 AND bfp.marital_status=0;",1
+754,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.occupation>8 AND bfp.product_category_2=5 AND bfp.marital_status=1 AND bfp.age=5 AND bfp.stay_in_current_city_years=2 AND bfp.purchase<15836;",42
+755,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.product_category_3<8 AND bfp.gender<2 AND bfp.occupation=14 AND bfp.stay_in_current_city_years=2 AND bfp.age>2 AND bfp.purchase=12087;",1
+756,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>11 AND bfp.marital_status=0 AND bfp.stay_in_current_city_years<5 AND bfp.purchase>7080 AND bfp.product_category_1<2 AND bfp.occupation=2;",289
+757,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>5 AND bfp.product_category_1>4 AND bfp.marital_status>0 AND bfp.stay_in_current_city_years<4 AND bfp.gender=1 AND bfp.purchase=5310 AND bfp.product_category_2<12 AND bfp.product_category_3=14 AND bfp.city_category=1 AND bfp.age=3;",1
+758,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.product_category_3>17 AND bfp.stay_in_current_city_years<3 AND bfp.gender>1 AND bfp.product_category_1>2 AND bfp.city_category>1 AND bfp.age>1 AND bfp.purchase=8722 AND bfp.product_category_2=8;",1
+759,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<4 AND bfp.city_category=3 AND bfp.purchase=20418 AND bfp.product_category_1=6 AND bfp.marital_status=0 AND bfp.age=6 AND bfp.occupation=3 AND bfp.product_category_3=16;",1
+760,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=4 AND bfp.occupation=11 AND bfp.product_category_3<12 AND bfp.stay_in_current_city_years=2 AND bfp.marital_status=0 AND bfp.city_category<3 AND bfp.purchase<3949 AND bfp.product_category_1=1 AND bfp.gender=2 AND bfp.product_category_2<5;",1
+761,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=20418 AND bfp.stay_in_current_city_years>3 AND bfp.city_category=1 AND bfp.gender=2 AND bfp.marital_status=0 AND bfp.product_category_2=8 AND bfp.occupation=14;",1
+762,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>2 AND bfp.purchase<6659 AND bfp.marital_status<1 AND bfp.age>2 AND bfp.gender>1 AND bfp.product_category_1>2 AND bfp.occupation>2 AND bfp.city_category=3 AND bfp.product_category_2>11;",269
+763,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=4 AND bfp.product_category_3=9 AND bfp.product_category_1=3;",88
+764,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=6 AND bfp.product_category_3<15 AND bfp.purchase>20423;",412
+765,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<2 AND bfp.product_category_1>1 AND bfp.stay_in_current_city_years=2 AND bfp.purchase>20144 AND bfp.marital_status=0;",25
+766,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=1 AND bfp.purchase<13656 AND bfp.stay_in_current_city_years>1 AND bfp.product_category_3>13 AND bfp.city_category=2 AND bfp.product_category_2>9 AND bfp.product_category_1=15 AND bfp.age>3 AND bfp.marital_status=0;",2
+767,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>13 AND bfp.stay_in_current_city_years>4 AND bfp.product_category_3>17 AND bfp.marital_status<1;",107
+768,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=2 AND bfp.age<4 AND bfp.purchase=5343 AND bfp.product_category_2=9 AND bfp.gender=1 AND bfp.stay_in_current_city_years=4 AND bfp.product_category_3=14;",1
+769,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=16655 AND bfp.gender=2 AND bfp.product_category_1=6 AND bfp.product_category_2=10 AND bfp.product_category_3>16;",0
+770,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=16655 AND bfp.gender=2 AND bfp.product_category_1=6 AND bfp.product_category_2=10;",2
+771,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>13 AND bfp.product_category_3=16 AND bfp.city_category=3;",5887
+772,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=1 AND bfp.occupation>3 AND bfp.product_category_1>11 AND bfp.marital_status<1;",142
+773,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.product_category_3=15 AND bfp.product_category_1>1 AND bfp.purchase>13107 AND bfp.product_category_2<4 AND bfp.occupation>6 AND bfp.stay_in_current_city_years=1;",4
+774,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=3320 AND bfp.product_category_1=2 AND bfp.occupation=7 AND bfp.city_category<1;",0
+775,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>2 AND bfp.occupation>0 AND bfp.age>4 AND bfp.product_category_1<4 AND bfp.city_category<3 AND bfp.product_category_2>9 AND bfp.purchase>15895;",178
+776,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<6 AND bfp.product_category_3<9 AND bfp.stay_in_current_city_years=1;",4519
+777,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=11625 AND bfp.product_category_1=1 AND bfp.product_category_3=5 AND bfp.age>3 AND bfp.city_category=3 AND bfp.product_category_2=2 AND bfp.stay_in_current_city_years=3 AND bfp.occupation=17;",1
+778,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=13 AND bfp.gender<2 AND bfp.product_category_2=14 AND bfp.city_category>1 AND bfp.marital_status=1 AND bfp.purchase=568 AND bfp.occupation>0 AND bfp.stay_in_current_city_years=2 AND bfp.age=5;",1
+779,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>5 AND bfp.purchase=6772;",1
+780,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=1 AND bfp.gender=2 AND bfp.occupation=15 AND bfp.purchase<2780 AND bfp.age>3 AND bfp.city_category<3 AND bfp.product_category_3<16 AND bfp.product_category_2=5 AND bfp.stay_in_current_city_years>1;",5
+781,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>2 AND bfp.product_category_2<11 AND bfp.purchase>20535 AND bfp.occupation=9 AND bfp.marital_status<1 AND bfp.city_category=2;",2
+782,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=18 AND bfp.city_category=3 AND bfp.age<3 AND bfp.marital_status=0 AND bfp.purchase=11926;",1
+783,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=6 AND bfp.city_category=3;",4401
+784,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=2 AND bfp.purchase<6041;",11297
+785,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=11 AND bfp.gender=2 AND bfp.purchase=4429 AND bfp.product_category_2=15 AND bfp.age=5 AND bfp.marital_status=1 AND bfp.stay_in_current_city_years=4 AND bfp.product_category_3=16;",1
+786,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<13 AND bfp.product_category_3>13 AND bfp.purchase<7014;",11239
+787,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>1 AND bfp.product_category_3=16 AND bfp.product_category_2<10 AND bfp.age=1 AND bfp.marital_status=0 AND bfp.gender=1 AND bfp.city_category>1 AND bfp.product_category_1<5 AND bfp.purchase<19506;",23
+788,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>1414;",165124
+789,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.product_category_1<5;",75446
+790,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.product_category_3>5 AND bfp.purchase=3456 AND bfp.product_category_1=2 AND bfp.stay_in_current_city_years=2 AND bfp.city_category<1;",0
+791,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>3 AND bfp.occupation<15 AND bfp.product_category_1>4 AND bfp.age=4 AND bfp.stay_in_current_city_years>4 AND bfp.gender=1 AND bfp.product_category_3=13 AND bfp.city_category=3;",9
+792,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<2 AND bfp.marital_status>0 AND bfp.purchase=20645 AND bfp.product_category_2=10 AND bfp.city_category=3;",1
+793,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=1 AND bfp.purchase=20117;",1
+794,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=5;",25362
+795,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=5 AND bfp.marital_status<1 AND bfp.stay_in_current_city_years=2 AND bfp.product_category_3<15 AND bfp.gender<2;",191
+796,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=12 AND bfp.product_category_3=17 AND bfp.stay_in_current_city_years=4 AND bfp.purchase>1374 AND bfp.occupation=13 AND bfp.marital_status=1 AND bfp.city_category=3 AND bfp.gender=2 AND bfp.age=7;",1
+797,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<4932 AND bfp.product_category_2>6 AND bfp.marital_status=0 AND bfp.occupation>3 AND bfp.stay_in_current_city_years>3 AND bfp.product_category_3>13 AND bfp.age=6 AND bfp.gender=2 AND bfp.product_category_1=13;",2
+798,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=2;",69243
+799,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=14 AND bfp.product_category_3=14;",970
+800,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.occupation=10;",1240
+801,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>2 AND bfp.product_category_2=3 AND bfp.city_category=1 AND bfp.product_category_1=1 AND bfp.occupation<17 AND bfp.stay_in_current_city_years>2 AND bfp.marital_status=1 AND bfp.gender>1 AND bfp.product_category_3=4;",1
+802,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.occupation>4;",79043
+803,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>19 AND bfp.marital_status>0 AND bfp.product_category_1>3 AND bfp.stay_in_current_city_years=3 AND bfp.product_category_3>9 AND bfp.product_category_2>5 AND bfp.age>2 AND bfp.city_category<2 AND bfp.gender>1;",50
+804,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<10;",48177
+805,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=5 AND bfp.gender=2 AND bfp.occupation<2 AND bfp.purchase=15907 AND bfp.product_category_2=5 AND bfp.marital_status=1 AND bfp.product_category_3>8;",0
+806,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=5 AND bfp.product_category_3=16 AND bfp.gender=2 AND bfp.purchase>16605 AND bfp.occupation=8 AND bfp.marital_status>0;",0
+807,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=1763 AND bfp.product_category_1=11 AND bfp.city_category=1 AND bfp.occupation<4 AND bfp.product_category_3=16 AND bfp.marital_status=1 AND bfp.gender=1 AND bfp.stay_in_current_city_years<2;",0
+808,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.product_category_1=10;",1379
+809,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=19 AND bfp.marital_status>0 AND bfp.product_category_3=5;",38
+810,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=4;",5349
+811,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>15;",883
+812,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>10 AND bfp.gender=2 AND bfp.occupation=15 AND bfp.purchase<15172 AND bfp.city_category=1 AND bfp.marital_status<1;",293
+813,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<7473 AND bfp.gender=2;",26760
+814,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.occupation>12 AND bfp.purchase=6073 AND bfp.product_category_1=11 AND bfp.product_category_3=16 AND bfp.city_category=2 AND bfp.marital_status=1;",1
+815,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>4;",25362
+816,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=7 AND bfp.product_category_1<8 AND bfp.product_category_2>4 AND bfp.purchase<8569 AND bfp.occupation=12 AND bfp.stay_in_current_city_years=4 AND bfp.city_category=1 AND bfp.gender=2;",2
+817,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=3 AND bfp.stay_in_current_city_years<2 AND bfp.purchase<1978 AND bfp.product_category_3<12 AND bfp.marital_status>0 AND bfp.gender=2;",8
+818,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>10586 AND bfp.product_category_1<15 AND bfp.marital_status>0 AND bfp.gender=1 AND bfp.product_category_2=6;",630
+819,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=5 AND bfp.age>1 AND bfp.occupation>19 AND bfp.stay_in_current_city_years=1 AND bfp.gender=1 AND bfp.product_category_2<14;",26
+820,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>18 AND bfp.gender<2 AND bfp.product_category_2=8 AND bfp.product_category_3=14 AND bfp.city_category>2 AND bfp.age<3 AND bfp.product_category_1=6 AND bfp.stay_in_current_city_years>2 AND bfp.purchase=20094 AND bfp.marital_status>1;",0
+821,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=4 AND bfp.stay_in_current_city_years<2 AND bfp.age=7 AND bfp.marital_status<1 AND bfp.occupation<14 AND bfp.product_category_1=2 AND bfp.gender=2 AND bfp.purchase>9983 AND bfp.product_category_2=3;",1
+822,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>4017 AND bfp.gender<2 AND bfp.age>5 AND bfp.stay_in_current_city_years=1 AND bfp.product_category_1>5 AND bfp.product_category_2=15 AND bfp.occupation>7 AND bfp.city_category=3 AND bfp.marital_status=1 AND bfp.product_category_3=16;",2
+823,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<17 AND bfp.city_category=2 AND bfp.occupation<9 AND bfp.stay_in_current_city_years=2 AND bfp.age>1 AND bfp.product_category_2=13 AND bfp.gender=1 AND bfp.marital_status=0;",106
+824,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=16 AND bfp.product_category_3=17 AND bfp.gender=1 AND bfp.stay_in_current_city_years<5 AND bfp.age>6 AND bfp.purchase<21060 AND bfp.marital_status=1 AND bfp.city_category=3 AND bfp.product_category_1=1;",1
+825,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=7;",5865
+826,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<2 AND bfp.product_category_3>13 AND bfp.marital_status>0;",0
+827,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=19915 AND bfp.marital_status=1 AND bfp.occupation=20 AND bfp.gender=1 AND bfp.city_category=1 AND bfp.product_category_3=16 AND bfp.age<3;",0
+828,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=2 AND bfp.product_category_3>9 AND bfp.age>3;",1821
+829,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<6 AND bfp.gender=1;",19794
+830,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.product_category_2=12 AND bfp.occupation<1 AND bfp.purchase>6040 AND bfp.city_category=3 AND bfp.age=3 AND bfp.gender=1;",4
+831,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1 AND bfp.product_category_2=10 AND bfp.product_category_3=13 AND bfp.occupation=6;",59
+832,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=4 AND bfp.purchase<15554 AND bfp.product_category_3>5 AND bfp.product_category_2=3 AND bfp.occupation<1 AND bfp.marital_status=1 AND bfp.product_category_1=2 AND bfp.city_category<3;",6
+833,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0;",67202
+834,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>8 AND bfp.marital_status=0 AND bfp.city_category<3 AND bfp.age<5 AND bfp.product_category_3<10 AND bfp.gender>1 AND bfp.purchase<15864;",4648
+835,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>1 AND bfp.city_category>2 AND bfp.age=4 AND bfp.gender=1 AND bfp.product_category_3>14;",1061
+836,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<20 AND bfp.product_category_2<3 AND bfp.purchase=4503;",3
+837,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>8 AND bfp.purchase<16462 AND bfp.gender<2 AND bfp.product_category_1<6 AND bfp.product_category_2>14 AND bfp.marital_status<1;",931
+838,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<2 AND bfp.gender>1 AND bfp.purchase<11485;",7768
+839,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1 AND bfp.gender<2 AND bfp.purchase=12521 AND bfp.product_category_1=6 AND bfp.stay_in_current_city_years=3;",1
+840,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.gender>1 AND bfp.product_category_3>13 AND bfp.occupation=13 AND bfp.product_category_1>2;",209
+841,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<20 AND bfp.marital_status=0 AND bfp.product_category_2<16 AND bfp.purchase>15625 AND bfp.gender=1 AND bfp.city_category=1 AND bfp.age>6 AND bfp.product_category_1=6;",1
+842,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1<6 AND bfp.age<5 AND bfp.product_category_2>3 AND bfp.stay_in_current_city_years<2 AND bfp.city_category=2;",4012
+843,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=1 AND bfp.product_category_1<4 AND bfp.age=1 AND bfp.marital_status=0 AND bfp.occupation>10 AND bfp.product_category_2=2 AND bfp.city_category=2 AND bfp.stay_in_current_city_years<5;",1
+844,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<2 AND bfp.occupation=4 AND bfp.marital_status=0;",26
+845,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>16 AND bfp.purchase<8363 AND bfp.gender<2 AND bfp.city_category<2 AND bfp.age<5 AND bfp.product_category_2<3;",43
+846,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.product_category_3<13 AND bfp.product_category_2>3;",23426
+847,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<11 AND bfp.product_category_1=4 AND bfp.occupation=1 AND bfp.gender<2 AND bfp.product_category_2>5 AND bfp.marital_status<1 AND bfp.purchase<3471 AND bfp.stay_in_current_city_years<3 AND bfp.age>5 AND bfp.city_category=3;",1
+848,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>12 AND bfp.product_category_3=17 AND bfp.age=5 AND bfp.marital_status=0 AND bfp.purchase<8732 AND bfp.gender<2 AND bfp.city_category=3 AND bfp.occupation>9 AND bfp.product_category_1<8 AND bfp.stay_in_current_city_years<4;",2
+849,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.age<4 AND bfp.product_category_3=13 AND bfp.stay_in_current_city_years<5 AND bfp.purchase=8398;",1
+850,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<7 AND bfp.product_category_2<4 AND bfp.stay_in_current_city_years>1 AND bfp.age>1 AND bfp.purchase=3931 AND bfp.city_category<3;",1
+851,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.product_category_1<3 AND bfp.product_category_2=12 AND bfp.age=4 AND bfp.marital_status<1;",1
+852,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<9 AND bfp.gender>1 AND bfp.product_category_3=10 AND bfp.age>6;",78
+853,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=4 AND bfp.product_category_3<17 AND bfp.marital_status=1 AND bfp.age=7 AND bfp.city_category>2 AND bfp.purchase<15178 AND bfp.product_category_2=14 AND bfp.product_category_1=1;",3
+854,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>8 AND bfp.marital_status<1 AND bfp.product_category_2<14 AND bfp.occupation=10;",57
+855,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>2 AND bfp.purchase<10700 AND bfp.occupation=9 AND bfp.city_category<3 AND bfp.product_category_3>16 AND bfp.gender>1;",8
+856,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=1 AND bfp.gender>1 AND bfp.stay_in_current_city_years=5 AND bfp.product_category_3<4 AND bfp.product_category_2=2;",75
+857,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=1 AND bfp.stay_in_current_city_years=4 AND bfp.marital_status<1 AND bfp.purchase<16078 AND bfp.product_category_3>8 AND bfp.product_category_1=8 AND bfp.age=7 AND bfp.occupation=0 AND bfp.product_category_2>14 AND bfp.gender=2;",1
+858,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=1 AND bfp.occupation<16 AND bfp.marital_status=0 AND bfp.city_category<3 AND bfp.product_category_3=12 AND bfp.purchase<8132 AND bfp.product_category_1=5 AND bfp.stay_in_current_city_years=2;",54
+859,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>8453 AND bfp.city_category>1 AND bfp.marital_status>0 AND bfp.gender>1 AND bfp.product_category_2>13 AND bfp.product_category_1=10 AND bfp.occupation=15 AND bfp.product_category_3=16 AND bfp.stay_in_current_city_years=1;",2
+860,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>4 AND bfp.age=6 AND bfp.marital_status>0 AND bfp.product_category_3<10 AND bfp.city_category=2 AND bfp.product_category_1<3 AND bfp.occupation=7;",20
+861,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=11 AND bfp.gender>1 AND bfp.age>3 AND bfp.city_category>2 AND bfp.stay_in_current_city_years<3;",331
+862,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=9 AND bfp.product_category_3<15 AND bfp.occupation>12 AND bfp.purchase>6022 AND bfp.age<5 AND bfp.gender>1 AND bfp.marital_status=1;",78
+863,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=1 AND bfp.occupation>9 AND bfp.stay_in_current_city_years=2 AND bfp.product_category_1>13 AND bfp.product_category_2=16 AND bfp.age>5 AND bfp.purchase<16942;",0
+864,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<4 AND bfp.city_category<3 AND bfp.product_category_3>11 AND bfp.purchase=3567 AND bfp.stay_in_current_city_years=2;",1
+865,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<15;",84841
+866,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3<8 AND bfp.city_category<3 AND bfp.product_category_1<2 AND bfp.occupation=10 AND bfp.purchase=15763 AND bfp.age=1 AND bfp.gender=2 AND bfp.marital_status=0 AND bfp.stay_in_current_city_years=1 AND bfp.product_category_2=2;",1
+867,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<12 AND bfp.occupation<7;",62623
+868,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<4289;",16333
+869,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<11 AND bfp.age<5;",103651
+870,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=1 AND bfp.purchase<2303 AND bfp.stay_in_current_city_years=4 AND bfp.city_category>1 AND bfp.gender>1 AND bfp.age>5;",50
+871,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>18993 AND bfp.city_category=3 AND bfp.product_category_1=10 AND bfp.age>3 AND bfp.occupation<5 AND bfp.marital_status=0;",31
+872,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=12 AND bfp.product_category_2>11 AND bfp.product_category_1=10 AND bfp.purchase>14373 AND bfp.stay_in_current_city_years>1 AND bfp.marital_status=0;",51
+873,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=4 AND bfp.product_category_3=12 AND bfp.purchase=1478 AND bfp.city_category>2;",1
+874,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.age<7;",36304
+875,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=1 AND bfp.age<2 AND bfp.purchase>9600 AND bfp.stay_in_current_city_years=3 AND bfp.city_category>1 AND bfp.product_category_2<4 AND bfp.product_category_1<2 AND bfp.marital_status=0 AND bfp.product_category_3=4 AND bfp.occupation=10;",1
+876,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>5978 AND bfp.stay_in_current_city_years<3 AND bfp.product_category_1=10 AND bfp.gender<2 AND bfp.marital_status=1;",87
+877,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>6;",72877
+878,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>2 AND bfp.occupation>15 AND bfp.purchase=3720 AND bfp.gender=2 AND bfp.product_category_2=6 AND bfp.city_category=3 AND bfp.marital_status<1;",0
+879,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=4 AND bfp.purchase=10866 AND bfp.marital_status=1 AND bfp.product_category_1>3;",0
+880,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.occupation=19 AND bfp.age>1 AND bfp.marital_status=1 AND bfp.product_category_3=5 AND bfp.product_category_1=2 AND bfp.purchase=16145 AND bfp.city_category=2 AND bfp.stay_in_current_city_years=4;",1
+881,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>17 AND bfp.stay_in_current_city_years>3 AND bfp.product_category_1<4 AND bfp.city_category>2 AND bfp.age>6 AND bfp.gender=2 AND bfp.purchase=15550 AND bfp.marital_status=0;",1
+882,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<3 AND bfp.age=6 AND bfp.product_category_1<1;",0
+883,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>3 AND bfp.marital_status=0 AND bfp.product_category_3=8 AND bfp.gender>1 AND bfp.city_category=1;",213
+884,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>18 AND bfp.purchase=4109 AND bfp.marital_status=0;",1
+885,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=6 AND bfp.marital_status>0;",8077
+886,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<10 AND bfp.product_category_3>11 AND bfp.age>3 AND bfp.purchase<3544 AND bfp.marital_status>0 AND bfp.stay_in_current_city_years>1 AND bfp.product_category_1>11;",128
+887,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=3 AND bfp.occupation<5 AND bfp.city_category>2 AND bfp.stay_in_current_city_years>3 AND bfp.product_category_3>10 AND bfp.age>5 AND bfp.purchase>10045 AND bfp.gender=2;",1
+888,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<19 AND bfp.purchase=8341 AND bfp.product_category_3=12 AND bfp.age=3 AND bfp.product_category_2=4 AND bfp.marital_status>0;",0
+889,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>6360 AND bfp.age<3 AND bfp.marital_status=0 AND bfp.occupation<15 AND bfp.stay_in_current_city_years>4;",3430
+890,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<19 AND bfp.city_category=3 AND bfp.purchase>1965 AND bfp.stay_in_current_city_years<2 AND bfp.product_category_3<13 AND bfp.marital_status=0;",1568
+891,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<23429 AND bfp.gender=1 AND bfp.product_category_3<11 AND bfp.stay_in_current_city_years>2 AND bfp.marital_status>0 AND bfp.occupation<19 AND bfp.city_category=2 AND bfp.age>6 AND bfp.product_category_1=3 AND bfp.product_category_2<4;",0
+892,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1 AND bfp.marital_status=1 AND bfp.stay_in_current_city_years<5 AND bfp.product_category_2<3 AND bfp.product_category_1<1;",0
+893,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>15 AND bfp.product_category_3>11 AND bfp.city_category<2 AND bfp.gender=1;",658
+894,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<5 AND bfp.product_category_2<3;",36886
+895,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.occupation>14 AND bfp.age>5 AND bfp.product_category_3<12;",166
+896,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>10 AND bfp.product_category_2>12 AND bfp.stay_in_current_city_years=5 AND bfp.product_category_1<13 AND bfp.city_category>1;",1549
+897,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=8 AND bfp.gender>1 AND bfp.product_category_2<4 AND bfp.occupation=10;",51
+898,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=1 AND bfp.product_category_1=12 AND bfp.marital_status=0 AND bfp.gender=1;",3
+899,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=1 AND bfp.purchase>1537 AND bfp.product_category_1<4 AND bfp.product_category_3=11 AND bfp.stay_in_current_city_years<3 AND bfp.product_category_2=2 AND bfp.gender=1 AND bfp.age>2;",12
+900,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<3 AND bfp.gender=2 AND bfp.city_category<3 AND bfp.product_category_3>8 AND bfp.age>2;",25578
+901,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.product_category_3>9 AND bfp.age>1;",67089
+902,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=8 AND bfp.gender=2 AND bfp.stay_in_current_city_years<4 AND bfp.marital_status>0 AND bfp.city_category>2 AND bfp.product_category_3=17 AND bfp.age>2 AND bfp.occupation=11 AND bfp.purchase=9779;",1
+903,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.stay_in_current_city_years=2 AND bfp.product_category_1<6 AND bfp.age=3 AND bfp.marital_status>0 AND bfp.purchase=15471;",1
+904,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=4 AND bfp.age>1;",22338
+905,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>2 AND bfp.occupation=14 AND bfp.gender=1 AND bfp.purchase=9801 AND bfp.stay_in_current_city_years>4;",0
+906,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>8 AND bfp.occupation<6 AND bfp.city_category=1 AND bfp.product_category_2>14 AND bfp.stay_in_current_city_years=5 AND bfp.purchase=574 AND bfp.gender=2 AND bfp.product_category_3=16 AND bfp.age=3;",1
+907,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>1 AND bfp.gender>1 AND bfp.purchase<13891 AND bfp.marital_status=1 AND bfp.age<4 AND bfp.product_category_2<9 AND bfp.city_category<2 AND bfp.product_category_1>1 AND bfp.stay_in_current_city_years<3 AND bfp.product_category_3=5;",157
+908,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=3 AND bfp.product_category_2<6 AND bfp.marital_status=1 AND bfp.stay_in_current_city_years=3 AND bfp.product_category_3<4 AND bfp.gender<2 AND bfp.occupation=5 AND bfp.purchase=15248;",1
+909,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>3 AND bfp.occupation<10 AND bfp.gender=2 AND bfp.city_category>2;",5702
+910,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>23200 AND bfp.product_category_1<10;",0
+911,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=2 AND bfp.product_category_2<10 AND bfp.gender>1 AND bfp.marital_status=1 AND bfp.purchase=4015 AND bfp.product_category_1=1 AND bfp.age=6 AND bfp.stay_in_current_city_years=5 AND bfp.occupation>6;",0
+912,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>6 AND bfp.product_category_3<15 AND bfp.stay_in_current_city_years=2 AND bfp.purchase>6064 AND bfp.product_category_2>9 AND bfp.age=4 AND bfp.gender=2 AND bfp.occupation=3 AND bfp.city_category=3;",1
+913,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<5 AND bfp.stay_in_current_city_years=4 AND bfp.marital_status>0 AND bfp.gender=1;",2155
+914,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=5 AND bfp.city_category>2 AND bfp.occupation<12 AND bfp.product_category_2>12;",718
+915,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0;",99619
+916,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=8282 AND bfp.product_category_3=6 AND bfp.occupation=3 AND bfp.age=3 AND bfp.stay_in_current_city_years=4 AND bfp.gender=2 AND bfp.product_category_2>2;",0
+917,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.product_category_1<5 AND bfp.product_category_2<13 AND bfp.product_category_3>16 AND bfp.purchase>2826;",5882
+918,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>8 AND bfp.city_category=3 AND bfp.product_category_2<16;",1530
+919,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0 AND bfp.product_category_1>4 AND bfp.stay_in_current_city_years>1 AND bfp.product_category_3<12 AND bfp.city_category=2 AND bfp.gender=2 AND bfp.purchase>12301;",80
+920,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.occupation<8 AND bfp.product_category_2>5 AND bfp.gender<2 AND bfp.purchase>9746;",3550
+921,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.product_category_3=17 AND bfp.age=4 AND bfp.purchase<15343 AND bfp.product_category_1=1 AND bfp.city_category=3 AND bfp.occupation=14 AND bfp.product_category_2<8 AND bfp.marital_status=1 AND bfp.stay_in_current_city_years=2;",1
+922,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.marital_status=0 AND bfp.age>1 AND bfp.stay_in_current_city_years>3 AND bfp.product_category_3=17 AND bfp.city_category<2 AND bfp.purchase=19430;",1
+923,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<2 AND bfp.gender=1 AND bfp.product_category_2<3;",1948
+924,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2=11 AND bfp.gender=2 AND bfp.city_category<3 AND bfp.purchase<15737;",2418
+925,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>4 AND bfp.purchase>10123 AND bfp.product_category_3>14 AND bfp.occupation=0 AND bfp.product_category_2>8;",279
+926,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>3 AND bfp.purchase=20341 AND bfp.product_category_1=6 AND bfp.stay_in_current_city_years=4 AND bfp.product_category_3=16 AND bfp.product_category_2=8 AND bfp.gender=2 AND bfp.city_category=2;",1
+927,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<3 AND bfp.product_category_1=3 AND bfp.product_category_2=4 AND bfp.gender=2 AND bfp.marital_status=0 AND bfp.occupation>18 AND bfp.stay_in_current_city_years=5 AND bfp.product_category_3>8;",8
+928,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<6 AND bfp.gender=2 AND bfp.purchase<13059 AND bfp.marital_status>0 AND bfp.occupation=2 AND bfp.product_category_2<11;",1109
+929,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=1;",22389
+930,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>3 AND bfp.occupation<18 AND bfp.gender=1;",13942
+931,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=4 AND bfp.city_category>1 AND bfp.marital_status=1 AND bfp.gender=1 AND bfp.purchase=11714 AND bfp.product_category_3=16 AND bfp.age=2;",1
+932,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=18 AND bfp.city_category>2;",1541
+933,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=1500 AND bfp.product_category_3<16 AND bfp.marital_status<1;",0
+934,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<4390 AND bfp.marital_status=0 AND bfp.stay_in_current_city_years>1;",8860
+935,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=2 AND bfp.marital_status<1 AND bfp.purchase>15219 AND bfp.age>3 AND bfp.city_category<3 AND bfp.product_category_1=15 AND bfp.occupation=1;",1
+936,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age=7 AND bfp.occupation>0;",5392
+937,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<3;",36189
+938,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>4 AND bfp.purchase>15718 AND bfp.product_category_2=4 AND bfp.marital_status>0 AND bfp.stay_in_current_city_years=5;",26
+939,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>15 AND bfp.stay_in_current_city_years<2 AND bfp.gender>1;",83
+940,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>4;",30405
+941,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status>0 AND bfp.gender=2 AND bfp.product_category_2=8 AND bfp.age=6 AND bfp.product_category_3<12 AND bfp.occupation=12 AND bfp.product_category_1>4 AND bfp.purchase<20616;",2
+942,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<14522 AND bfp.age<6 AND bfp.marital_status<1;",60390
+943,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=5 AND bfp.product_category_2=2 AND bfp.occupation<6 AND bfp.age<2 AND bfp.city_category>1;",35
+944,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=10 AND bfp.stay_in_current_city_years=3 AND bfp.gender>1 AND bfp.purchase>8712 AND bfp.product_category_2=16 AND bfp.marital_status=0 AND bfp.age<2 AND bfp.product_category_3=17 AND bfp.product_category_1<8 AND bfp.city_category=2;",2
+945,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=2 AND bfp.product_category_3=12 AND bfp.age>2 AND bfp.gender=2 AND bfp.product_category_2=11 AND bfp.purchase<7005;",249
+946,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>14 AND bfp.age>6 AND bfp.product_category_2<5 AND bfp.marital_status>0 AND bfp.product_category_1<3 AND bfp.purchase<4488 AND bfp.city_category>2 AND bfp.gender=2;",2
+947,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=1 AND bfp.purchase<19309 AND bfp.product_category_3<11 AND bfp.gender<2 AND bfp.age<7 AND bfp.stay_in_current_city_years<5 AND bfp.city_category>2 AND bfp.marital_status>0 AND bfp.product_category_2=4;",61
+948,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age<2 AND bfp.occupation<7 AND bfp.product_category_2=6 AND bfp.city_category<2 AND bfp.stay_in_current_city_years=3 AND bfp.gender=1;",1
+949,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=3 AND bfp.product_category_1<15 AND bfp.marital_status=1 AND bfp.product_category_2<4;",6555
+950,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>11 AND bfp.marital_status<1;",818
+951,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>0 AND bfp.purchase=9778 AND bfp.product_category_1>2 AND bfp.gender<2 AND bfp.product_category_2>13;",0
+952,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<11 AND bfp.stay_in_current_city_years>3 AND bfp.marital_status=1 AND bfp.purchase<15489 AND bfp.age<4 AND bfp.gender=1 AND bfp.city_category<1;",0
+953,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=15 AND bfp.product_category_2<13 AND bfp.product_category_3>12 AND bfp.stay_in_current_city_years<4 AND bfp.product_category_1>4;",285
+954,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>6 AND bfp.marital_status=1 AND bfp.city_category=1 AND bfp.gender>1 AND bfp.stay_in_current_city_years>4 AND bfp.product_category_3>13;",148
+955,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>3 AND bfp.occupation<3 AND bfp.age<2 AND bfp.city_category=3 AND bfp.stay_in_current_city_years<2;",58
+956,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<19180 AND bfp.product_category_3<14 AND bfp.gender>1 AND bfp.city_category=3 AND bfp.product_category_1>4 AND bfp.age=4 AND bfp.product_category_2>8 AND bfp.occupation<18;",121
+957,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category<3 AND bfp.gender<2 AND bfp.age>3;",9004
+958,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.product_category_2>12 AND bfp.age=6 AND bfp.purchase=9951 AND bfp.product_category_3=16;",1
+959,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status<1 AND bfp.product_category_2<16 AND bfp.age<4 AND bfp.product_category_3<5 AND bfp.city_category<2 AND bfp.purchase<10149 AND bfp.gender=2;",142
+960,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1 AND bfp.purchase>9754 AND bfp.age<6 AND bfp.marital_status=0 AND bfp.gender=1;",8852
+961,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3=13 AND bfp.purchase>6868 AND bfp.product_category_2=8 AND bfp.occupation<4 AND bfp.marital_status<1 AND bfp.gender=2 AND bfp.age>4 AND bfp.product_category_1=1 AND bfp.city_category<3;",0
+962,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.marital_status=0;",99619
+963,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation=18 AND bfp.stay_in_current_city_years=4 AND bfp.product_category_3<14 AND bfp.city_category=2 AND bfp.age=5 AND bfp.marital_status=1 AND bfp.gender=2 AND bfp.product_category_2<3 AND bfp.product_category_1=1 AND bfp.purchase<19290;",10
+964,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.purchase<11481 AND bfp.occupation<12 AND bfp.city_category<3 AND bfp.marital_status=1 AND bfp.product_category_3<13;",3521
+965,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_3>3 AND bfp.purchase>13891 AND bfp.stay_in_current_city_years=3 AND bfp.marital_status<1 AND bfp.product_category_1>1 AND bfp.city_category=2 AND bfp.age=6 AND bfp.product_category_2=14;",1
+966,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>12 AND bfp.purchase=4087 AND bfp.city_category=3 AND bfp.age=3;",1
+967,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase>13694 AND bfp.gender=1 AND bfp.occupation>16 AND bfp.product_category_1<10 AND bfp.marital_status>1;",0
+968,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation>2 AND bfp.marital_status<1 AND bfp.purchase>19249 AND bfp.product_category_3<11 AND bfp.product_category_2=6;",514
+969,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years<5 AND bfp.occupation=13 AND bfp.city_category<3;",485
+970,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=3 AND bfp.product_category_3>9;",39449
+971,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.age=1 AND bfp.marital_status>0;",0
+972,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase=8256 AND bfp.occupation>14 AND bfp.gender<2 AND bfp.product_category_2<4;",0
+973,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1 AND bfp.marital_status=0 AND bfp.gender<2 AND bfp.purchase=15615 AND bfp.age=3 AND bfp.product_category_1>1;",0
+974,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender>1 AND bfp.marital_status=0;",77541
+975,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1;",125302
+976,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1>5 AND bfp.occupation>18 AND bfp.purchase=16140 AND bfp.product_category_2=8;",2
+977,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.occupation<15 AND bfp.purchase>16607 AND bfp.city_category=1 AND bfp.stay_in_current_city_years>2 AND bfp.gender>1 AND bfp.product_category_1=6;",196
+978,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=1 AND bfp.product_category_1=3 AND bfp.gender=1 AND bfp.marital_status<1 AND bfp.age>2 AND bfp.product_category_3>5 AND bfp.product_category_2=4 AND bfp.stay_in_current_city_years=3;",33
+979,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=3 AND bfp.product_category_2<12 AND bfp.stay_in_current_city_years<3 AND bfp.purchase<7191 AND bfp.age=3 AND bfp.occupation<15 AND bfp.marital_status>0 AND bfp.product_category_3<14;",187
+980,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=2 AND bfp.occupation>15 AND bfp.marital_status<1 AND bfp.gender>1 AND bfp.product_category_2<8;",1277
+981,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.age>4 AND bfp.stay_in_current_city_years=3 AND bfp.marital_status>0;",2818
+982,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2;",37594
+983,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1<5 AND bfp.age<3 AND bfp.city_category>2 AND bfp.marital_status=0 AND bfp.product_category_2>11 AND bfp.gender>1 AND bfp.purchase>11426 AND bfp.product_category_3=18 AND bfp.occupation<5 AND bfp.stay_in_current_city_years=5;",2
+984,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>4;",30405
+985,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.purchase<15435 AND bfp.marital_status=1;",47174
+986,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.age>3 AND bfp.product_category_1>4 AND bfp.purchase<8073 AND bfp.city_category>2 AND bfp.product_category_2<9;",875
+987,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>2;",86145
+988,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender<2 AND bfp.occupation>12 AND bfp.product_category_1>5 AND bfp.product_category_2<12;",492
+989,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.age>2 AND bfp.marital_status>0 AND bfp.purchase=19957 AND bfp.product_category_1<6;",0
+990,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<8;",93944
+991,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.gender=2 AND bfp.product_category_1<4 AND bfp.stay_in_current_city_years=3 AND bfp.product_category_2>2 AND bfp.age>4 AND bfp.product_category_3=16 AND bfp.city_category>1;",295
+992,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2>13 AND bfp.occupation>11 AND bfp.gender=1 AND bfp.product_category_3<18 AND bfp.product_category_1>12 AND bfp.marital_status=1 AND bfp.city_category=1 AND bfp.age<3 AND bfp.stay_in_current_city_years=1;",1
+993,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years>1 AND bfp.product_category_3=5 AND bfp.marital_status=0 AND bfp.city_category>1 AND bfp.age>6 AND bfp.occupation>17 AND bfp.product_category_1=2 AND bfp.gender=2 AND bfp.purchase=9943;",1
+994,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_1=15 AND bfp.purchase=17319;",1
+995,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=2 AND bfp.gender=1 AND bfp.purchase=3612 AND bfp.marital_status=0 AND bfp.stay_in_current_city_years=2 AND bfp.product_category_1=5 AND bfp.product_category_3=18 AND bfp.occupation=2;",1
+996,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category>1 AND bfp.marital_status>1;",0
+997,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.city_category=3 AND bfp.product_category_2<4;",16195
+998,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.stay_in_current_city_years=2 AND bfp.occupation=13 AND bfp.gender<2 AND bfp.product_category_1=8 AND bfp.product_category_3=15 AND bfp.city_category>2;",1
+999,"SELECT COUNT(*) FROM black_friday_purchase bfp WHERE bfp.product_category_2<14 AND bfp.city_category>2 AND bfp.product_category_1<6 AND bfp.age>2 AND bfp.marital_status>0 AND bfp.gender=2 AND bfp.product_category_3>13 AND bfp.stay_in_current_city_years>3 AND bfp.occupation>4;",1516
